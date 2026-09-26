@@ -70,8 +70,9 @@ export async function createMap(container, island, { center, zoom, offline = !na
   let usingOffline = false;
   if (offline && (await hasPack(island))) { style = await offlineStyle(island); usingOffline = true; }
   const map = new maplibregl.Map({ container, style, center: [center.lng, center.lat], zoom, attributionControl: false });
-  map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: usingOffline ? '' : 'OpenFreeMap · Protomaps' }));
-  map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
+  map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: usingOffline ? '' : 'OpenFreeMap · Protomaps' }), 'bottom-right');
+  // The compact attribution starts expanded. Collapse it once the map is up; the (i) button reopens it.
+  map.once('load', () => map.getContainer().querySelector('.maplibregl-ctrl-attrib')?.classList.remove('maplibregl-compact-show'));
   if (!usingOffline && (await hasPack(island))) {
     // If online tiles fail to load (for example the network drops), fall back to the pack.
     map.once('error', async () => { if (!navigator.onLine) map.setStyle(await offlineStyle(island)); });

@@ -145,7 +145,7 @@ details summary::-webkit-details-marker { display: none; }
 .mk.private, .mk.private_nonprofit { background: #b8641b; clip-path: polygon(50% 0,100% 100%,0 100%); border: 0; }
 .mk.trust { background: #0b7c8c; border-radius: 50%; border-style: dashed; }
 .mk.military, .mk.mixed { background: #666; border-radius: 3px; }
-.mk.warn { background: #b42323; transform: rotate(45deg); border-radius: 2px; }
+.mk.warn { background: #b42323; clip-path: polygon(50% 0,100% 50%,50% 100%,0 50%); border: 0; width: 16px; height: 16px; }
 
 /* Alerts */
 .alert { display: grid; grid-template-columns: auto 1fr; gap: .6rem .75rem; padding: .8rem 1rem; margin-bottom: .5rem; border-left: 0; }
@@ -193,6 +193,12 @@ details summary::-webkit-details-marker { display: none; }
 .checklist input[type=checkbox] { width: 22px; height: 22px; min-height: 0; margin-top: .25rem; accent-color: var(--green); }
 
 /* Map */
+.seg { display: flex; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 3px; box-shadow: var(--shadow); }
+.seg-btn { flex: 1; min-height: 36px; border: 0; border-radius: 9px; background: transparent; color: var(--text); font: inherit; font-size: .86rem; font-weight: 600; cursor: pointer; }
+.seg-btn[aria-checked="true"] { background: var(--green-ink); color: var(--card); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .seg-btn[aria-checked="true"] { background: var(--green); color: #0b2e1e; } }
+:root[data-theme="dark"] .seg-btn[aria-checked="true"] { background: var(--green); color: #0b2e1e; }
+.map-count { position: absolute; left: 50%; transform: translateX(-50%); bottom: 2.7rem; z-index: 5; background: var(--card); color: var(--muted); font-size: .8rem; font-weight: 600; padding: .3rem .7rem; border-radius: 999px; box-shadow: var(--shadow); }
 .map-wrap { position: fixed; left: 0; right: 0; top: calc(57px + var(--sa-top)); bottom: calc(var(--nav-h) + var(--sa-bottom)); }
 #map { position: absolute; inset: 0; }
 .map-wrap .maplibregl-map { width: 100%; height: 100%; }
@@ -201,9 +207,11 @@ details summary::-webkit-details-marker { display: none; }
 .map-tools select { box-shadow: var(--shadow); min-height: 40px; padding: .4rem .7rem; }
 .map-tools .chips { margin: 0; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 2px; scrollbar-width: none; }
 .map-tools .chip { flex: 0 0 auto; box-shadow: var(--shadow); }
-.legend { position: absolute; left: .5rem; bottom: .5rem; background: var(--card); padding: .5rem .7rem; border-radius: 12px; font-size: .78rem; z-index: 5; box-shadow: var(--shadow); }
+.legend { position: absolute; left: .5rem; bottom: 2.6rem; background: var(--card); padding: .5rem .7rem; border-radius: 12px; font-size: .78rem; z-index: 5; box-shadow: var(--shadow); }
 .legend div { display: flex; align-items: center; gap: .4rem; line-height: 1.6; }
-.near-me { position: absolute; right: .5rem; bottom: .5rem; z-index: 5; box-shadow: var(--shadow); }
+.near-me { position: absolute; right: .5rem; bottom: 2.4rem; z-index: 5; box-shadow: var(--shadow); }
+.map-wrap .maplibregl-ctrl-bottom-right { z-index: 4; }
+.map-wrap .maplibregl-ctrl-attrib { font-size: .7rem; border-radius: 8px 0 0 0; }
 .marker { width: 26px; height: 26px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 12px; font-weight: 700; cursor: pointer; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.4); }
 .marker span { display: inline-block; }
 .marker.state { background: #1a7f4b; border-radius: 50%; }
@@ -213,8 +221,7 @@ details summary::-webkit-details-marker { display: none; }
 .marker.private, .marker.private_nonprofit { background: #b8641b; clip-path: polygon(50% 0, 100% 100%, 0 100%); border: 0; padding-top: 6px; }
 .marker.trust { background: #0b7c8c; border-radius: 50%; border-style: dashed; }
 .marker.military, .marker.mixed { background: #555; border-radius: 6px; }
-.marker.warn { background: #b42323; border-radius: 6px; transform: rotate(45deg); }
-.marker.warn span { transform: rotate(-45deg); }
+.marker.warn { background: #b42323; clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); border: 0; width: 30px; height: 30px; }
 .sheet { position: fixed; left: 0; right: 0; bottom: calc(var(--nav-h) + var(--sa-bottom)); background: var(--card); border-radius: 18px 18px 0 0; box-shadow: 0 -6px 24px rgba(0,0,0,.18); padding: 1rem 1rem calc(1rem + var(--sa-bottom)); z-index: 25; max-height: 55vh; overflow: auto; }
 .sheet .close { position: absolute; right: .5rem; top: .5rem; }
 
