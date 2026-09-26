@@ -1,0 +1,55 @@
+name: Deploy Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - run: npm run validate
+      - name: Fetch alerts (keeps the last good file on failure)
+        run: npm run alerts || true
+        env:
+          NPS_API_KEY: ${{ secrets.NPS_API_KEY }}
+          RIDB_API_KEY: ${{ secrets.RIDB_API_KEY }}
+      - name: Offline tile packs (cached per month)
+        id: tiles
+        uses: actions/cache@v4
+        with:
+          path: app/public/tiles
+          key: tiles-${{ hashFiles('scripts/make-tiles.sh', 'data/islands.yaml') }}-${{ github.run_id }}
+          restore-keys: tiles-${{ hashFiles('scripts/make-tiles.sh', 'data/islands.yaml') }}-
+      - name: Build tile packs if missing or older than 30 days
+        run: |
+          if [ ! -f app/public/tiles/BUILD.txt ] || [ -n "$(find app/public/tiles/BUILD.txt -mtime +30)" ]; then
+            curl -sL https://github.com/protomaps/go-pmtiles/releases/download/v1.31.2/go-pmtiles_1.31.2_Linux_x86_64.tar.gz | tar xz pmtiles
+            sudo mv pmtiles /usr/local/bin/
+            npm run tiles || echo "tiles failed, shipping online tiles only"
+          fi
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run e2e -- --grep-invert screenshots
+        env: { CI: true }
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: dist }
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

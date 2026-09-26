@@ -1,0 +1,18 @@
+Ala data license
+
+Everything under /data is licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0). Full text: https://creativecommons.org/licenses/by/4.0/
+
+You may copy, share, and adapt the data for any purpose, including commercial
+use, as long as you give credit to "Ala by Kealoha Labs" and link to
+https://github.com/olagon/ala.
+
+Each data file lists the agency, owner, or other official sources it was
+built from in its `sources` field. Those sources keep their own rights and are
+credited in each file. Ala is not an official government app. When Ala and an
+official source disagree, the official source wins.
+
+If any OpenStreetMap data is ever stored in /data, it will live in its own
+folder under the Open Database License (ODbL) and be marked as such.
+
+The application code is licensed separately under the MIT License (see LICENSE).

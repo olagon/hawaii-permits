@@ -1,0 +1,32 @@
+name: Add a place
+description: Suggest a park, trail, campground, or cabin that Ala is missing.
+title: "[add] "
+labels: [data, add-place]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you. Please only share places that are open to the public. Do not share burial sites or other sensitive cultural places.
+  - type: input
+    id: place_name
+    attributes: { label: Place name, description: With ʻokina and kahakō if you know them. }
+    validations: { required: true }
+  - type: dropdown
+    id: island
+    attributes: { label: Island, options: [Oʻahu, Kauaʻi, Maui, Molokaʻi, Lānaʻi, Hawaiʻi Island, Niʻihau, Kahoʻolawe] }
+    validations: { required: true }
+  - type: dropdown
+    id: land_type
+    attributes: { label: Who manages the land, options: [State, County, Federal, Private owner, Nonprofit or church, Trust, Military, Not sure] }
+  - type: textarea
+    id: permits
+    attributes: { label: What permits or reservations are needed, description: Or say "none" if you know none are needed. }
+  - type: input
+    id: official_url
+    attributes: { label: Official web page, description: The agency or owner page. Not a review site. }
+    validations: { required: true }
+  - type: input
+    id: coordinates
+    attributes: { label: Coordinates (optional), placeholder: "21.5754, -158.2760" }
+  - type: textarea
+    id: notes
+    attributes: { label: Anything else }

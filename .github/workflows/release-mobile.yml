@@ -1,0 +1,82 @@
+name: Release mobile
+# Runs on tags like v1.0.0. Every store step checks for its secrets and skips with a message if they are missing.
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - run: npm run validate
+      - run: npm run build
+      - uses: actions/upload-artifact@v4
+        with: { name: dist, path: dist }
+  android:
+    needs: web
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: 17 }
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with: { name: dist, path: dist }
+      - run: npx cap sync android
+      - name: Debug APK (always)
+        run: cd android && chmod +x gradlew && ./gradlew assembleDebug
+      - uses: actions/upload-artifact@v4
+        with: { name: ala-debug.apk, path: android/app/build/outputs/apk/debug/app-debug.apk }
+      - name: Signed release to Play internal testing
+        if: ${{ env.ANDROID_KEYSTORE_BASE64 != '' && env.PLAY_SERVICE_ACCOUNT_JSON != '' }}
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+          PLAY_SERVICE_ACCOUNT_JSON: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
+        run: |
+          echo "$ANDROID_KEYSTORE_BASE64" | base64 -d > android/upload.keystore
+          echo "$PLAY_SERVICE_ACCOUNT_JSON" > fastlane/play-service-account.json
+          sudo gem install fastlane -N
+          cd fastlane && fastlane android internal
+      - name: Skipped Play upload
+        if: ${{ env.ANDROID_KEYSTORE_BASE64 == '' || env.PLAY_SERVICE_ACCOUNT_JSON == '' }}
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          PLAY_SERVICE_ACCOUNT_JSON: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
+        run: echo "Play Console secrets not set. See HUMAN_TODO.md. Debug APK was built and uploaded as an artifact."
+  ios:
+    needs: web
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with: { name: dist, path: dist }
+      - run: npx cap sync ios
+      - name: Simulator build (always)
+        run: cd ios/App && xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' CODE_SIGNING_ALLOWED=NO build | tail -20
+      - name: TestFlight upload
+        if: ${{ env.APP_STORE_CONNECT_API_KEY_CONTENT != '' }}
+        env:
+          APP_STORE_CONNECT_API_KEY_ID: ${{ secrets.APP_STORE_CONNECT_API_KEY_ID }}
+          APP_STORE_CONNECT_API_ISSUER_ID: ${{ secrets.APP_STORE_CONNECT_API_ISSUER_ID }}
+          APP_STORE_CONNECT_API_KEY_CONTENT: ${{ secrets.APP_STORE_CONNECT_API_KEY_CONTENT }}
+          MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
+          MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+          IOS_TEAM_ID: ${{ secrets.IOS_TEAM_ID }}
+        run: cd fastlane && fastlane ios beta
+      - name: Skipped TestFlight upload
+        if: ${{ env.APP_STORE_CONNECT_API_KEY_CONTENT == '' }}
+        env:
+          APP_STORE_CONNECT_API_KEY_CONTENT: ${{ secrets.APP_STORE_CONNECT_API_KEY_CONTENT }}
+        run: echo "App Store Connect secrets not set. See HUMAN_TODO.md. Simulator build passed."

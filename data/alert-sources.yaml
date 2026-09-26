@@ -1,0 +1,21 @@
+# Sources the alerts job reads. See scripts/fetch-alerts.js.
+- id: nws
+  name: National Weather Service
+  url: https://api.weather.gov/alerts/active?area=HI
+  needs_key: false
+- id: nps
+  name: National Park Service
+  url: https://developer.nps.gov/api/v1/alerts
+  needs_key: true
+  key_env: NPS_API_KEY
+  park_codes: [havo, hale, kala, puho, puhe, kaho, alka, valr, perl]
+- id: ridb
+  name: Recreation.gov RIDB
+  url: https://ridb.recreation.gov/api/v1
+  needs_key: true
+  key_env: RIDB_API_KEY
+- id: dlnr_news
+  name: DLNR news
+  url: https://dlnr.hawaii.gov/feed/
+  needs_key: false
+  note: WordPress RSS feed. Used only to surface closure and safety headlines.

@@ -1,0 +1,33 @@
+name: Claim a place you own or manage
+description: Owners and managers can confirm and correct their listing.
+title: "[claim] "
+labels: [data, owner-claim]
+body:
+  - type: markdown
+    attributes:
+      value: Claims need proof. A maintainer will check your official website or email you at an address on your official domain. Approved listings show "confirmed by owner".
+  - type: input
+    id: place_name
+    attributes: { label: Place name }
+    validations: { required: true }
+  - type: input
+    id: place_id
+    attributes: { label: Place id (if you came from the app) }
+  - type: input
+    id: official_website
+    attributes: { label: Official website }
+    validations: { required: true }
+  - type: input
+    id: contact_email
+    attributes: { label: Email on your official domain, description: We will send a short confirmation there. }
+    validations: { required: true }
+  - type: textarea
+    id: corrections
+    attributes: { label: Corrections or updates to the listing }
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Confirm
+      options:
+        - label: I own or manage this place and agree to have the corrected listing published under CC BY 4.0.
+          required: true

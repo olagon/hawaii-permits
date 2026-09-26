@@ -1,0 +1,19 @@
+{
+  "$id": "https://olagon.github.io/ala/schema/agency.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Agency",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "level", "website", "sources"],
+  "properties": {
+    "id": { "$ref": "common.json#/definitions/id" },
+    "name": { "type": "string", "minLength": 1 },
+    "level": { "enum": ["state", "county", "federal", "private", "nonprofit", "trust"] },
+    "website": { "$ref": "common.json#/definitions/url" },
+    "sources": { "$ref": "common.json#/definitions/sources" },
+    "phone": { "type": "string" },
+    "email": { "type": "string", "format": "email" },
+    "reservation_system_url": { "$ref": "common.json#/definitions/url" },
+    "islands": { "type": "array", "items": { "$ref": "common.json#/definitions/island" }, "uniqueItems": true }
+  }
+}

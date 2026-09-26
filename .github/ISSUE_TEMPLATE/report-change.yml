@@ -1,0 +1,23 @@
+name: Report a change
+description: A fee, rule, closure, or link is wrong or out of date.
+title: "[change] "
+labels: [data, report-change]
+body:
+  - type: input
+    id: place_id
+    attributes: { label: Place id, description: Filled in when you come from the app. Leave blank if you do not know it. }
+  - type: input
+    id: place_name
+    attributes: { label: Place or permit name }
+    validations: { required: true }
+  - type: dropdown
+    id: kind
+    attributes: { label: What kind of change, options: [Fee changed, Rule changed, Closed or reopened, Booking link or process changed, Wrong location, Wrong name or spelling, Other] }
+    validations: { required: true }
+  - type: textarea
+    id: details
+    attributes: { label: What is wrong and what is right }
+    validations: { required: true }
+  - type: input
+    id: source
+    attributes: { label: Official source, description: A link that shows the correct info. }

@@ -1,0 +1,44 @@
+{
+  "$id": "https://olagon.github.io/ala/schema/permit.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Permit",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "issuer", "category", "who_needs", "how_to_get", "url", "carry_required", "sources", "last_verified"],
+  "properties": {
+    "id": { "$ref": "common.json#/definitions/id" },
+    "name": { "type": "string", "minLength": 1 },
+    "issuer": { "$ref": "common.json#/definitions/id" },
+    "category": { "enum": ["camping", "cabin", "day_use", "parking", "trail_access", "vehicle_access", "hunting_license", "hunting_tag", "fishing_license", "gathering", "commercial", "special_use", "entry_reservation"] },
+    "who_needs": { "type": "string", "minLength": 1 },
+    "how_to_get": { "enum": ["online", "in_person", "phone", "mail", "owner_direct"] },
+    "url": { "$ref": "common.json#/definitions/url" },
+    "carry_required": { "type": "boolean" },
+    "sources": { "$ref": "common.json#/definitions/sources" },
+    "last_verified": { "$ref": "common.json#/definitions/date" },
+
+    "covers": { "type": "array", "items": { "$ref": "common.json#/definitions/id" }, "uniqueItems": true },
+    "booking_window": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "opens_days_before": { "type": "integer", "minimum": 0 },
+        "opens_time_local": { "type": "string", "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$" },
+        "notes": { "type": "string" }
+      }
+    },
+    "resident_rules": { "type": "string" },
+    "cost": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "resident": { "$ref": "common.json#/definitions/money" },
+        "nonresident": { "$ref": "common.json#/definitions/money" },
+        "unit": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    },
+    "valid_for": { "type": "string" },
+    "refund_policy": { "type": "string" },
+    "age_minimum": { "type": "integer", "minimum": 0 },
+    "prerequisites": { "type": "array", "items": { "$ref": "common.json#/definitions/id" }, "uniqueItems": true }
+  }
+}

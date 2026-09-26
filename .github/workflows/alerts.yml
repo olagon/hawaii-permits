@@ -1,0 +1,38 @@
+name: Alerts
+# Refreshes alerts.json. GitHub Pages deploys whole sites, so this rebuilds the site
+# with the current data and only the alerts file changes.
+on:
+  schedule:
+    - cron: '17 */3 * * *'
+    - cron: '5 10 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  alerts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - name: Fetch alerts
+        run: npm run alerts
+        env:
+          NPS_API_KEY: ${{ secrets.NPS_API_KEY }}
+          RIDB_API_KEY: ${{ secrets.RIDB_API_KEY }}
+      - uses: actions/cache/restore@v4
+        with:
+          path: app/public/tiles
+          key: tiles-${{ hashFiles('scripts/make-tiles.sh', 'data/islands.yaml') }}-
+          restore-keys: tiles-${{ hashFiles('scripts/make-tiles.sh', 'data/islands.yaml') }}-
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: dist }
+      - id: deployment
+        uses: actions/deploy-pages@v4

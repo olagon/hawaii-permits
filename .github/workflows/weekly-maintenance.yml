@@ -1,0 +1,25 @@
+name: Weekly data health
+on:
+  schedule:
+    - cron: '0 16 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - run: npm run links
+      - run: npm run stale
+      - name: Open or update the report issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          { echo "Generated $(date -u +%F) by the weekly maintenance workflow."; echo; cat reports/links.md; echo; cat reports/stale.md; } > body.md
+          n=$(gh issue list --search 'in:title "Weekly data health report"' --state open --json number --jq '.[0].number')
+          if [ -n "$n" ]; then gh issue edit "$n" --body-file body.md; else gh issue create --title "Weekly data health report" --body-file body.md --label maintenance; fi

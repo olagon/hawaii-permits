@@ -1,0 +1,76 @@
+{
+  "$id": "https://olagon.github.io/ala/schema/place.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Place",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "island", "land_type", "manager", "location", "activities", "permits_required", "status", "sources", "last_verified", "verified_by"],
+  "properties": {
+    "id": { "$ref": "common.json#/definitions/id" },
+    "name": { "type": "string", "minLength": 1 },
+    "island": { "$ref": "common.json#/definitions/island" },
+    "land_type": { "enum": ["state", "county", "federal", "private", "private_nonprofit", "trust", "military", "mixed"] },
+    "manager": { "type": "string", "minLength": 1 },
+    "location": {
+      "type": "object", "additionalProperties": false, "required": ["lat", "lng"],
+      "properties": { "lat": { "type": "number" }, "lng": { "type": "number" } }
+    },
+    "activities": { "type": "array", "items": { "$ref": "common.json#/definitions/id" }, "uniqueItems": true },
+    "permits_required": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["permit", "when"],
+        "properties": { "permit": { "$ref": "common.json#/definitions/id" }, "when": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "status": { "enum": ["open", "closed", "seasonal", "restricted", "no_public_access", "removed"] },
+    "sources": { "$ref": "common.json#/definitions/sources" },
+    "last_verified": { "$ref": "common.json#/definitions/date" },
+    "verified_by": { "enum": ["maintainer", "owner", "agency", "community", "ai_research"] },
+
+    "moku": { "type": "string" },
+    "ahupuaa": { "type": "string" },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "summary": { "type": "string" },
+    "booking": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "method": { "enum": ["online", "in_person", "phone", "mail", "owner_direct", "none"] },
+        "url": { "$ref": "common.json#/definitions/url" },
+        "phone": { "type": "string" },
+        "window_note": { "type": "string" }
+      }
+    },
+    "fees": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "entry": { "$ref": "common.json#/definitions/money" },
+        "parking": { "$ref": "common.json#/definitions/money" },
+        "camping_per_night": { "$ref": "common.json#/definitions/money" },
+        "resident_entry": { "$ref": "common.json#/definitions/money" },
+        "resident_parking": { "$ref": "common.json#/definitions/money" },
+        "resident_camping_per_night": { "$ref": "common.json#/definitions/money" },
+        "note": { "type": "string" }
+      }
+    },
+    "rules": { "type": "array", "items": { "type": "string" } },
+    "hazards": {
+      "type": "array", "uniqueItems": true,
+      "items": { "enum": ["flash_flood", "stream_crossings", "falling_rock", "high_surf", "steep_drop", "mud", "heat", "cold", "altitude", "hunting_area", "no_water", "remote"] }
+    },
+    "alerts": {
+      "type": "object", "additionalProperties": false,
+      "properties": { "nws_zone": { "type": "string", "pattern": "^HIZ[0-9]{3}$" }, "nps_park_code": { "type": "string", "pattern": "^[a-z]{4}$" } }
+    },
+    "amenities": { "type": "array", "items": { "type": "string" } },
+    "accessibility": { "type": "string" },
+    "max_stay_nights": { "type": "integer", "minimum": 1 },
+    "group_size_limit": { "type": "integer", "minimum": 1 },
+    "cultural_notes": { "type": "string" },
+    "photo": {
+      "type": "object", "additionalProperties": false, "required": ["url", "credit", "license"],
+      "properties": { "url": { "$ref": "common.json#/definitions/url" }, "credit": { "type": "string" }, "license": { "type": "string" } }
+    },
+    "owner_claimed": { "type": "boolean" }
+  }
+}

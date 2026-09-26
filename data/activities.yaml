@@ -1,0 +1,18 @@
+# Activities a place supports. Icons are names from app/src/icons.js.
+- { id: hiking, name: Hiking, icon: hike }
+- { id: camping, name: Camping, icon: tent }
+- { id: cabin, name: Cabin stay, icon: cabin }
+- { id: day_use, name: Day use, icon: sun }
+- { id: swimming, name: Swimming, icon: wave }
+- { id: snorkeling, name: Snorkeling, icon: mask }
+- { id: surfing, name: Surfing, icon: surf }
+- { id: fishing, name: Fishing, icon: fish }
+- { id: hunting, name: Hunting, icon: target }
+- { id: gathering, name: Gathering, icon: leaf }
+- { id: four_wheel_drive, name: 4x4 access, icon: truck }
+- { id: biking, name: Biking, icon: bike }
+- { id: stargazing, name: Stargazing, icon: star }
+- { id: cultural_visit, name: Cultural site visit, icon: pohaku }
+- { id: wildlife_viewing, name: Wildlife viewing, icon: bird }
+- { id: scenic_drive, name: Scenic drive, icon: road }
+- { id: boating, name: Boating, icon: boat }
