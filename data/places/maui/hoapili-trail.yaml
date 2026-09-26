@@ -1,0 +1,43 @@
+id: "hoapili-trail"
+name: "Hoapili Trail (King's Highway)"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.582
+  lng: -156.398
+activities:
+  - "hiking"
+permits_required: []
+status: "open"
+summary: "The old stone paved King's Highway across the 1790 lava flow from La Pérouse Bay south along the coast. Hot, dry, and rough underfoot with no shade or water. The public section runs from La Pérouse Bay to Kanaio. Beyond Kanaio the trail crosses private land."
+aliases:
+  - "Hoapili Trail"
+  - "Kings Highway"
+  - "King's Trail"
+  - "La Perouse Bay trail"
+  - "Ke Ala Loa"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Start early. No shade or water. Carry more water than you think you need."
+  - "Stay on the paved trail. The lava and archaeological sites are fragile."
+  - "The section past Kanaio crosses private land. Do not continue without permission."
+  - "Do not enter closed parts of ʻĀhihi-Kīnaʻu NAR."
+  - "The 4WD road and the trail split near La Pérouse Bay. Do not drive on the trail."
+  - "About 12.5 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "heat"
+  - "no_water"
+  - "remote"
+  - "high_surf"
+  - "hunting_area"
+alerts:
+  nws_zone: "HIZ050"
+cultural_notes: "The trail passes house sites, heiau, and fishing shrines. Leave stones and structures alone."
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

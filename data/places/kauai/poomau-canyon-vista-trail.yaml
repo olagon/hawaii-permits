@@ -1,0 +1,28 @@
+id: poomau-canyon-vista-trail
+name: Poʻomau Canyon Vista Trail
+island: kauai
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 22.1212
+  lng: -159.6221
+activities: [hiking, hunting]
+permits_required:
+  - permit: hunting-license
+    when: Only if you are hunting. Hikers do not need it. Hunting dogs may be off leash; keep your own dog leashed.
+status: closed
+aliases: [Poomau Canyon Vista Trail]
+summary: "This short trail starts 1.5 mile beyond the Na Pali-Kona Forest Reserve entrance sign on the Mohihi-Camp 10 Road, and leads to a grand view of Poomau and Waimea Canyons. About 0.3 miles one way."
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says Nā Ala Hele trails on Kauaʻi stay closed until they are safe. Check hawaiitrails.hawaii.gov before you go.
+  - Hunting may be in progress. Wear bright colors and keep dogs leashed.
+  - Commercial use needs a Nā Ala Hele permit. Stay on the marked trail; side routes may cross private land.
+hazards: [hunting_area]
+alerts:
+  nws_zone: HIZ004
+sources:
+  - "https://hawaiitrails.hawaii.gov/trails/#/trail/poomau-canyon-vista-trail/73"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+  - "https://mauinow.com/2026/09/20/dlnr-announces-limited-reopening-of-select-kaua%CA%BBi-lands-on-monday/"
+last_verified: "2026-09-25"
+verified_by: ai_research

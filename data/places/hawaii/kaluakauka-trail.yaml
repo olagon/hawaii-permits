@@ -1,0 +1,22 @@
+id: "kaluakauka-trail"
+name: "Kaluakauka Trail (Doctor's Pit)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.888
+  lng: -155.34
+activities: ["hiking"]
+permits_required: []
+status: "open"
+aliases: ["Doctors Pit", "David Douglas monument"]
+summary: "A short 0.2 mile trail to the Kaluakauka monument in the Hilo Forest Reserve, where botanist David Douglas died in 1834. Rough footing."
+fees:
+  entry: 0
+rules: ["Reached by rough forest roads.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["mud", "hunting_area"]
+alerts:
+  nws_zone: "HIZ027"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/recreation/nah/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

@@ -1,0 +1,35 @@
+id: "waikamoi-preserve"
+name: "Waikamoi Preserve"
+island: "maui"
+land_type: "private_nonprofit"
+manager: "The Nature Conservancy of Hawaiʻi"
+location:
+  lat: 20.77
+  lng: -156.204
+activities:
+  - "hiking"
+  - "wildlife_viewing"
+permits_required: []
+status: "restricted"
+summary: "Nearly 9,000 acres of rainforest next to Haleakalā National Park managed by The Nature Conservancy. No walk in access. TNC runs occasional volunteer service trips and school visits. Email hike_waikamoi@tnc.org or call 808-572-7849 to ask about a trip."
+aliases:
+  - "Waikamoi"
+  - "TNC Waikamoi"
+booking:
+  method: "owner_direct"
+  url: "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/waikamoi/"
+  phone: "808-572-7849"
+  window_note: "Service trips are periodic. Email hike_waikamoi@tnc.org to sign up."
+rules:
+  - "No entry without TNC staff."
+  - "Clean boots and gear before a trip to stop weeds and disease."
+hazards:
+  - "mud"
+  - "cold"
+  - "remote"
+alerts:
+  nws_zone: "HIZ047"
+sources:
+  - "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/waikamoi/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

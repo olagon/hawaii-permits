@@ -1,0 +1,36 @@
+id: oahu-hunting-unit-c
+name: Oʻahu Public Hunting Area Unit C (Kaipapaʻu, Hauʻula, Waiʻanae Kai, ʻEwa)
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 21.5886
+  lng: -157.9257
+activities:
+  - hunting
+  - hiking
+permits_required:
+  - permit: hunting-license
+    when: To hunt game mammals (pigs and goats) in Unit C. Check the DOFAW Oʻahu hunting page for open days, weapons and check in stations.
+status: open
+summary: >-
+  Game mammal hunting in three separate parts: the Kaipapaʻu and Hauʻula forest reserves on the windward side, the Waiʻanae Kai section known as Lion Country, and the Waimano section of ʻEwa Forest
+  Reserve.
+rules:
+  - Wear blaze orange. Hikers share these areas.
+  - Check in and out at the hunter check station where one exists.
+  - Unit boundaries change. Print the current map from the DOFAW page.
+  - Map pin is the unit centroid from the DOFAW GIS layer.
+  - Waiʻanae Kai (bird Unit 4) is open to game bird hunting on weekends and holidays in season, when mammal hunting there is closed.
+hazards:
+  - hunting_area
+  - remote
+  - no_water
+  - steep_drop
+alerts:
+  nws_zone: HIZ035
+sources:
+  - https://dlnr.hawaii.gov/recreation/hunting/oahu/
+  - https://hunting.ehawaii.gov/hunting/license.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

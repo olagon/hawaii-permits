@@ -1,0 +1,22 @@
+id: "puna-trail-north-end"
+name: "Puna Trail (North End Section)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.644
+  lng: -154.983
+activities: ["hiking"]
+permits_required: []
+status: "closed"
+aliases: ["Puna Trail", "Old Government Road Puna"]
+summary: "A 2.5 mile section of the old government road along the Puna coast from Beach Road toward Hāʻena beach. The Nā Ala Hele database lists this section as closed. Check the trail page for current status."
+fees:
+  entry: 0
+rules: ["Listed as closed by Nā Ala Hele. Do not hike it until it reopens.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["heat", "mud"]
+alerts:
+  nws_zone: "HIZ053"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/recreation/nah/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

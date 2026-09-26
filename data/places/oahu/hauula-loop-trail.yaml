@@ -1,0 +1,39 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+  - camping
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp along the trail corridor in Hauʻula Forest Reserve. Reserve on camping.ehawaii.gov.
+status: open
+id: hauula-loop-trail
+name: Hauʻula Loop Trail
+location:
+  lat: 21.6098
+  lng: -157.9147
+aliases:
+  - Hauula Loop Trail
+summary: A 2.5 mile loop above Hauʻula through ironwood and Norfolk pine with views of the coast. Trailhead at the end of Māʻakua Road. Camping allowed with a DOFAW permit.
+rules:
+  - Park on the street near the trailhead and leave nothing in the car.
+  - Flash floods in the gulches after heavy rain.
+  - This is an active hunting area. Wear bright colors.
+  - No drinking water. Treat all stream water.
+hazards:
+  - flash_flood
+  - mud
+  - hunting_area
+  - no_water
+alerts:
+  nws_zone: HIZ035
+amenities:
+  - bench
+  - shelter
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://dlnr.hawaii.gov/recreation/camp/
+  - https://camping.ehawaii.gov/camping/all,details,31713.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

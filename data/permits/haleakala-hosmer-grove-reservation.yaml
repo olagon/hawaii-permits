@@ -1,0 +1,23 @@
+id: "haleakala-hosmer-grove-reservation"
+name: "Hosmer Grove campground reservation"
+issuer: "nps"
+category: "camping"
+who_needs: "Anyone camping at Hosmer Grove campground in the Summit District. No first come sites."
+how_to_get: "online"
+url: "https://www.recreation.gov/camping/campgrounds/10068557"
+carry_required: true
+covers:
+  - "haleakala-hosmer-grove-campground"
+booking_window:
+  opens_days_before: 30
+  notes: "Recreation.gov lists a 30 day reservation window for this campground. Print the confirmation and carry it. Campers also receive a sunrise reservation for the morning after their stay."
+cost:
+  resident: 20
+  nonresident: 20
+  unit: "per site per night"
+  note: "Up to 6 people and 2 tents per site. Park entrance fee is separate. No refunds on camping fees. A $20 no show fee applies."
+valid_for: "Up to 3 consecutive nights. Total camping in the park is limited to 3 nights in any 30 day period."
+sources:
+  - "https://www.nps.gov/hale/planyourvisit/hosmer-grove-campground.htm"
+  - "https://www.recreation.gov/camping/campgrounds/10068557"
+last_verified: "2026-09-25"

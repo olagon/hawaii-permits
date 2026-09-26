@@ -1,0 +1,55 @@
+id: keaiwa-heiau-state-recreation-area
+name: Keaīwa Heiau State Recreation Area
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.399
+  lng: -157.898
+activities:
+  - camping
+  - hiking
+  - day_use
+  - cultural_visit
+permits_required:
+  - permit: state-parks-camping-permit-30-day
+    when: To camp at one of the 10 tent sites. Camping Friday, Saturday and Sunday nights only. Reserve up to 30 days ahead.
+status: open
+aliases:
+  - Keaiwa Heiau
+  - Aiea Heights
+  - Aiea Loop Trail
+summary: A cool upland park above ʻAiea with a healing heiau, shady campsites and the 4.8 mile ʻAiea Loop Trail through the forest.
+booking:
+  method: online
+  url: https://explore.ehawaii.gov/
+  window_note: Camping reservations open 30 days ahead.
+fees:
+  entry: 0
+  camping_per_night: 30
+  resident_camping_per_night: 20
+rules:
+  - Open 7 am to 7:45 pm April 1 through Labor Day, and 7 am to 6:45 pm the rest of the year.
+  - No camping Wednesday or Thursday nights.
+  - Do not enter or move stones at the heiau. Offerings only where posted.
+  - Trail can be muddy and slippery after rain.
+hazards:
+  - mud
+  - steep_drop
+alerts:
+  nws_zone: HIZ036
+amenities:
+  - restrooms
+  - showers
+  - picnic tables
+  - drinking water
+  - pavilion
+max_stay_nights: 5
+group_size_limit: 10
+cultural_notes: Keaīwa Heiau was a healing temple where kahuna lapaʻau trained and treated the sick with plants. Please view it from outside the wall.
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/keaiwa-heiau-state-recreation-area/
+  - https://dlnr.hawaii.gov/dsp/camping-lodging/oahu/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

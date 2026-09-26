@@ -1,0 +1,18 @@
+id: "kilauea-military-camp-reservation"
+name: "Kīlauea Military Camp lodging reservation"
+issuer: "kilauea-military-camp"
+category: "cabin"
+who_needs: "Only authorized patrons: active duty, reserve, National Guard, retirees, honorably discharged veterans, DoD civilians, certain federal employees, and their sponsored guests. A military or DoD ID is checked at check in. The general public cannot stay here."
+how_to_get: "owner_direct"
+url: "https://www.kilaueamilitarycamp.com/"
+carry_required: true
+covers: ["kilauea-military-camp"]
+booking_window:
+  notes: "Book online up to one year ahead. A deposit of one night is charged. Check in 3pm, check out 11am."
+cost:
+  resident: "see_source"
+  nonresident: "see_source"
+  unit: "per unit per night"
+refund_policy: "Full refund if you cancel at least 30 days before arrival."
+sources: ["https://www.kilaueamilitarycamp.com/accommodations/eligibility", "https://www.kilaueamilitarycamp.com/accommodations/cabins-apartments"]
+last_verified: "2026-09-25"

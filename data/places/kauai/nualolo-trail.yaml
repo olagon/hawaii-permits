@@ -1,0 +1,28 @@
+id: nualolo-trail
+name: Nuʻalolo Trail
+island: kauai
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 22.1296
+  lng: -159.6598
+activities: [hiking, hunting]
+permits_required:
+  - permit: hunting-license
+    when: Only if you are hunting. Hikers do not need it. Hunting dogs may be off leash; keep your own dog leashed.
+status: closed
+aliases: [Nualolo Trail]
+summary: "The trail starts near the Kokee State Park Headquarters. This trail goes through the Kuia Natural Area Reserve before reaching the Na Pali-Kona Forest Reserve. The trail ends at 2,234 ft. elevation at a U.S.G.S. survey marker titled \"Lolo No. 2\". This trail is used mostly as an access route for hunters but also serves as an alternate route to the cross over Nualolo Cliff Trail to Awaawapuhi Trail. About 3.8 miles one way."
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says Nā Ala Hele trails on Kauaʻi stay closed until they are safe. Check hawaiitrails.hawaii.gov before you go.
+  - Hunting may be in progress. Wear bright colors and keep dogs leashed.
+  - Commercial use needs a Nā Ala Hele permit. Stay on the marked trail; side routes may cross private land.
+hazards: [falling_rock, hunting_area, steep_drop]
+alerts:
+  nws_zone: HIZ004
+sources:
+  - "https://hawaiitrails.hawaii.gov/trails/#/trail/nualolo-trail/63"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+  - "https://mauinow.com/2026/09/20/dlnr-announces-limited-reopening-of-select-kaua%CA%BBi-lands-on-monday/"
+last_verified: "2026-09-25"
+verified_by: ai_research

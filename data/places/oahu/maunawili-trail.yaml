@@ -1,0 +1,33 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+  - biking
+permits_required: []
+status: open
+id: maunawili-trail
+name: Maunawili Trail
+location:
+  lat: 21.3693
+  lng: -157.7848
+aliases:
+  - Maunawili Trail
+  - Maunawili Falls
+summary: >-
+  A 10 mile contour trail along the base of the Koʻolau cliffs from the Pali Highway hairpin turn to Waimānalo. Views of Olomana and the windward side. The Maunawili Falls spur is a separate, often
+  closed, route.
+rules:
+  - Park at the hairpin turn lookout on the Pali Highway. Break ins are common.
+  - Long trail with many gulches. Bring water.
+  - The section from the Pali Lookout was listed as closed. Start at the hairpin turn.
+hazards:
+  - mud
+  - steep_drop
+  - stream_crossings
+alerts:
+  nws_zone: HIZ009
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

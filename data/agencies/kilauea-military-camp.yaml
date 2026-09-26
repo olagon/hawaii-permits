@@ -1,0 +1,7 @@
+id: "kilauea-military-camp"
+name: "Kīlauea Military Camp"
+level: "federal"
+website: "https://www.kilaueamilitarycamp.com/"
+reservation_system_url: "https://www.kilaueamilitarycamp.com/"
+sources: ["https://www.kilaueamilitarycamp.com/accommodations/eligibility", "https://www.kilaueamilitarycamp.com/accommodations/cabins-apartments"]
+islands: ["hawaii"]

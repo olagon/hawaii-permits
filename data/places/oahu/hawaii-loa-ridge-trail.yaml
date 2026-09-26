@@ -1,0 +1,33 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: hawaii-loa-ridge-trail
+name: Hawaiʻiloa Ridge Trail
+location:
+  lat: 21.3242
+  lng: -157.7417
+aliases:
+  - Hawaii Loa Ridge Trail
+  - Hawaiiloa Ridge
+summary: A 3.5 mile ridge trail to the Koʻolau summit above Hawaiʻi Kai. The only way in is through the private Hawaiʻi Loa Ridge community, which admits hikers with a Hawaiʻi ID or military ID only.
+rules:
+  - Show a Hawaiʻi driver's license, Hawaiʻi state ID or military ID at the guard post and sign a waiver. Visitors without one are turned away.
+  - Parking is limited to the hiker lot by the water tank. When it is full no more passes are given.
+  - Do not use resident facilities. Security can remove rule breakers.
+  - This is an active hunting area. Wear bright colors.
+hazards:
+  - steep_drop
+  - mud
+  - hunting_area
+  - falling_rock
+alerts:
+  nws_zone: HIZ032
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://hiloa.org/hikers/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

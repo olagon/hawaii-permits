@@ -1,0 +1,36 @@
+id: oahu-hunting-unit-d
+name: Oʻahu Public Hunting Area Unit D (Pūpūkea-Paumalū, Wailupe, Kuliʻouʻou)
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 21.6462
+  lng: -158.0145
+activities:
+  - hunting
+  - hiking
+permits_required:
+  - permit: hunting-license
+    when: To hunt game mammals (pigs and goats) in Unit D. Check the DOFAW Oʻahu hunting page for open days, weapons and check in stations.
+status: open
+summary: >-
+  Game mammal hunting in three parts: the Pūpūkea-Paumalū Forest Reserve above the North Shore, and the Wailupe and Kuliʻouʻou sections of the forest reserves above East Honolulu. Popular hiking
+  trails such as Kuliʻouʻou Ridge run through these areas.
+rules:
+  - Wear blaze orange. Hikers share these areas.
+  - Check in and out at the hunter check station where one exists.
+  - Unit boundaries change. Print the current map from the DOFAW page.
+  - Map pin is the unit centroid from the DOFAW GIS layer.
+  - Safety zone 100 yards from the Pūpūkea Boy Scout camp.
+hazards:
+  - hunting_area
+  - remote
+  - no_water
+  - steep_drop
+alerts:
+  nws_zone: HIZ007
+sources:
+  - https://dlnr.hawaii.gov/recreation/hunting/oahu/
+  - https://hunting.ehawaii.gov/hunting/license.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

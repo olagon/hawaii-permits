@@ -1,0 +1,37 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required:
+  - permit: lulumahu-falls-permit
+    when: Everyone. The trail is in a restricted watershed and needs a day use permit reserved online.
+status: open
+id: lulumahu-falls-trail
+name: Lulumahu Falls Trail
+location:
+  lat: 21.36
+  lng: -157.812
+aliases:
+  - Lulumahu Falls
+summary: A muddy 1.5 mile route in upper Nuʻuanu through bamboo to a tall waterfall, inside the Honolulu Forest Reserve restricted watershed. A permit is required and there is no parking.
+rules:
+  - Permit required. Get dropped off. Parking on the Pali Highway is not allowed.
+  - Clean boots before entering to keep out weeds.
+  - Flash flood danger in the stream.
+  - Forest reserves close during storm warnings.
+  - Map pin is approximate.
+  - This is an active hunting area. Wear bright colors.
+hazards:
+  - flash_flood
+  - stream_crossings
+  - mud
+  - falling_rock
+  - hunting_area
+alerts:
+  nws_zone: HIZ033
+sources:
+  - https://trails.ehawaii.gov/camping/all,details,57925.html
+  - https://dlnr.hawaii.gov/dofaw/permits/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

@@ -1,0 +1,28 @@
+id: "kolekole-beach-park"
+name: "Kolekole Beach Park"
+island: "hawaii"
+land_type: "county"
+manager: "hawaii-county-parks"
+location:
+  lat: 19.881
+  lng: -155.126
+activities: ["camping", "day_use", "fishing", "swimming"]
+permits_required: []
+status: "restricted"
+summary: "Gulch park under the highway bridge on the Hāmākua coast north of Hilo, with a stream, pavilions, and a rough rocky shore. Not currently listed in the county camping system. Day use only unless the county reopens camping."
+booking:
+  method: "online"
+  url: "https://hawaiicounty.ehawaii.gov/camping/welcome.html"
+fees:
+  camping_per_night: 21
+  resident_camping_per_night: 6
+  entry: 0
+  note: "Per person per night. Residents $6 adult, $3 junior, $1 child. Nonresidents $21 adult and junior, $20 child. Plus $1 per person per day processing."
+rules: ["Not currently in the county online camping system. Do not camp without a permit.", "Closed 7am to 11am on the third Wednesday for maintenance.", "Strong shore break and surge on the rocks.", "No pets, open fires, smoking, or commercial activity.", "No camping in pavilions. Pavilions are day use by separate permit.", "Map pin is approximate."]
+hazards: ["high_surf", "flash_flood"]
+alerts:
+  nws_zone: "HIZ053"
+amenities: ["restrooms", "pavilions", "showers"]
+sources: ["https://hawaiicounty.ehawaii.gov/camping/welcome.html"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

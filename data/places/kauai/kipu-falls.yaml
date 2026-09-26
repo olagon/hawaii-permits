@@ -1,0 +1,23 @@
+id: kipu-falls
+name: Kīpū Falls
+island: kauai
+land_type: private
+manager: Grove Farm Company
+location:
+  lat: 21.951
+  lng: -159.415
+activities: [swimming]
+permits_required: []
+status: closed
+aliases: [Kipu Falls]
+summary: "Waterfall swimming hole on private Grove Farm land near Puhi. After several drownings the owner fenced it in 2011, posted no trespassing signs, and blocked the road. There is no legal public access."
+rules:
+  - Private property. Entry is trespassing and the site has a history of deaths.
+  - Map pin is approximate.
+hazards: [steep_drop, flash_flood]
+alerts:
+  nws_zone: HIZ031
+sources:
+  - "https://www.staradvertiser.com/2011/08/25/hawaii-news/landowner-blocks-public-access-to-kipu-falls-after-visitor-deaths/"
+last_verified: "2026-09-25"
+verified_by: ai_research

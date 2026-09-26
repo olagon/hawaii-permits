@@ -1,0 +1,38 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+  - camping
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp along the trail in the Honolulu Watershed Forest Reserve (Wailupe section). Reserve on camping.ehawaii.gov.
+status: open
+id: wiliwilinui-ridge-trail
+name: Wiliwilinui Access Road and Ridge Trail
+location:
+  lat: 21.3279
+  lng: -157.7529
+aliases:
+  - Wiliwilinui Ridge Trail
+  - Wiliwilinui Trail
+summary: >-
+  A 3 mile route from the end of Laukahi Street up an old road and then a ridge to a Koʻolau summit with views both ways. Entry is through the private Waiʻalae Iki community guard gate, which gives
+  out a limited number of hiker passes.
+rules:
+  - Stop at the guard house for a parking pass. Passes run out, so go early.
+  - Taxis and rideshares cannot enter. Walk in from the gate if dropped off.
+  - Steep stairs and mud near the top.
+  - This is an active hunting area. Wear bright colors.
+hazards:
+  - steep_drop
+  - mud
+  - hunting_area
+alerts:
+  nws_zone: HIZ032
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://dlnr.hawaii.gov/recreation/camp/
+  - https://camping.ehawaii.gov/camping/all,details,31711.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

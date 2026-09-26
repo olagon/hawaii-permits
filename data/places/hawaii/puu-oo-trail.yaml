@@ -1,0 +1,22 @@
+id: "puu-oo-trail"
+name: "Puʻu ʻŌʻō Trail (Saddle Road)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.677
+  lng: -155.385
+activities: ["hiking", "wildlife_viewing"]
+permits_required: []
+status: "open"
+aliases: ["Puu Oo Trail"]
+summary: "A 3.7 mile trail across old lava and forest kīpuka in the Upper Waiākea and Hilo forest reserves off Saddle Road near mile 22. Good native bird habitat. Not the volcanic vent of the same name."
+fees:
+  entry: 0
+rules: ["Trail crosses rough lava and can be hard to follow in fog. Watch for ahu (cairns).", "Hunters use the area.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["cold", "mud", "hunting_area", "no_water"]
+alerts:
+  nws_zone: "HIZ027"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/recreation/nah/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

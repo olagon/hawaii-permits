@@ -1,0 +1,22 @@
+id: "onomea-old-government-road"
+name: "Onomea Trail (Old Government Road)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.809
+  lng: -155.094
+activities: ["hiking"]
+permits_required: []
+status: "open"
+aliases: ["Onomea Trail", "Old Government Road Onomea"]
+summary: "A 0.5 mile section of the old government road toward Onomea Bay that passes through Hawaiʻi Tropical Botanical Garden land. The Nā Ala Hele database flags it as private access and permit; we could not confirm details. Check the trail page before you go."
+fees:
+  entry: 0
+rules: ["Nā Ala Hele lists private access and a permit for this trail. Verify on hawaiitrails.hawaii.gov before going.", "Do not enter the botanical garden grounds without paying admission.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["high_surf", "flash_flood", "mud"]
+alerts:
+  nws_zone: "HIZ053"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/recreation/nah/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

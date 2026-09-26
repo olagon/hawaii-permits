@@ -1,0 +1,26 @@
+id: "kohala-forest-reserve-unit-b"
+name: "Kohala Forest Reserve (Unit B)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.145
+  lng: -155.694
+activities: ["hunting", "hiking"]
+permits_required:
+  - permit: "hunting-license"
+    when: "Required to hunt in Unit B. Check the DOFAW Hawaiʻi Island page and the rule exhibits for species, days, and any tag or lottery requirements."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season."
+status: "open"
+summary: "The Pololū and Waimanu sections and other parts of the Kohala Forest Reserve on the wet windward side of the Kohala mountains. Unit B for pigs and game birds. Extremely steep, wet, and remote."
+fees:
+  entry: 0
+rules: ["Hunters must carry a license and follow Chapter 13-122 (birds) and 13-123 (mammals) rules.", "Hikers should wear bright colors. Hunting dogs may be present.", "Map pin is the unit centroid from DLNR GIS data."]
+hazards: ["hunting_area", "mud", "steep_drop", "flash_flood", "remote"]
+alerts:
+  nws_zone: "HIZ054"
+aliases: ["Kohala Forest Reserve"]
+sources: ["https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/", "https://dlnr.hawaii.gov/recreation/hunting/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

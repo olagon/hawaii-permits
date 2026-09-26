@@ -1,0 +1,22 @@
+id: "ala-kahakai-hapuna-puako"
+name: "Ala Kahakai Trail (Hāpuna to Puakō sector)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.99
+  lng: -155.826
+activities: ["hiking", "swimming", "fishing"]
+permits_required: []
+status: "open"
+aliases: ["Ala Kahakai Hapuna Puako"]
+summary: "Coastal sector of the Ala Kahakai Trail managed by Nā Ala Hele. Sea cliffs, loose footing, flash floods at stream mouths, and strong sun. About 3.8 miles between Hāpuna Beach and Puakō. Start at Spencer Beach Park or Hāpuna."
+fees:
+  entry: 0
+rules: ["Trail runs along cliff edges in places.", "Only the Spencer to Puakō stretch is signed.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["steep_drop", "flash_flood", "heat", "high_surf"]
+alerts:
+  nws_zone: "HIZ026"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/dsp/hiking/hawaii/ala-kahakai-trail-kawaihae-anaehoomalu/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

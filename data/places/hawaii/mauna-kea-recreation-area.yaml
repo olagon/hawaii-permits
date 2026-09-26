@@ -1,0 +1,32 @@
+id: "mauna-kea-recreation-area"
+name: "Mauna Kea Recreation Area (Gilbert Kahele Recreation Area)"
+island: "hawaii"
+land_type: "state"
+manager: "hawaii-county-parks"
+location:
+  lat: 19.75
+  lng: -155.525
+activities: ["cabin", "day_use", "hiking"]
+permits_required:
+  - permit: "mauna-kea-recreation-area-cabin-reservation"
+    when: "To stay in a cabin or bunkhouse. Bunkhouses are for groups of 7 to 48."
+status: "open"
+aliases: ["Mauna Kea State Recreation Area", "Gilbert Kahele Recreation Area", "Mauna Kea State Park", "Pohakuloa cabins"]
+summary: "Park at 6,500 feet on Saddle Road between mile 34 and 35, run by the county on state land. Cabins sleep 6, two bunkhouses sleep up to 48, plus playground, walking path, and restrooms. Cool, dry, and very isolated. No tent camping."
+booking:
+  method: "online"
+  url: "https://hawaiicounty.ehawaii.gov/camping/all,details,57934.html"
+  window_note: "Reserve online. Check in 3pm to 8pm, check out by 9am."
+fees:
+  entry: 0
+  note: "Cabin $75 resident, $150 nonresident per night. Bunkhouse $240 resident, $480 nonresident. $250 deposit per unit."
+rules: ["No tent camping, pets, alcohol, open fires, or smoking.", "Units are not heated. Nights can drop below 30 F in winter.", "Nearest gas, food, or store is about 30 miles away.", "Vehicle gate to the bunkhouses closes 11pm to 6am.", "Hunters use the surrounding Mauna Kea Forest Reserve."]
+hazards: ["cold", "altitude", "hunting_area", "remote"]
+alerts:
+  nws_zone: "HIZ027"
+amenities: ["cabins", "bunkhouses", "restrooms", "playground", "picnic areas", "dining hall (bunkhouse groups)"]
+max_stay_nights: 6
+group_size_limit: 48
+sources: ["https://hawaiicounty.ehawaii.gov/camping/all,details,57934.html", "https://hawaiicounty.ehawaii.gov/camping/welcome.html"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

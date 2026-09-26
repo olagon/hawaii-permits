@@ -1,0 +1,29 @@
+id: wailua-river-state-park
+name: Wailua River State Park
+island: kauai
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 22.0408
+  lng: -159.3651
+activities: [boating, day_use, hiking, cultural_visit, scenic_drive]
+permits_required: []
+status: restricted
+aliases: [Wailua River, Opaekaa Falls, Wailua Falls, Fern Grotto, Secret Falls, Uluwehi Falls]
+summary: "River, lookouts, and heiau along the Wailua River including ʻŌpaekaʻa Falls, Wailua Falls, the Fern Grotto, and Poliʻahu. After Hurricane Lowell the river and the kayak landing reopened on September 21, 2026, but hiking past the trailhead and Uluwehi (Secret) Falls stay closed."
+rules:
+  - "Most of the park reopened on September 21, 2026 for boats and kayaks only. Hiking past the trailhead is prohibited and Uluwehi (Secret) Falls is closed until further notice."
+  - Kayakers may not enter the Fern Grotto landing while tour boats are there. Use the designated landing zone.
+  - Kayak rentals are by licensed vendors; the river is closed to commercial kayaks on Sundays. See the DLNR page.
+  - Do not climb into the falls or the heiau walls.
+hazards: [flash_flood, stream_crossings, steep_drop, mud]
+alerts:
+  nws_zone: HIZ030
+amenities: [restrooms at lookouts, boat ramp, parking]
+cultural_notes: "The Wailua complex holds several heiau, a birthing stone site, and petroglyphs. These are living cultural sites. Do not enter walled areas."
+sources:
+  - "https://dlnr.hawaii.gov/dsp/parks/kauai/wailua-river-state-park/"
+  - "https://mauinow.com/2026/09/20/dlnr-announces-limited-reopening-of-select-kaua%CA%BBi-lands-on-monday/"
+  - "https://dlnr.hawaii.gov/dsp/parks/kauai/"
+last_verified: "2026-09-25"
+verified_by: ai_research

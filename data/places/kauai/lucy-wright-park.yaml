@@ -1,0 +1,28 @@
+id: lucy-wright-park
+name: Lucy Wright Park
+island: kauai
+land_type: county
+manager: kauai-parks
+location:
+  lat: 21.957
+  lng: -159.668
+activities: [day_use, fishing]
+permits_required: []
+status: open
+aliases: [Lucy Wright Beach Park]
+summary: Small county park at the Waimea River mouth with a pavilion and picnic tables. No camping is offered.
+rules:
+  - "No camping. The county issues camping permits only for ʻAnini, Anahola, Salt Pond, and Lydgate."
+  - "The county closed all parks and campgrounds for Hurricane Lowell on September 6, 2026 and is reopening them in stages. Check the county parks page before you go."
+  - Map pin is approximate.
+hazards: [high_surf]
+alerts:
+  nws_zone: HIZ003
+amenities: [restrooms, showers, pavilion]
+sources:
+  - "https://www.kauai.gov/Government/Departments-Agencies/Parks/Permitting/Camping"
+  - "https://www.kauai.gov/Government/Departments-Agencies/Parks/Facilities"
+  - "https://www.thegardenisland.com/2026/09/25/hawaii-news/county-updates-hurricane-lowell-recovery-status/"
+  - "https://www.kauai.gov/County-Press-Releases/County-to-close-parks-and-campgrounds-open-refuge-areas-at-5-p.m"
+last_verified: "2026-09-25"
+verified_by: ai_research

@@ -1,0 +1,58 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - camping
+  - hiking
+  - stargazing
+  - four_wheel_drive
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp at Campsite A or B. Reserve on camping.ehawaii.gov. Everyone in the vehicle must be on the permit.
+  - permit: kuaokala-mokuleia-access-permit
+    when: Not needed if you hold a camping permit, which covers vehicle entry through the tracking station gate. Day visitors need this permit instead.
+status: open
+id: peacock-flats-campground
+name: Peacock Flats Campground
+location:
+  lat: 21.5463
+  lng: -158.1857
+aliases:
+  - Peacock Flats
+  - Mokuleia Forest Reserve Campground
+summary: >-
+  A high meadow campground in the Mokulēʻia Forest Reserve with two group sites, each with a shelter and pit toilet, ringed by Cook pines. Sweeping views of the North Shore and dark skies. Reached
+  only by 4 wheel drive through the Space Force tracking station gate.
+booking:
+  method: online
+  url: https://camping.ehawaii.gov/camping/welcome.html
+  window_note: Check in after 2 pm, check out by noon. Cancel 15 days ahead for a refund.
+fees:
+  camping_per_night: see_source
+  resident_camping_per_night: see_source
+rules:
+  - 4 wheel drive only. Vehicle must have valid registration, safety check and insurance.
+  - Gate at Yokohama is open 6 am to 6 pm. Non US citizens may be refused at the checkpoint.
+  - No ground fires. Fires only in a container. No alcohol.
+  - No water at all. Bring everything.
+  - This is an active hunting area. Wear bright colors.
+  - Access can close during military exercises.
+hazards:
+  - no_water
+  - remote
+  - hunting_area
+  - falling_rock
+  - mud
+alerts:
+  nws_zone: HIZ011
+amenities:
+  - shelter
+  - pit toilet
+  - picnic table
+sources:
+  - https://dlnr.hawaii.gov/recreation/camp/
+  - https://camping.ehawaii.gov/camping/all,details,31716.html
+  - https://camping.ehawaii.gov/camping/all,details,31707.html
+  - https://trails.ehawaii.gov/camping/all,details,57933.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

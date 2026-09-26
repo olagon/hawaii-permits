@@ -1,0 +1,8 @@
+id: niihau-helicopters
+name: Niʻihau Helicopters Inc.
+level: private
+website: "https://niihau.us/heli.html"
+phone: "1-877-441-3500"
+email: "niihauisland@hawaiian.net"
+islands: [niihau]
+sources: ["https://www.niihau.us/", "https://niihau.us/heli.html"]

@@ -1,0 +1,30 @@
+id: okolehao-trail
+name: ʻŌkolehao Trail
+island: kauai
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 22.2032
+  lng: -159.4734
+activities: [hiking, hunting]
+permits_required:
+  - permit: hunting-license
+    when: Only if you are hunting. Hikers do not need it. Hunting dogs may be off leash; keep your own dog leashed.
+status: closed
+aliases: [Okolehao Trail]
+summary: "The trail provides picturesque views of Hanalei Valley and Bay. It follows a ridge top route established in the days of prohibition, when Okolehao, a Hawaiian liquor was being distilled from the roots of Ki plants, some of which still remain alongside the trail route. Access is from a U.S. Fish and Wildlife Service parking area off Ohiki Road in Hanalei Valley. The trail travels into Halelea Forest Reserve and ends at a hill called Kaukaopua. About 2.3 miles one way."
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says Nā Ala Hele trails on Kauaʻi stay closed until they are safe. Check hawaiitrails.hawaii.gov before you go.
+  - Hunting may be in progress. Wear bright colors and keep dogs leashed.
+  - Commercial use needs a Nā Ala Hele permit. Stay on the marked trail; side routes may cross private land.
+  - "The trailhead is in Hanalei National Wildlife Refuge. Park only in the refuge lot on ʻŌhiki Road, drive under 15 mph, and do not stop along the road."
+hazards: [falling_rock, hunting_area, steep_drop]
+alerts:
+  nws_zone: HIZ029
+amenities: [picnic table, shelter]
+sources:
+  - "https://hawaiitrails.hawaii.gov/trails/#/trail/okolehao-trail/87"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+  - "https://mauinow.com/2026/09/20/dlnr-announces-limited-reopening-of-select-kaua%CA%BBi-lands-on-monday/"
+last_verified: "2026-09-25"
+verified_by: ai_research

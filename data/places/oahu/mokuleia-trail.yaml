@@ -1,0 +1,38 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+  - camping
+permits_required:
+  - permit: kuaokala-mokuleia-access-permit
+    when: If you drive in through the tracking station gate.
+  - permit: dofaw-camping-permit
+    when: To camp at Peacock Flats. Reserve a Peacock Flats campsite on camping.ehawaii.gov.
+status: open
+id: mokuleia-trail
+name: Mokulēʻia Trail
+location:
+  lat: 21.5413
+  lng: -158.1819
+aliases:
+  - Mokuleia Trail
+  - Makua Rim Trail
+summary: A 3.5 mile trail from Peacock Flats along the Mākua rim through Pahole Natural Area Reserve, with native forest and views into Mākua Valley.
+rules:
+  - Passes through Pahole Natural Area Reserve. Stay on the trail and clean boots.
+  - This is an active hunting area. Wear bright colors.
+  - No drinking water. Treat all stream water.
+hazards:
+  - steep_drop
+  - hunting_area
+  - no_water
+  - remote
+alerts:
+  nws_zone: HIZ011
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://dlnr.hawaii.gov/recreation/camp/
+  - https://camping.ehawaii.gov/camping/all,details,31716.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

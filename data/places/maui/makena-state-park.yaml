@@ -1,0 +1,54 @@
+id: "makena-state-park"
+name: "Mākena State Park"
+island: "maui"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 20.635
+  lng: -156.448
+activities:
+  - "swimming"
+  - "day_use"
+  - "snorkeling"
+  - "surfing"
+  - "fishing"
+permits_required: []
+status: "open"
+summary: "Big Beach (Oneloa), Little Beach, Oneuli black sand beach, and the Puʻu Ōlaʻi cinder cone. Nonresidents pay for parking and entry at kiosks or online. No drinking water. The shorebreak is strong and injures people often."
+aliases:
+  - "Makena"
+  - "Big Beach"
+  - "Oneloa Beach"
+  - "Little Beach"
+  - "Oneuli Beach"
+  - "Puu Olai"
+booking:
+  method: "none"
+  window_note: "No reservation. Pay parking and entry at the lot kiosk, by QR code, or online when you arrive."
+fees:
+  entry: 5
+  parking: 10
+  resident_entry: 0
+  resident_parking: 0
+  note: "Nonresident fees as listed by DLNR. Children 3 and under free. Residents show a Hawaiʻi ID."
+rules:
+  - "Park opens at 5:00 am. Puʻu Ōlaʻi has shorter weekend hours, check the park page."
+  - "No drinking water in the park."
+  - "No camping. No fires."
+  - "Nudity is illegal on all beaches."
+hazards:
+  - "high_surf"
+  - "heat"
+  - "no_water"
+alerts:
+  nws_zone: "HIZ049"
+amenities:
+  - "restrooms"
+  - "parking"
+  - "picnic_tables"
+sources:
+  - "https://dlnr.hawaii.gov/dsp/parks/maui/makena-state-park/"
+  - "https://dlnr.hawaii.gov/dsp/announcements/parking-fees-to-begin-at-makena-state-park/"
+  - "https://dlnr.hawaii.gov/dsp/parks/maui/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

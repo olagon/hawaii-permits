@@ -1,0 +1,29 @@
+id: kauai-hunting-unit-i
+name: Kauaʻi Hunting Unit I
+island: kauai
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 22.0817
+  lng: -159.3972
+activities: [hunting]
+permits_required:
+  - permit: hunting-license
+    when: "Required to hunt in Unit I. Check the current season, bag limits, and check station rules for this unit in the DOFAW Kauaʻi hunting rules before you go."
+  - permit: game-bird-stamp
+    when: Required during game bird season in addition to the hunting license.
+status: closed
+aliases: [Unit I, Wailua Game Management Area]
+summary: "Wailua Game Management Area in the Wailua Homesteads uplands, reached by the Moalepe Trail. Game bird hunting only."
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR reopened only Unit F so far. Check the DOFAW Kauaʻi hunting page before you go.
+  - Public hunting area. Non hunters should wear bright colors and keep dogs leashed.
+hazards: [hunting_area, heat]
+alerts:
+  nws_zone: HIZ030
+sources:
+  - "https://dlnr.hawaii.gov/recreation/hunting/kauai/"
+  - "https://www.law.cornell.edu/regulations/hawaii/Haw-Code-R-SS-13-123-15"
+  - "https://mauinow.com/2026/09/20/dlnr-announces-limited-reopening-of-select-kaua%CA%BBi-lands-on-monday/"
+last_verified: "2026-09-25"
+verified_by: ai_research

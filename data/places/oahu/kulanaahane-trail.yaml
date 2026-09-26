@@ -1,0 +1,37 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+  - camping
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp along the trail corridor in the Honolulu Watershed Forest Reserve (Moanalua section). Reserve on camping.ehawaii.gov.
+status: open
+id: kulanaahane-trail
+name: Kulanaʻahane Trail
+location:
+  lat: 21.3874
+  lng: -157.8494
+aliases:
+  - Kulanaahane Trail
+summary: A 2.75 mile trail that leaves Kamananui Valley Road about 2 miles in and follows the stream to a saddle on the Koʻolau crest with views to Haʻikū Valley. Many stream crossings.
+rules:
+  - Starts 2 miles up Kamananui Valley Road. Same access rules apply.
+  - Flash flood danger. Do not go in heavy rain.
+  - The ridge beyond the saddle toward the Haʻikū Stairs is closed.
+  - This is an active hunting area. Wear bright colors.
+hazards:
+  - flash_flood
+  - stream_crossings
+  - steep_drop
+  - hunting_area
+  - mud
+alerts:
+  nws_zone: HIZ036
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://dlnr.hawaii.gov/recreation/camp/
+  - https://camping.ehawaii.gov/camping/all,details,31724.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

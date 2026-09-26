@@ -1,0 +1,38 @@
+id: anahola-beach-park
+name: Anahola Beach Park
+island: kauai
+land_type: county
+manager: kauai-parks
+location:
+  lat: 22.143
+  lng: -159.302
+activities: [camping, swimming, fishing, day_use]
+permits_required:
+  - permit: kauai-camping-permit
+    when: Every night of camping. $3 per adult per night for nonresidents. Residents and children are free.
+status: open
+summary: Small east side beach park at Anahola Bay with a county campground. One of four county campgrounds.
+booking:
+  method: online
+  url: "https://hikauaiweb.myvscloud.com/webtrac/web/"
+fees:
+  camping_per_night: 3
+  resident_camping_per_night: 0
+rules:
+  - "The county closed all parks and campgrounds for Hurricane Lowell on September 6, 2026 and is reopening them in stages. Check the county parks page before you go."
+  - Map pin is approximate.
+  - Campground closes every Thursday 10 am to Friday noon for maintenance.
+  - Up to 6 nights per permit. Display the permit on your tent.
+hazards: [high_surf]
+alerts:
+  nws_zone: HIZ030
+amenities: [restrooms, showers, picnic tables]
+max_stay_nights: 6
+group_size_limit: 10
+sources:
+  - "https://www.kauai.gov/Government/Departments-Agencies/Parks/Permitting/Camping"
+  - "https://www.kauai.gov/Government/Departments-Agencies/Parks/Facilities"
+  - "https://www.thegardenisland.com/2026/09/25/hawaii-news/county-updates-hurricane-lowell-recovery-status/"
+  - "https://www.kauai.gov/County-Press-Releases/County-to-close-parks-and-campgrounds-open-refuge-areas-at-5-p.m"
+last_verified: "2026-09-25"
+verified_by: ai_research

@@ -1,0 +1,33 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: kolowalu-trail
+name: Kolowalu Trail
+location:
+  lat: 21.3218
+  lng: -157.7983
+aliases:
+  - Kolowalu Trail
+  - Manoa
+summary: A steep 1 mile trail from the end of Alani Lane in Mānoa up to Waʻahila Ridge. Short but tough.
+rules:
+  - Very steep and slippery when wet.
+  - Street parking only. Be quiet in the neighborhood.
+  - This is an active hunting area. Wear bright colors.
+hazards:
+  - mud
+  - steep_drop
+  - hunting_area
+alerts:
+  nws_zone: HIZ033
+amenities:
+  - picnic area
+  - shelter
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

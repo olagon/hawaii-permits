@@ -1,0 +1,23 @@
+id: kanepuu-preserve
+name: Kānepuʻu Preserve
+island: lanai
+land_type: private_nonprofit
+manager: The Nature Conservancy of Hawaiʻi
+location: { lat: 20.877, lng: -156.984 }
+activities: [hiking, wildlife_viewing]
+permits_required: []
+status: open
+aliases: [Kanepuu Preserve, Kanepuu Dryland Forest]
+summary: Last big stand of native dryland forest on Lānaʻi, 590 acres in several fenced units on the road to Keahiakawelo. A short self guided interpretive trail with signs and a self closing gate is open sunrise to sunset. The Nature Conservancy manages it on Pūlama Lānaʻi land.
+booking: { method: none, url: https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/kanepuu-preserve/ }
+fees: { entry: 0 }
+rules:
+  - Open sunrise to sunset. Close the gate behind you.
+  - Stay on the trail. Do not bring plants or seeds in or out.
+  - No hunting inside the preserve fences.
+hazards: [heat, no_water]
+sources:
+  - https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/kanepuu-preserve/
+  - https://www.gohawaii.com/content/off-road-adventures-lanai
+last_verified: 2026-09-25
+verified_by: ai_research

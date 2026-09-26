@@ -1,0 +1,22 @@
+id: "kohala-historical-sites-state-monument"
+name: "Kohala Historical Sites State Monument"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 20.257
+  lng: -155.88
+activities: ["cultural_visit", "day_use"]
+permits_required: []
+status: "open"
+aliases: ["Mookini Heiau", "Kamehameha Birthplace", "Kamehameha Birthsite"]
+summary: "Moʻokini Heiau, a National Historic Landmark, and the memorial at the birthplace of Kamehameha I near ʻUpolu Point in North Kohala. View only. Daylight hours, no fee."
+fees:
+  entry: 0
+rules: ["Open during daylight hours.", "This is a sacred place. Stay outside the walls and do not move rocks.", "The access road is rough dirt."]
+alerts:
+  nws_zone: "HIZ026"
+cultural_notes: "Moʻokini is a luakini heiau and remains in active cultural use. Visit quietly and with respect."
+sources: ["https://dlnr.hawaii.gov/dsp/parks/hawaii/kohala-historical-sites-state-monument/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

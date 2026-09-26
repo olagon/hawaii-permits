@@ -1,0 +1,35 @@
+id: "hapuna-beach-state-recreation-area"
+name: "Hāpuna Beach State Recreation Area"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 19.984
+  lng: -155.825
+activities: ["swimming", "day_use", "snorkeling", "surfing", "hiking", "cabin"]
+permits_required:
+  - permit: "state-parks-day-use-reservation"
+    when: "Nonresidents pay the entry and parking fee. Pay online before you arrive or by card at the park."
+  - permit: "hapuna-a-frame-reservation"
+    when: "To stay in an A-frame shelter. The shelters are presently closed."
+status: "open"
+aliases: ["Hapuna Beach", "Hapuna", "Waialea Bay"]
+summary: "Long white sand beach in South Kohala with lifeguards, picnic areas, and the Ala Kahakai coastal trail. Four person A-frame shelters exist but are presently closed. The Waialea section reopened in August 2026 after storm damage."
+booking:
+  method: "online"
+  url: "https://explore.ehawaii.gov/"
+  window_note: "A-frames book on Explore Outdoor Hawaiʻi at least 7 days ahead, when open."
+fees:
+  entry: 5
+  parking: 10
+  resident_entry: 0
+  resident_parking: 0
+  note: "Nonresident fees, credit card only. Residents free with Hawaiʻi ID. Children 3 and under free. Commercial vehicles pay $25 to $90. A-frame shelters $40 resident, $70 nonresident per night."
+rules: ["Open 7:00am to 7:30pm, gates close 8:00pm.", "Waves over 3 feet are for experts only. Strong rip currents and shore break during high surf.", "All shelter guests must be present for check in with staff at 3:00pm.", "Bring your own hand soap and sanitizer for the shelters."]
+hazards: ["high_surf", "heat"]
+alerts:
+  nws_zone: "HIZ026"
+amenities: ["restrooms", "showers", "lifeguard", "picnic tables", "parking"]
+sources: ["https://dlnr.hawaii.gov/dsp/parks/hawaii/hapuna-beach-state-recreation-area/", "https://dlnr.hawaii.gov/dsp/camping-lodging/hawaii/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

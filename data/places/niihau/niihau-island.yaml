@@ -1,0 +1,32 @@
+id: niihau-island
+name: Niʻihau
+island: niihau
+land_type: private
+manager: niihau-helicopters
+location:
+  lat: 21.895
+  lng: -160.155
+activities: [cultural_visit, snorkeling, hunting]
+permits_required:
+  - permit: niihau-tour-reservation
+    when: Any visit. Tours land on a remote beach only. Visitors do not go to the village.
+status: no_public_access
+aliases: [Niihau, Forbidden Island]
+summary: Privately owned island west of Kauaʻi where a small Hawaiian speaking community lives. There is no public access. The only way for outsiders to set foot on the island is a half day helicopter beach tour or a hunting safari run by the owners through Niʻihau Helicopters.
+booking:
+  method: owner_direct
+  url: "https://niihau.us/heli.html"
+  phone: "1-877-441-3500"
+fees:
+  note: "Half day tour $630 per person, charter $3,150, per the owner site."
+rules:
+  - No public landing by private boat or aircraft.
+  - Tours need at least 5 people and depend on wind and sea conditions.
+  - Map pin is approximate.
+hazards: [high_surf, heat, remote]
+alerts:
+  nws_zone: HIZ001
+cultural_notes: "Niʻihau is a living Hawaiian community, not a tourist site. Respect the privacy of residents."
+sources: ["https://www.niihau.us/", "https://niihau.us/heli.html"]
+last_verified: "2026-09-25"
+verified_by: ai_research

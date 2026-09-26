@@ -1,0 +1,30 @@
+land_type: federal
+permits_required: []
+id: pearl-harbor-national-wildlife-refuge
+name: Pearl Harbor National Wildlife Refuge
+manager: usfws
+location:
+  lat: 21.3569
+  lng: -158.0192
+activities:
+  - wildlife_viewing
+status: no_public_access
+aliases:
+  - Honouliuli Unit
+  - Waiawa Unit
+  - Kalaeloa Unit
+  - Betty Bliss Memorial Overlook
+summary: >-
+  Three small units of ponds and coastal land around Pearl Harbor and Kalaeloa for endangered stilts, coots and other waterbirds. Closed to public entry. The one public overlook at Honouliuli has been
+  closed since a fire in 2024.
+rules:
+  - No public entry to the units.
+  - Volunteer workdays at the Kalaeloa unit are arranged through the refuge.
+  - Map pin is on the Honouliuli unit.
+alerts:
+  nws_zone: HIZ034
+sources:
+  - https://www.fws.gov/refuge/pearl-harbor
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

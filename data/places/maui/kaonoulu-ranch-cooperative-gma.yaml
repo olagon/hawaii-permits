@@ -1,0 +1,37 @@
+id: "kaonoulu-ranch-cooperative-gma"
+name: "Kaonoulu Ranch Cooperative Game Management Area"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.712
+  lng: -156.292
+activities:
+  - "hunting"
+  - "hiking"
+permits_required:
+  - permit: "hunting-license"
+    when: "Unit C, game mammals and game birds."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season, usually Saturdays, Sundays, and state holidays."
+status: "open"
+summary: "Private ranch land leased for public hunting next to the Kula Forest Reserve on the Kula side of Haleakalā. Part of hunting unit C. Bird hunting on weekends and holidays in season."
+aliases:
+  - "Kaonoulu Ranch GMA"
+  - "Kaonoulu cooperative lease"
+rules:
+  - "This is private ranch land open only for hunting under the DLNR agreement. Follow posted access rules."
+  - "Check the DLNR Maui hunting page for current seasons, bag limits, and closures."
+  - "Hunters must carry a valid license and, where posted, check in and out at the hunter check station."
+hazards:
+  - "hunting_area"
+  - "remote"
+alerts:
+  nws_zone: "HIZ049"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/hunting/maui/"
+  - "https://dlnr.hawaii.gov/recreation/hunting/gma/"
+  - "https://dlnr.hawaii.gov/recreation/hunting/gma/kaonoulu-ranch/"
+  - "https://dlnr.hawaii.gov/recreation/files/2025/10/2025-2026-FINAL_Game-Bird-Season-Announcement.pdf"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

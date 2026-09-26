@@ -1,0 +1,16 @@
+id: "hawaii-island-ohv-permit"
+name: "Hawaiʻi Island recreational OHV permit"
+issuer: "dlnr-dofaw"
+category: "vehicle_access"
+who_needs: "Every rider of a non-licensed vehicle (ATV, side by side, dirt bike, dune buggy) on Upper Waiākea ATV and Dirt Bike Park or the Mauna Kea riding roads R-1 and R-10. Licensed vehicles on open forest roads do not need it. Licensed hunters who are actually hunting do not need it."
+how_to_get: "in_person"
+url: "https://dlnr.hawaii.gov/recreation/nah/off-highway-vehicles-ohv/"
+carry_required: true
+covers: ["upper-waiakea-atv-dirt-bike-park", "mauna-kea-access-road-r1", "puu-laau-road-r1", "skyline-road-r10"]
+booking_window:
+  notes: "Get the permit and sign the liability waiver at the Division of Forestry and Wildlife office in Hilo (808-974-4221) or Waimea. Carry it while riding. Sign in and out at the check-in stations."
+cost:
+  resident: "see_source"
+  nonresident: "see_source"
+sources: ["https://dlnr.hawaii.gov/recreation/nah/off-highway-vehicles-ohv/"]
+last_verified: "2026-09-25"

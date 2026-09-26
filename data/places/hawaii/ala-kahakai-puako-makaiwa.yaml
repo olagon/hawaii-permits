@@ -1,0 +1,22 @@
+id: "ala-kahakai-puako-makaiwa"
+name: "Ala Kahakai Trail (Puakō to Makaiwa sector)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.957
+  lng: -155.859
+activities: ["hiking", "swimming", "fishing"]
+permits_required: []
+status: "open"
+aliases: ["Ala Kahakai Puako Makaiwa"]
+summary: "Coastal sector of the Ala Kahakai Trail managed by Nā Ala Hele. Sea cliffs, loose footing, flash floods at stream mouths, and strong sun. About 3.9 miles from the Puakō boat ramp south past Holoholokai to Makaiwa Bay and the Mauna Lani resort."
+fees:
+  entry: 0
+rules: ["Start at the Puakō boat ramp.", "The trail passes near the Puakō petroglyph field. Do not walk on petroglyphs.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["steep_drop", "flash_flood", "heat", "high_surf"]
+alerts:
+  nws_zone: "HIZ026"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/dsp/hiking/hawaii/ala-kahakai-trail-kawaihae-anaehoomalu/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

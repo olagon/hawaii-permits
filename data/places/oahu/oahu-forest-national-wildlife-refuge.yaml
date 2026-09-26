@@ -1,0 +1,25 @@
+land_type: federal
+permits_required: []
+id: oahu-forest-national-wildlife-refuge
+name: Oʻahu Forest National Wildlife Refuge
+manager: usfws
+location:
+  lat: 21.4841
+  lng: -157.925
+activities:
+  - wildlife_viewing
+status: no_public_access
+aliases:
+  - Oahu Forest NWR
+summary: Thousands of acres of native forest high in the Koʻolau above Wahiawā, kept for endangered birds, snails and plants. Not open to the public because it is remote and fragile.
+rules:
+  - No public access. Volunteer and research entry only through the refuge complex office.
+hazards:
+  - remote
+alerts:
+  nws_zone: HIZ036
+sources:
+  - https://www.fws.gov/refuge/oahu-forest
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

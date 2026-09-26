@@ -1,0 +1,23 @@
+id: "haleakala-entrance-pass"
+name: "Haleakalā National Park entrance fee"
+issuer: "nps"
+category: "day_use"
+who_needs: "Everyone entering the Summit or Kīpahulu district. Pay at the entrance station or bring a valid park pass."
+how_to_get: "in_person"
+url: "https://www.nps.gov/hale/planyourvisit/fees.htm"
+carry_required: true
+covers:
+  - "haleakala-summit-district"
+  - "haleakala-kipahulu-district"
+  - "pipiwai-trail"
+  - "haleakala-hosmer-grove-campground"
+  - "haleakala-kipahulu-campground"
+cost:
+  resident: 30
+  nonresident: 30
+  unit: "per private vehicle, good for 3 days in both districts"
+  note: "Motorcycle $25. Walk in or bicycle $15 per person age 16 and up, under 16 free. Haleakalā annual pass $55. Hawaiʻi Tri Park annual pass $55. America the Beautiful passes accepted. Pay by card."
+valid_for: "3 days from purchase."
+sources:
+  - "https://www.nps.gov/hale/planyourvisit/fees.htm"
+last_verified: "2026-09-25"

@@ -1,0 +1,21 @@
+id: "havo-backcountry-permit"
+name: "Hawaiʻi Volcanoes backcountry permit"
+issuer: "nps"
+category: "camping"
+who_needs: "Anyone camping overnight at a backcountry site in Hawaiʻi Volcanoes National Park: Kaʻaha, Halapē, Keauhou, ʻĀpua Point, Nāpau, Pepeiao Cabin, Red Hill Cabin, or Mauna Loa Cabin."
+how_to_get: "online"
+url: "https://www.recreation.gov/permits/4675341"
+carry_required: true
+covers: ["hawaii-volcanoes-backcountry", "mauna-loa-red-hill-cabin", "mauna-loa-summit-cabin"]
+booking_window:
+  opens_days_before: 90
+  notes: "Reserve on Recreation.gov up to 90 days ahead. Then check in at the Backcountry Office (8am to 4pm daily, 808-985-6178) up to 7 days before your trip for the permit and a safety briefing. Walk-ins are accepted but payment still goes through Recreation.gov. No cash."
+cost:
+  resident: 10
+  nonresident: 10
+  unit: "per trip, up to 12 people"
+  note: "Non-refundable. Park entrance fee is separate."
+valid_for: "Up to 7 nights per permit, with no more than 3 consecutive nights at one site."
+refund_policy: "The $10 fee is not refunded."
+sources: ["https://www.nps.gov/havo/planyourvisit/hike_bc.htm", "https://www.recreation.gov/permits/4675341"]
+last_verified: "2026-09-25"

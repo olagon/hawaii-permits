@@ -1,0 +1,26 @@
+id: "puu-anahulu-gma-west-unit-f"
+name: "Puʻu Waʻawaʻa Forest Reserve and Puʻu Anahulu West Section (Unit F)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.79
+  lng: -155.851
+activities: ["hunting", "hiking"]
+permits_required:
+  - permit: "hunting-license"
+    when: "Required to hunt in Unit F. Unit F. Game birds Saturday, Sunday, and state holidays in season."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season."
+status: "open"
+summary: "The west section of Puʻu Anahulu GMA and the Puʻu Waʻawaʻa Forest Reserve in North Kona. Unit F for mammals and game birds. Game birds on Saturdays, Sundays, and state holidays in season. Peafowl may be hunted here."
+fees:
+  entry: 0
+rules: ["Hunters must carry a license and follow Chapter 13-122 (birds) and 13-123 (mammals) rules.", "Hikers should wear bright colors. Hunting dogs may be present.", "Map pin is the unit centroid from DLNR GIS data."]
+hazards: ["hunting_area", "heat", "no_water"]
+alerts:
+  nws_zone: "HIZ023"
+aliases: ["Unit F Puu Waawaa"]
+sources: ["https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/", "https://dlnr.hawaii.gov/recreation/files/2024/10/2024-2025-FINAL_Game-Bird-Season-Announcement-002.pdf"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

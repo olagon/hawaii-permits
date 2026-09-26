@@ -1,0 +1,30 @@
+id: kukui-trail
+name: Kukui Trail
+island: kauai
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 22.0509
+  lng: -159.6582
+activities: [hiking, camping, fishing, hunting]
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp at the campsites or cabin along this trail. Reserve online and carry a printed permit.
+  - permit: hunting-license
+    when: Only if you are hunting. Hikers do not need it. Hunting dogs may be off leash; keep your own dog leashed.
+status: closed
+summary: "The trail starts along Highway 550, about 0.75 miles beyond the 8-Mile Marker. Kukui Trail is a scenic trail within Puu ka Pele that travels down the west side of Waimea Canyon. It makes a 2000 ft. elevation drop to the canyon floor ending at the Wiliwili Camp site. About 2.5 miles one way."
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says Nā Ala Hele trails on Kauaʻi stay closed until they are safe. Check hawaiitrails.hawaii.gov before you go.
+  - Hunting may be in progress. Wear bright colors and keep dogs leashed.
+  - Commercial use needs a Nā Ala Hele permit. Stay on the marked trail; side routes may cross private land.
+hazards: [falling_rock, flash_flood, heat, hunting_area, remote, steep_drop]
+alerts:
+  nws_zone: HIZ004
+amenities: [restroom, picnic table, campsites, shelter]
+sources:
+  - "https://hawaiitrails.hawaii.gov/trails/#/trail/kukui-trail/83"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+  - "https://mauinow.com/2026/09/20/dlnr-announces-limited-reopening-of-select-kaua%CA%BBi-lands-on-monday/"
+last_verified: "2026-09-25"
+verified_by: ai_research

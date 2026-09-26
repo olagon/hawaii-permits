@@ -1,0 +1,54 @@
+id: diamond-head-state-monument
+name: Diamond Head State Monument
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.263
+  lng: -157.807
+activities:
+  - hiking
+  - day_use
+  - cultural_visit
+permits_required:
+  - permit: diamond-head-reservation
+    when: All visitors who are not Hawaiʻi residents need a timed entry reservation, and a parking reservation if driving in. Residents enter free with a Hawaiʻi ID.
+status: open
+aliases:
+  - Leahi
+  - Lēʻahi
+  - Diamond Head Crater
+  - Diamond Head Summit Trail
+summary: The famous crater above Waikīkī with a 0.8 mile trail to the summit lookout, including stairs and a tunnel. Nonresidents must reserve ahead. It sells out most days.
+booking:
+  method: online
+  url: https://gostateparks.hawaii.gov/diamondhead
+  window_note: Reservations open 30 days ahead. Slots from 6 am to 4 pm. Last entry 4:30 pm.
+fees:
+  entry: 5
+  parking: 10
+  resident_entry: 0
+  resident_parking: 0
+  note: Per person and per vehicle for nonresidents. Children 3 and under free.
+rules:
+  - Open 6 am to 6 pm. Everyone must be out through the tunnel by 6 pm.
+  - Arrive within the first 30 minutes of your slot.
+  - Parking is very limited even for residents.
+  - Bring water and sun protection. The trail is steep with many stairs.
+  - Stay on the trail.
+hazards:
+  - heat
+  - steep_drop
+alerts:
+  nws_zone: HIZ033
+amenities:
+  - restrooms
+  - drinking water
+accessibility: The parking area and visitor center are accessible. The summit trail is not.
+cultural_notes: Lēʻahi is the Hawaiian name. The crater held military lookouts in the 1900s and some are still on the trail.
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://gostateparks.hawaii.gov/diamondhead/about
+  - https://gostateparks.hawaii.gov/diamondhead/faq
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

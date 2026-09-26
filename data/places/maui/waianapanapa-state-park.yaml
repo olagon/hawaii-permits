@@ -1,0 +1,71 @@
+id: "waianapanapa-state-park"
+name: "Waiʻānapanapa State Park"
+island: "maui"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 20.783
+  lng: -155.997
+activities:
+  - "camping"
+  - "cabin"
+  - "hiking"
+  - "swimming"
+  - "day_use"
+  - "fishing"
+  - "cultural_visit"
+permits_required:
+  - permit: "waianapanapa-reservation"
+    when: "Nonresidents, every visit. Book a slot up to 30 days ahead. Residents with a Hawaiʻi ID do not need one."
+  - permit: "state-parks-camping-permit"
+    when: "To tent camp. Book 90 days ahead. Camper van sites are unavailable July 2026 through March 2027 during comfort station construction."
+  - permit: "state-parks-cabin-permit"
+    when: "For a cabin, sleeps up to 6. Bring linens. Book 90 days ahead."
+status: "open"
+summary: "Black sand beach, sea caves, lava coast, and the Piʻilani coastal trail near Hāna. All nonresidents need a timed entry and parking reservation. Tent sites and cabins are booked through explore.ehawaii.gov."
+aliases:
+  - "Waianapanapa"
+  - "Pailoa Bay"
+  - "Black Sand Beach Hana"
+booking:
+  method: "online"
+  url: "https://gostateparks.hawaii.gov/waianapanapa"
+  phone: "808-984-8109"
+  window_note: "Entry slots open 30 days ahead at midnight HST. Camping and cabins open 90 days ahead on explore.ehawaii.gov."
+fees:
+  entry: 5
+  parking: 10
+  resident_entry: 0
+  resident_parking: 0
+  camping_per_night: 30
+  resident_camping_per_night: 20
+  note: "Cabins $70 resident, $100 nonresident per night. Children 3 and under free."
+rules:
+  - "Arrive within the first 30 minutes of your slot or you may be turned away."
+  - "Park opens 7:00 am. Enter by 5:30 pm."
+  - "Camping closes at times for storms. Check the DLNR page."
+  - "Up to 5 nights, then a 30 day wait before returning."
+  - "Swim only when the sea is calm. Strong currents and shorebreak."
+hazards:
+  - "high_surf"
+  - "steep_drop"
+  - "flash_flood"
+alerts:
+  nws_zone: "HIZ047"
+amenities:
+  - "restrooms"
+  - "showers"
+  - "picnic_tables"
+  - "cabins"
+  - "campsites"
+  - "parking"
+max_stay_nights: 5
+cultural_notes: "The park holds heiau, burial areas, and the Waiʻānapanapa caves tied to the story of Pōpōalaea. Stay on trails and do not enter marked cultural sites."
+sources:
+  - "https://dlnr.hawaii.gov/dsp/parks/maui/waianapanapa-state-park/"
+  - "https://dlnr.hawaii.gov/dsp/camping-lodging/maui/"
+  - "https://gostateparks.hawaii.gov/waianapanapa/about"
+  - "https://gostateparks.hawaii.gov/waianapanapa/faq"
+  - "https://dlnr.hawaii.gov/dsp/parks/maui/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

@@ -1,0 +1,36 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: waahila-ridge-trail
+name: Waʻahila Ridge Trail
+location:
+  lat: 21.3238
+  lng: -157.7882
+aliases:
+  - Waahila Ridge Trail
+summary: >-
+  A 2.4 mile rolling ridge trail from Waʻahila Ridge State Recreation Area toward the Koʻolau crest, with 500 feet of gain and good views of Mānoa and Pālolo. Ends at a marked turnaround; the crest
+  section beyond is closed.
+rules:
+  - Trail is open only when the park gate is open, 7 am to 6:45 pm in winter and 7 am to 7:45 pm in summer.
+  - Cliffs and loose rock beyond the end marker. Turn back there.
+  - This is an active hunting area. Wear bright colors.
+hazards:
+  - steep_drop
+  - mud
+  - hunting_area
+  - falling_rock
+alerts:
+  nws_zone: HIZ033
+amenities:
+  - restrooms at trailhead
+  - shelter
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

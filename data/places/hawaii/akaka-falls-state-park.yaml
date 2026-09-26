@@ -1,0 +1,34 @@
+id: "akaka-falls-state-park"
+name: "ʻAkaka Falls State Park"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 19.855
+  lng: -155.155
+activities: ["hiking", "day_use", "wildlife_viewing"]
+permits_required:
+  - permit: "state-parks-day-use-reservation"
+    when: "Nonresidents pay the entry and parking fee. Pay online before you arrive or by card at the park."
+status: "open"
+aliases: ["Akaka Falls"]
+summary: "A paved 0.4 mile loop through rainforest to lookouts over 442 foot ʻAkaka Falls and Kahuna Falls. Open 8:30am to 5pm."
+booking:
+  method: "online"
+  url: "https://gostateparks.hawaii.gov/"
+  window_note: "Pay entry and parking before you arrive. Cell service at the park is poor."
+fees:
+  entry: 5
+  parking: 10
+  resident_entry: 0
+  resident_parking: 0
+  note: "Nonresident fees, credit card only. Residents free with Hawaiʻi ID. Children 3 and under free. Commercial vehicles pay $25 to $90."
+rules: ["Open daily 8:30am to 5:00pm.", "Stay on the paved trail.", "No mountain bikes.", "No open fires.", "Pack out what you pack in.", "Water and the comfort station were closed in March 2026; portable toilets are provided."]
+hazards: ["flash_flood", "mud"]
+alerts:
+  nws_zone: "HIZ053"
+amenities: ["parking", "portable toilets"]
+accessibility: "The loop has many steps and is not wheelchair accessible."
+sources: ["https://dlnr.hawaii.gov/dsp/parks/hawaii/akaka-falls-state-park/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

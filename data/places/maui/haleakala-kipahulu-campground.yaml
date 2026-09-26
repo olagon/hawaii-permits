@@ -1,0 +1,57 @@
+id: "haleakala-kipahulu-campground"
+name: "Kīpahulu Campground"
+island: "maui"
+land_type: "federal"
+manager: "nps"
+location:
+  lat: 20.66
+  lng: -156.046
+activities:
+  - "camping"
+  - "hiking"
+  - "day_use"
+permits_required:
+  - permit: "haleakala-kipahulu-campground-reservation"
+    when: "To camp, every night. Opens 30 days ahead."
+  - permit: "haleakala-entrance-pass"
+    when: "Every vehicle entering the park."
+status: "open"
+summary: "Twenty campsites on the sea cliffs near ʻOheʻo Gulch in the coastal Kīpahulu District. Reservation required on recreation.gov on a 30 day rolling basis, $20 per night. No water at the campground."
+aliases:
+  - "Kipahulu Campground"
+  - "Oheo Campground"
+booking:
+  method: "online"
+  url: "https://www.recreation.gov/"
+  window_note: "30 day rolling window on recreation.gov. Check in after 2:00 pm, check out 11:00 am."
+fees:
+  camping_per_night: 20
+  entry: 30
+rules:
+  - "Up to 6 people and 2 tents per site."
+  - "Fill water at the visitor center. None at the campground. No showers."
+  - "Dogs on a 6 foot leash in the campground only, never on trails."
+  - "No entering streams or pools."
+  - "Quiet hours 10:00 pm to 8:00 am."
+  - "Respect archaeological sites and local fishing gear."
+  - "Map pin is approximate."
+hazards:
+  - "steep_drop"
+  - "flash_flood"
+  - "heat"
+  - "no_water"
+alerts:
+  nws_zone: "HIZ048"
+  nps_park_code: "hale"
+amenities:
+  - "picnic_tables"
+  - "vault_toilets"
+  - "grills"
+max_stay_nights: 3
+group_size_limit: 6
+sources:
+  - "https://www.nps.gov/hale/planyourvisit/kipahulu-campground.htm"
+  - "https://www.nps.gov/hale/planyourvisit/camping.htm"
+  - "https://www.nps.gov/hale/planyourvisit/kipahulu.htm"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

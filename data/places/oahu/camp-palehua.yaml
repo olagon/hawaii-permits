@@ -1,0 +1,42 @@
+id: camp-palehua
+name: Camp Pālehua
+land_type: private_nonprofit
+manager: camp-palehua
+location:
+  lat: 21.377
+  lng: -158.101
+activities:
+  - camping
+  - cabin
+  - hiking
+  - stargazing
+  - cultural_visit
+permits_required:
+  - permit: camp-palehua-reservation
+    when: Everyone staying overnight. Book online, by email or by phone.
+status: open
+aliases:
+  - Camp Palehua
+  - Palehua
+summary: >-
+  A rustic camp high in the Waiʻanae range above Makakilo with rustic cabins, a bunk house and tent sites, focused on conservation and Hawaiian culture. No frills and no wifi. Cool nights and views
+  over the ʻEwa plain.
+booking:
+  method: owner_direct
+  url: https://www.camppalehua.org/
+  phone: 808-347-0736
+fees:
+  camping_per_night: see_source
+rules:
+  - Rustic site. Bring what you need.
+  - Map pin is approximate.
+hazards:
+  - cold
+  - remote
+alerts:
+  nws_zone: HIZ011
+sources:
+  - https://www.camppalehua.org/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

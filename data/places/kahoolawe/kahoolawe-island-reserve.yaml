@@ -1,0 +1,51 @@
+id: "kahoolawe-island-reserve"
+name: "Kahoʻolawe Island Reserve"
+island: "kahoolawe"
+land_type: "state"
+manager: "kirc"
+location:
+  lat: 20.552
+  lng: -156.616
+activities:
+  - "cultural_visit"
+  - "hiking"
+  - "camping"
+permits_required:
+  - permit: "kahoolawe-access-volunteer-trip"
+    when: "Any visit. Join a KIRC volunteer trip or a Protect Kahoʻolawe ʻOhana huakaʻi. No individual permits are issued."
+status: "restricted"
+summary: "The whole island and the ocean within 2 miles of shore are a state reserve managed by KIRC. Entry is restricted because unexploded ordnance remains everywhere, even in cleared areas. There is no permit system for tourists or casual visits. The only ways on are a KIRC volunteer work trip (4 days, about $200, waitlist) or a Protect Kahoʻolawe ʻOhana huakaʻi after orientation. Trolling in outer waters is allowed only on scheduled weekends for registered boats."
+aliases:
+  - "Kahoolawe"
+  - "Kanaloa"
+  - "Kohemālamalama o Kanaloa"
+booking:
+  method: "owner_direct"
+  url: "https://www.kahoolawe.hawaii.gov/volunteer.shtml"
+  phone: "808-243-5020"
+  window_note: "KIRC takes about two volunteer groups a month and works mostly with organized groups. PKO huakaʻi requests go to pko.huakai@gmail.com."
+fees:
+  entry: 200
+  note: "KIRC volunteer access fee per person, includes the boat from Maui. PKO trips set their own costs."
+rules:
+  - "Unauthorized entry to the island or Zone A waters (shore to 30 fathoms) is illegal at all times."
+  - "Zone B waters (30 fathoms to 2 miles) are open only for trolling on the posted schedule, boat must stay underway, no anchoring or bottom fishing."
+  - "All visitors attend a mandatory orientation and follow an access guide."
+  - "You may have to swim from the boat to shore if the surf is up. The crossing can take 1 to 4 hours."
+  - "Clean all gear and clothing before the trip to keep out weeds and pests."
+  - "Basic campsites and toilets exist for authorized groups only."
+hazards:
+  - "remote"
+  - "heat"
+  - "no_water"
+  - "high_surf"
+alerts:
+  nws_zone: "HIZ016"
+cultural_notes: "Kahoʻolawe is Kanaloa, a wahi pana and puʻuhonua. Visits follow Hawaiian cultural protocol led by the ʻOhana or KIRC access guides."
+sources:
+  - "https://www.kahoolawe.hawaii.gov/home.php"
+  - "https://www.kahoolawe.hawaii.gov/faq.shtml"
+  - "https://www.kahoolawe.hawaii.gov/volunteer.shtml"
+  - "https://www.protectkahoolaweohana.org/huakai-requirements"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

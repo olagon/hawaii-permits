@@ -1,0 +1,43 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+  - camping
+permits_required:
+  - permit: poamoho-access-permit
+    when: To reach the trailhead by vehicle on the Hele Loa access road.
+  - permit: dofaw-camping-permit
+    when: To stay overnight on the trail or at the summit cabin. Reserve on camping.ehawaii.gov. Check that the cabin is bookable.
+status: open
+id: poamoho-trail
+name: Poamoho Trail
+location:
+  lat: 21.5307
+  lng: -157.9533
+aliases:
+  - Poamoho Ridge Trail
+  - Poamoho Cabin
+summary: >-
+  A 3.5 mile graded trail from the end of the access road to the Koʻolau summit and the Poamoho cabin, with views to the windward side on clear days. One of the best summit trails on Oʻahu, but
+  getting there needs a permit and 4 wheel drive.
+rules:
+  - Narrow ridge with blind corners. Do not hike in high wind or heavy rain.
+  - Part of hunting Unit G.
+  - This is an active hunting area. Wear bright colors.
+  - No drinking water. Treat all stream water.
+hazards:
+  - steep_drop
+  - mud
+  - hunting_area
+  - no_water
+  - cold
+  - remote
+alerts:
+  nws_zone: HIZ036
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://dlnr.hawaii.gov/dofaw/permits/
+  - https://dlnr.hawaii.gov/recreation/camp/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

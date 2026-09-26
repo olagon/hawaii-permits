@@ -1,0 +1,27 @@
+id: keehi-lagoon-memorial-state-park
+name: Keʻehi Lagoon Memorial State Park
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.332
+  lng: -157.894
+activities:
+  - day_use
+permits_required: []
+status: open
+aliases:
+  - Keehi Lagoon Memorial
+summary: A memorial park near the airport honoring Hawaiʻi veterans, kept with help from the Keʻehi Memorial Organization. Open lawn and memorial monuments for quiet visits.
+fees:
+  entry: 0
+rules:
+  - Day use only. Treat the memorials with respect.
+  - Map pin is from the state reserves layer.
+alerts:
+  nws_zone: HIZ033
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/keehi-lagoon-memorial-state-park/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

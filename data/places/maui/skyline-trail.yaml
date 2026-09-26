@@ -1,0 +1,41 @@
+id: "skyline-trail"
+name: "Skyline Trail"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.673
+  lng: -156.33
+activities:
+  - "hiking"
+  - "biking"
+  - "four_wheel_drive"
+permits_required: []
+status: "open"
+summary: "DOFAW management road from near the end of Science City Road on the Haleakalā summit ridge down to the Kula Forest Reserve at Polipoli. High, exposed, and windy with volcanic cinder underfoot and big views. Also used for 4WD access by permit holders and hunters."
+aliases:
+  - "Skyline Drive"
+  - "Haleakala Skyline"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Hunters use this area. Wear bright colors and stay on the trail."
+  - "Weather changes fast at 9,000 feet. Bring layers, sun protection, and water."
+  - "Day use only."
+  - "The upper gate near Science City is locked to public vehicles."
+  - "About 6.8 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "altitude"
+  - "cold"
+  - "heat"
+  - "no_water"
+  - "remote"
+  - "hunting_area"
+alerts:
+  nws_zone: "HIZ022"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

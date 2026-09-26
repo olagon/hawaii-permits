@@ -1,0 +1,23 @@
+id: "camp-olowalu-reservation"
+name: "Camp Olowalu reservation"
+issuer: "camp-olowalu"
+category: "camping"
+who_needs: "Anyone camping or staying in a tentalow or cabin at Camp Olowalu."
+how_to_get: "owner_direct"
+url: "https://www.campolowalu.com/reservations/"
+carry_required: true
+covers:
+  - "camp-olowalu"
+booking_window:
+  notes: "Book online through the CampLife reservation link or call 808-661-4303. Check in 2:00 pm, check out 10:00 am. Day guests must leave by 9:30 pm."
+cost:
+  resident: 35
+  nonresident: 35
+  unit: "per adult per night for tent camping, plus tax"
+  note: "Children 9 to 17 are $12 per night. Pets $4 per night. Hawaiʻi residents get 10% off with a state ID. Tentalows and cabins cost more, see the website."
+refund_policy: "Tent camping refundable outside 24 hours minus a $5 fee. Tentalows refundable outside 7 days minus $25. Cabins and groups are nonrefundable within 9 months."
+sources:
+  - "https://www.campolowalu.com/tent-camping/"
+  - "https://www.campolowalu.com/policies/"
+  - "https://www.campolowalu.com/"
+last_verified: "2026-09-25"

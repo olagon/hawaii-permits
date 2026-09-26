@@ -1,0 +1,21 @@
+id: huleia-national-wildlife-refuge
+name: Hulēʻia National Wildlife Refuge
+island: kauai
+land_type: federal
+manager: usfws
+location:
+  lat: 21.9474
+  lng: -159.3833
+activities: [wildlife_viewing]
+permits_required: []
+status: no_public_access
+aliases: [Huleia NWR, Alekoko Fishpond overlook, Menehune Fishpond]
+summary: River bottom wetlands above Nāwiliwili that shelter endangered water birds. Closed to the public. Entry is by special use permit or with refuge staff only. You can view it from the state overlook at the Menehune (Alekoko) Fishpond.
+fees:
+  entry: 0
+rules: [No public entry. Look from the Menehune Fishpond overlook on Hulemalū Road.]
+alerts:
+  nws_zone: HIZ031
+sources: ["https://www.fws.gov/refuge/huleia"]
+last_verified: "2026-09-25"
+verified_by: ai_research

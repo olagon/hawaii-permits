@@ -1,0 +1,26 @@
+id: "puu-anahulu-gma-east-unit-e"
+name: "Puʻu Anahulu Game Management Area, East Section (Unit E)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.79
+  lng: -155.778
+activities: ["hunting", "hiking"]
+permits_required:
+  - permit: "hunting-license"
+    when: "Required to hunt in Unit E. Check the DOFAW Hawaiʻi Island page and the rule exhibits for species, days, and any tag or lottery requirements."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season."
+status: "open"
+summary: "The east section of the Puʻu Anahulu GMA on the saddle between Hualālai and Mauna Loa. Unit E for goats, sheep, pigs, and game birds. Dry, hot, and open."
+fees:
+  entry: 0
+rules: ["Hunters must carry a license and follow Chapter 13-122 (birds) and 13-123 (mammals) rules.", "Hikers should wear bright colors. Hunting dogs may be present.", "Map pin is the unit centroid from DLNR GIS data."]
+hazards: ["hunting_area", "heat", "no_water", "remote"]
+alerts:
+  nws_zone: "HIZ027"
+aliases: ["Puu Anahulu GMA"]
+sources: ["https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/", "https://dlnr.hawaii.gov/recreation/hunting/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

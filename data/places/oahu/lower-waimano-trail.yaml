@@ -1,0 +1,38 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+  - camping
+  - swimming
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp along the trail corridor in ʻEwa Forest Reserve (Waimano section). Reserve on camping.ehawaii.gov.
+status: open
+id: lower-waimano-trail
+name: Lower Waimano Trail
+location:
+  lat: 21.4196
+  lng: -157.9468
+aliases:
+  - Waimano Pools
+  - Lower Waimano
+summary: A 1 mile trail from the Waimano Home Road gate down to Waimano Stream and its swimming pools. Starts left of the fence by the guard shack.
+rules:
+  - Park at the lot by the guard shack.
+  - Flash floods. Do not jump into pools.
+  - Leptospirosis risk in the water.
+  - This is an active hunting area. Wear bright colors.
+hazards:
+  - flash_flood
+  - stream_crossings
+  - mud
+  - hunting_area
+alerts:
+  nws_zone: HIZ036
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://dlnr.hawaii.gov/recreation/camp/
+  - https://camping.ehawaii.gov/camping/all,details,31712.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

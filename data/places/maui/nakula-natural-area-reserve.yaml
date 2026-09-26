@@ -1,0 +1,29 @@
+id: "nakula-natural-area-reserve"
+name: "Nakula Natural Area Reserve"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.682
+  lng: -156.229
+activities:
+  - "wildlife_viewing"
+permits_required: []
+status: "restricted"
+summary: "Reserve created in 2011 on the dry south flank of Haleakalā to restore native koa and māmane forest. Fenced restoration units, no public facilities or marked trails. Contact DLNR before visiting."
+aliases:
+  - "Nakula NAR"
+rules:
+  - "No marked trails. Fenced units are closed. Contact the DLNR Maui office before planning a visit."
+hazards:
+  - "remote"
+  - "heat"
+  - "no_water"
+  - "hunting_area"
+alerts:
+  nws_zone: "HIZ050"
+sources:
+  - "https://dlnr.hawaii.gov/ecosystems/nars/maui/"
+  - "https://dlnr.hawaii.gov/ecosystems/files/2013/09/News-Release-2011Jun08-PR-Nakula-Natural-Area-Reserve-latest-addition-to-state-system.pdf"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

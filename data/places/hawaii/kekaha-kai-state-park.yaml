@@ -1,0 +1,33 @@
+id: "kekaha-kai-state-park"
+name: "Kekaha Kai (Kona Coast) State Park"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 19.79
+  lng: -156.022
+activities: ["swimming", "day_use", "hiking", "snorkeling", "surfing"]
+permits_required:
+  - permit: "state-parks-day-use-reservation"
+    when: "Nonresidents pay the entry and parking fee. Pay online before you arrive or by card at the park."
+status: "open"
+aliases: ["Kekaha Kai", "Kona Coast State Park", "Kua Bay", "Maniniowali", "Mahaiula", "Makalawena"]
+summary: "Wild lava coast north of Kona airport with two sections: Mahaiʻula (sandy beach, rough access road) and Maniniʻōwali, also called Kua Bay. A 4.5 mile stretch of the Ala Kahakai trail links them past Puʻu Kuʻili. Hot, dry, and no drinking water."
+booking:
+  method: "online"
+  url: "https://gostateparks.hawaii.gov/"
+  window_note: "Nonresident entry and parking fees apply at Maniniʻōwali (Kua Bay) since January 2026."
+fees:
+  entry: 5
+  parking: 10
+  resident_entry: 0
+  resident_parking: 0
+  note: "Nonresident fees, credit card only. Residents free with Hawaiʻi ID. Children 3 and under free. Commercial vehicles pay $25 to $90."
+rules: ["Open 8:00am to 6:30pm, gates close 7:00pm.", "No lifeguards. Waves over 3 feet are for experts only.", "Bring all your water."]
+hazards: ["high_surf", "heat", "no_water"]
+alerts:
+  nws_zone: "HIZ023"
+amenities: ["restrooms", "picnic tables"]
+sources: ["https://dlnr.hawaii.gov/dsp/parks/hawaii/kekaha-kai-kona-coast-state-park/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

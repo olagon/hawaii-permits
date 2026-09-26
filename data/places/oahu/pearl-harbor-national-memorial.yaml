@@ -1,0 +1,49 @@
+land_type: federal
+permits_required:
+  - permit: uss-arizona-memorial-ticket
+    when: To ride the boat to the USS Arizona Memorial. Tickets release 56 days ahead and 1 day ahead at 3 pm HST on recreation.gov. The visitor center and museums are free without a ticket.
+id: pearl-harbor-national-memorial
+name: Pearl Harbor National Memorial
+manager: nps
+location:
+  lat: 21.3662
+  lng: -157.9494
+activities:
+  - cultural_visit
+  - day_use
+status: open
+aliases:
+  - USS Arizona Memorial
+  - Pearl Harbor Visitor Center
+  - World War II Valor in the Pacific
+summary: The visitor center, museums and boat program to the USS Arizona Memorial, where the ship and her crew rest below the water. Free entry. The boat program needs a timed ticket and fills weeks ahead.
+booking:
+  method: online
+  url: https://www.recreation.gov/ticket/facility/233338
+  window_note: Tickets open 56 days ahead at 3 pm HST, with a second release 1 day ahead at 3 pm HST.
+fees:
+  entry: 0
+  parking: 7
+  note: Parking is $7 a day, paid by mobile app. The recreation.gov ticket has a $1 fee.
+rules:
+  - Open 7 am to 5 pm daily. Closed Thanksgiving, Christmas and New Year's Day.
+  - No bags, purses or backpacks inside. Bag storage is available near the entrance.
+  - Shirts and shoes required. Quiet and respectful behavior on the memorial.
+  - The Navy may cancel boats in bad weather.
+alerts:
+  nws_zone: HIZ033
+  nps_park_code: perl
+amenities:
+  - restrooms
+  - museum
+  - bookstore
+  - food
+accessibility: The visitor center, boats and memorial are wheelchair accessible.
+cultural_notes: The USS Arizona is a war grave. Treat the memorial as a cemetery.
+sources:
+  - https://www.nps.gov/perl/planyourvisit/hours.htm
+  - https://www.nps.gov/perl/planyourvisit/fees.htm
+  - https://www.recreation.gov/ticket/facility/233338
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

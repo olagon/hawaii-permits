@@ -1,0 +1,17 @@
+id: haena-state-park-reservation
+name: Hāʻena State Park entry reservation
+issuer: dlnr-state-parks
+category: entry_reservation
+who_needs: "Every nonresident visitor to Hāʻena State Park and Kēʻē Beach, including day hikers going to Hanakāpīʻai on the Kalalau Trail. Hawaiʻi residents with ID enter free but must still reserve a spot. People with a valid Nāpali Coast camping permit do not need this reservation."
+how_to_get: online
+url: "https://gohaena.com/"
+carry_required: true
+covers: [haena-state-park, kalalau-trail]
+booking_window:
+  notes: "Book at gohaena.com. Choose shuttle plus entry, parking plus entry (very limited), or entry only for residents and people walking or biking in. Shuttles run from the Waipā park and ride and from Princeville. The site did not show the advance window when checked; check the site for how far ahead slots open."
+cost:
+  resident: 0
+  nonresident: see_source
+  note: "Fees for entry, parking, and shuttle are shown at checkout on gohaena.com."
+sources: ["https://gohaena.com/", "https://dlnr.hawaii.gov/dsp/parks/kauai/"]
+last_verified: "2026-09-25"

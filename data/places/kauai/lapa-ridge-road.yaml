@@ -1,0 +1,28 @@
+id: lapa-ridge-road
+name: Lapa Ridge Road
+island: kauai
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 22.0805
+  lng: -159.6944
+activities: [hiking, biking, four_wheel_drive, hunting]
+permits_required:
+  - permit: hunting-license
+    when: Only if you are hunting. Hikers do not need it. Hunting dogs may be off leash; keep your own dog leashed.
+status: closed
+summary: "This road provides access to Hunting Unit \"A\". The road does a loop within Puu ka Pele Forest Reserve and passes through an old eucalyptus plantation. About 3.5 miles one way."
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says Nā Ala Hele trails on Kauaʻi stay closed until they are safe. Check hawaiitrails.hawaii.gov before you go.
+  - Hunting may be in progress. Wear bright colors and keep dogs leashed.
+  - Commercial use needs a Nā Ala Hele permit. Stay on the marked trail; side routes may cross private land.
+hazards: [hunting_area]
+alerts:
+  nws_zone: HIZ004
+amenities: [restroom, picnic table, shelter]
+sources:
+  - "https://hawaiitrails.hawaii.gov/trails/#/trail/lapa-ridge-road/53"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+  - "https://mauinow.com/2026/09/20/dlnr-announces-limited-reopening-of-select-kaua%CA%BBi-lands-on-monday/"
+last_verified: "2026-09-25"
+verified_by: ai_research

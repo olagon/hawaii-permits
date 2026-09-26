@@ -1,0 +1,25 @@
+id: hulopoe-huawai-fishing-trail
+name: Hulopoʻe-Huawai Fishing Trail
+island: lanai
+land_type: state
+manager: dlnr-dofaw
+location: { lat: 20.738, lng: -156.917 }
+activities: [hiking, fishing, cultural_visit]
+permits_required: []
+status: open
+aliases: [Hulopei-Huawai Fishing Trail, Kapihaʻā Trail, Kapihaa Fisherman Trail, Fisherman's Trail]
+summary: Nā Ala Hele coastal trail of about 1.75 miles starting at the west end of Hulopoʻe Beach and following the cliffs west past the Kapihaʻā village site toward Huawai Bay. Crosses private Pūlama Lānaʻi land, so stay on the trail. Fishing spots below the cliffs are reached by rope and are for experienced local fishers only.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - Stay on the marked trail. The land on both sides is private.
+  - Cliff edges crumble and waves wash the lower ledges. Do not go down the ropes.
+  - Do not move stones at the village site.
+hazards: [steep_drop, high_surf, heat, no_water]
+alerts: { nws_zone: HIZ044 }
+amenities: [restrooms, showers, parking, picnic_tables]
+sources:
+  - https://hawaiitrails.ehawaii.gov/trails/
+  - https://www.gohawaii.com/islands/lanai/things-to-do/land-activities/Hiking
+last_verified: 2026-09-25
+verified_by: ai_research

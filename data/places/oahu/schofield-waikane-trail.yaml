@@ -1,0 +1,35 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required:
+  - permit: schofield-waikane-army-permission
+    when: Everyone. Access is through Schofield Barracks. Send a letter at least 10 business days ahead. Weekends only, sunrise to sunset.
+status: open
+id: schofield-waikane-trail
+name: Schofield-Waikāne Trail
+location:
+  lat: 21.5074
+  lng: -157.9568
+aliases:
+  - Schofield-Waikane Trail
+  - Schofield Waikane
+summary: A 4 mile graded trail (about 14 miles round trip with the road) from the back of Schofield Barracks along a long ridge to the Koʻolau summit above Waikāne. Army written permission is required.
+rules:
+  - Weekends only with an approval letter. Carry a printed copy.
+  - Cliffs and mud on the ridge. Cloud and rain most afternoons.
+  - No drinking water. Treat all stream water.
+hazards:
+  - steep_drop
+  - mud
+  - no_water
+  - cold
+  - remote
+alerts:
+  nws_zone: HIZ036
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://home.army.mil/hawaii/my-fort/recreation/hiking
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

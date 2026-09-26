@@ -1,0 +1,40 @@
+id: "kealia-pond-national-wildlife-refuge"
+name: "Keālia Pond National Wildlife Refuge"
+island: "maui"
+land_type: "federal"
+manager: "usfws"
+location:
+  lat: 20.795
+  lng: -156.482
+activities:
+  - "wildlife_viewing"
+  - "day_use"
+  - "hiking"
+permits_required: []
+status: "open"
+summary: "Coastal wetland between Kīhei and Māʻalaea with a visitor center, the Kanuimanu Ponds trail, and the Keālia Coastal Boardwalk along North Kīhei Road. The boardwalk is open daily 6:30 am to 7:00 pm. No fee. Parking lot repaving causes short closures through early October 2026."
+aliases:
+  - "Kealia Pond"
+  - "Kealia Coastal Boardwalk"
+  - "Kealia NWR"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Boardwalk open 6:30 am to 7:00 pm daily. Refuge headquarters and Kanuimanu trail open 7:30 am to 5:00 pm weekdays."
+  - "Visitor center open weekdays 9:00 am to 3:00 pm and the first Saturday of the month."
+  - "Stay on the boardwalk and trails. Do not disturb nesting birds."
+  - "Check the refuge page for temporary closures."
+alerts:
+  nws_zone: "HIZ046"
+amenities:
+  - "visitor_center"
+  - "restrooms"
+  - "parking"
+  - "boardwalk"
+accessibility: "The coastal boardwalk is flat and wheelchair accessible."
+sources:
+  - "https://www.fws.gov/refuge/kealia-pond/visit-us"
+  - "https://www.fws.gov/refuge/kealia-pond"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

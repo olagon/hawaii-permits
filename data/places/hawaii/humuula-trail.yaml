@@ -1,0 +1,22 @@
+id: "humuula-trail"
+name: "Humuʻula Trail (Mauna Kea)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.978
+  lng: -155.295
+activities: ["hiking"]
+permits_required: []
+status: "restricted"
+aliases: ["Humuula Trail"]
+summary: "The historic 5.5 mile route on the Hilo Forest Reserve side of Mauna Kea near Kaula Gulch. Nā Ala Hele lists it as private access, needing permission from the landowner (formerly Hamakua Sugar). Hunters and rough footing. Not the same as the summit trail from the Visitor Information Station, which the Center for Maunakea Stewardship closed after Hurricane Nolo in September 2026."
+fees:
+  entry: 0
+rules: ["Crosses private land. Get landowner permission before hiking.", "Hunters use this area.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["hunting_area", "altitude", "cold", "remote"]
+alerts:
+  nws_zone: "HIZ027"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://hilo.hawaii.edu/maunakea/visitor-information"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

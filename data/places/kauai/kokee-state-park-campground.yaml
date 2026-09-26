@@ -1,0 +1,38 @@
+id: kokee-state-park-campground
+name: Kōkeʻe State Park campground
+island: kauai
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 22.1296
+  lng: -159.6572
+activities: [camping]
+permits_required:
+  - permit: state-parks-camping-permit
+    when: "Every night. $20 resident or $30 nonresident per site, up to 10 people, 5 nights max, 90 day window."
+status: closed
+aliases: [Kokee campground]
+summary: Tent campground in the Kōkeʻe meadow area run by State Parks. Cold and wet at night. Closed after Hurricane Lowell.
+booking:
+  method: online
+  url: "https://explore.ehawaii.gov/"
+  window_note: Reservations open 90 days ahead. All Kauaʻi camping is closed until further notice.
+fees:
+  camping_per_night: 30
+  resident_camping_per_night: 20
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says its Kauaʻi lands stay closed until they are safe. Check the DLNR page before you go.
+  - Map pin is approximate.
+  - Wait 30 days before camping in the same park again.
+hazards: [cold, mud]
+alerts:
+  nws_zone: HIZ004
+amenities: [restrooms, picnic tables]
+max_stay_nights: 5
+group_size_limit: 10
+sources:
+  - "https://dlnr.hawaii.gov/dsp/camping-lodging/kauai/"
+  - "https://dlnr.hawaii.gov/dsp/parks/kauai/kokee-state-park/"
+  - "https://www.thegardenisland.com/2026/09/17/hawaii-news/dlnr-lands-on-remain-closed-for-public-safety/"
+last_verified: "2026-09-25"
+verified_by: ai_research

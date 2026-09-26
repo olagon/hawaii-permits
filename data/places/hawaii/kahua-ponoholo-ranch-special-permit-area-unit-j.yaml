@@ -1,0 +1,26 @@
+id: "kahua-ponoholo-ranch-special-permit-area-unit-j"
+name: "Kahua and Ponoholo Ranch Special Permit Area (Unit J, birds only)"
+island: "hawaii"
+land_type: "private"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.116
+  lng: -155.801
+activities: ["hunting"]
+permits_required:
+  - permit: "hunting-license"
+    when: "Required to hunt in Unit J. Unit J, game birds only, by special permit from DOFAW. Private land."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season."
+status: "restricted"
+summary: "Private ranch land in the Kohala mountains open for game bird hunting only through a cooperative agreement, by special permit from DOFAW. Not open for general hiking."
+fees:
+  entry: 0
+rules: ["Hunters must carry a license and follow Chapter 13-122 (birds) and 13-123 (mammals) rules.", "Hikers should wear bright colors. Hunting dogs may be present.", "Map pin is the unit centroid from DLNR GIS data."]
+hazards: ["hunting_area", "cold", "remote"]
+alerts:
+  nws_zone: "HIZ026"
+aliases: ["Kahua Ranch", "Ponoholo Ranch"]
+sources: ["https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/", "https://dlnr.hawaii.gov/recreation/hunting/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

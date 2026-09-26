@@ -1,0 +1,40 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+  - camping
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp at the trail shelter in ʻEwa Forest Reserve (Waimano section). Reserve on camping.ehawaii.gov.
+status: open
+id: waimano-trail
+name: Waimano Trail
+location:
+  lat: 21.417
+  lng: -157.951
+aliases:
+  - Waimano Ridge Trail
+  - Upper Waimano Trail
+summary: A 7.2 mile trail from the Waimano Home Road gate along an old ditch and up the ridge to the Koʻolau summit. Long and muddy with a shelter partway.
+rules:
+  - Park at the lot by the guard shack. Start left of the fence.
+  - Flash floods on the lower section. Cliffs near the summit.
+  - This is an active hunting area. Wear bright colors.
+  - No drinking water. Treat all stream water.
+hazards:
+  - flash_flood
+  - steep_drop
+  - mud
+  - hunting_area
+  - no_water
+alerts:
+  nws_zone: HIZ036
+amenities:
+  - shelter
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://dlnr.hawaii.gov/recreation/camp/
+  - https://camping.ehawaii.gov/camping/all,details,31712.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

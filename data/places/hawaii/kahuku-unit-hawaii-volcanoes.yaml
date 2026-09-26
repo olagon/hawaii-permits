@@ -1,0 +1,25 @@
+id: "kahuku-unit-hawaii-volcanoes"
+name: "Kahuku Unit, Hawaiʻi Volcanoes National Park"
+island: "hawaii"
+land_type: "federal"
+manager: "nps"
+location:
+  lat: 19.106
+  lng: -155.686
+activities: ["hiking", "day_use", "wildlife_viewing"]
+permits_required: []
+status: "restricted"
+aliases: ["Kahuku", "Kahuku Ranch"]
+summary: "Former ranch land on Mauna Loa in Kaʻū, near mile 70.5 on Highway 11. Eight hiking trails from 0.4 to 7 miles. Open Thursday to Sunday, 8am to 4pm. No drinking water. Closed after storm damage in August 2026 and for Tropical Storm Nolo in September 2026."
+fees:
+  entry: 0
+  note: "Kahuku itself has not charged a separate fee. The park entrance pass covers the whole park. Check the park site."
+rules: ["Open Thursday through Sunday, 8am to 4pm. Closed Monday to Wednesday.", "No drinking water.", "Some trails require boot cleaning at the Rapid ʻŌhiʻa Death gate.", "Lava fields have deep cracks and sharp rock.", "Map pin is approximate.", "Most of the park closed on September 24, 2026 for Tropical Storm Nolo. Check the park alerts page before you go."]
+hazards: ["heat", "no_water", "steep_drop"]
+alerts:
+  nws_zone: "HIZ051"
+  nps_park_code: "havo"
+amenities: ["restrooms", "visitor contact station"]
+sources: ["https://www.nps.gov/havo/planyourvisit/kahuku.htm", "https://www.nps.gov/havo/planyourvisit/hours.htm", "https://www.nps.gov/havo/learn/news/20260828-nr-most-of-park-reopens.htm"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

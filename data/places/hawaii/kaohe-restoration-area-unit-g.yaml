@@ -1,0 +1,25 @@
+id: "kaohe-restoration-area-unit-g"
+name: "Kaʻohe Restoration Area (Unit G, birds only)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.829
+  lng: -155.615
+activities: ["hunting", "hiking"]
+permits_required:
+  - permit: "hunting-license"
+    when: "Required to hunt in Unit G. Unit G, game birds only. No mammal hunting."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season."
+status: "open"
+summary: "Fenced forest restoration area in the Kaʻohe GMA. Open for game bird hunting only."
+fees:
+  entry: 0
+rules: ["Hunters must carry a license and follow Chapter 13-122 (birds) and 13-123 (mammals) rules.", "Hikers should wear bright colors. Hunting dogs may be present.", "Map pin is the unit centroid from DLNR GIS data."]
+hazards: ["hunting_area", "cold", "altitude"]
+alerts:
+  nws_zone: "HIZ027"
+sources: ["https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/", "https://dlnr.hawaii.gov/recreation/hunting/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

@@ -1,0 +1,29 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: kuliouou-valley-trail
+name: Kuliʻouʻou Valley Trail
+location:
+  lat: 21.3112
+  lng: -157.7249
+aliases:
+  - Kuliouou Valley Trail
+summary: A rough 1.5 mile trail up the stream bed of Kuliʻouʻou Valley from the same trailhead as the ridge trail. Shady and often muddy.
+rules:
+  - Flash floods in the stream.
+  - Rough trail with uneven footing.
+  - This is an active hunting area. Wear bright colors.
+hazards:
+  - flash_flood
+  - mud
+  - hunting_area
+alerts:
+  nws_zone: HIZ032
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

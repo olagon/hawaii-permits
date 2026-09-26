@@ -1,0 +1,28 @@
+id: haena-beach-park
+name: Hāʻena Beach Park
+island: kauai
+land_type: county
+manager: kauai-parks
+location:
+  lat: 22.225
+  lng: -159.564
+activities: [swimming, day_use, snorkeling]
+permits_required: []
+status: closed
+aliases: [Haena Beach Park, Haena County Park]
+summary: "County beach park with a lifeguard tower near Maniniholo dry cave, just before Hāʻena State Park. The county facilities list mentions camping, but the county is not issuing camping permits here. Closed after Hurricane Lowell."
+rules:
+  - "No camping. The county issues camping permits only for ʻAnini, Anahola, Salt Pond, and Lydgate."
+  - "Closed after Hurricane Lowell per the county update of September 25, 2026."
+  - Map pin is approximate.
+hazards: [high_surf]
+alerts:
+  nws_zone: HIZ029
+amenities: [restrooms, showers, pavilion, lifeguard]
+sources:
+  - "https://www.kauai.gov/Government/Departments-Agencies/Parks/Permitting/Camping"
+  - "https://www.kauai.gov/Government/Departments-Agencies/Parks/Facilities"
+  - "https://www.thegardenisland.com/2026/09/25/hawaii-news/county-updates-hurricane-lowell-recovery-status/"
+  - "https://www.kauai.gov/County-Press-Releases/County-to-close-parks-and-campgrounds-open-refuge-areas-at-5-p.m"
+last_verified: "2026-09-25"
+verified_by: ai_research

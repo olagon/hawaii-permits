@@ -1,0 +1,37 @@
+id: "waihou-spring-trail"
+name: "Waihou Spring Trail (Waihou Spring Forest Reserve)"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.804
+  lng: -156.281
+activities:
+  - "hiking"
+permits_required: []
+status: "open"
+summary: "Gentle loop on a plantation road through cypress and eucalyptus in the small Waihou Spring Forest Reserve above Makawao on Olinda Road, with a steep spur down to the spring in Kailua Gulch. Open sunrise to sunset. Park outside the gate on Olinda Road."
+aliases:
+  - "Waihou Springs"
+  - "Waihou Spring Forest Reserve"
+  - "Olinda trail"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Open sunrise to sunset."
+  - "Park on Olinda Road outside the gate, do not block it."
+  - "The spur to the spring is steep and slippery."
+  - "About 1.1 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "mud"
+  - "steep_drop"
+alerts:
+  nws_zone: "HIZ049"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+  - "https://dlnr.hawaii.gov/forestry/frs/reserves/maui-nui/waihou-spring/"
+  - "https://dlnr.hawaii.gov/blog/2024/03/22/nr24-27/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

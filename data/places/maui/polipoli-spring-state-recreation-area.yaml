@@ -1,0 +1,56 @@
+id: "polipoli-spring-state-recreation-area"
+name: "Polipoli Spring State Recreation Area"
+island: "maui"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 20.678
+  lng: -156.33
+activities:
+  - "camping"
+  - "cabin"
+  - "hiking"
+permits_required:
+  - permit: "state-parks-camping-permit"
+    when: "To camp, when the park reopens. Book 90 days ahead."
+  - permit: "state-parks-cabin-permit"
+    when: "For the one cabin, sleeps 8, when the park reopens."
+status: "closed"
+summary: "High, cold campground and one cabin at 6,200 feet in the Kula Forest Reserve. DLNR lists Polipoli as closed until further notice. When open, camping and the cabin are booked through explore.ehawaii.gov and the last stretch of road needs 4WD."
+aliases:
+  - "Polipoli"
+  - "Polipoli Springs"
+  - "Polipoli State Park"
+booking:
+  method: "online"
+  url: "https://explore.ehawaii.gov/"
+  window_note: "Closed until further notice as of September 2026. Check the DLNR page before planning a trip."
+fees:
+  camping_per_night: 30
+  resident_camping_per_night: 20
+  note: "Cabin $70 resident, $100 nonresident per night."
+rules:
+  - "Closed until further notice. Do not enter closed areas."
+  - "4WD required past the forest reserve gate. Fog and mud are common."
+  - "No showers. Nights drop below freezing in winter."
+  - "Cabin has no electricity."
+hazards:
+  - "cold"
+  - "altitude"
+  - "mud"
+  - "remote"
+  - "hunting_area"
+alerts:
+  nws_zone: "HIZ049"
+amenities:
+  - "restrooms"
+  - "picnic_tables"
+  - "cabin"
+max_stay_nights: 5
+sources:
+  - "https://dlnr.hawaii.gov/dsp/parks/maui/polipoli-spring-state-recreation-area/"
+  - "https://dlnr.hawaii.gov/dsp/camping-lodging/maui/"
+  - "https://dlnr.hawaii.gov/dsp/parks/maui/"
+  - "https://dlnr.hawaii.gov/dsp/announcements/polipoli-springs-state-recreation-area-closed-indefinitely/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

@@ -1,0 +1,37 @@
+id: "west-maui-natural-area-reserve"
+name: "West Maui Natural Area Reserve"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.949
+  lng: -156.565
+activities:
+  - "hiking"
+  - "wildlife_viewing"
+permits_required: []
+status: "restricted"
+summary: "Four sections (Honokōwai, Kahakuloa, Līhau, Panaewa) of steep West Maui rainforest and bog. There are no maintained public trails inside the reserve. Hunting unit A and the Waiheʻe Ridge Trail run near the Kahakuloa section boundary. Entry beyond the trail needs a DLNR permit."
+aliases:
+  - "West Maui NAR"
+  - "Kahakuloa section"
+  - "Honokowai section"
+  - "Lihau section"
+  - "Panaewa section"
+rules:
+  - "No maintained trails. Do not leave the Nā Ala Hele trails that pass the boundary."
+  - "Research and management entry needs a DLNR permit."
+  - "Map pin is at the Kahakuloa section. Map pin is approximate."
+hazards:
+  - "remote"
+  - "mud"
+  - "steep_drop"
+  - "flash_flood"
+  - "hunting_area"
+alerts:
+  nws_zone: "HIZ017"
+sources:
+  - "https://dlnr.hawaii.gov/ecosystems/nars/maui/"
+  - "https://dlnr.hawaii.gov/ecosystems/nars/maui/west-maui-2/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

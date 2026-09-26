@@ -1,10 +1,10 @@
 id: lehua-island
 name: Lehua Island Seabird Sanctuary
-island: kauai
+island: niihau
 land_type: state
 manager: dlnr-dofaw
 location: { lat: 22.022, lng: -160.095 }
-activities: [snorkeling, boating]
+activities: [wildlife_viewing, snorkeling, boating]
 permits_required: []
 status: restricted
 aliases: [Lehua, Lehua Islet, Lehua Rock]
@@ -16,6 +16,7 @@ rules:
   - No commercial activity on the island itself.
   - Help keep rats off the island. Check your boat and gear.
 hazards: [high_surf, remote]
+alerts: { nws_zone: HIZ001 }
 sources:
   - https://dlnr.hawaii.gov/wildlife/lehua/
   - https://dlnr.hawaii.gov/wildlife/sanctuaries/kaua%CA%BBi-offshore-islets-seabird-sanctuaries/

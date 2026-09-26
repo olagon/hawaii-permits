@@ -28,6 +28,10 @@ const islandIds = new Set(all.islands.map((i) => i.id));
 const permitIds = new Set(all.permits.map((p) => p.data?.id));
 const agencyIds = new Set(all.agencies.map((a) => a.data?.id));
 const placeIds = new Set(all.places.map((p) => p.data?.id));
+for (const [name, list] of [['place', all.places], ['permit', all.permits], ['agency', all.agencies]]) {
+  const seen = new Map();
+  for (const e of list) { const id = e.data?.id; if (seen.has(id)) err(e.file, `duplicate ${name} id "${id}" also in ${seen.get(id)}`); else seen.set(id, e.file); }
+}
 
 function checkSchema(kind, entry) {
   if (!validators[kind](entry.data)) {

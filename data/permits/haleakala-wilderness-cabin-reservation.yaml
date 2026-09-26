@@ -1,0 +1,24 @@
+id: "haleakala-wilderness-cabin-reservation"
+name: "Haleakalā wilderness cabin reservation"
+issuer: "nps"
+category: "cabin"
+who_needs: "Anyone staying in the Hōlua, Kapalaoa, or Palikū cabins inside the crater. Reached only by trail."
+how_to_get: "online"
+url: "https://www.recreation.gov/"
+carry_required: true
+covers:
+  - "haleakala-holua-cabin"
+  - "haleakala-kapalaoa-cabin"
+  - "haleakala-paliku-cabin"
+booking_window:
+  opens_days_before: 180
+  notes: "Book on recreation.gov or by phone at 1-877-444-6777 up to 6 months ahead. Permits are not transferable. Carry a printed confirmation. Enter the park no earlier than 7:00 am unless you also hold a sunrise reservation."
+cost:
+  resident: 75
+  nonresident: 75
+  unit: "per cabin per night"
+  note: "Each cabin sleeps up to 12. Bring your own sleeping bag. Park entrance fee is separate."
+valid_for: "Up to 3 consecutive nights. Total overnight stays in the park are limited to 3 nights in any 30 day period."
+sources:
+  - "https://www.nps.gov/hale/planyourvisit/wilderness-cabins.htm"
+last_verified: "2026-09-25"

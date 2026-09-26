@@ -1,0 +1,31 @@
+id: pihea-trail
+name: Pihea Trail
+island: kauai
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 22.1474
+  lng: -159.6314
+activities: [hiking, camping, hunting]
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp at the campsites or cabin along this trail. Reserve online and carry a printed permit.
+  - permit: hunting-license
+    when: Only if you are hunting. Hikers do not need it. Hunting dogs may be off leash; keep your own dog leashed.
+status: closed
+summary: "The trail begins at Puu O Kila Lookout at the end of Highway 550. The Pihea Trail is a recommended forest reserve trail for scenic views, observing Kauai‘s native forest birds and sampling the Alakai Wilderness' terrain and vegetation. This is an alternate route to the Alakai Swamp Trail, which intersects the Pihea Trail just before 1 3/4 mile point. There is a short spur that ends at the Pihea Overlook, the highest point on the rim of Kalalau Valley. Caution - do not go beyond the Pihea Overlook. The terrain gets very steep beyond this point. About 3.8 miles one way."
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says Nā Ala Hele trails on Kauaʻi stay closed until they are safe. Check hawaiitrails.hawaii.gov before you go.
+  - Hunting may be in progress. Wear bright colors and keep dogs leashed.
+  - Commercial use needs a Nā Ala Hele permit. Stay on the marked trail; side routes may cross private land.
+  - Do not go past the Pihea Overlook. The ridge beyond is very steep.
+hazards: [cold, flash_flood, hunting_area, mud, steep_drop]
+alerts:
+  nws_zone: HIZ004
+amenities: [parking, picnic table, campsites, shelter]
+sources:
+  - "https://hawaiitrails.hawaii.gov/trails/#/trail/pihea-trail/67"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+  - "https://mauinow.com/2026/09/20/dlnr-announces-limited-reopening-of-select-kaua%CA%BBi-lands-on-monday/"
+last_verified: "2026-09-25"
+verified_by: ai_research

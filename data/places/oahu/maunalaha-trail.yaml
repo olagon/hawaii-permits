@@ -1,0 +1,33 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: maunalaha-trail
+name: Maunalaha Trail
+location:
+  lat: 21.3209
+  lng: -157.8203
+aliases:
+  - Maunalaha Trail
+summary: A 0.7 mile trail up the east ridge of Makiki Valley from the Hawaiʻi Nature Center, past old taro terraces. Usually hiked as part of the Makiki loop.
+rules:
+  - Steep, rocky steps. Slippery in rain.
+hazards:
+  - mud
+  - falling_rock
+  - steep_drop
+alerts:
+  nws_zone: HIZ033
+amenities:
+  - restrooms
+  - drinking water
+  - picnic table
+  - parking
+cultural_notes: Passes old agricultural terraces. Stay on the trail.
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

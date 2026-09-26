@@ -1,0 +1,26 @@
+id: "kulani-buffer-zone-gma-unit-h"
+name: "Kūlani Buffer Zone Game Management Area (Unit H)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.579
+  lng: -155.303
+activities: ["hunting", "hiking"]
+permits_required:
+  - permit: "hunting-license"
+    when: "Required to hunt in Unit H. Unit H. Check with DOFAW Hilo for access days and any permit."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season."
+status: "open"
+summary: "Buffer lands around the former Kūlani facility above Volcano. Unit H for pigs and game birds. Access is by permit or on scheduled days. Check with the DOFAW Hilo office."
+fees:
+  entry: 0
+rules: ["Hunters must carry a license and follow Chapter 13-122 (birds) and 13-123 (mammals) rules.", "Hikers should wear bright colors. Hunting dogs may be present.", "Map pin is the unit centroid from DLNR GIS data."]
+hazards: ["hunting_area", "mud", "remote"]
+alerts:
+  nws_zone: "HIZ052"
+aliases: ["Kulani GMA"]
+sources: ["https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/", "https://dlnr.hawaii.gov/recreation/hunting/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

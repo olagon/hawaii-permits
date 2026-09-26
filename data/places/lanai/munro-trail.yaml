@@ -1,0 +1,24 @@
+id: munro-trail
+name: Munro Trail
+island: lanai
+land_type: private
+manager: pulama-lanai
+location: { lat: 20.836, lng: -156.910 }
+activities: [hiking, biking, four_wheel_drive, scenic_drive]
+permits_required: []
+status: closed
+aliases: [Munro Trail Road, Lānaʻihale, Lanaihale]
+summary: 12.8 mile one lane dirt road over the spine of Lānaʻi through Cook pines to the 3,370 foot summit of Lānaʻihale, with views of up to five other islands on a clear day. It is on private Pūlama Lānaʻi land. The Hawaiʻi Tourism Authority page says the trail is currently closed for construction and restoration. Check with Pūlama Lānaʻi before planning a hike or drive.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - Closed for restoration work as of this check. Do not drive around barriers.
+  - When open, the road is narrow, muddy after rain, and has steep drops. 4 wheel drive only, no driving in wet weather.
+  - Map pin is approximate, near the north trailhead above Kōʻele.
+hazards: [mud, steep_drop, cold, remote]
+alerts: { nws_zone: HIZ015 }
+sources:
+  - https://www.gohawaii.com/islands/lanai/regions/central-lanai/munro-trail
+  - https://www.pulamalanai.com/
+last_verified: 2026-09-25
+verified_by: ai_research

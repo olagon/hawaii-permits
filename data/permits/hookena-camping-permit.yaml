@@ -1,0 +1,20 @@
+id: "hookena-camping-permit"
+name: "Hoʻokena Beach Park camping permit"
+issuer: "friends-of-hookena-beach-park"
+category: "camping"
+who_needs: "Anyone camping at Hoʻokena Beach Park in South Kona. The park is a county park run by a community group, so county permits are not used here."
+how_to_get: "owner_direct"
+url: "https://www.hookena.org/camping.html"
+carry_required: true
+covers: ["hookena-beach-park"]
+booking_window:
+  notes: "Book online through the link on hookena.org at least 72 hours ahead, or call 808-765-8053 or 808-765-8167 (allow 4 days). Same day walk-up camping is first come, cash only. No check in after 8:45pm. Checkout is noon."
+cost:
+  resident: 6
+  nonresident: 21
+  unit: "per person per night"
+  note: "Residents pay $6 adult, $3 junior (13 to 17), $1 child with Hawaiʻi ID. Nonresidents pay $21 per person age 7 and up. Prices include a $1 transaction fee."
+valid_for: "Up to one week June through August, up to two weeks the rest of the year."
+age_minimum: 18
+sources: ["https://www.hookena.org/camping.html"]
+last_verified: "2026-09-25"

@@ -1,0 +1,31 @@
+id: lanai-hunting-unit-3
+name: Lānaʻi Hunting Unit 3
+island: lanai
+land_type: private
+manager: dlnr-dofaw
+location: { lat: 20.821, lng: -156.964 }
+activities: [hunting]
+permits_required:
+  - permit: hunting-license
+    when: Always.
+  - permit: lanai-cgma-hunt-tag
+    when: Drawn hunt permit and tag for axis deer or mouflon sheep.
+  - permit: game-bird-stamp
+    when: To hunt game birds in the bird season.
+status: seasonal
+aliases: [Lanai Unit 3, Lanai Cooperative Game Management Area Unit 3]
+summary: Unit 3 of the Lānaʻi Cooperative Game Management Area, private Pūlama Lānaʻi land on the northwest of the island where DLNR runs public axis deer and mouflon sheep hunts by lottery. Mammal hunting is archery only in this unit. Hunt dates, tag fees, and check station rules are in each season's DLNR announcement. Map pin is the unit centroid.
+booking: { method: online, url: https://gohunthawaii.ehawaii.gov/, window_note: Apply in the fall for the spring deer season. Separate drawings for Lānaʻi residents and the public. }
+fees: { entry: 0, note: $10 application fee. Tags are $20 resident and $125 nonresident. }
+rules:
+  - Hunt only on your drawn dates and in your drawn unit. Validate your permit at the Lānaʻi check station first.
+  - Stay out of posted safety zones along roads and the shoreline and out of the Kānepuʻu Preserve.
+  - Hunters under 16 must be with a licensed adult.
+  - Map pin is approximate.
+hazards: [hunting_area, heat, no_water, remote]
+sources:
+  - https://gohunthawaii.ehawaii.gov/public/hunts/67-330a3ec34a0bf404
+  - https://dlnr.hawaii.gov/recreation/hunting/lanai/
+  - https://dlnr.hawaii.gov/recreation/hunting/gma/lanai/
+last_verified: 2026-09-25
+verified_by: ai_research

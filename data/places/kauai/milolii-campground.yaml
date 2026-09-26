@@ -1,0 +1,36 @@
+id: milolii-campground
+name: Miloliʻi campground
+island: kauai
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 22.1534
+  lng: -159.7151
+activities: [camping, boating, snorkeling]
+permits_required:
+  - permit: napali-coast-camping-permit
+    when: "Every night, per person. Boat landing is allowed only in the summer season with the permit."
+status: closed
+aliases: [Milolii]
+summary: Remote beach camp on the western Nāpali coast reached only by boat in summer. Landing needs a state permit. Closed after Hurricane Lowell.
+booking:
+  method: online
+  url: "https://explore.ehawaii.gov/"
+fees:
+  camping_per_night: 35
+  resident_camping_per_night: 25
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says its Kauaʻi lands stay closed until they are safe. Check the DLNR page before you go.
+  - Map pin is approximate.
+  - Summer only. Check the DLNR page for the current landing season and boat rules.
+  - No water source you can count on. Bring your own.
+hazards: [high_surf, remote, no_water, heat]
+alerts:
+  nws_zone: HIZ029
+max_stay_nights: 5
+sources:
+  - "https://dlnr.hawaii.gov/dsp/camping-lodging/kauai/"
+  - "https://dlnr.hawaii.gov/dsp/parks/kauai/napali-coast-state-wilderness-park/"
+  - "https://www.thegardenisland.com/2026/09/17/hawaii-news/dlnr-lands-on-remain-closed-for-public-safety/"
+last_verified: "2026-09-25"
+verified_by: ai_research

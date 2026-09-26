@@ -1,0 +1,20 @@
+id: "waihee-refuge-camping-reservation"
+name: "Waiheʻe Refuge volunteer camping reservation"
+issuer: "hawaii-land-trust"
+category: "camping"
+who_needs: "People who have volunteered at a Hawaiʻi Land Trust event at the Waiheʻe Refuge. You must attend and sign in at a volunteer day before you can book. Each camping visit needs a new volunteer day first."
+how_to_get: "owner_direct"
+url: "https://www.hilt.org/waihee-reservations"
+carry_required: true
+covers:
+  - "waihee-coastal-dunes-and-wetlands-refuge"
+booking_window:
+  opens_days_before: 60
+  notes: "Dates open about 60 days ahead on the Planyo calendar. Reservations are cancelled when forecast wind gusts reach 35 mph because of tree hazards. Breaking the rules of use means at least a 1 year suspension."
+cost:
+  resident: "see_source"
+  nonresident: "see_source"
+sources:
+  - "https://www.hilt.org/waihee-reservations"
+  - "https://www.hilt.org/camp"
+last_verified: "2026-09-25"

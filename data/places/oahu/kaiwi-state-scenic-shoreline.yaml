@@ -1,0 +1,43 @@
+id: kaiwi-state-scenic-shoreline
+name: Kaiwi State Scenic Shoreline
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.305
+  lng: -157.655
+activities:
+  - hiking
+  - day_use
+  - wildlife_viewing
+  - fishing
+permits_required: []
+status: open
+aliases:
+  - Makapuʻu Point Lighthouse Trail
+  - Makapuu Lighthouse Trail
+  - Kaiwi Coast
+summary: Rugged coastline between Sandy Beach and Makapuʻu with the paved 2 mile round trip Makapuʻu Point Lighthouse Trail. Great whale watching from November to May.
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - Open 7 am to 7:45 pm April 1 through Labor Day, and 7 am to 6:45 pm the rest of the year. The gate closes and cars left inside get locked in.
+  - The trail is paved but steep, hot and windy with no shade or water.
+  - Parking fills by mid morning. Do not park on the highway.
+  - Stay on the trail and off the cliffs.
+hazards:
+  - heat
+  - steep_drop
+  - no_water
+  - high_surf
+alerts:
+  nws_zone: HIZ032
+amenities:
+  - parking
+accessibility: The trail is paved but steep. Wheelchair users may need help.
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/kaiwi-state-scenic-shoreline/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

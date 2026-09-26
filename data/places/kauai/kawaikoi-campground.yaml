@@ -1,0 +1,35 @@
+id: kawaikoi-campground
+name: Kawaikōī campground
+island: kauai
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 22.1309
+  lng: -159.6219
+activities: [camping, hiking]
+permits_required:
+  - permit: dofaw-camping-permit
+    when: Every night. Reserve and pay online and carry a printed permit. No free camping in forest reserves.
+status: closed
+summary: Campsite across the stream from Sugi Grove at the Kawaikōī Stream Trail trailhead in Nā Pali-Kona Forest Reserve. The Pihea Trail ends here.
+booking:
+  method: online
+  url: "https://camping.ehawaii.gov/camping/welcome.html"
+fees:
+  camping_per_night: see_source
+  resident_camping_per_night: see_source
+rules:
+  - No DOFAW campgrounds or shelters on Kauaʻi are open after Hurricane Lowell (September 2026). Check camping.ehawaii.gov and the DLNR page before you go.
+  - Map pin is approximate.
+  - The Mōhihi-Camp 10 Road is 4WD only and very slick when wet.
+hazards: [cold, mud, flash_flood, hunting_area, remote]
+alerts:
+  nws_zone: HIZ004
+max_stay_nights: 5
+sources:
+  - "https://dlnr.hawaii.gov/recreation/camp/"
+  - "https://camping.ehawaii.gov/camping/welcome.html"
+  - "https://mauinow.com/2026/09/20/dlnr-announces-limited-reopening-of-select-kaua%CA%BBi-lands-on-monday/"
+  - "https://www.thegardenisland.com/2026/09/17/hawaii-news/dlnr-lands-on-remain-closed-for-public-safety/"
+last_verified: "2026-09-25"
+verified_by: ai_research

@@ -1,0 +1,23 @@
+id: "mackenzie-state-recreation-area"
+name: "MacKenzie State Recreation Area"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 19.439
+  lng: -154.864
+activities: ["day_use", "fishing", "hiking"]
+permits_required: []
+status: "open"
+aliases: ["MacKenzie", "Mackenzie State Park"]
+summary: "Low sea cliffs and an ironwood grove on the Puna coast with picnicking and shore fishing. The park page lists no camping. Daylight hours, no fee."
+fees:
+  entry: 0
+rules: ["Open during daylight hours.", "The park page lists no camping. Do not camp here without checking with State Parks.", "Stay back from the cliff edge. Waves wash over the rocks."]
+hazards: ["high_surf", "steep_drop"]
+alerts:
+  nws_zone: "HIZ052"
+amenities: ["picnic tables"]
+sources: ["https://dlnr.hawaii.gov/dsp/parks/hawaii/mackenzie-state-recreation-area/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

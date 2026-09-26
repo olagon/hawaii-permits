@@ -1,0 +1,58 @@
+id: "papalaua-wayside-park"
+name: "Pāpalaua Wayside Park"
+island: "maui"
+land_type: "county"
+manager: "maui-parks"
+location:
+  lat: 20.797
+  lng: -156.577
+activities:
+  - "camping"
+  - "swimming"
+  - "snorkeling"
+  - "fishing"
+  - "day_use"
+  - "surfing"
+permits_required:
+  - permit: "maui-camping-permit"
+    when: "To camp. Up to 4 nights in a row and 8 nights a month. No camping Tuesday or Wednesday nights."
+status: "open"
+summary: "Beach camping under kiawe trees beside Honoapiʻilani Highway between Māʻalaea and Olowalu. The only County of Maui campground on Maui. Closed to camping every Tuesday and Wednesday. No drinking water."
+aliases:
+  - "Papalaua Wayside"
+  - "Papalaua Beach Park"
+  - "Thousand Peaks"
+booking:
+  method: "in_person"
+  url: "https://www.mauicounty.gov/409/Camping-Sites"
+  phone: "808-661-4685"
+  window_note: "Get a permit at a county permit office and pay cash or money order. First come, first served."
+fees:
+  camping_per_night: 50
+  resident_camping_per_night: 5
+  note: "Per adult per night Monday to Thursday. Weekends and holidays cost more. See the county fee sheet."
+rules:
+  - "No camping Tuesday and Wednesday. Park is closed those days for maintenance."
+  - "Park hours 7:00 am to 10:00 pm."
+  - "No drinking water. Bring your own."
+  - "Permit covers up to 6 campers, 2 vehicles, and 1 licensed dog."
+  - "Portable toilets only."
+  - "Map pin is approximate."
+hazards:
+  - "high_surf"
+  - "heat"
+  - "no_water"
+alerts:
+  nws_zone: "HIZ018"
+amenities:
+  - "portable_toilets"
+  - "picnic_tables"
+  - "grills"
+  - "parking"
+max_stay_nights: 4
+group_size_limit: 6
+sources:
+  - "https://www.mauicounty.gov/facilities/facility/details/146"
+  - "https://www.mauicounty.gov/409/Camping-Sites"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

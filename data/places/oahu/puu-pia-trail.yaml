@@ -1,0 +1,29 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: puu-pia-trail
+name: Puʻu Pia Trail
+location:
+  lat: 21.3254
+  lng: -157.7964
+aliases:
+  - Puu Pia Trail
+summary: A 1.2 mile trail from the Kolowalu picnic area in Mānoa to the top of Puʻu Pia with a view down the valley. Crosses land where easements were still being arranged.
+rules:
+  - Street parking only. Be quiet in the neighborhood.
+  - Rocky footing.
+hazards:
+  - mud
+  - falling_rock
+alerts:
+  nws_zone: HIZ033
+amenities:
+  - shelter
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

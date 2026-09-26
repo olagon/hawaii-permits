@@ -1,0 +1,22 @@
+id: "puu-huluhulu-trail"
+name: "Puʻu Huluhulu Trail"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.687
+  lng: -155.465
+activities: ["hiking", "wildlife_viewing"]
+permits_required: []
+status: "open"
+aliases: ["Puu Huluhulu"]
+summary: "A 1 mile trail up the cinder cone kīpuka at the Mauna Kea Access Road junction on Saddle Road, a fenced native forest sanctuary with views of both mountains. Hunters use nearby land."
+fees:
+  entry: 0
+rules: ["Close the gate behind you.", "Cold and windy at 6,600 feet.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["cold", "hunting_area"]
+alerts:
+  nws_zone: "HIZ027"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/recreation/nah/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

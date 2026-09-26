@@ -1,0 +1,24 @@
+id: "upper-waiakea-atv-dirt-bike-park"
+name: "Upper Waiākea ATV and Dirt Bike Park"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.597
+  lng: -155.15
+activities: ["four_wheel_drive", "biking", "hunting"]
+permits_required:
+  - permit: "hawaii-island-ohv-permit"
+    when: "Every rider of a non-licensed vehicle needs the permit and waiver. Licensed hunters who are hunting are exempt."
+status: "open"
+aliases: ["Upper Waiakea ATV Park", "Waiakea ATV Park"]
+summary: "Designated riding area for ATVs, side by sides, and dirt bikes in Upper Waiākea Forest Reserve off Stainback Highway above Hilo. Open daylight hours, no overnight parking. Shared with hunters, hikers, and bikers."
+fees:
+  entry: 0
+rules: ["Sign in and out at the check-in station.", "Spark arrestor required. Keep noise under 98 decibels.", "Wear bright colors. Hunting happens daily here.", "Closures are posted at the check station during fires or animal control.", "Map pin is approximate."]
+hazards: ["hunting_area", "mud", "remote"]
+alerts:
+  nws_zone: "HIZ052"
+sources: ["https://dlnr.hawaii.gov/recreation/nah/off-highway-vehicles-ohv/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

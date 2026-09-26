@@ -1,0 +1,32 @@
+id: "maui-hunting-unit-b"
+name: "Maui Hunting Unit B (Koʻolau Forest Reserve)"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.823
+  lng: -156.157
+activities:
+  - "hunting"
+  - "hiking"
+permits_required:
+  - permit: "hunting-license"
+    when: "Unit B, game mammals only."
+status: "open"
+summary: "Public game mammal hunting in parts of the Koʻolau Forest Reserve on the wet north slope of Haleakalā. Mammals only, no bird hunting. Access is limited and the terrain is steep rainforest."
+aliases:
+  - "Unit B"
+  - "Koolau Forest Reserve"
+rules:
+  - "Check the DLNR Maui hunting page for current seasons, bag limits, and closures."
+  - "Hunters must carry a valid license and, where posted, check in and out at the hunter check station."
+hazards:
+  - "hunting_area"
+  - "remote"
+alerts:
+  nws_zone: "HIZ047"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/hunting/maui/"
+  - "https://dlnr.hawaii.gov/recreation/hunting/gma/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

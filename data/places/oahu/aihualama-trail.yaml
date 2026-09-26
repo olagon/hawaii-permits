@@ -1,0 +1,29 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: aihualama-trail
+name: ʻAihualama Trail
+location:
+  lat: 21.3424
+  lng: -157.8091
+aliases:
+  - Aihualama Trail
+summary: A 1.3 mile trail that climbs from the top of the Mānoa Falls Trail through bamboo and forest to Pauoa Flats. Part of the Honolulu Mauka trail system.
+rules:
+  - Narrow trail with slippery footing and drop offs. Turn back in heavy rain.
+  - This is an active hunting area. Wear bright colors.
+hazards:
+  - mud
+  - steep_drop
+  - falling_rock
+  - hunting_area
+alerts:
+  nws_zone: HIZ033
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

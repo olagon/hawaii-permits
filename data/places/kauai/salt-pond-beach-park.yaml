@@ -1,0 +1,32 @@
+id: salt-pond-beach-park
+name: Salt Pond Beach Park
+island: kauai
+land_type: county
+manager: kauai-parks
+location:
+  lat: 21.899
+  lng: -159.61
+activities: [camping, swimming, day_use]
+permits_required:
+  - permit: kauai-camping-permit
+    when: When camping reopens. The county lists the campground as closed until further notice.
+status: closed
+aliases: [Salt Pond Park, Hanapepe Salt Pond]
+summary: "Lifeguarded south shore beach park at Hanapēpē next to the traditional salt making ponds. The campground is listed as closed until further notice, and the park is closed after Hurricane Lowell."
+rules:
+  - Campground closed until further notice per the county camping page.
+  - "Park closed after Hurricane Lowell per the county update of September 25, 2026."
+  - Map pin is approximate.
+  - The salt ponds next door are worked by Hawaiian families. Do not enter or walk on them.
+hazards: [high_surf]
+alerts:
+  nws_zone: HIZ031
+amenities: [restrooms, showers, pavilions, lifeguard]
+cultural_notes: The Hanapēpē salt ponds are one of the last traditional paʻakai making sites in Hawaiʻi. Keep out of the pond area.
+sources:
+  - "https://www.kauai.gov/Government/Departments-Agencies/Parks/Permitting/Camping"
+  - "https://www.kauai.gov/Government/Departments-Agencies/Parks/Facilities"
+  - "https://www.thegardenisland.com/2026/09/25/hawaii-news/county-updates-hurricane-lowell-recovery-status/"
+  - "https://www.kauai.gov/County-Press-Releases/County-to-close-parks-and-campgrounds-open-refuge-areas-at-5-p.m"
+last_verified: "2026-09-25"
+verified_by: ai_research

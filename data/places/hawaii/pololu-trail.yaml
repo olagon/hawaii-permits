@@ -1,0 +1,23 @@
+id: "pololu-trail"
+name: "Pololū Trail"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.204
+  lng: -155.734
+activities: ["hiking"]
+permits_required: []
+status: "open"
+aliases: ["Pololu Valley", "Pololu Lookout"]
+summary: "A steep 0.5 mile trail from the lookout at the end of Highway 270 down to the black sand beach at Pololū Valley in North Kohala. Cliffs and loose footing. Trail stewards greet hikers at the trailhead most days. Parking is very limited. The valley floor is private."
+fees:
+  entry: 0
+rules: ["Steep, slippery, and eroded. Not for small children or flip flops.", "Parking at the lookout holds about 12 cars. Do not block the road or driveways.", "Dangerous shore break. Swimming is not advised.", "The valley beyond the beach is private land.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["steep_drop", "high_surf", "mud", "falling_rock"]
+alerts:
+  nws_zone: "HIZ026"
+cultural_notes: "Pololū holds burials and is cared for by lineal descendants. Listen to the stewards and stay on the trail."
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/blog/2026/05/13/nr26-64/", "https://dlnr.hawaii.gov/recreation/nah/hawaii/pololu-planning-project/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

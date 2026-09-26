@@ -1,0 +1,35 @@
+id: kalalau-trail
+name: Kalalau Trail
+island: kauai
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 22.22
+  lng: -159.583
+activities: [hiking]
+permits_required:
+  - permit: haena-state-park-reservation
+    when: To reach the trailhead and hike the first 2 miles to Hanakāpīʻai Beach or the falls spur.
+  - permit: napali-coast-camping-permit
+    when: "To hike past Hanakāpīʻai Valley toward Hanakoa and Kalalau, even for a day."
+status: closed
+aliases: [Hanakapiai, Hanakāpīʻai Trail, Crawlers Ledge]
+summary: The 11 mile trail from Kēʻē Beach in Hāʻena State Park to Kalalau Beach. The first 2 miles to Hanakāpīʻai are a day hike with a Hāʻena reservation. Past that you need a Nāpali camping permit. Closed after Hurricane Lowell.
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says its Kauaʻi lands stay closed until they are safe. Check the DLNR page before you go.
+  - Map pin is approximate.
+  - Do not swim at Hanakāpīʻai Beach. Strong currents have killed many people.
+  - Streams flood fast. Wait it out rather than cross high water.
+  - "Camping is only at Hanakoa and Kalalau, not at Hanakāpīʻai."
+hazards: [steep_drop, flash_flood, stream_crossings, high_surf, falling_rock, heat, remote]
+alerts:
+  nws_zone: HIZ029
+sources:
+  - "https://dlnr.hawaii.gov/dsp/parks/kauai/napali-coast-state-wilderness-park/"
+  - "https://gohaena.com/"
+  - "https://dlnr.hawaii.gov/dsp/parks/kauai/"
+  - "https://dlnr.hawaii.gov/dsp/camping-lodging/kauai/"
+  - "https://www.thegardenisland.com/2026/09/17/hawaii-news/dlnr-lands-on-remain-closed-for-public-safety/"
+  - "https://kauainownews.com/2026/09/17/all-state-parks-on-kaua%CA%BBi-will-remain-closed-for-foreseeable-future-due-to-hurricane-lowell-damage/"
+last_verified: "2026-09-25"
+verified_by: ai_research

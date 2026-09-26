@@ -1,0 +1,34 @@
+id: puu-o-mahuka-heiau-state-historic-site
+name: Puʻu O Mahuka Heiau State Historic Site
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.642
+  lng: -158.059
+activities:
+  - cultural_visit
+  - day_use
+permits_required: []
+status: open
+aliases:
+  - Puu O Mahuka Heiau
+  - Pupukea Heiau
+summary: The largest heiau on Oʻahu, almost 2 acres on the ridge above Waimea Bay. A short path circles the walls with a view of the North Shore.
+fees:
+  entry: 0
+rules:
+  - Open 9 am to 5:30 pm daily.
+  - Do not walk on the walls or move any stones.
+  - Leave offerings only at the marked spot. Do not take anything.
+alerts:
+  nws_zone: HIZ007
+amenities:
+  - parking
+  - interpretive signs
+cultural_notes: A luakini heiau, a temple of the highest class, and a National Historic Landmark. It is still a sacred place. Speak quietly and stay on the path.
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/puu-o-mahuka-heiau-state-historic-site/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

@@ -1,0 +1,26 @@
+id: "keauohana-forest-reserve-unit-d"
+name: "Keauohana Forest Reserve (Unit D)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.417
+  lng: -154.951
+activities: ["hunting", "hiking"]
+permits_required:
+  - permit: "hunting-license"
+    when: "Required to hunt in Unit D. Check the DOFAW Hawaiʻi Island page and the rule exhibits for species, days, and any tag or lottery requirements."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season."
+status: "open"
+summary: "Small lowland native forest reserve near Pāhoa in Puna. Unit D for pigs and game birds."
+fees:
+  entry: 0
+rules: ["Hunters must carry a license and follow Chapter 13-122 (birds) and 13-123 (mammals) rules.", "Hikers should wear bright colors. Hunting dogs may be present.", "Map pin is the unit centroid from DLNR GIS data."]
+hazards: ["hunting_area", "mud"]
+alerts:
+  nws_zone: "HIZ052"
+aliases: ["Keauohana"]
+sources: ["https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/", "https://dlnr.hawaii.gov/recreation/hunting/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

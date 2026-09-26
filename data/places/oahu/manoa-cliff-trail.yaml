@@ -1,0 +1,32 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: manoa-cliff-trail
+name: Mānoa Cliff Trail
+location:
+  lat: 21.3262
+  lng: -157.8126
+aliases:
+  - Manoa Cliff Trail
+summary: A 2.3 mile contour trail along the cliffs above Mānoa from Round Top Drive, with native forest restoration plots and interpretive signs.
+rules:
+  - Stay out of the fenced restoration areas.
+  - Narrow trail with drop offs.
+hazards:
+  - steep_drop
+  - mud
+  - falling_rock
+alerts:
+  nws_zone: HIZ033
+amenities:
+  - bench
+  - bridge
+  - interpretive signs
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

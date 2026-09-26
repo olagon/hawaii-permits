@@ -1,0 +1,26 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: nuuanu-trail
+name: Nuʻuanu Trail
+location:
+  lat: 21.341
+  lng: -157.8108
+aliases:
+  - Nuuanu Trail
+summary: A 1.5 mile trail from the Judd loop up the Nuʻuanu side of Tantalus to a lookout over the valley, then on to Pauoa Flats.
+rules:
+  - Cliffs near the lookout.
+hazards:
+  - steep_drop
+  - mud
+alerts:
+  nws_zone: HIZ033
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

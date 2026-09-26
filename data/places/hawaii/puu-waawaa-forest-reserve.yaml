@@ -1,0 +1,26 @@
+id: "puu-waawaa-forest-reserve"
+name: "Puʻu Waʻawaʻa Forest Reserve"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.792
+  lng: -155.875
+activities: ["hiking", "hunting", "wildlife_viewing"]
+permits_required:
+  - permit: "hunting-license"
+    when: "To hunt game mammals or birds in Unit F. Puʻu Waʻawaʻa and Puʻu Anahulu West are open for game birds on Saturdays, Sundays, and state holidays in season."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds."
+status: "open"
+aliases: ["Puu Waawaa", "Puuwaawaa", "Napuu"]
+summary: "About 37,600 acres of state land in North Kona from the coast up the north slope of Hualālai, managed by DOFAW since 2002. Dry forest, cinder cone and ʻōhiʻa trails, and public hunting in Unit F. Peafowl may be hunted here."
+fees:
+  entry: 0
+rules: ["Hunting and hiking share the reserve. Wear bright colors.", "Sign in at trailheads.", "No fires. Wildfire risk is high."]
+hazards: ["heat", "no_water", "hunting_area"]
+alerts:
+  nws_zone: "HIZ023"
+sources: ["https://dlnr.hawaii.gov/forestry/frs/reserves/hawaii-island/puuwaawaa/", "https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

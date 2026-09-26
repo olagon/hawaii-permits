@@ -1,0 +1,30 @@
+id: "spencer-beach-park"
+name: "Spencer Beach Park (ʻŌhaiʻula)"
+island: "hawaii"
+land_type: "county"
+manager: "hawaii-county-parks"
+location:
+  lat: 20.024
+  lng: -155.822
+activities: ["camping", "day_use", "fishing", "swimming"]
+permits_required:
+  - permit: "hawaii-county-camping-permit"
+    when: "To camp overnight. Permits are checked between 8pm and 6am. Buy online or at a county office, not at the park."
+status: "open"
+summary: "Calm sandy beach next to Puʻukoholā Heiau in Kawaihae, the most popular county campground. Drinking water, showers, lifeguard on weekends and holidays, night security. Gate closes 8pm."
+booking:
+  method: "online"
+  url: "https://hawaiicounty.ehawaii.gov/camping/welcome.html"
+fees:
+  camping_per_night: 21
+  resident_camping_per_night: 6
+  entry: 0
+  note: "Per person per night. Residents $6 adult, $3 junior, $1 child. Nonresidents $21 adult and junior, $20 child. Plus $1 per person per day processing."
+rules: ["Gate closes at 8pm and opens at 7am. No entry or exit after 8pm.", "No alcohol.", "Monthly maintenance closures. Campers must leave by 8am on closure days.", "No pets, open fires, smoking, or commercial activity.", "No camping in pavilions. Pavilions are day use by separate permit.", "Map pin is approximate."]
+hazards: ["high_surf"]
+alerts:
+  nws_zone: "HIZ026"
+amenities: ["restrooms", "showers", "water", "picnic tables", "pavilion", "lifeguard (weekends)"]
+sources: ["https://hawaiicounty.ehawaii.gov/camping/welcome.html", "https://hawaiicounty.ehawaii.gov/camping/all,details,57797.html"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

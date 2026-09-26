@@ -1,0 +1,54 @@
+id: malaekahana-state-recreation-area
+name: Mālaekahana State Recreation Area
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.658
+  lng: -157.931
+activities:
+  - camping
+  - swimming
+  - day_use
+  - fishing
+permits_required:
+  - permit: state-parks-camping-permit-30-day
+    when: To camp in the Kalanai Point section. Camping Friday, Saturday and Sunday nights only. Reserve up to 30 days ahead.
+status: open
+aliases:
+  - Malaekahana
+  - Kalanai Point
+  - Malaekahana Beach Campground (Kahuku section)
+summary: >-
+  A long sandy beach between Lāʻie and Kahuku with shady beach camping in the Kalanai Point section. The separate Kahuku section, run by a concession with cabins, has been closed since 2023 for
+  upgrades and the state is picking a new operator.
+booking:
+  method: online
+  url: https://explore.ehawaii.gov/
+  window_note: Camping reservations open 30 days ahead.
+fees:
+  entry: 0
+  camping_per_night: 30
+  resident_camping_per_night: 20
+rules:
+  - Open 7 am to 7:45 pm April 1 through Labor Day, and 7 am to 6:45 pm the rest of the year.
+  - No camping Wednesday or Thursday nights.
+  - Kahuku section closed until further notice. Check the park page.
+  - Strong currents in winter. Swim near the point.
+hazards:
+  - high_surf
+alerts:
+  nws_zone: HIZ007
+amenities:
+  - restrooms
+  - showers
+  - picnic tables
+  - drinking water
+max_stay_nights: 5
+group_size_limit: 10
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/malaekahana-state-recreation-area/
+  - https://dlnr.hawaii.gov/dsp/camping-lodging/oahu/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

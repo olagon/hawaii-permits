@@ -1,0 +1,35 @@
+id: "kanaha-pond-wildlife-sanctuary"
+name: "Kanahā Pond Wildlife Sanctuary"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.892
+  lng: -156.453
+activities:
+  - "wildlife_viewing"
+  - "day_use"
+permits_required: []
+status: "restricted"
+summary: "Wetland in Kahului that shelters the aeʻo (Hawaiian stilt) and ʻalae keʻokeʻo (coot). Public access is limited to a paved path to a viewing shelter from the Keolani Place lot, a viewing kiosk on Old Haleakalā Highway, and, from August 31 to March 31 only, trails from the Amala Place gates. All open sunrise to sunset."
+aliases:
+  - "Kanaha Pond"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Open sunrise to sunset."
+  - "Amala Place trails are closed April 1 to August 30 for nesting."
+  - "Stay on the path. No dogs. Do not approach birds."
+alerts:
+  nws_zone: "HIZ045"
+amenities:
+  - "parking"
+  - "viewing_shelter"
+  - "paved_path"
+accessibility: "The path from Keolani Place to the viewing shelter is paved and accessible."
+sources:
+  - "https://dlnr.hawaii.gov/wildlife/sanctuaries/kanaha/"
+  - "https://dlnr.hawaii.gov/blog/2026/07/16/kanaha-pond-wildlife-sanctuary-water-to-return/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

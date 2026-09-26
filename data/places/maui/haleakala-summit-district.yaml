@@ -1,0 +1,64 @@
+id: "haleakala-summit-district"
+name: "Haleakalā National Park, Summit District"
+island: "maui"
+land_type: "federal"
+manager: "nps"
+location:
+  lat: 20.71
+  lng: -156.253
+activities:
+  - "hiking"
+  - "stargazing"
+  - "scenic_drive"
+  - "day_use"
+  - "wildlife_viewing"
+  - "biking"
+permits_required:
+  - permit: "haleakala-entrance-pass"
+    when: "Every vehicle or person entering. Good for 3 days."
+  - permit: "haleakala-sunrise-reservation"
+    when: "Any vehicle entering between 3:00 am and 7:00 am. Opens 60 days ahead, with more released 2 days ahead."
+status: "open"
+summary: "The 10,023 foot summit, crater overlooks, and trailheads for Keoneheʻeheʻe (Sliding Sands) and Halemauʻu. Open 24 hours. Pay the entrance fee, and book a $1 vehicle reservation for any entry between 3:00 am and 7:00 am."
+aliases:
+  - "Haleakala"
+  - "Haleakala Crater"
+  - "Haleakala Summit"
+  - "Sliding Sands"
+  - "Keoneheeehee Trail"
+  - "Halemauu Trail"
+booking:
+  method: "online"
+  url: "https://www.recreation.gov/ticket/facility/253731"
+  window_note: "Sunrise slots open 60 days ahead at 7:00 am HST. Some are held back and released 2 days ahead at 7:00 am HST."
+fees:
+  entry: 30
+  note: "$30 per vehicle for 3 days. $25 motorcycle. $15 per person on foot or bike. Sunrise reservation is $1 more."
+rules:
+  - "No pets on trails or in the wilderness. Dogs on leash only in parking areas."
+  - "No drones."
+  - "Stay on marked trails. Plan twice as long to hike out as in."
+  - "Bring warm layers. It can be below freezing with strong wind at any time of year."
+  - "No gas or food in the park."
+hazards:
+  - "altitude"
+  - "cold"
+  - "no_water"
+  - "steep_drop"
+  - "remote"
+alerts:
+  nws_zone: "HIZ022"
+  nps_park_code: "hale"
+amenities:
+  - "restrooms"
+  - "visitor_center"
+  - "parking"
+  - "drinking_water"
+accessibility: "Visitor centers and the summit overlook have paved access. Crater trails are steep and loose."
+cultural_notes: "Haleakalā is a sacred place. Do not stack rocks or leave items. Stay off ahu and cultural sites."
+sources:
+  - "https://www.nps.gov/hale/planyourvisit/fees.htm"
+  - "https://www.nps.gov/hale/planyourvisit/sunrise.htm"
+  - "https://www.nps.gov/hale/planyourvisit/hours.htm"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

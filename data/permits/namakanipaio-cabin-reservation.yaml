@@ -1,0 +1,19 @@
+id: "namakanipaio-cabin-reservation"
+name: "Nāmakanipaio cabin reservation"
+issuer: "hawaii-volcanoes-lodge-company"
+category: "cabin"
+who_needs: "Anyone staying in one of the 10 rustic cabins at Nāmakanipaio Campground inside Hawaiʻi Volcanoes National Park. Tent sites are first come, first served and do not need this."
+how_to_get: "owner_direct"
+url: "https://hawaiivolcanohouse.com/campground/"
+carry_required: false
+covers: ["namakanipaio-campground"]
+booking_window:
+  notes: "Call Volcano House at 808-756-9625. Limit 2 cabins per guest. Check in at the Volcano House front desk after 3pm. The park entrance fee is separate."
+cost:
+  resident: "see_source"
+  nonresident: "see_source"
+  unit: "per cabin per night"
+  note: "Cabins sleep up to 4. Rates are on the Volcano House site."
+valid_for: "Up to 7 nights."
+sources: ["https://hawaiivolcanohouse.com/campground/", "https://www.nps.gov/havo/planyourvisit/camp.htm"]
+last_verified: "2026-09-25"

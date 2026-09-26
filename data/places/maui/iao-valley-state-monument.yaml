@@ -1,0 +1,55 @@
+id: "iao-valley-state-monument"
+name: "ʻĪao Valley State Monument"
+island: "maui"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 20.881
+  lng: -156.546
+activities:
+  - "hiking"
+  - "day_use"
+  - "scenic_drive"
+  - "cultural_visit"
+permits_required:
+  - permit: "iao-valley-reservation"
+    when: "Nonresidents, every visit. Book a time slot up to 30 days ahead. Residents with a Hawaiʻi ID do not need one."
+status: "open"
+summary: "Short paved trails to a lookout over Kūkaʻemoku (ʻĪao Needle) and the stream. Nonresidents must book a timed entry and parking slot ahead. Residents enter free with a Hawaiʻi ID."
+aliases:
+  - "Iao Valley"
+  - "Iao Needle"
+  - "Kukaemoku"
+booking:
+  method: "online"
+  url: "https://gostateparks.hawaii.gov/iao-valley"
+  window_note: "Slots open 30 days ahead. First slot 7:00 am, last slot 4:30 pm, enter by 5:00 pm."
+fees:
+  entry: 5
+  parking: 10
+  resident_entry: 0
+  resident_parking: 0
+  note: "Nonresident fees. Children 3 and under free."
+rules:
+  - "Arrive within the first 30 minutes of your slot or you may be denied entry."
+  - "Leave when your slot ends so the next group can park."
+  - "Stay on paved paths. No swimming when the stream is high."
+  - "Commercial tours must use the separate PUC reservation system."
+hazards:
+  - "flash_flood"
+  - "falling_rock"
+  - "mud"
+alerts:
+  nws_zone: "HIZ045"
+amenities:
+  - "restrooms"
+  - "parking"
+  - "paved_trail"
+accessibility: "The main lookout path is paved but steep in places with stairs near the top."
+cultural_notes: "ʻĪao is a sacred valley and a burial place of aliʻi. Please treat it with respect."
+sources:
+  - "https://dlnr.hawaii.gov/dsp/parks/maui/iao-valley-state-monument/"
+  - "https://gostateparks.hawaii.gov/iao-valley/about"
+  - "https://gostateparks.hawaii.gov/iao-valley/faq"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

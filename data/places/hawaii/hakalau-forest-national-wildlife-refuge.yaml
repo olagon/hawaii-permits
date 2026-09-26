@@ -1,0 +1,27 @@
+id: "hakalau-forest-national-wildlife-refuge"
+name: "Hakalau Forest National Wildlife Refuge"
+island: "hawaii"
+land_type: "federal"
+manager: "usfws"
+location:
+  lat: 19.822
+  lng: -155.284
+activities: ["wildlife_viewing", "hiking"]
+permits_required: []
+status: "restricted"
+aliases: ["Hakalau Forest NWR", "Hakalau"]
+summary: "High elevation koa and ʻōhiʻa forest on the windward slope of Mauna Kea, home to endangered forest birds. Closed to self guided visits because of Rapid ʻŌhiʻa Death. The only public access is with one of the licensed guide companies that hold special use permits for the Pua ʻĀkala unit, or on scheduled volunteer days."
+booking:
+  method: "owner_direct"
+  url: "https://www.fws.gov/refuge/hakalau-forest/visit-us"
+  window_note: "Book through a permitted guide listed on the refuge site, or ask about volunteer days at 808-443-2300."
+fees:
+  entry: 0
+  note: "Guide companies charge their own fees."
+rules: ["No self guided entry.", "No hunting, firearms, pets, alcohol, bikes, ATVs, fires, or camping.", "Clean boots, gear, and vehicles to stop Rapid ʻŌhiʻa Death."]
+hazards: ["cold", "mud", "remote", "altitude"]
+alerts:
+  nws_zone: "HIZ027"
+sources: ["https://www.fws.gov/refuge/hakalau-forest/visit-us", "https://www.fws.gov/refuge/hakalau-forest"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

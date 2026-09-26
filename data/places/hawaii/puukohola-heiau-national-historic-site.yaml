@@ -1,0 +1,25 @@
+id: "puukohola-heiau-national-historic-site"
+name: "Puʻukoholā Heiau National Historic Site"
+island: "hawaii"
+land_type: "federal"
+manager: "nps"
+location:
+  lat: 20.028
+  lng: -155.821
+activities: ["cultural_visit", "day_use", "hiking"]
+permits_required: []
+status: "open"
+aliases: ["Puukohola Heiau", "Puukohola"]
+summary: "The great temple Kamehameha I built at Kawaihae in 1790 to 1791, with a short trail and visitor center. Free. Open 8:30am to 4:30pm daily."
+fees:
+  entry: 0
+rules: ["Open 8:30am to 4:30pm daily, including holidays.", "Stay on the trail. The heiau is closed to entry.", "Hot and dry. Bring water."]
+hazards: ["heat"]
+alerts:
+  nws_zone: "HIZ026"
+  nps_park_code: "puhe"
+amenities: ["visitor center", "restrooms", "water"]
+cultural_notes: "An active sacred site. Do not enter the heiau or move rocks."
+sources: ["https://www.nps.gov/puhe/planyourvisit/fees.htm", "https://www.nps.gov/puhe/planyourvisit/hours.htm"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

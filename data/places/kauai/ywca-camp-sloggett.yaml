@@ -1,0 +1,35 @@
+id: ywca-camp-sloggett
+name: YWCA Camp Sloggett
+island: kauai
+land_type: private_nonprofit
+manager: ywca-kauai
+location:
+  lat: 22.133
+  lng: -159.652
+activities: [cabin]
+permits_required:
+  - permit: camp-sloggett-reservation
+    when: Every stay. Book with the YWCA.
+status: closed
+aliases: [Camp Sloggett, Sloggett Lodge]
+summary: "Historic 1925 family camp in Kōkeʻe State Park run by the YWCA of Kauaʻi. Rents a lodge, a bunkhouse, a studio, and a cottage, mostly on weekends. Tent camping is no longer offered. The YWCA is assessing Hurricane Lowell damage and Kōkeʻe Road is closed."
+booking:
+  method: owner_direct
+  url: "https://www.ywcakauai.org/camp-sloggett"
+  phone: "808-245-5959"
+fees:
+  note: "Studio $80, cottage $165, bunkhouse half $215, lodge $265, whole grounds $900 per night when checked, plus a $100 refundable deposit per building."
+rules:
+  - No weekends available until 2027 per the YWCA site. Kōkeʻe Road is closed to the public after Hurricane Lowell.
+  - Tent camping is no longer available.
+  - "Bring your own linens, towels, pillows, and food."
+  - Map pin is approximate.
+hazards: [cold, mud]
+alerts:
+  nws_zone: HIZ004
+amenities: [kitchens, fireplace, bunkhouse]
+sources:
+  - "https://www.ywcakauai.org/camp-sloggett"
+  - "https://www.thegardenisland.com/2026/09/17/hawaii-news/dlnr-lands-on-remain-closed-for-public-safety/"
+last_verified: "2026-09-25"
+verified_by: ai_research

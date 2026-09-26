@@ -1,0 +1,41 @@
+id: wahiawa-freshwater-state-recreation-area
+name: Wahiawā Freshwater State Recreation Area
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.492
+  lng: -158.024
+activities:
+  - fishing
+  - boating
+  - day_use
+permits_required:
+  - permit: freshwater-fishing-license
+    when: To fish in Lake Wilson (Wahiawā Reservoir). Everyone age 9 and older needs a state freshwater fishing license.
+status: open
+aliases:
+  - Lake Wilson
+  - Wahiawa Reservoir
+  - Wahiawa Freshwater Park
+summary: A grassy park on the shore of Lake Wilson in Wahiawā with a boat ramp for fishing boats. Known for peacock bass and other freshwater fish.
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - Open 7 am to 7:45 pm April 1 through Labor Day, and 7 am to 6:45 pm the rest of the year.
+  - Boating is only for fishing.
+  - Do not swim in the reservoir. Treat the water as unsafe to drink or enter.
+alerts:
+  nws_zone: HIZ010
+amenities:
+  - restrooms
+  - boat ramp
+  - picnic tables
+  - parking
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/wahiawa-freshwater-state-recreation-area/
+  - https://dlnr.hawaii.gov/dobor/wahiawa-freshwater-park-launch-ramp/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

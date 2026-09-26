@@ -1,0 +1,35 @@
+id: kokee-lodge-cabins
+name: Kōkeʻe Lodge cabins (The Cabins at Kōkeʻe)
+island: kauai
+land_type: state
+manager: kokee-lodge
+location:
+  lat: 22.1296
+  lng: -159.6572
+activities: [cabin]
+permits_required:
+  - permit: kokee-lodge-cabin-reservation
+    when: Every stay. Book with the lodge.
+status: closed
+aliases: [Kokee Lodge, Cabins at Kokee]
+summary: State owned cabins in Kōkeʻe State Park run by a private concession. Cabins sleep six with bedding and cooking gear. Wood stoves are the only heat. Kōkeʻe Road is closed after Hurricane Lowell.
+booking:
+  method: owner_direct
+  url: "https://book-directonline.com/properties/cabinsatkokeeparkdirect"
+  phone: "808-335-6061"
+fees:
+  note: Rates are not posted on the public site. Ask the lodge.
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says its Kauaʻi lands stay closed until they are safe. Check the DLNR page before you go.
+  - Map pin is approximate.
+  - "Expect rustic conditions, slick trails, and cold nights. Firewood is sold on site."
+hazards: [cold, mud]
+alerts:
+  nws_zone: HIZ004
+amenities: [restaurant, gift shop, kitchens, wood stoves]
+sources:
+  - "https://www.kokeelodge.com/"
+  - "https://dlnr.hawaii.gov/dsp/camping-lodging/kauai/"
+  - "https://www.thegardenisland.com/2026/09/17/hawaii-news/dlnr-lands-on-remain-closed-for-public-safety/"
+last_verified: "2026-09-25"
+verified_by: ai_research

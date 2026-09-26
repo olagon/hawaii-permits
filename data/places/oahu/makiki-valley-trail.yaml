@@ -1,0 +1,31 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: makiki-valley-trail
+name: Makiki Valley Trail
+location:
+  lat: 21.3258
+  lng: -157.825
+aliases:
+  - Makiki Valley Trail
+summary: A 1.1 mile contour trail across Makiki Valley linking the Kanealole, Maunalaha and Nahuina trails. The middle leg of the Makiki Valley loop.
+rules:
+  - Narrow with landslide spots. Slippery when wet.
+  - This is an active hunting area. Wear bright colors.
+hazards:
+  - mud
+  - falling_rock
+  - hunting_area
+alerts:
+  nws_zone: HIZ033
+amenities:
+  - bench
+  - bridge
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

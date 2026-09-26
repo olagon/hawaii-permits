@@ -1,0 +1,23 @@
+id: "lava-tree-state-monument"
+name: "Lava Tree State Monument"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 19.483
+  lng: -154.903
+activities: ["hiking", "day_use"]
+permits_required: []
+status: "open"
+aliases: ["Lava Trees"]
+summary: "A 0.7 mile loop in Puna through a forest of lava tree molds left by a 1790 flow. Picnic tables. Daylight hours, no fee."
+fees:
+  entry: 0
+rules: ["Open during daylight hours.", "Stay on the trail. Deep cracks are near the path."]
+hazards: ["steep_drop"]
+alerts:
+  nws_zone: "HIZ052"
+amenities: ["restrooms", "picnic tables", "parking"]
+sources: ["https://dlnr.hawaii.gov/dsp/parks/hawaii/lava-tree-state-monument/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

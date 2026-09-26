@@ -1,0 +1,33 @@
+id: "hookena-beach-park"
+name: "Hoʻokena Beach Park"
+island: "hawaii"
+land_type: "county"
+manager: "friends-of-hookena-beach-park"
+location:
+  lat: 19.377
+  lng: -155.899
+activities: ["camping", "day_use", "swimming", "snorkeling", "fishing"]
+permits_required:
+  - permit: "hookena-camping-permit"
+    when: "To camp overnight. Book at least 72 hours ahead online, by phone, or walk up same day with cash."
+status: "open"
+aliases: ["Hookena", "Ho'okena"]
+summary: "Gray sand beach and old fishing village in South Kona. A county park run by the community group KUPA with Friends of Hoʻokena Beach Park, so camping is booked through hookena.org, not the county system. Beach patrol 9am to 8:45pm."
+booking:
+  method: "owner_direct"
+  url: "https://www.hookena.org/camping.html"
+  phone: "808-765-8053"
+  window_note: "Online bookings at least 72 hours ahead. Same day walk-up is first come, cash only."
+fees:
+  camping_per_night: 21
+  resident_camping_per_night: 6
+  entry: 0
+  note: "Per person per night. Residents $6 adult, $3 junior, $1 child with ID. Nonresidents $21 age 7 and up."
+rules: ["Book through hookena.org. County permits are not used here.", "No check in after 8:45pm. Checkout is noon.", "Quiet hours 9pm to 6am.", "No pets, drones, or hammocks.", "Stay at least 50 yards from dolphins.", "Map pin is approximate."]
+hazards: ["high_surf", "heat"]
+alerts:
+  nws_zone: "HIZ023"
+amenities: ["portable toilets", "outdoor showers", "picnic tables", "fire pits", "concession stand"]
+sources: ["https://www.hookena.org/camping.html"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

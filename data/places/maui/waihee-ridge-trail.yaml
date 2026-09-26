@@ -1,0 +1,39 @@
+id: "waihee-ridge-trail"
+name: "Waiheʻe Ridge Trail"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.953
+  lng: -156.532
+activities:
+  - "hiking"
+permits_required: []
+status: "open"
+summary: "Steep 2.5 mile climb up a West Maui ridge from Kahekili Highway near Camp Maluhia to a 2,563 foot lookout over Waiheʻe Valley and Makamakaʻole Falls. Often muddy and cloudy. Very popular, parking fills early."
+aliases:
+  - "Waihee Ridge"
+  - "Waihee Ridge Trail"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Day use only. Start early for parking and views."
+  - "Steep, slick concrete ramp at the start and mud higher up."
+  - "Stay on the trail. Steep drop offs on both sides."
+  - "No trespassing on Camp Maluhia or ranch land beside the road."
+  - "About 2.5 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "mud"
+  - "steep_drop"
+  - "hunting_area"
+alerts:
+  nws_zone: "HIZ017"
+amenities:
+  - "picnic_table"
+  - "parking"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

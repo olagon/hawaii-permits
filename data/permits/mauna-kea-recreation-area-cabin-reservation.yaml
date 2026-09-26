@@ -1,0 +1,20 @@
+id: "mauna-kea-recreation-area-cabin-reservation"
+name: "Mauna Kea Recreation Area cabin and bunkhouse reservation"
+issuer: "hawaii-county-parks"
+category: "cabin"
+who_needs: "Anyone staying in a county cabin or bunkhouse at Mauna Kea Recreation Area (Gilbert Kahele Recreation Area) on Saddle Road. Bunkhouses are for groups of 7 or more."
+how_to_get: "online"
+url: "https://hawaiicounty.ehawaii.gov/camping/all,details,57934.html"
+carry_required: true
+covers: ["mauna-kea-recreation-area"]
+booking_window:
+  notes: "Reserve online or at the county parks office. Check in 3pm to 8pm, check out by 9am. Bring all bedding, cooking gear, and cleaning supplies. Cabins and bunkhouses are not heated. A $250 security deposit is charged per unit and refunded by check after your stay."
+cost:
+  resident: 75
+  nonresident: 150
+  unit: "per cabin per night"
+  note: "Bunkhouse $240 resident, $480 nonresident per night. Security deposit $250 per unit."
+valid_for: "Bunkhouses up to 6 consecutive nights."
+refund_policy: "Ask at least 14 days ahead. A processing fee of $10 per day (cabin) or $20 per day (bunkhouse) is kept. Requests within 13 days get no refund."
+sources: ["https://hawaiicounty.ehawaii.gov/camping/all,details,57934.html", "https://hawaiicounty.ehawaii.gov/camping/welcome.html"]
+last_verified: "2026-09-25"

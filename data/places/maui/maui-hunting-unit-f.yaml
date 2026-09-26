@@ -1,0 +1,36 @@
+id: "maui-hunting-unit-f"
+name: "Maui Hunting Unit F (Kahakuloa GMA and West Maui Forest Reserve)"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.995
+  lng: -156.569
+activities:
+  - "hunting"
+  - "hiking"
+permits_required:
+  - permit: "hunting-license"
+    when: "Unit F, game mammals and game birds."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season, usually Saturdays, Sundays, and state holidays."
+status: "open"
+summary: "Game mammal and game bird hunting in the Kahakuloa Game Management Area and nearby West Maui Forest Reserve on the north coast. Game birds on Saturdays, Sundays, and state holidays in season, when mammal hunting in the unit is closed. The area below the highway is closed to hunting."
+aliases:
+  - "Unit F"
+rules:
+  - "Closed to hunting below the highway."
+  - "On game bird days, mammal hunting in unit F is closed."
+  - "Check the DLNR Maui hunting page for current seasons, bag limits, and closures."
+  - "Hunters must carry a valid license and, where posted, check in and out at the hunter check station."
+hazards:
+  - "hunting_area"
+  - "remote"
+alerts:
+  nws_zone: "HIZ017"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/hunting/maui/"
+  - "https://dlnr.hawaii.gov/recreation/hunting/gma/"
+  - "https://dlnr.hawaii.gov/recreation/files/2025/10/2025-2026-FINAL_Game-Bird-Season-Announcement.pdf"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

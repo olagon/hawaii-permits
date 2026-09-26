@@ -1,0 +1,31 @@
+id: "kanaio-natural-area-reserve"
+name: "Kanaio Natural Area Reserve"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.625
+  lng: -156.348
+activities:
+  - "hiking"
+  - "wildlife_viewing"
+permits_required: []
+status: "open"
+summary: "Dry lava forest of halapepe and lama on the southwest slope of Haleakalā, inland of the Hoapili Trail. Pedestrian gates allow hiking and nature study. No facilities, no water, and very hot."
+aliases:
+  - "Kanaio NAR"
+rules:
+  - "Enter on foot through the pedestrian gates only. No vehicles."
+  - "No water and no shade. Carry plenty."
+  - "Do not disturb plants or archaeological sites."
+hazards:
+  - "heat"
+  - "no_water"
+  - "remote"
+  - "hunting_area"
+alerts:
+  nws_zone: "HIZ050"
+sources:
+  - "https://dlnr.hawaii.gov/ecosystems/nars/maui/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

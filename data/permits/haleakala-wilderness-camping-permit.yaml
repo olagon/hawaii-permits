@@ -1,0 +1,23 @@
+id: "haleakala-wilderness-camping-permit"
+name: "Haleakalā wilderness tent camping permit"
+issuer: "nps"
+category: "camping"
+who_needs: "Anyone tent camping at the Hōlua or Palikū wilderness sites inside the crater. The permit does not include cabin use."
+how_to_get: "online"
+url: "https://www.recreation.gov/camping/campgrounds/10119505"
+carry_required: true
+covers:
+  - "haleakala-wilderness-tent-camping"
+booking_window:
+  opens_days_before: 180
+  notes: "Reserve on recreation.gov up to 6 months ahead. No in person permits. Print the permit and the trip leader must carry it. Enter the park no earlier than 7:00 am unless you also hold a sunrise reservation."
+cost:
+  resident: 8
+  nonresident: 8
+  unit: "per reservation"
+  note: "$8 online or $9 by phone. This is a nonrefundable recreation.gov service fee, not a camping fee. Park entrance fee is separate."
+valid_for: "Up to 3 consecutive nights at one site. Total overnight stays in the park are limited to 3 nights in any 30 day period."
+sources:
+  - "https://www.nps.gov/hale/planyourvisit/wilderness-camping.htm"
+  - "https://www.recreation.gov/camping/campgrounds/10119505"
+last_verified: "2026-09-25"

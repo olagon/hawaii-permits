@@ -1,0 +1,23 @@
+id: lanai-offshore-islet-sanctuaries
+name: Lānaʻi Offshore Islet Seabird Sanctuaries
+island: lanai
+land_type: state
+manager: dlnr-dofaw
+location: { lat: 20.734, lng: -156.890 }
+activities: [wildlife_viewing, boating]
+permits_required: []
+status: closed
+aliases: [Puʻu Pehe, Puu Pehe, Sweetheart Rock, Poʻopoʻo, Moku Naio, Shark Fin Rock, Nānāhoa]
+summary: Four state seabird sanctuary islets around Lānaʻi, Puʻu Pehe (Sweetheart Rock) off Hulopoʻe, Poʻopoʻo and Moku Naio (Shark Fin Rock) off the south coast, and the Nānāhoa islets off the west coast. All are closed and it is illegal to land or climb on them. View Puʻu Pehe from the overlook trail at Hulopoʻe. Map pin is Puʻu Pehe.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - Do not land, climb, or fish from the islets. DLNR cites violators. Report to 808-643-DLNR.
+  - Commercial activity is prohibited. Research or cultural practice needs a DOFAW permit.
+hazards: [high_surf, steep_drop]
+cultural_notes: Puʻu Pehe holds a burial platform and a well known story. Respect it from a distance.
+sources:
+  - https://dlnr.hawaii.gov/wildlife/sanctuaries/lana%CA%BBi-offshore-islets-seabird-sanctuaries/
+  - https://dlnr.hawaii.gov/blog/2023/05/15/nr23-89/
+last_verified: 2026-09-25
+verified_by: ai_research

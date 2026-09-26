@@ -1,0 +1,27 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: puu-ohia-trail
+name: Puʻu ʻŌhiʻa Trail
+location:
+  lat: 21.3309
+  lng: -157.8146
+aliases:
+  - Puu Ohia Trail
+  - Mount Tantalus Trail
+summary: A 0.75 mile trail from the top of Tantalus Drive over the summit of Puʻu ʻŌhiʻa (Tantalus) to the Mānoa Cliff and Pauoa Flats trails.
+rules:
+  - Mountain bikes are a problem here. Bikes are not allowed on this trail.
+hazards:
+  - mud
+  - steep_drop
+alerts:
+  nws_zone: HIZ033
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

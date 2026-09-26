@@ -1,0 +1,35 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+  - four_wheel_drive
+permits_required:
+  - permit: kuaokala-mokuleia-access-permit
+    when: To drive in by vehicle through the tracking station gate. Walking in from Farrington Highway on the access road needs no permit but the lower gate is on private ranch land.
+status: open
+id: mokuleia-forest-reserve-access-road
+name: Mokulēʻia Forest Reserve Access Road
+location:
+  lat: 21.5413
+  lng: -158.1819
+aliases:
+  - Mokuleia Access Road
+  - Peacock Flats Road
+summary: A 4.2 mile road from Farrington Highway past Mokulēʻia Ranch up to the forest reserve, Peacock Flats and the Mokulēʻia and Mākua Rim trails.
+rules:
+  - The lower road crosses private land. Stay on the road.
+  - Steep and muddy. 4 wheel drive only.
+  - This is an active hunting area. Wear bright colors.
+hazards:
+  - mud
+  - hunting_area
+  - remote
+  - no_water
+alerts:
+  nws_zone: HIZ011
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://trails.ehawaii.gov/camping/all,details,57933.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

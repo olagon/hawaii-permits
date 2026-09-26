@@ -1,0 +1,22 @@
+id: "ainapo-road"
+name: "ʻĀinapō Road"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.369
+  lng: -155.48
+activities: ["four_wheel_drive", "hiking"]
+permits_required: []
+status: "open"
+aliases: ["Ainapo Road"]
+summary: "The 5.5 mile 4WD access road from Highway 11 through Kapāpala Ranch to the ʻĀinapō Trail. Crosses private ranch land. You must arrange access with Kapāpala Ranch before driving in."
+fees:
+  entry: 0
+rules: ["Private ranch land. Contact Kapāpala Ranch for the gate code before you go.", "4WD only. Storm damaged in 2026.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["hunting_area", "remote", "mud"]
+alerts:
+  nws_zone: "HIZ051"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://camping.ehawaii.gov/camping/all,details,31727.html"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

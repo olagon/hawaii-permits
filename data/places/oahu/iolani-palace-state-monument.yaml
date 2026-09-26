@@ -1,0 +1,40 @@
+id: iolani-palace-state-monument
+name: ʻIolani Palace State Monument
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.307
+  lng: -157.859
+activities:
+  - cultural_visit
+  - day_use
+permits_required: []
+status: open
+aliases:
+  - Iolani Palace
+summary: The only royal palace on US soil, home of King Kalākaua and Queen Liliʻuokalani. The grounds are a free public park. Palace tours are run by the Friends of ʻIolani Palace and need a ticket.
+booking:
+  method: online
+  url: https://www.iolanipalace.org/visit/
+  window_note: Tours run Tuesday through Saturday. Reservations are strongly recommended. Walk ins only if space is open.
+fees:
+  entry: see_source
+  note: Grounds are free. Tour prices are on the palace website. Kamaʻāina Sundays offer free self guided tours for residents once a month.
+rules:
+  - Minimum tour age is 5.
+  - Shirts and shoes required. Shoe coverings are provided inside.
+  - No large bags, food or drink inside. No flash or video.
+  - Respect roped off areas.
+alerts:
+  nws_zone: HIZ033
+amenities:
+  - restrooms
+  - gift shop
+accessibility: The palace has an elevator for tours. Ask staff.
+cultural_notes: A sacred place for many Hawaiians. Queen Liliʻuokalani was held here under house arrest after the overthrow in 1893.
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://www.iolanipalace.org/visit/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

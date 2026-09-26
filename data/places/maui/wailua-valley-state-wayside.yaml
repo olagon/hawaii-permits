@@ -1,0 +1,31 @@
+id: "wailua-valley-state-wayside"
+name: "Wailua Valley State Wayside"
+island: "maui"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 20.84
+  lng: -156.14
+activities:
+  - "day_use"
+  - "scenic_drive"
+permits_required: []
+status: "open"
+summary: "A small pullout and stairway lookout on the Hāna Highway with views into Keʻanae Valley, Koʻolau Gap, and the taro fields of Wailua. No facilities, no fee."
+aliases:
+  - "Wailua Valley Lookout"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Day use only."
+  - "Very few parking spaces. Do not stop on the highway."
+alerts:
+  nws_zone: "HIZ047"
+amenities:
+  - "parking"
+sources:
+  - "https://dlnr.hawaii.gov/dsp/parks/maui/wailua-valley-state-wayside/"
+  - "https://dlnr.hawaii.gov/dsp/parks/maui/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

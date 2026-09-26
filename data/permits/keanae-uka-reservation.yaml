@@ -1,0 +1,18 @@
+id: "keanae-uka-reservation"
+name: "Keʻanae Uka booking request"
+issuer: "na-moku-aupuni-o-koolau-hui"
+category: "camping"
+who_needs: "Anyone booking a camper van spot or the duplex cottage at Keʻanae Uka, the former YMCA Camp Keʻanae."
+how_to_get: "owner_direct"
+url: "https://www.keanaeuka.com/"
+carry_required: false
+covers:
+  - "keanae-uka"
+booking_window:
+  notes: "Fill out the online booking request form. The camp replies within 5 to 7 business days. Rates are shown when they confirm."
+cost:
+  resident: "see_source"
+  nonresident: "see_source"
+sources:
+  - "https://www.keanaeuka.com/"
+last_verified: "2026-09-25"

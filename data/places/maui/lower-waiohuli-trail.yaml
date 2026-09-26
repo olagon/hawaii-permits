@@ -1,0 +1,31 @@
+id: "lower-waiohuli-trail"
+name: "Lower Waiohuli Trail"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.7
+  lng: -156.323
+activities:
+  - "hiking"
+permits_required: []
+status: "open"
+summary: "Short link trail in the Kula Forest Reserve from Waipoli Road at 6,400 feet down to the Boundary Trail, with a shelter. Day use, hunters share the area."
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Hunters use this area. Wear bright colors and stay on the trail."
+  - "Day use only."
+  - "About 1.4 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "hunting_area"
+  - "cold"
+  - "mud"
+alerts:
+  nws_zone: "HIZ049"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

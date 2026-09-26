@@ -1,0 +1,25 @@
+id: "kohala-restricted-watershed-unit-d"
+name: "Kohala Restricted Watershed (Unit D)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.062
+  lng: -155.649
+activities: ["hunting", "hiking"]
+permits_required:
+  - permit: "hunting-license"
+    when: "Required to hunt in Unit D. Unit D. Access is restricted. Confirm rules with DOFAW before hunting."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season."
+status: "restricted"
+summary: "Restricted watershed lands in the Kohala mountains. Unit D. Access and hunting are limited. Check with the DOFAW Waimea or Hilo office before entering."
+fees:
+  entry: 0
+rules: ["Hunters must carry a license and follow Chapter 13-122 (birds) and 13-123 (mammals) rules.", "Hikers should wear bright colors. Hunting dogs may be present.", "Map pin is the unit centroid from DLNR GIS data."]
+hazards: ["hunting_area", "mud", "remote", "flash_flood"]
+alerts:
+  nws_zone: "HIZ054"
+sources: ["https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/", "https://dlnr.hawaii.gov/recreation/hunting/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

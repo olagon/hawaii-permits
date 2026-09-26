@@ -1,0 +1,36 @@
+id: "kahakuloa-game-management-area"
+name: "Kahakuloa Game Management Area"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 21.004
+  lng: -156.567
+activities:
+  - "hunting"
+  - "hiking"
+permits_required:
+  - permit: "hunting-license"
+    when: "Unit F, game mammals and game birds."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season, usually Saturdays, Sundays, and state holidays."
+status: "open"
+summary: "State game management area on the dry, steep north coast of West Maui near Kahakuloa village, managed for game mammals and game birds. Part of hunting unit F."
+aliases:
+  - "Kahakuloa GMA"
+rules:
+  - "Closed to hunting below the highway."
+  - "Check the DLNR Maui hunting page for current seasons, bag limits, and closures."
+  - "Hunters must carry a valid license and, where posted, check in and out at the hunter check station."
+hazards:
+  - "hunting_area"
+  - "remote"
+alerts:
+  nws_zone: "HIZ017"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/hunting/maui/"
+  - "https://dlnr.hawaii.gov/recreation/hunting/gma/"
+  - "https://dlnr.hawaii.gov/recreation/hunting/gma/kahakuloa/"
+  - "https://dlnr.hawaii.gov/recreation/files/2025/10/2025-2026-FINAL_Game-Bird-Season-Announcement.pdf"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

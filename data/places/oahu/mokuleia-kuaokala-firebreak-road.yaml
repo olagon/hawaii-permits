@@ -1,0 +1,35 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+  - four_wheel_drive
+permits_required:
+  - permit: kuaokala-mokuleia-access-permit
+    when: To enter through the tracking station gate by vehicle. Also covers driving the road to Peacock Flats and the hunting areas.
+status: open
+id: mokuleia-kuaokala-firebreak-road
+name: Mokulēʻia and Kuaokalā Firebreak Road
+location:
+  lat: 21.5479
+  lng: -158.1859
+aliases:
+  - Kuaokala Firebreak Road
+  - Mokuleia Firebreak Road
+summary: A 6 mile dirt road through Mokulēʻia and Kuaokalā forest reserves connecting the tracking station road with Peacock Flats and the Keālia road. 4 wheel drive only.
+rules:
+  - Rough road. High clearance 4 wheel drive required.
+  - This is an active hunting area. Wear bright colors.
+  - No drinking water. Treat all stream water.
+hazards:
+  - hunting_area
+  - no_water
+  - heat
+  - remote
+alerts:
+  nws_zone: HIZ011
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://trails.ehawaii.gov/camping/all,details,57933.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

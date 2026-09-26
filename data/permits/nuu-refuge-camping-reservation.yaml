@@ -1,0 +1,20 @@
+id: "nuu-refuge-camping-reservation"
+name: "Nuʻu Refuge volunteer camping reservation"
+issuer: "hawaii-land-trust"
+category: "camping"
+who_needs: "People who have volunteered at a Hawaiʻi Land Trust event at Nuʻu Refuge within the past year. You must attend and sign in at a volunteer day before you can book."
+how_to_get: "owner_direct"
+url: "https://www.hilt.org/nuu-reservations"
+carry_required: true
+covers:
+  - "nuu-refuge"
+booking_window:
+  opens_days_before: 120
+  notes: "Dates open about 120 days ahead on the Planyo calendar. One standing reservation at a time. Groups over 10 must manage their own waste for the extra people. Reservations are cancelled when forecast wind gusts reach 35 mph."
+cost:
+  resident: "see_source"
+  nonresident: "see_source"
+sources:
+  - "https://www.hilt.org/nuu-reservations"
+  - "https://www.hilt.org/camp"
+last_verified: "2026-09-25"

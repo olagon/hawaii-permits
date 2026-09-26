@@ -1,0 +1,27 @@
+id: "kapunakea-preserve"
+name: "Kapunakea Preserve"
+island: "maui"
+land_type: "private_nonprofit"
+manager: "The Nature Conservancy of Hawaiʻi"
+location:
+  lat: 20.915
+  lng: -156.613
+activities:
+  - "wildlife_viewing"
+permits_required: []
+status: "no_public_access"
+summary: "Nature Conservancy preserve in the steep West Maui mountains above Kāʻanapali with 11 native natural communities. Closed to the public because it is remote and rugged."
+aliases:
+  - "Kapunakea"
+rules:
+  - "Closed to the public."
+hazards:
+  - "remote"
+  - "steep_drop"
+  - "mud"
+alerts:
+  nws_zone: "HIZ018"
+sources:
+  - "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/kapunakea/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

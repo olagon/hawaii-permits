@@ -1,0 +1,26 @@
+id: "waianapanapa-reservation"
+name: "Waiʻānapanapa State Park entry and parking reservation"
+issuer: "dlnr-state-parks"
+category: "entry_reservation"
+who_needs: "Visitors who are not Hawaiʻi residents. Every nonresident needs an entry ticket, and each vehicle needs a parking reservation for a time slot. Residents with a Hawaiʻi ID enter free, but their out of state guests still need a reservation."
+how_to_get: "online"
+url: "https://gostateparks.hawaii.gov/waianapanapa"
+carry_required: true
+covers:
+  - "waianapanapa-state-park"
+booking_window:
+  opens_days_before: 30
+  opens_time_local: "00:00"
+  notes: "Reservations are released 30 days ahead, one day at a time, at midnight HST. Slots run from 7:00 am. Last slot is 6:00 pm and you must enter by 5:30 pm. Arrive within the first 30 minutes of your slot or you may be turned away."
+resident_rules: "Hawaiʻi residents show a state ID at the entry and do not need a reservation or fee."
+cost:
+  resident: 0
+  nonresident: 5
+  unit: "per person, plus $10 per vehicle per time slot"
+  note: "Children 3 and under are free. No military discount."
+refund_policy: "Refunds up to 3 days before the entry date with a $5 cancellation fee. Changes allowed until midnight the day before if space is open. No refunds for no shows, late arrival, or weather."
+sources:
+  - "https://gostateparks.hawaii.gov/waianapanapa/about"
+  - "https://gostateparks.hawaii.gov/waianapanapa/faq"
+  - "https://dlnr.hawaii.gov/dsp/parks/maui/waianapanapa-state-park/"
+last_verified: "2026-09-25"

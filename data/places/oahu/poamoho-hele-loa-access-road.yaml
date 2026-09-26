@@ -1,0 +1,33 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - four_wheel_drive
+  - hiking
+permits_required:
+  - permit: poamoho-access-permit
+    when: To drive the gated road from Kamehameha Highway near the Dole stand to the Poamoho trailhead. The road crosses private farm and Army land.
+status: open
+id: poamoho-hele-loa-access-road
+name: Poamoho Hele Loa Access Road
+location:
+  lat: 21.5399
+  lng: -158.0267
+aliases:
+  - Poamoho Access Road
+  - Poamoho Hele Loa
+summary: A 6 mile gated 4 wheel drive road across pineapple fields and Army land to the Poamoho Trail. A DOFAW permit with gate codes is required.
+rules:
+  - 4 wheel drive required. Deep potholes and mud.
+  - Gates must be closed behind you.
+  - Day use hours apply. Check the permit.
+hazards:
+  - mud
+  - remote
+alerts:
+  nws_zone: HIZ010
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://dlnr.hawaii.gov/dofaw/permits/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

@@ -1,0 +1,44 @@
+id: "waihee-coastal-dunes-and-wetlands-refuge"
+name: "Waiheʻe Coastal Dunes and Wetlands Refuge"
+island: "maui"
+land_type: "private_nonprofit"
+manager: "hawaii-land-trust"
+location:
+  lat: 20.939
+  lng: -156.506
+activities:
+  - "hiking"
+  - "camping"
+  - "wildlife_viewing"
+  - "cultural_visit"
+  - "fishing"
+permits_required:
+  - permit: "waihee-refuge-camping-reservation"
+    when: "To camp. You must attend a HILT volunteer day at Waiheʻe first, one volunteer day per camping visit."
+status: "restricted"
+summary: "A 277 acre Hawaiʻi Land Trust preserve north of Waiheʻe with dunes, wetlands, reef, and the sites of two old villages. The shoreline trail is open for guided Talk Story on the Land hikes and volunteer days. Camping is only for people who have volunteered at the refuge, booked about 60 days ahead."
+aliases:
+  - "Waihee Refuge"
+  - "Waihee Coastal Dunes"
+  - "HILT Waihee"
+booking:
+  method: "owner_direct"
+  url: "https://www.hilt.org/waihee-reservations"
+  window_note: "Camping dates open about 60 days ahead after you volunteer. Guided hikes are listed on the HILT events page."
+rules:
+  - "No dogs or other pets."
+  - "Follow the HILT Rules of Use and Access. Breaking them means a 1 year camping ban."
+  - "Camping reservations are cancelled when wind gusts over 35 mph are forecast."
+  - "Do not disturb burial areas, heiau, or the fishpond walls."
+hazards:
+  - "high_surf"
+  - "heat"
+alerts:
+  nws_zone: "HIZ017"
+cultural_notes: "The refuge includes the ancient villages of Kapoho and Kapokea, heiau, and burials. It is one of the most significant cultural sites in the state."
+sources:
+  - "https://www.hilt.org/waihee"
+  - "https://www.hilt.org/waihee-reservations"
+  - "https://www.hilt.org/camp"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

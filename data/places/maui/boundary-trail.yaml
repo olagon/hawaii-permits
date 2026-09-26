@@ -1,0 +1,33 @@
+id: "boundary-trail"
+name: "Boundary Trail"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.688
+  lng: -156.335
+activities:
+  - "hiking"
+permits_required: []
+status: "open"
+summary: "Contour trail along the lower edge of the Kula Forest Reserve from the cattle guard on Waipoli Road, linking to the Waiohuli and Redwood trails. Day use, hunters share the area."
+aliases:
+  - "Kula Boundary Trail"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Hunters use this area. Wear bright colors and stay on the trail."
+  - "Day use only."
+  - "About 4.4 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "hunting_area"
+  - "mud"
+  - "cold"
+alerts:
+  nws_zone: "HIZ049"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

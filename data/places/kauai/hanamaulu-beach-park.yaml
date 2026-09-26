@@ -1,0 +1,27 @@
+id: hanamaulu-beach-park
+name: Hanamāʻulu Beach Park
+island: kauai
+land_type: county
+manager: kauai-parks
+location:
+  lat: 21.994
+  lng: -159.343
+activities: [day_use, fishing]
+permits_required: []
+status: closed
+aliases: [Hanamaulu Beach Park]
+summary: Sheltered bay park near Līhuʻe with pavilions and a playground. No camping is offered. Closed after Hurricane Lowell.
+rules:
+  - "No camping. The county issues camping permits only for ʻAnini, Anahola, Salt Pond, and Lydgate."
+  - "Closed after Hurricane Lowell per the county update of September 25, 2026."
+  - Map pin is approximate.
+alerts:
+  nws_zone: HIZ030
+amenities: [restrooms, pavilions, playground]
+sources:
+  - "https://www.kauai.gov/Government/Departments-Agencies/Parks/Permitting/Camping"
+  - "https://www.kauai.gov/Government/Departments-Agencies/Parks/Facilities"
+  - "https://www.thegardenisland.com/2026/09/25/hawaii-news/county-updates-hurricane-lowell-recovery-status/"
+  - "https://www.kauai.gov/County-Press-Releases/County-to-close-parks-and-campgrounds-open-refuge-areas-at-5-p.m"
+last_verified: "2026-09-25"
+verified_by: ai_research

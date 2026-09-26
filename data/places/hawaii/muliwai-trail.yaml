@@ -1,0 +1,22 @@
+id: "muliwai-trail"
+name: "Muliwai Trail"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.122
+  lng: -155.599
+activities: ["hiking", "camping"]
+permits_required: []
+status: "closed"
+aliases: []
+summary: "The 9 mile trail from the west side of Waipiʻo Valley over the cliffs to Waimanu Valley, with camping at Waimanu by DOFAW permit. Cliffs, flash floods, shore break, and slippery rock. A landslide past Helipad 1 has closed the trail and campground, and the Waipiʻo road is closed to visitors on foot or in cars."
+fees:
+  entry: 0
+rules: ["Closed by a landslide past Helipad 1 until repaired.", "Waipiʻo Valley Road is closed to all pedestrians and nonresident vehicles.", "Treat all stream water.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["steep_drop", "flash_flood", "stream_crossings", "high_surf", "falling_rock", "remote"]
+alerts:
+  nws_zone: "HIZ054"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://camping.ehawaii.gov/camping/all,details,31720.html"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

@@ -1,0 +1,47 @@
+id: "nuu-refuge"
+name: "Nuʻu Refuge"
+island: "maui"
+land_type: "private_nonprofit"
+manager: "hawaii-land-trust"
+location:
+  lat: 20.618
+  lng: -156.183
+activities:
+  - "camping"
+  - "hiking"
+  - "wildlife_viewing"
+  - "fishing"
+  - "cultural_visit"
+permits_required:
+  - permit: "nuu-refuge-camping-reservation"
+    when: "To camp. You must attend a HILT volunteer day at Nuʻu within the past year."
+status: "restricted"
+summary: "An 82 acre Hawaiʻi Land Trust preserve on the remote Kaupō coast with a coastal wetland, dry forest, and many archaeological sites. Open for guided hikes and volunteer days. Camping is only for people who have volunteered at Nuʻu in the past year, booked about 120 days ahead."
+aliases:
+  - "Nuu Refuge"
+  - "Nuu Landing"
+  - "HILT Nuu"
+booking:
+  method: "owner_direct"
+  url: "https://www.hilt.org/nuu-reservations"
+  window_note: "Camping dates open about 120 days ahead. One standing reservation at a time."
+rules:
+  - "No dogs or other pets."
+  - "Groups over 10 must carry out waste for the extra people."
+  - "Reservations are cancelled when wind gusts over 35 mph are forecast."
+  - "Do not touch the kiʻi pōhaku (petroglyphs) or other sites."
+  - "Map pin is approximate."
+hazards:
+  - "remote"
+  - "heat"
+  - "high_surf"
+  - "no_water"
+alerts:
+  nws_zone: "HIZ050"
+cultural_notes: "Nuʻu has petroglyphs and many pre contact sites under a stewardship plan. Treat them with care."
+sources:
+  - "https://www.hilt.org/nuu"
+  - "https://www.hilt.org/nuu-reservations"
+  - "https://www.hilt.org/camp"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

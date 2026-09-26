@@ -1,0 +1,37 @@
+id: kalalau-beach-campground
+name: Kalalau Beach campground
+island: kauai
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 22.1741
+  lng: -159.6571
+activities: [camping, swimming]
+permits_required:
+  - permit: napali-coast-camping-permit
+    when: "Every night, per person. 5 nights max in the park."
+status: closed
+aliases: [Kalalau Valley camp]
+summary: "Backcountry camp at the end of the Kalalau Trail, 11 miles from Kēʻē. Composting toilets, a waterfall for water, and no other services. Closed after Hurricane Lowell."
+booking:
+  method: online
+  url: "https://explore.ehawaii.gov/"
+  window_note: "90 days ahead. Closed until further notice."
+fees:
+  camping_per_night: 35
+  resident_camping_per_night: 25
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says its Kauaʻi lands stay closed until they are safe. Check the DLNR page before you go.
+  - Camp only in the marked beach camping area. The valley interior is closed to camping.
+  - No fires. Treat all water. Pack out trash.
+hazards: [high_surf, falling_rock, flash_flood, remote, no_water]
+alerts:
+  nws_zone: HIZ029
+amenities: [composting toilets]
+max_stay_nights: 5
+sources:
+  - "https://dlnr.hawaii.gov/dsp/camping-lodging/kauai/"
+  - "https://dlnr.hawaii.gov/dsp/parks/kauai/napali-coast-state-wilderness-park/"
+  - "https://www.thegardenisland.com/2026/09/17/hawaii-news/dlnr-lands-on-remain-closed-for-public-safety/"
+last_verified: "2026-09-25"
+verified_by: ai_research

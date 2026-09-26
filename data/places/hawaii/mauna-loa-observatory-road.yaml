@@ -1,0 +1,22 @@
+id: "mauna-loa-observatory-road"
+name: "Mauna Loa Observatory Road"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.538
+  lng: -155.575
+activities: ["scenic_drive", "hiking", "biking"]
+permits_required: []
+status: "open"
+aliases: ["Mauna Loa Observatory Road", "Mauna Loa Road (Saddle side)"]
+summary: "A 17.5 mile paved but narrow one lane road from Saddle Road up to the Mauna Loa Observatory at 11,000 feet. Blind corners and no services. It is the usual start for the Observatory route to the Mauna Loa summit cabin in the national park."
+fees:
+  entry: 0
+rules: ["One lane with blind corners. Yield to downhill traffic.", "No water, fuel, or services.", "Summit hikers need a national park backcountry permit.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["altitude", "cold", "no_water", "remote"]
+alerts:
+  nws_zone: "HIZ028"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://www.nps.gov/havo/planyourvisit/hike_maunaloa.htm"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

@@ -1,0 +1,32 @@
+id: "waiakoa-loop-trail"
+name: "Waiakoa Loop Trail"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.723
+  lng: -156.296
+activities:
+  - "hiking"
+permits_required: []
+status: "open"
+summary: "Loop through open forest and scrub in the lower Kula Forest Reserve, reached by a 3 mile access road from the Waiakoa gate at the reserve boundary. Partly maintained. Hunters share the area."
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Hunters use this area. Wear bright colors and stay on the trail."
+  - "Park at the Waiakoa gate and walk the access road in."
+  - "Day use only."
+  - "About 3 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "hunting_area"
+  - "mud"
+  - "cold"
+alerts:
+  nws_zone: "HIZ049"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

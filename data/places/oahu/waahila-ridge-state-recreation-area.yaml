@@ -1,0 +1,38 @@
+id: waahila-ridge-state-recreation-area
+name: Waʻahila Ridge State Recreation Area
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.305
+  lng: -157.8
+activities:
+  - hiking
+  - day_use
+permits_required: []
+status: open
+aliases:
+  - Waahila Ridge
+  - St. Louis Heights
+summary: A cool pine forest park at the top of St. Louis Heights with picnic areas and the start of the Waʻahila Ridge Trail toward Mānoa and the Koʻolau crest.
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - Open 7 am to 7:45 pm April 1 through Labor Day, and 7 am to 6:45 pm the rest of the year. The gate locks at closing.
+  - The ridge trail is rocky with steep drops. Turn back before the closed upper section.
+hazards:
+  - steep_drop
+  - mud
+alerts:
+  nws_zone: HIZ033
+amenities:
+  - restrooms
+  - picnic tables
+  - pavilion
+  - parking
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/waahila-ridge-state-recreation-area/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

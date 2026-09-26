@@ -1,0 +1,32 @@
+land_type: federal
+permits_required:
+  - permit: james-campbell-nwr-tour
+    when: Everyone. The refuge is closed to walk in visitors. Guided bird tours run October through February by arrangement with the Friends group.
+id: james-campbell-national-wildlife-refuge
+name: James Campbell National Wildlife Refuge
+manager: usfws
+location:
+  lat: 21.6922
+  lng: -157.9604
+activities:
+  - wildlife_viewing
+status: restricted
+aliases:
+  - James Campbell NWR
+  - Kahuku refuge
+summary: Wetlands and dunes at Kahuku Point that shelter endangered Hawaiian waterbirds and nesting seabirds. Closed to the public except guided tours in the non breeding season.
+booking:
+  method: mail
+  window_note: Email info@friendsofoahunwr.org for tour dates.
+fees:
+  entry: see_source
+rules:
+  - No entry without a tour. Do not walk in from Kahuku Point or the golf course.
+  - Keep dogs and drones away from the refuge.
+alerts:
+  nws_zone: HIZ007
+sources:
+  - https://www.fws.gov/refuge/james-campbell
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

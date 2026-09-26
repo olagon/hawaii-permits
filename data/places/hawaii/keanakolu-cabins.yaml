@@ -1,0 +1,31 @@
+id: "keanakolu-cabins"
+name: "Keanakolu Ranger and Bunkhouse Cabins"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.944
+  lng: -155.313
+activities: ["cabin", "hiking", "hunting"]
+permits_required:
+  - permit: "dofaw-camping-permit"
+    when: "To stay in either cabin. Book 7 to 30 days ahead. Pick up keys at a Big Island DOFAW office and leave a $60 cash deposit per key set."
+status: "open"
+aliases: ["Keanakolu", "Keanakolu Cabin", "Mana Road cabins"]
+summary: "Two rustic cabins at about 5,300 feet in the Humuʻula section of Hilo Forest Reserve on Mana Road, 19 miles from Saddle Road or 16 miles from Waimea. Licensed 4WD required. No potable water, no power. Reservations open daily since May 2025."
+booking:
+  method: "online"
+  url: "https://camping.ehawaii.gov/camping/all,details,31717.html"
+  window_note: "Book no less than 7 and no more than 30 days ahead. Weekend stays limited to one weekend per 6 months."
+fees:
+  camping_per_night: "see_source"
+  resident_camping_per_night: "see_source"
+  note: "$60 cash key deposit per set, refunded on return."
+rules: ["Licensed 4WD only. No ATVs or dirt bikes.", "No potable water. Catchment water only, treat it.", "Bring your own generator if you want power. No firewood provided.", "No pets.", "Check in 1pm, check out noon. Refunds only 15 or more days ahead.", "Kamuela office key pickup is by appointment."]
+hazards: ["cold", "no_water", "remote", "hunting_area", "mud"]
+alerts:
+  nws_zone: "HIZ027"
+amenities: ["bunks", "catchment water"]
+sources: ["https://camping.ehawaii.gov/camping/all,details,31717.html", "https://dlnr.hawaii.gov/blog/2025/05/12/nr25-72/", "https://dlnr.hawaii.gov/recreation/camp/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

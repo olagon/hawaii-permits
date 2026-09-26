@@ -1,0 +1,26 @@
+id: "south-kona-forest-reserve-unit-b"
+name: "South Kona Forest Reserve (Unit B)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.25
+  lng: -155.83
+activities: ["hunting", "hiking"]
+permits_required:
+  - permit: "hunting-license"
+    when: "Required to hunt in Unit B. Check the DOFAW Hawaiʻi Island page and the rule exhibits for species, days, and any tag or lottery requirements."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season."
+status: "open"
+summary: "The Kaʻohe, Kapuʻa-Manukā (Honomalino), and other sections of the South Kona Forest Reserve on the west slope of Mauna Loa. Unit B for pigs and game birds. Dry to mesic forest on rough lava."
+fees:
+  entry: 0
+rules: ["Hunters must carry a license and follow Chapter 13-122 (birds) and 13-123 (mammals) rules.", "Hikers should wear bright colors. Hunting dogs may be present.", "Map pin is the unit centroid from DLNR GIS data."]
+hazards: ["hunting_area", "heat", "no_water", "remote"]
+alerts:
+  nws_zone: "HIZ023"
+aliases: ["South Kona Forest Reserve", "Honomalino"]
+sources: ["https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/", "https://dlnr.hawaii.gov/recreation/hunting/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

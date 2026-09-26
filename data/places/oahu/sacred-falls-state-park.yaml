@@ -1,0 +1,34 @@
+id: sacred-falls-state-park
+name: Sacred Falls State Park
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.583
+  lng: -157.912
+activities:
+  - hiking
+permits_required: []
+status: closed
+aliases:
+  - Kaliuwaʻa
+  - Kaliuwaa Falls
+  - Sacred Falls
+summary: >-
+  Closed since a rockfall killed 8 people on Mother's Day 1999. The park stays closed and the state has no plan to reopen it. Entering is trespassing and DLNR officers cite people regularly, with
+  fines that grow for repeat offenses.
+rules:
+  - Closed to all entry. Do not go in.
+  - Fines are issued for trespassing.
+  - Map pin is approximate.
+hazards:
+  - falling_rock
+  - flash_flood
+alerts:
+  nws_zone: HIZ035
+cultural_notes: Kaliuwaʻa is tied to the pig god Kamapuaʻa.
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/blog/2022/06/02/nr22-074/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

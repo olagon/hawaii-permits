@@ -1,0 +1,31 @@
+id: polihale-state-park
+name: Polihale State Park
+island: kauai
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 22.0833
+  lng: -159.7601
+activities: [camping, day_use, swimming, fishing, four_wheel_drive]
+permits_required:
+  - permit: state-parks-camping-permit
+    when: "To camp, when camping reopens. DLNR lists Polihale camping as suspended until further notice."
+status: closed
+aliases: [Polihale, Barking Sands (state park side)]
+summary: "Long remote beach at the west end of the island below the Nāpali cliffs. Reached by a rough dirt road. Camping was already suspended after the March 2026 storms, and the whole park is closed after Hurricane Lowell."
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says its Kauaʻi lands stay closed until they are safe. Check the DLNR page before you go.
+  - Camping is suspended until further notice per the DLNR camping page.
+  - The access road is unpaved and often impassable. Rental car contracts usually ban it.
+  - Very strong shorebreak and rip currents. No lifeguards.
+hazards: [high_surf, heat, no_water, remote, hunting_area]
+alerts:
+  nws_zone: HIZ003
+amenities: [restrooms, outdoor showers, picnic pavilions]
+sources:
+  - "https://dlnr.hawaii.gov/dsp/parks/kauai/polihale-state-park/"
+  - "https://dlnr.hawaii.gov/dsp/camping-lodging/kauai/"
+  - "https://www.thegardenisland.com/2026/09/17/hawaii-news/dlnr-lands-on-remain-closed-for-public-safety/"
+  - "https://kauainownews.com/2026/09/17/all-state-parks-on-kaua%CA%BBi-will-remain-closed-for-foreseeable-future-due-to-hurricane-lowell-damage/"
+last_verified: "2026-09-25"
+verified_by: ai_research

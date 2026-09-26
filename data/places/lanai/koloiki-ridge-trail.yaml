@@ -1,0 +1,25 @@
+id: koloiki-ridge-trail
+name: Koloiki Ridge Trail
+island: lanai
+land_type: private
+manager: pulama-lanai
+location: { lat: 20.838, lng: -156.912 }
+activities: [hiking]
+permits_required: []
+status: open
+aliases: [Koloiki Ridge, Koloiki Trail, Koele nature hike]
+summary: About 5 mile round trip walk from the Kōʻele area above Lānaʻi City up through pines and ironwood to Koloiki Ridge, with views into Maunalei Gulch and across to Molokaʻi and Maui. On private Pūlama Lānaʻi land but used freely by residents and visitors. The route shares a road with resort UTV tours.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - Stay on the marked route. Yield to vehicles on the shared road.
+  - No shade or water on the ridge. Start early.
+  - Map pin is approximate.
+hazards: [heat, steep_drop, mud, no_water]
+alerts: { nws_zone: HIZ015 }
+amenities: [restrooms, parking]
+sources:
+  - https://www.gohawaii.com/islands/lanai/things-to-do/land-activities/Hiking
+  - https://www.lanai96763.com/community-resources/recreation/
+last_verified: 2026-09-25
+verified_by: ai_research

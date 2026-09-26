@@ -1,0 +1,57 @@
+id: "haleakala-wilderness-tent-camping"
+name: "Haleakalā Wilderness Tent Camping (Hōlua and Palikū)"
+island: "maui"
+land_type: "federal"
+manager: "nps"
+location:
+  lat: 20.735
+  lng: -156.177
+activities:
+  - "camping"
+  - "hiking"
+permits_required:
+  - permit: "haleakala-wilderness-camping-permit"
+    when: "To camp at Hōlua or Palikū. Up to 3 nights."
+  - permit: "haleakala-entrance-pass"
+    when: "Every vehicle entering the park."
+status: "open"
+summary: "Two primitive tent areas inside the crater, at Hōlua and Palikū, reached only by trail. A recreation.gov permit is required, $8 booking fee, up to 6 months ahead. Each area has 4 small sites and 1 group site."
+aliases:
+  - "Holua campsite"
+  - "Paliku campsite"
+  - "Haleakala backcountry camping"
+booking:
+  method: "online"
+  url: "https://www.recreation.gov/camping/campgrounds/10119505"
+  window_note: "Opens up to 6 months ahead. No in person permits."
+fees:
+  entry: 30
+  note: "$8 online or $9 phone booking fee per reservation."
+rules:
+  - "Individual sites: up to 5 people and 2 tents. Group sites: up to 10 people and 4 tents."
+  - "Groups over 12 must split and start 30 minutes apart."
+  - "No dogs or drones. Pack out all trash."
+  - "Non potable water spigot at the cabins. Treat all water."
+  - "Enter the park no earlier than 7:00 am without a sunrise reservation."
+  - "The Kaupō Gap Trail is outside the park, unmaintained, and crosses private land."
+  - "Map pin is approximate."
+hazards:
+  - "altitude"
+  - "cold"
+  - "no_water"
+  - "remote"
+  - "steep_drop"
+alerts:
+  nws_zone: "HIZ022"
+  nps_park_code: "hale"
+amenities:
+  - "pit_toilets"
+  - "non_potable_water"
+max_stay_nights: 3
+group_size_limit: 10
+sources:
+  - "https://www.nps.gov/hale/planyourvisit/wilderness-camping.htm"
+  - "https://www.recreation.gov/camping/campgrounds/10119505"
+  - "https://www.nps.gov/hale/planyourvisit/camping.htm"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

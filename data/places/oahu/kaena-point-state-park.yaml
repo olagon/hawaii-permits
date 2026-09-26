@@ -1,0 +1,60 @@
+id: kaena-point-state-park
+name: Kaʻena Point State Park
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.55
+  lng: -158.243
+activities:
+  - hiking
+  - fishing
+  - day_use
+  - swimming
+  - wildlife_viewing
+  - four_wheel_drive
+permits_required:
+  - permit: kaena-point-vehicle-permit
+    when: Only to drive past the locked gate at the end of the paved road on the Mokulēʻia side. Hiking and biking need no permit.
+status: open
+aliases:
+  - Kaena Point
+  - Keawaʻula
+  - Yokohama Bay
+  - Mokuleia section
+summary: >-
+  The wild western tip of Oʻahu, reached from two sides. The Waiʻanae side (Keawaʻula, also called Yokohama Bay) has a beach and lifeguards. The Mokulēʻia side is a rough road along the coast. Both
+  lead on foot to the Kaʻena Point Natural Area Reserve.
+booking:
+  method: online
+  url: https://dlnr.hawaii.gov/dsp/parks/oahu/kaena-point-state-park/
+  window_note: Vehicle access permits for the Mokulēʻia gate are applied for online through the park page.
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - Open 7 am to 7:45 pm April 1 through Labor Day, and 7 am to 6:45 pm the rest of the year.
+  - The Keawaʻula Trail (the old railroad grade) on the Waiʻanae side was listed as closed. Check the park page before you go.
+  - No dogs, drones, camping or ground fires.
+  - Vehicles with a permit may only use the designated roads and must not enter the Natural Area Reserve.
+  - Very hot and dry with no shade. Bring water.
+  - Strong currents and high surf in winter at Keawaʻula.
+hazards:
+  - heat
+  - high_surf
+  - no_water
+  - falling_rock
+  - remote
+alerts:
+  nws_zone: HIZ006
+amenities:
+  - restrooms
+  - showers
+  - lifeguard at Keawaʻula
+cultural_notes: Kaʻena is a leina a ka ʻuhane, a place where souls leap into the afterlife. Treat it with respect and stay on the trails.
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/kaena-point-state-park/
+  - https://dlnr.hawaii.gov/dofaw/permits/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

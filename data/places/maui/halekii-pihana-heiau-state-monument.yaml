@@ -1,0 +1,33 @@
+id: "halekii-pihana-heiau-state-monument"
+name: "Halekiʻi-Pihana Heiau State Monument"
+island: "maui"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 20.904
+  lng: -156.492
+activities:
+  - "cultural_visit"
+  - "day_use"
+permits_required: []
+status: "open"
+summary: "Two large heiau above the Wailuku side of ʻĪao Stream. Open daily in daylight with no fee. A short walk with views over central Maui."
+aliases:
+  - "Halekii-Pihana Heiau"
+  - "Haleki'i Heiau"
+  - "Pihana Heiau"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Stay on the path. Do not climb on or move stones."
+  - "Open during daylight hours only."
+  - "No camping."
+alerts:
+  nws_zone: "HIZ045"
+cultural_notes: "These heiau were rededicated as war temples by Kahekili. This is a sacred site. Visit quietly and leave offerings and stones alone."
+sources:
+  - "https://dlnr.hawaii.gov/dsp/parks/maui/halekii-pihana-heiau-state-monument/"
+  - "https://dlnr.hawaii.gov/dsp/parks/maui/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

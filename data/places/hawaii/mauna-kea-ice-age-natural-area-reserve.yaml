@@ -1,0 +1,27 @@
+id: "mauna-kea-ice-age-natural-area-reserve"
+name: "Mauna Kea Ice Age Natural Area Reserve (Lake Waiau)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.81
+  lng: -155.48
+activities: ["hiking", "cultural_visit", "wildlife_viewing", "hunting"]
+permits_required:
+  - permit: "hunting-license"
+    when: "Required to hunt in Unit K. Unit K natural area reserve. Hunting helps control feral animals here. Check the DOFAW page for rules."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season."
+status: "open"
+summary: "The summit area reserve on Mauna Kea with Lake Waiau, glacial deposits, and the ancient adze quarry. Unit K. Lake Waiau is sacred: no swimming, watercraft, rock stacking, or rock throwing. Reached on foot from the summit road or the Humuʻula summit trail."
+fees:
+  entry: 0
+rules: ["No swimming, boats, rock stacking, or throwing rocks at Lake Waiau.", "Altitude above 13,000 feet. Acclimatize at the Visitor Information Station first.", "Natural Area Reserves protect the most fragile native ecosystems. No camping, fires, vehicles, or collecting. Groups over 10 and research need a special use permit.", "Hunters must carry a license and follow Chapter 13-122 (birds) and 13-123 (mammals) rules.", "Hikers should wear bright colors. Hunting dogs may be present.", "Map pin is the unit centroid from DLNR GIS data."]
+hazards: ["altitude", "cold", "hunting_area", "remote", "no_water"]
+alerts:
+  nws_zone: "HIZ028"
+aliases: ["Lake Waiau", "Mauna Kea Ice Age NAR", "Keanakākoʻi adze quarry"]
+cultural_notes: "Lake Waiau and the summit are sacred. Do not touch shrines or leave anything."
+sources: ["https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/", "https://dlnr.hawaii.gov/recreation/hunting/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

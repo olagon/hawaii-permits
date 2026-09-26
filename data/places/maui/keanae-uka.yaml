@@ -1,0 +1,43 @@
+id: "keanae-uka"
+name: "Keʻanae Uka (former YMCA Camp Keʻanae)"
+island: "maui"
+land_type: "private_nonprofit"
+manager: "na-moku-aupuni-o-koolau-hui"
+location:
+  lat: 20.853
+  lng: -156.152
+activities:
+  - "camping"
+  - "cabin"
+permits_required:
+  - permit: "keanae-uka-reservation"
+    when: "Every stay. Submit the online booking request and wait for confirmation."
+status: "open"
+summary: "Nine acre community camp above the Keʻanae Peninsula on the Hāna Highway, formerly YMCA Camp Keʻanae, now run by Nā Moku ʻAupuni ʻO Koʻolau Hui. Open for camper van bookings and a duplex cottage that sleeps 6. Send a booking request online."
+aliases:
+  - "Camp Keanae"
+  - "YMCA Camp Keanae"
+  - "Keanae Uka"
+booking:
+  method: "owner_direct"
+  url: "https://www.keanaeuka.com/"
+  phone: "808-248-4401"
+  window_note: "Booking request form online. Replies take 5 to 7 business days."
+fees:
+  camping_per_night: "see_source"
+rules:
+  - "Book ahead. No walk ins listed."
+  - "Outdoor showers and restrooms for camper van guests."
+  - "Map pin is approximate."
+hazards:
+  - "flash_flood"
+alerts:
+  nws_zone: "HIZ047"
+amenities:
+  - "restrooms"
+  - "showers"
+  - "cottage"
+sources:
+  - "https://www.keanaeuka.com/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

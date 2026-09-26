@@ -1,0 +1,25 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: maunawili-waimanalo-trail
+name: Maunawili-Waimānalo Road Trail
+location:
+  lat: 21.3426
+  lng: -157.7428
+aliases:
+  - Maunawili-Waimanalo Road
+summary: A 1 mile connector from Kumuhau Street in Waimānalo to the east end of the Maunawili Trail.
+rules:
+  - Muddy after rain.
+hazards:
+  - mud
+alerts:
+  nws_zone: HIZ009
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

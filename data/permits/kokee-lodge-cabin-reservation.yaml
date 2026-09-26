@@ -1,0 +1,17 @@
+id: kokee-lodge-cabin-reservation
+name: Kōkeʻe Lodge cabin reservation
+issuer: kokee-lodge
+category: cabin
+who_needs: "Anyone staying in the state owned cabins at Kōkeʻe run by the private concession, The Cabins at Kōkeʻe (Kōkeʻe Lodge)."
+how_to_get: owner_direct
+url: "https://book-directonline.com/properties/cabinsatkokeeparkdirect"
+carry_required: false
+covers: [kokee-lodge-cabins]
+booking_window:
+  notes: "Book online through the lodge site or call 808-335-6061. Rates, minimum stay, and pet rules are not listed on the public site; ask the lodge. Kōkeʻe Road is closed after Hurricane Lowell (September 2026)."
+cost:
+  resident: see_source
+  nonresident: see_source
+  unit: per cabin per night
+sources: ["https://www.kokeelodge.com/", "https://dlnr.hawaii.gov/dsp/camping-lodging/kauai/"]
+last_verified: "2026-09-25"

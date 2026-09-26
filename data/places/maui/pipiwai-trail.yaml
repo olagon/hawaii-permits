@@ -1,0 +1,43 @@
+id: "pipiwai-trail"
+name: "Pīpīwai Trail"
+island: "maui"
+land_type: "federal"
+manager: "nps"
+location:
+  lat: 20.664
+  lng: -156.047
+activities:
+  - "hiking"
+permits_required:
+  - permit: "haleakala-entrance-pass"
+    when: "Every vehicle or person entering the park."
+status: "open"
+summary: "A 4 mile round trip through the bamboo forest to the base of Waimoku Falls in the Kīpahulu District, with about 800 feet of climbing. Park entrance fee applies. Stay out of the stream and pools."
+aliases:
+  - "Pipiwai Trail"
+  - "Waimoku Falls"
+  - "Bamboo Forest Kipahulu"
+fees:
+  entry: 30
+rules:
+  - "Stay on the trail and boardwalk. Do not swim at Waimoku Falls or in the stream."
+  - "Rockfall and flash floods can happen at any time."
+  - "No dogs on the trail."
+  - "Trail is muddy and slippery when wet."
+  - "Map pin is approximate."
+hazards:
+  - "flash_flood"
+  - "falling_rock"
+  - "mud"
+  - "stream_crossings"
+alerts:
+  nws_zone: "HIZ048"
+  nps_park_code: "hale"
+amenities:
+  - "restrooms"
+  - "parking"
+sources:
+  - "https://www.nps.gov/hale/planyourvisit/kipahulu.htm"
+  - "https://www.nps.gov/hale/planyourvisit/fees.htm"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

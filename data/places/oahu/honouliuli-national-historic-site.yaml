@@ -1,0 +1,36 @@
+land_type: federal
+permits_required:
+  - permit: honouliuli-tour-reservation
+    when: Everyone. There is no public road into the site. Visits are by guided tour only, about once a month, reserved through the park.
+id: honouliuli-national-historic-site
+name: Honouliuli National Historic Site
+manager: nps
+location:
+  lat: 21.3871
+  lng: -158.0563
+activities:
+  - cultural_visit
+status: restricted
+aliases:
+  - Honouliuli Internment Camp
+  - Jigoku Dani
+summary: The site of the largest World War II internment and prisoner of war camp in Hawaiʻi, in a gulch above Kunia. No public road reaches it, so the park is closed except for occasional guided tours.
+booking:
+  method: online
+  url: https://www.nps.gov/hono/planyourvisit/index.htm
+  window_note: Tours are announced on the park site and fill first come first served.
+fees:
+  entry: 0
+rules:
+  - Do not try to reach the site on your own. The surrounding land is private.
+  - Exhibits about the camp are at the Pearl Harbor National Memorial bookstore, the Japanese Cultural Center of Hawaiʻi and Hawaiʻi's Plantation Village.
+alerts:
+  nws_zone: HIZ034
+  nps_park_code: hono
+cultural_notes: A place of confinement for Japanese Americans and others during the war. Visit with respect.
+sources:
+  - https://www.nps.gov/hono/planyourvisit/index.htm
+  - https://www.nps.gov/hono/planyourvisit/basicinfo.htm
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

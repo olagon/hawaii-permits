@@ -1,0 +1,35 @@
+id: "kaupo-gap-trail"
+name: "Kaupō Gap Trail"
+island: "maui"
+land_type: "private"
+manager: "Kaupō Ranch (private) with NPS trail above the park boundary"
+location:
+  lat: 20.68
+  lng: -156.14
+activities:
+  - "hiking"
+permits_required: []
+status: "restricted"
+summary: "The route from Palikū down Kaupō Gap to the coast leaves Haleakalā National Park and crosses private ranch land. NPS does not maintain it, calls it rugged, brushy, and unmaintained, and says hikers assume all risk. NPS recommends the Halemauʻu or Keoneheʻeheʻe trails instead."
+aliases:
+  - "Kaupo Trail"
+  - "Kaupo Gap"
+rules:
+  - "Below the park boundary the trail is on private land and is not maintained."
+  - "Frequent injuries reported. Do not attempt without a plan for a pickup at the bottom."
+  - "No camping outside the park wilderness sites."
+  - "Map pin is approximate."
+hazards:
+  - "steep_drop"
+  - "heat"
+  - "no_water"
+  - "remote"
+  - "mud"
+alerts:
+  nws_zone: "HIZ050"
+  nps_park_code: "hale"
+sources:
+  - "https://www.recreation.gov/camping/campgrounds/10119505"
+  - "https://www.nps.gov/hale/planyourvisit/wilderness-camping.htm"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

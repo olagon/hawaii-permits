@@ -1,0 +1,37 @@
+id: "maui-hunting-unit-c"
+name: "Maui Hunting Unit C (Kula and Kahikinui Forest Reserves, Kaonoulu lease)"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.72
+  lng: -156.281
+activities:
+  - "hunting"
+  - "hiking"
+permits_required:
+  - permit: "hunting-license"
+    when: "Unit C, game mammals and game birds."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season, usually Saturdays, Sundays, and state holidays."
+status: "open"
+summary: "Game mammal and game bird hunting in the Kula Forest Reserve, Kahikinui Forest Reserve, and the Kaonoulu Ranch cooperative lease area. Game birds on Saturdays, Sundays, and state holidays in season, when mammal hunting in the unit is closed for the day. Hunter check station on Waipoli Road."
+aliases:
+  - "Unit C"
+  - "Kahikinui Forest Reserve"
+rules:
+  - "Safety zone 50 yards each side of Waipoli Road and 100 feet around Polipoli SRA, no hunting."
+  - "On game bird days, mammal hunting in unit C is closed."
+  - "Check the DLNR Maui hunting page for current seasons, bag limits, and closures."
+  - "Hunters must carry a valid license and, where posted, check in and out at the hunter check station."
+hazards:
+  - "hunting_area"
+  - "remote"
+alerts:
+  nws_zone: "HIZ049"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/hunting/maui/"
+  - "https://dlnr.hawaii.gov/recreation/hunting/gma/"
+  - "https://dlnr.hawaii.gov/recreation/files/2025/10/2025-2026-FINAL_Game-Bird-Season-Announcement.pdf"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

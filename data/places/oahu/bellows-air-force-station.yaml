@@ -1,0 +1,38 @@
+id: bellows-air-force-station
+name: Bellows Air Force Station Recreation Area
+land_type: military
+manager: U.S. Air Force, Bellows Air Force Station
+location:
+  lat: 21.36
+  lng: -157.712
+activities:
+  - camping
+  - cabin
+  - swimming
+  - surfing
+permits_required: []
+status: restricted
+aliases:
+  - Bellows AFS
+  - Bellows Beach cabins
+summary: >-
+  A military recreation area in Waimānalo with beach cabins, condos, camper cabins and campsites. Only Department of Defense ID holders, retirees, some veterans and their guests may enter. The public
+  county beach park is separate at the north end on weekends.
+booking:
+  method: owner_direct
+  url: https://www.bellowsafs.com/
+  window_note: Reserve online. Base access rules apply to guests.
+fees:
+  camping_per_night: see_source
+rules:
+  - Base access required. People without a DoD ID or sponsored guest pass cannot enter.
+  - Map pin is approximate.
+hazards:
+  - high_surf
+alerts:
+  nws_zone: HIZ009
+sources:
+  - https://www.bellowsafs.com/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

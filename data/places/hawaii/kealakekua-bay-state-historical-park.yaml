@@ -1,0 +1,30 @@
+id: "kealakekua-bay-state-historical-park"
+name: "Kealakekua Bay State Historical Park"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 19.479
+  lng: -155.928
+activities: ["snorkeling", "boating", "hiking", "cultural_visit", "day_use"]
+permits_required:
+  - permit: "kealakekua-bay-vessel-permit"
+    when: "To bring your own kayak, paddleboard, or boat into the bay. Rental kayaks must carry the rental company's permit. No landing at Kaʻawaloa Flat."
+status: "open"
+aliases: ["Kealakekua Bay", "Captain Cook Monument", "Napoopoo", "Kaawaloa"]
+summary: "Bay and marine life conservation district in South Kona where Captain Cook landed in 1779. Hikiau Heiau stands at Nāpōʻopoʻo. Kaʻawaloa Flat and the Cook monument are reached on foot by the Kaʻawaloa Trail or by a permitted guided kayak tour."
+booking:
+  method: "mail"
+  url: "https://dlnr.hawaii.gov/dsp/parks/hawaii/kealakekua-bay-state-historical-park/"
+  window_note: "Vessel permits take up to 14 days. Email the application to State Parks."
+fees:
+  entry: 0
+rules: ["Open 7:00am to 8:00pm.", "Do not go onto Hikiau Heiau.", "No launching from Nāpōʻopoʻo wharf.", "Permitted vessels may transit the bay but may not land at Kaʻawaloa Flat.", "Only the state permitted kayak tour companies may take guests to the monument by water.", "Restrooms are only at the Nāpōʻopoʻo section. None on the Kaʻawaloa Trail."]
+hazards: ["heat", "steep_drop", "high_surf"]
+alerts:
+  nws_zone: "HIZ023"
+amenities: ["restrooms"]
+cultural_notes: "Hikiau Heiau is a sacred site still used today. Stay off the structure."
+sources: ["https://dlnr.hawaii.gov/dsp/parks/hawaii/kealakekua-bay-state-historical-park/", "https://outdoor.hawaii.gov/state-parks/permit/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

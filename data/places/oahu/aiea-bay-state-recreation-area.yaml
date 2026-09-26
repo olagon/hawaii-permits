@@ -1,0 +1,30 @@
+id: aiea-bay-state-recreation-area
+name: ʻAiea Bay State Recreation Area
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.376
+  lng: -157.935
+activities:
+  - day_use
+  - fishing
+permits_required: []
+status: open
+aliases:
+  - Aiea Bay
+summary: A small shoreline park on Pearl Harbor near ʻAiea with lawn, picnic spots and a view across the harbor. Day use only.
+fees:
+  entry: 0
+rules:
+  - Open 7 am to 7:45 pm April 1 through Labor Day, and 7 am to 6:45 pm the rest of the year.
+  - Construction work was announced for early October 2026 and may close parts of the park for about two weeks.
+  - Map pin is approximate.
+amenities:
+  - restrooms
+  - picnic tables
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/aiea-bay-state-recreation-area/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

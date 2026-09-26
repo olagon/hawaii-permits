@@ -1,0 +1,24 @@
+id: "kaloko-honokohau-national-historical-park"
+name: "Kaloko-Honokōhau National Historical Park"
+island: "hawaii"
+land_type: "federal"
+manager: "nps"
+location:
+  lat: 19.68
+  lng: -156.031
+activities: ["cultural_visit", "hiking", "day_use", "snorkeling", "wildlife_viewing"]
+permits_required: []
+status: "open"
+aliases: ["Kaloko-Honokohau", "Kaloko", "Honokohau"]
+summary: "Fishponds, fishtraps, petroglyphs, and coastal trails just north of Kailua-Kona. Free. Park open sunrise to sunset, visitor center 8:30am to 4pm, Kaloko Road gate 8am to 5pm."
+fees:
+  entry: 0
+rules: ["Park open sunrise to sunset.", "Visitor center parking lot closes at 4:00pm. Kaloko Road gate closes at 5:00pm.", "Give resting sea turtles and monk seals plenty of space."]
+hazards: ["heat"]
+alerts:
+  nws_zone: "HIZ023"
+  nps_park_code: "kaho"
+amenities: ["visitor center", "restrooms"]
+sources: ["https://www.nps.gov/kaho/planyourvisit/fees.htm", "https://www.nps.gov/kaho/planyourvisit/hours.htm", "https://www.nps.gov/kaho/planyourvisit/basicinfo.htm"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

@@ -1,0 +1,26 @@
+id: "wailoa-river-state-recreation-area"
+name: "Wailoa River State Recreation Area"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 19.718
+  lng: -155.074
+activities: ["day_use", "fishing", "boating"]
+permits_required: []
+status: "open"
+aliases: ["Wailoa", "Wailoa Center"]
+summary: "Landscaped park around the Wailoa River in Hilo with walking paths, boat ramp, fishing, pavilions for rent, and the Wailoa Center art galleries. Daylight hours, no fee. Reopened August 29, 2026 after storm damage."
+booking:
+  method: "online"
+  url: "https://explore.ehawaii.gov/"
+  window_note: "Pavilions are day use only: $30 per day for the 15 person gazebo, $10 per hour for 60 person, $250 per day for 500 person."
+fees:
+  entry: 0
+rules: ["Open during daylight hours.", "Fishing rules apply in the river.", "No tables or chairs come with pavilion rentals."]
+alerts:
+  nws_zone: "HIZ053"
+amenities: ["restrooms", "pavilions", "boat ramp", "parking"]
+sources: ["https://dlnr.hawaii.gov/dsp/parks/hawaii/wailoa-river-state-recreation-area/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

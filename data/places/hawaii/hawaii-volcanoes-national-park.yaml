@@ -1,0 +1,30 @@
+id: "hawaii-volcanoes-national-park"
+name: "Hawaiʻi Volcanoes National Park (Kīlauea summit)"
+island: "hawaii"
+land_type: "federal"
+manager: "nps"
+location:
+  lat: 19.429
+  lng: -155.257
+activities: ["hiking", "day_use", "scenic_drive", "wildlife_viewing", "stargazing", "cultural_visit"]
+permits_required: []
+status: "open"
+aliases: ["Hawaii Volcanoes", "HVNP", "Kilauea", "Volcano National Park"]
+summary: "National park around the summit of Kīlauea and the slopes of Mauna Loa, open 24 hours. Crater Rim Drive, Chain of Craters Road, day hikes, two drive-in campgrounds, and backcountry sites. Entrance fee $30 per vehicle."
+booking:
+  method: "online"
+  url: "https://www.recreation.gov/"
+  window_note: "No reservation to enter. Backcountry camping needs a permit from Recreation.gov."
+fees:
+  entry: 30
+  note: "$30 per private vehicle, $25 per motorcycle, $15 per person on foot or bike, good for 7 days. No cash. Hawaiʻi Tri-Park annual pass $55."
+rules: ["Open 24 hours a day. The Kahuku Unit has its own hours.", "Volcanic gas can be hazardous. Check air quality and stay out of closed areas.", "A two year construction project at the summit will cause closures and delays.", "Most of the park closed on September 24, 2026 for Tropical Storm Nolo. Check the park alerts page before you go."]
+hazards: ["steep_drop", "altitude", "heat", "cold", "falling_rock"]
+alerts:
+  nws_zone: "HIZ052"
+  nps_park_code: "havo"
+amenities: ["visitor center", "restrooms", "water", "lodging"]
+cultural_notes: "Kīlauea is the home of Pele and a sacred landscape. Do not take rocks or leave offerings."
+sources: ["https://www.nps.gov/havo/planyourvisit/fees.htm", "https://www.nps.gov/havo/planyourvisit/hours.htm", "https://www.nps.gov/havo/planyourvisit/conditions.htm", "https://www.nps.gov/havo/learn/news/20260924_nolo_storm.htm"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

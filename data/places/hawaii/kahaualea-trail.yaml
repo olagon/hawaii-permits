@@ -1,0 +1,22 @@
+id: "kahaualea-trail"
+name: "Kahaualeʻa Trail"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.406
+  lng: -155.115
+activities: ["hiking", "hunting"]
+permits_required: []
+status: "open"
+aliases: ["Kahaualea Trail"]
+summary: "A 3.4 mile trail from the end of South Glenwood Road into Kahaualeʻa Natural Area Reserve toward the Puʻuʻōʻō area. Daytime use only. Volcanic activity, weather, and hunters are the hazards. The reserve has been closed during eruptions."
+fees:
+  entry: 0
+rules: ["Daytime use only.", "The area closes during volcanic activity. Check DLNR announcements.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["hunting_area", "remote", "heat"]
+alerts:
+  nws_zone: "HIZ052"
+sources: ["https://hawaiitrails.hawaii.gov/trails/#/trail/kahaualea/291", "https://dlnr.hawaii.gov/recreation/nah/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

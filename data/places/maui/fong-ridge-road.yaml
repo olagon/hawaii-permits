@@ -1,0 +1,30 @@
+id: "fong-ridge-road"
+name: "Fong Ridge Road"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.827
+  lng: -156.274
+activities:
+  - "hiking"
+permits_required: []
+status: "open"
+summary: "Old tree planting road out of the Kahakapao Recreation Area to the Makawao Forest Reserve boundary. Used by hunters and hikers. The far end reaches private land, so turn around at the reserve boundary."
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Hunters use this area. Wear bright colors and stay on the trail."
+  - "Do not go past the forest reserve boundary onto private land."
+  - "About 1.6 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "hunting_area"
+  - "mud"
+alerts:
+  nws_zone: "HIZ049"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

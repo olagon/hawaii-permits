@@ -1,0 +1,23 @@
+id: "haleakala-kipahulu-campground-reservation"
+name: "Kīpahulu campground reservation"
+issuer: "nps"
+category: "camping"
+who_needs: "Anyone camping at the Kīpahulu campground on the coast near ʻOheʻo Gulch."
+how_to_get: "online"
+url: "https://www.recreation.gov/"
+carry_required: true
+covers:
+  - "haleakala-kipahulu-campground"
+booking_window:
+  opens_days_before: 30
+  notes: "Reservations open on a 30 day rolling basis on recreation.gov. Check in after 2:00 pm, check out by 11:00 am."
+cost:
+  resident: 20
+  nonresident: 20
+  unit: "per site per night"
+  note: "Up to 6 people and 2 tents per site. Park entrance fee is separate."
+valid_for: "Up to 3 consecutive nights. Total camping in the park is limited to 3 nights in any 30 day period."
+sources:
+  - "https://www.nps.gov/hale/planyourvisit/kipahulu-campground.htm"
+  - "https://www.nps.gov/hale/planyourvisit/camping.htm"
+last_verified: "2026-09-25"

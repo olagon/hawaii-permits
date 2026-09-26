@@ -1,0 +1,37 @@
+id: kilauea-point-national-wildlife-refuge
+name: Kīlauea Point National Wildlife Refuge
+island: kauai
+land_type: federal
+manager: usfws
+location:
+  lat: 22.2255
+  lng: -159.3931
+activities: [wildlife_viewing, cultural_visit, day_use]
+permits_required:
+  - permit: kilauea-point-entry-reservation
+    when: "Every visitor 16 and older, every visit. $11 including the reservation fee. Children 15 and under are free."
+status: closed
+aliases: [Kilauea Point, Kilauea Lighthouse]
+summary: "Seabird cliffs and the Daniel K. Inouye Kīlauea Point Lighthouse on the north shore. Entry is by timed ticket on Recreation.gov, Wednesday to Saturday. Closed for post-hurricane repairs when checked."
+booking:
+  method: online
+  url: "https://www.recreation.gov/ticket/facility/300018"
+  window_note: Tickets open 60 days ahead.
+fees:
+  entry: 11
+  resident_entry: 11
+  note: Adults 16 and up. Kamaʻāina annual pass $20.
+rules:
+  - Closed to the public while post-hurricane repairs and maintenance take place. The reservation system is paused.
+  - "When open: Wednesday to Saturday 10 am to 4 pm, arrive by 3:30 pm. Lighthouse tours are suspended."
+  - The overlook outside the gate is open for viewing without a ticket.
+hazards: [steep_drop, high_surf]
+alerts:
+  nws_zone: HIZ029
+amenities: [restrooms, visitor center, bookstore]
+sources:
+  - "https://www.fws.gov/refuge/kilauea-point"
+  - "https://www.fws.gov/refuge/kilauea-point/visit-us"
+  - "https://www.recreation.gov/ticket/facility/300018"
+last_verified: "2026-09-25"
+verified_by: ai_research

@@ -1,0 +1,39 @@
+id: lydgate-park-campground
+name: Lydgate Park campground
+island: kauai
+land_type: county
+manager: kauai-parks
+location:
+  lat: 22.041
+  lng: -159.336
+activities: [camping, swimming, day_use, biking]
+permits_required:
+  - permit: kauai-lydgate-camping-permit
+    when: "Every night. $5 resident or $25 nonresident per site, group site $75 or $150. Up to 5 nights."
+status: open
+aliases: [Lydgate Beach Park, Lydgate State Park]
+summary: "Large east side park with rock walled swimming ponds, a big playground, a bike path, and a tent campground with small, large, and group sites."
+booking:
+  method: online
+  url: "https://hikauaiweb.myvscloud.com/webtrac/web/"
+fees:
+  camping_per_night: 25
+  resident_camping_per_night: 5
+  note: Per site per night.
+rules:
+  - "The county closed all parks and campgrounds for Hurricane Lowell on September 6, 2026 and is reopening them in stages. Check the county parks page before you go."
+  - Map pin is approximate.
+  - Campground closes every Tuesday 10 am to Thursday noon for maintenance.
+  - "Small sites hold 5 people, large sites 10, group site 20 or more."
+hazards: [high_surf]
+alerts:
+  nws_zone: HIZ030
+amenities: [restrooms, showers, pavilions, lifeguard, playground, bike path]
+max_stay_nights: 5
+sources:
+  - "https://www.kauai.gov/Government/Departments-Agencies/Parks/Permitting/Camping"
+  - "https://www.kauai.gov/Government/Departments-Agencies/Parks/Facilities"
+  - "https://www.thegardenisland.com/2026/09/25/hawaii-news/county-updates-hurricane-lowell-recovery-status/"
+  - "https://www.kauai.gov/County-Press-Releases/County-to-close-parks-and-campgrounds-open-refuge-areas-at-5-p.m"
+last_verified: "2026-09-25"
+verified_by: ai_research

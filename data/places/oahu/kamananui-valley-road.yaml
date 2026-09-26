@@ -1,0 +1,46 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+  - camping
+  - cultural_visit
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp along the trail corridor in the Honolulu Watershed Forest Reserve (Moanalua section). Reserve on camping.ehawaii.gov.
+status: open
+id: kamananui-valley-road
+name: Kamananui Valley Road (Moanalua Valley Trail)
+location:
+  lat: 21.3742
+  lng: -157.8803
+aliases:
+  - Moanalua Valley Trail
+  - Kamananui Valley Trail
+summary: >-
+  A 4 mile old carriage road up Moanalua Valley from Moanalua Valley Neighborhood Park, crossing the stream many times past stone bridges and cultural sites. Managed with the Moanalua Gardens
+  Foundation.
+rules:
+  - Start at the city park, which has restrooms and water. The park closes at night.
+  - Older listings say a permit from the Moanalua Gardens Foundation is needed for the valley. Contact them at 808-468-1686 to confirm before you go.
+  - Stream crossings flood fast in rain.
+  - The Haʻikū Stairs route from this valley is closed and patrolled.
+  - This is an active hunting area. Wear bright colors.
+hazards:
+  - flash_flood
+  - stream_crossings
+  - hunting_area
+  - mud
+alerts:
+  nws_zone: HIZ036
+amenities:
+  - restrooms at trailhead
+  - drinking water at trailhead
+cultural_notes: The valley has many archaeological sites including the Pōhaku ka Luahine petroglyph stone. Do not touch or move stones.
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://dlnr.hawaii.gov/recreation/camp/
+  - https://camping.ehawaii.gov/camping/all,details,31721.html
+  - http://mgfhawaii.org/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

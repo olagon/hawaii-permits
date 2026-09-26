@@ -1,0 +1,27 @@
+id: kauai-hunting-unit-k
+name: Kauaʻi Hunting Unit K
+island: kauai
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 22.1525
+  lng: -159.6382
+activities: [hunting]
+permits_required:
+  - permit: hunting-license
+    when: "Required to hunt in Unit K. Check the current season, bag limits, and check station rules for this unit in the DOFAW Kauaʻi hunting rules before you go."
+status: closed
+aliases: [Unit K]
+summary: "Two rim sections: the Waimea Canyon rim strip along the state park and the Kalalau rim between the Kalalau Lookout and Pihea. Mammal hunting only in what is a bird safety zone."
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR reopened only Unit F so far. Check the DOFAW Kauaʻi hunting page before you go.
+  - Public hunting area. Non hunters should wear bright colors and keep dogs leashed.
+hazards: [hunting_area, steep_drop, remote, flash_flood]
+alerts:
+  nws_zone: HIZ004
+sources:
+  - "https://dlnr.hawaii.gov/recreation/hunting/kauai/"
+  - "https://www.law.cornell.edu/regulations/hawaii/Haw-Code-R-SS-13-123-15"
+  - "https://mauinow.com/2026/09/20/dlnr-announces-limited-reopening-of-select-kaua%CA%BBi-lands-on-monday/"
+last_verified: "2026-09-25"
+verified_by: ai_research

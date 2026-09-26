@@ -1,0 +1,57 @@
+id: hanauma-bay-nature-preserve
+name: Hanauma Bay Nature Preserve
+land_type: county
+manager: honolulu-parks
+location:
+  lat: 21.269
+  lng: -157.694
+activities:
+  - snorkeling
+  - swimming
+  - day_use
+  - wildlife_viewing
+permits_required:
+  - permit: hanauma-bay-reservation
+    when: Nonresidents age 13 and up need an online entry reservation, released 2 days ahead at 7 am HST. Hawaiʻi residents with ID enter free with no reservation.
+status: open
+aliases:
+  - Hanauma Bay
+  - Hanauma Bay State Underwater Park
+summary: >-
+  A flooded volcanic crater with a reef full of fish, run by the city as a nature preserve with strict limits on visitors. The state marine life conservation district protects the fish. Everyone
+  watches a short video before going down.
+booking:
+  method: online
+  url: https://pros.hnl.info/hbay
+  window_note: Reservations open 2 days before at 7 am HST and go fast. About 25% of spots are kept for walk ins.
+fees:
+  entry: 25
+  resident_entry: 0
+  parking: 3
+  resident_parking: 1
+  note: Entry is per person age 13 and up. Children 12 and under and active military are free. Parking is cash only.
+rules:
+  - Open Wednesday to Sunday. Entry 6:45 am to 1:30 pm, beach cleared 3:30 pm, closed at 4 pm.
+  - Closed Monday, Tuesday, Christmas and New Year's Day.
+  - No feeding fish. No touching coral or turtles. Reef safe sunscreen only.
+  - Bring photo ID that matches the reservation.
+hazards:
+  - high_surf
+  - heat
+alerts:
+  nws_zone: HIZ032
+amenities:
+  - restrooms
+  - showers
+  - snorkel rental
+  - food
+  - tram
+  - lifeguard
+  - education center
+cultural_notes: Hanauma was a fishing and gathering place for aliʻi. It is now a marine life conservation district.
+sources:
+  - https://www.honolulu.gov/dpr/hanauma-bay-nature-preserve/
+  - https://www.honolulu.gov/dpr/dpr-news/no-reservation-required-for-kamaaina-entry-into-hanauma-bay-beginning-july/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

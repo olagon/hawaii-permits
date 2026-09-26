@@ -1,0 +1,26 @@
+id: "puu-o-umi-natural-area-reserve"
+name: "Puʻu o ʻUmi Natural Area Reserve"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.103
+  lng: -155.698
+activities: ["hiking", "hunting", "wildlife_viewing"]
+permits_required:
+  - permit: "hunting-license"
+    when: "Required to hunt in Unit K. Unit K natural area reserve. Hunting helps control feral animals here. Check the DOFAW page for rules."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season."
+status: "open"
+summary: "Bog and cloud forest on the summit of the Kohala mountains above Waimanu. Unit K. Extremely wet and hard to reach."
+fees:
+  entry: 0
+rules: ["Natural Area Reserves protect the most fragile native ecosystems. No camping, fires, vehicles, or collecting. Groups over 10 and research need a special use permit.", "Hunters must carry a license and follow Chapter 13-122 (birds) and 13-123 (mammals) rules.", "Hikers should wear bright colors. Hunting dogs may be present.", "Map pin is the unit centroid from DLNR GIS data."]
+hazards: ["hunting_area", "mud", "remote", "cold", "steep_drop"]
+alerts:
+  nws_zone: "HIZ054"
+aliases: ["Puu O Umi NAR"]
+sources: ["https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/", "https://dlnr.hawaii.gov/recreation/hunting/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

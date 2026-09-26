@@ -1,0 +1,52 @@
+id: "haleakala-kapalaoa-cabin"
+name: "Kapalaoa Wilderness Cabin"
+island: "maui"
+land_type: "federal"
+manager: "nps"
+location:
+  lat: 20.713
+  lng: -156.181
+activities:
+  - "cabin"
+  - "hiking"
+permits_required:
+  - permit: "haleakala-wilderness-cabin-reservation"
+    when: "To stay in the cabin. Up to 3 nights."
+  - permit: "haleakala-entrance-pass"
+    when: "Every vehicle entering the park."
+status: "open"
+summary: "Historic 12 bunk cabin at 7,250 feet on the south side of the crater, 5.6 miles down the Keoneheʻeheʻe (Sliding Sands) Trail. $75 per night on recreation.gov up to 6 months ahead. No tent area here."
+aliases:
+  - "Kapalaoa Cabin"
+fees:
+  entry: 30
+  note: "Cabin is $75 per night."
+rules:
+  - "Reach the cabin only on foot. Trails are steep with loose cinder."
+  - "Up to 12 people per cabin. Bring sleeping bags, matches, food, and water treatment."
+  - "Water nearby is not potable. Pit toilet nearby."
+  - "No dogs or drones in the wilderness."
+  - "Pack out everything. Stay on marked trails."
+  - "Map pin is approximate."
+hazards:
+  - "altitude"
+  - "cold"
+  - "no_water"
+  - "remote"
+  - "steep_drop"
+alerts:
+  nws_zone: "HIZ022"
+  nps_park_code: "hale"
+amenities:
+  - "bunks"
+  - "wood_stove"
+  - "propane_stove"
+  - "pit_toilet"
+  - "non_potable_water"
+max_stay_nights: 3
+group_size_limit: 12
+sources:
+  - "https://www.nps.gov/hale/planyourvisit/wilderness-cabins.htm"
+  - "https://www.nps.gov/hale/planyourvisit/camping.htm"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

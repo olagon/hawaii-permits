@@ -1,0 +1,32 @@
+id: waimea-canyon-trail
+name: Waimea Canyon Trail
+island: kauai
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 22.0692
+  lng: -159.6451
+activities: [hiking, biking, camping, hunting]
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp at the campsites or cabin along this trail. Reserve online and carry a printed permit.
+  - permit: hunting-license
+    when: Only if you are hunting. Hikers do not need it. Hunting dogs may be off leash; keep your own dog leashed.
+status: closed
+summary: There are two entryways to this trail. One is at the end of Menehune Road in Waimea town and the other is from the bottom of the Kukui Trail. This is a route that follows the Waimea River through Puu Ka Pele Forest Reserve. This trail fords the Waimea River several times so be prepared to get wet when crossing the river. About 7.0 miles one way.
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says Nā Ala Hele trails on Kauaʻi stay closed until they are safe. Check hawaiitrails.hawaii.gov before you go.
+  - The Nā Ala Hele trail list says a Kekaha Game Management Area entry permit or hunting license is needed for this route. That could not be confirmed on the trail page. Ask the DOFAW Kauaʻi office before you go.
+  - Hunting may be in progress. Wear bright colors and keep dogs leashed.
+  - Commercial use needs a Nā Ala Hele permit. Stay on the marked trail; side routes may cross private land.
+  - The route fords the Waimea River several times. Do not cross in high water.
+hazards: [falling_rock, flash_flood, heat, hunting_area, remote, steep_drop]
+alerts:
+  nws_zone: HIZ004
+amenities: [restroom, firepit, picnic table, campsites]
+sources:
+  - "https://hawaiitrails.hawaii.gov/trails/#/trail/waimea-canyon-trail/85"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+  - "https://mauinow.com/2026/09/20/dlnr-announces-limited-reopening-of-select-kaua%CA%BBi-lands-on-monday/"
+last_verified: "2026-09-25"
+verified_by: ai_research

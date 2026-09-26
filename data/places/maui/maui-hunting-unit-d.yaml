@@ -1,0 +1,34 @@
+id: "maui-hunting-unit-d"
+name: "Maui Hunting Unit D (Makawao Forest Reserve)"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.824
+  lng: -156.264
+activities:
+  - "hunting"
+  - "hiking"
+permits_required:
+  - permit: "hunting-license"
+    when: "Unit D, game mammals only."
+status: "open"
+summary: "Public game mammal hunting in the Makawao Forest Reserve above Makawao. DLNR removed the daily bag limit on feral goats and pigs here. Shared with the Kahakapao trail users, so hunters and hikers should expect each other."
+aliases:
+  - "Unit D"
+  - "Makawao Forest Reserve"
+rules:
+  - "No bag limit on feral goats and pigs per DLNR."
+  - "Hikers and bikers use the Kahakapao trails in this unit."
+  - "Check the DLNR Maui hunting page for current seasons, bag limits, and closures."
+  - "Hunters must carry a valid license and, where posted, check in and out at the hunter check station."
+hazards:
+  - "hunting_area"
+  - "remote"
+alerts:
+  nws_zone: "HIZ049"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/hunting/maui/"
+  - "https://dlnr.hawaii.gov/recreation/hunting/gma/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

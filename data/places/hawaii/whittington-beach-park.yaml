@@ -1,0 +1,30 @@
+id: "whittington-beach-park"
+name: "Whittington Beach Park (Honuʻapo)"
+island: "hawaii"
+land_type: "county"
+manager: "hawaii-county-parks"
+location:
+  lat: 19.085
+  lng: -155.552
+activities: ["camping", "day_use", "fishing"]
+permits_required:
+  - permit: "hawaii-county-camping-permit"
+    when: "To camp overnight. Permits are checked between 8pm and 6am. Buy online or at a county office, not at the park."
+status: "open"
+summary: "Old Honuʻapo landing in Kaʻū with tide pools, ponds, and a grassy camping area off Highway 11 past mile 60. No drinking water. Storm closures affected the park in August and September 2026."
+booking:
+  method: "online"
+  url: "https://hawaiicounty.ehawaii.gov/camping/welcome.html"
+fees:
+  camping_per_night: 21
+  resident_camping_per_night: 6
+  entry: 0
+  note: "Per person per night. Residents $6 adult, $3 junior, $1 child. Nonresidents $21 adult and junior, $20 child. Plus $1 per person per day processing."
+rules: ["No drinking water. Non-potable water only.", "Alcohol 10am to 10pm only.", "Check the county closure list after storms.", "No pets, open fires, smoking, or commercial activity.", "No camping in pavilions. Pavilions are day use by separate permit.", "Map pin is approximate."]
+hazards: ["high_surf", "heat"]
+alerts:
+  nws_zone: "HIZ051"
+amenities: ["restrooms", "outdoor showers", "picnic tables", "pavilion", "portable toilets"]
+sources: ["https://hawaiicounty.ehawaii.gov/camping/welcome.html", "https://hawaiicounty.ehawaii.gov/camping/all,details,57795.html"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

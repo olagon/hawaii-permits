@@ -1,0 +1,53 @@
+id: "haleakala-kipahulu-district"
+name: "Haleakalā National Park, Kīpahulu District"
+island: "maui"
+land_type: "federal"
+manager: "nps"
+location:
+  lat: 20.662
+  lng: -156.044
+activities:
+  - "hiking"
+  - "day_use"
+  - "cultural_visit"
+  - "wildlife_viewing"
+permits_required:
+  - permit: "haleakala-entrance-pass"
+    when: "Every vehicle or person entering. One pass covers both districts for 3 days."
+status: "open"
+summary: "The coastal section of the park past Hāna, with the Pools of ʻOheʻo, the Kūloa Point loop, the Pīpīwai Trail, and a visitor center. The pools are closed to entry. Same entrance fee as the summit."
+aliases:
+  - "Kipahulu"
+  - "Oheo Gulch"
+  - "Seven Sacred Pools"
+  - "Pools of Oheo"
+  - "Kuloa Point"
+fees:
+  entry: 30
+  note: "Pay by card at the entrance station."
+rules:
+  - "The Pools of ʻOheʻo are closed to entry. View them from the Kūloa Point Trail."
+  - "Stay out of streams. Flash floods and rockfall happen without warning."
+  - "Leave rocks, plants, and cultural items alone."
+  - "No gas or food in the park. Medical help is at least an hour away."
+hazards:
+  - "flash_flood"
+  - "falling_rock"
+  - "steep_drop"
+  - "heat"
+  - "remote"
+alerts:
+  nws_zone: "HIZ048"
+  nps_park_code: "hale"
+amenities:
+  - "restrooms"
+  - "visitor_center"
+  - "parking"
+  - "drinking_water"
+cultural_notes: "Kīpahulu is a living Hawaiian community and an ancient ahupuaʻa with many archaeological sites. Stay on trails."
+sources:
+  - "https://www.nps.gov/hale/planyourvisit/kipahulu.htm"
+  - "https://www.nps.gov/hale/planyourvisit/fees.htm"
+  - "https://www.nps.gov/hale/planyourvisit/hours.htm"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

@@ -1,0 +1,32 @@
+id: "wailuku-river-state-park"
+name: "Wailuku River State Park"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 19.717
+  lng: -155.12
+activities: ["day_use", "scenic_drive"]
+permits_required:
+  - permit: "state-parks-day-use-reservation"
+    when: "Nonresidents pay the entry and parking fee. Pay online before you arrive or by card at the park."
+status: "open"
+aliases: ["Rainbow Falls", "Boiling Pots", "Waianuenue Falls"]
+summary: "Two lookouts on the Wailuku River in Hilo: 80 foot Rainbow Falls and the Boiling Pots pools. Since January 2026 nonresidents pay entry and parking, and one payment covers both sections."
+booking:
+  method: "online"
+  url: "https://gostateparks.hawaii.gov/"
+fees:
+  entry: 5
+  parking: 10
+  resident_entry: 0
+  resident_parking: 0
+  note: "Nonresident fees, credit card only. Residents free with Hawaiʻi ID. Children 3 and under free. Commercial vehicles pay $25 to $90."
+rules: ["Both sections open 7:00am to 5:30pm, gates lock at 6:00pm.", "Stay behind the railings. The river rises fast and people have drowned here.", "No swimming at Boiling Pots."]
+hazards: ["flash_flood", "steep_drop"]
+alerts:
+  nws_zone: "HIZ053"
+amenities: ["restrooms", "parking"]
+sources: ["https://dlnr.hawaii.gov/dsp/parks/hawaii/wailuku-river-state-park/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

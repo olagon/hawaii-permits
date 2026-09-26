@@ -1,0 +1,33 @@
+id: "polipoli-trail"
+name: "Polipoli Trail"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.672
+  lng: -156.333
+activities:
+  - "hiking"
+permits_required: []
+status: "closed"
+summary: "Short trail through cypress and pine at Polipoli Spring State Recreation Area linking the campground area to the Haleakalā Ridge Trail. The recreation area is closed until further notice."
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Hunters use this area. Wear bright colors and stay on the trail."
+  - "No bicycles."
+  - "Polipoli Spring SRA is closed until further notice. Do not enter closed areas."
+  - "About 0.6 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "hunting_area"
+  - "cold"
+  - "altitude"
+alerts:
+  nws_zone: "HIZ049"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+  - "https://dlnr.hawaii.gov/dsp/parks/maui/polipoli-spring-state-recreation-area/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

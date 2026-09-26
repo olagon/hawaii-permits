@@ -1,0 +1,25 @@
+id: queens-bath
+name: Queenʼs Bath
+island: kauai
+land_type: mixed
+manager: County of Kauaʻi Ocean Safety Bureau
+location:
+  lat: 22.226
+  lng: -159.482
+activities: [day_use]
+permits_required: []
+status: restricted
+aliases: [Queens Bath]
+summary: "Lava rock tide pool below Princeville. Many people have drowned here when swells wash over the shelf. The county Ocean Safety Bureau locks the access gate whenever surf is up, and the gate is often locked all winter."
+rules:
+  - "When the gate is locked, entry is trespassing and you can be cited and billed for rescue."
+  - Never turn your back on the ocean. Stay off the shelf when waves reach it.
+  - Check the county ocean safety notices before going.
+  - Map pin is approximate.
+hazards: [high_surf, steep_drop, mud]
+alerts:
+  nws_zone: HIZ029
+sources:
+  - "https://www.kauai.gov/County-Press-Releases/Access-gate-to-Queen%E2%80%99s-Bath-closed-due-to-hazardous-ocean-conditions-%E2%80%98Anini-roving-patrol-offline-today-2025"
+last_verified: "2026-09-25"
+verified_by: ai_research

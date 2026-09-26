@@ -1,0 +1,34 @@
+id: oahu-hunting-unit-f
+name: Oʻahu Public Hunting Area Unit F (Kahana)
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 21.5307
+  lng: -157.8915
+activities:
+  - hunting
+  - hiking
+permits_required:
+  - permit: hunting-license
+    when: To hunt game mammals (pigs and goats) in Unit F. Check the DOFAW Oʻahu hunting page for open days, weapons and check in stations.
+status: open
+summary: Game mammal hunting in the back of Ahupuaʻa ʻO Kahana State Park. Families live in the valley and campers use the beach, so hunters must follow the park rules.
+rules:
+  - Wear blaze orange. Hikers share these areas.
+  - Check in and out at the hunter check station where one exists.
+  - Unit boundaries change. Print the current map from the DOFAW page.
+  - Map pin is the unit centroid from the DOFAW GIS layer.
+  - Managed with State Parks. Check the park page for closures.
+hazards:
+  - hunting_area
+  - remote
+  - no_water
+  - steep_drop
+alerts:
+  nws_zone: HIZ035
+sources:
+  - https://dlnr.hawaii.gov/recreation/hunting/oahu/
+  - https://hunting.ehawaii.gov/hunting/license.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

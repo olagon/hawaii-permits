@@ -1,0 +1,22 @@
+id: "puuwaawaa-cone-trail"
+name: "Puʻu Waʻawaʻa Cinder Cone Trail"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.78
+  lng: -155.831
+activities: ["hiking"]
+permits_required: []
+status: "open"
+aliases: ["Puu Waawaa", "Puuwaawaa Cinder Cone"]
+summary: "A 1.9 mile route up the ridged cinder cone Puʻu Waʻawaʻa in the forest reserve off Highway 190. Steep, hot, and exposed with wide views of the Kona coast. Trailhead has a sign-in station."
+fees:
+  entry: 0
+rules: ["Sign in at the trailhead.", "Hot and exposed. Start early and carry water.", "Hunting days are scheduled in the reserve.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["heat", "no_water", "hunting_area"]
+alerts:
+  nws_zone: "HIZ023"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/forestry/frs/reserves/hawaii-island/puuwaawaa/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

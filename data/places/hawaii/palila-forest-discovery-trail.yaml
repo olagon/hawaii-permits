@@ -1,0 +1,22 @@
+id: "palila-forest-discovery-trail"
+name: "Palila Forest Discovery Trail"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.831
+  lng: -155.596
+activities: ["hiking", "wildlife_viewing"]
+permits_required: []
+status: "open"
+aliases: ["Palila Trail"]
+summary: "A 0.9 mile interpretive loop in māmane forest on the west slope of Mauna Kea off Puʻu Lāʻau Road, home of the endangered palila. Hunters use the surrounding forest reserve."
+fees:
+  entry: 0
+rules: ["Reached by a rough road. High clearance recommended.", "Clean boots to protect the forest.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["hunting_area", "cold", "altitude"]
+alerts:
+  nws_zone: "HIZ027"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/recreation/nah/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

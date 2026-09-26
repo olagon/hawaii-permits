@@ -1,0 +1,22 @@
+id: "kona-forest-national-wildlife-refuge"
+name: "Kona Forest National Wildlife Refuge"
+island: "hawaii"
+land_type: "federal"
+manager: "usfws"
+location:
+  lat: 19.361
+  lng: -155.81
+activities: ["wildlife_viewing"]
+permits_required: []
+status: "no_public_access"
+aliases: ["Kona Forest NWR", "Kona Forest Unit"]
+summary: "About 5,300 acres of native forest on the west slope of Mauna Loa south of Kailua-Kona, part of the Big Island National Wildlife Refuge Complex. Closed to the public. There is no public road or trail into it."
+fees:
+  entry: 0
+rules: ["Closed to the public. Do not enter."]
+hazards: ["remote"]
+alerts:
+  nws_zone: "HIZ023"
+sources: ["https://www.fws.gov/refuge/hakalau-forest/visit-us", "https://www.fws.gov/story/2005-02/us-district-court-enforces-settlement-allowing-kona-forest-refuge-access"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

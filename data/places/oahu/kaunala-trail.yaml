@@ -1,0 +1,40 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+  - camping
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp along the trail corridor in Pūpūkea Forest Reserve. Reserve on camping.ehawaii.gov.
+status: open
+id: kaunala-trail
+name: Kaunala Trail
+location:
+  lat: 21.6388
+  lng: -158.0184
+aliases:
+  - Kaunala Trail
+  - Pupukea
+summary: A 2.5 mile trail in Pūpūkea Forest Reserve behind the Boy Scout camp at the end of Pūpūkea Road, through gulches and ridges with North Shore views. Open only on weekends and state holidays.
+rules:
+  - Open weekends and state holidays only.
+  - Park in the neighborhood and walk about 0.75 mile down the dirt road to the trailhead.
+  - This is an active hunting area. Wear bright colors.
+  - No drinking water. Treat all stream water.
+hazards:
+  - mud
+  - stream_crossings
+  - hunting_area
+  - no_water
+alerts:
+  nws_zone: HIZ007
+amenities:
+  - shelter
+  - picnic table
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://dlnr.hawaii.gov/recreation/camp/
+  - https://camping.ehawaii.gov/camping/all,details,31706.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

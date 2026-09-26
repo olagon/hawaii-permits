@@ -1,0 +1,40 @@
+id: oahu-hunting-unit-a
+name: Oʻahu Public Hunting Area Unit A (Kuaokalā and Mokulēʻia)
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 21.5575
+  lng: -158.2072
+activities:
+  - hunting
+  - hiking
+permits_required:
+  - permit: hunting-license
+    when: To hunt game mammals (pigs and goats) in Unit A. Check the DOFAW Oʻahu hunting page for open days, weapons and check in stations.
+  - permit: game-bird-stamp
+    when: To hunt game birds in the bird hunting unit that overlaps Unit A during the game bird season.
+status: open
+summary: >-
+  Game mammal hunting in the Kuaokalā Game Management Area and parts of Kuaokalā and Mokulēʻia forest reserves above Kaʻena. Game bird hunting is also allowed in the Kuaokalā GMA (bird Unit 1).
+  Vehicle entry is through the tracking station gate with a permit.
+rules:
+  - Wear blaze orange. Hikers share these areas.
+  - Check in and out at the hunter check station where one exists.
+  - Unit boundaries change. Print the current map from the DOFAW page.
+  - Map pin is the unit centroid from the DOFAW GIS layer.
+  - Vehicle access through the Kaʻena Point tracking station needs the Kuaokalā and Mokulēʻia access permit.
+  - Mammal hunting closes in Unit A on game bird hunting days.
+  - Safety zones around Peacock Flats, the tracking station and the Nike site. No hunting there.
+hazards:
+  - hunting_area
+  - remote
+  - no_water
+  - steep_drop
+alerts:
+  nws_zone: HIZ011
+sources:
+  - https://dlnr.hawaii.gov/recreation/hunting/oahu/
+  - https://hunting.ehawaii.gov/hunting/license.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

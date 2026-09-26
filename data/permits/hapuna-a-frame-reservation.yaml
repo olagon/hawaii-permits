@@ -1,0 +1,20 @@
+id: "hapuna-a-frame-reservation"
+name: "Hāpuna Beach A-frame shelter reservation"
+issuer: "dlnr-state-parks"
+category: "cabin"
+who_needs: "Anyone staying in one of the 4 person A-frame shelters at Hāpuna Beach State Recreation Area. The shelters are presently closed to reservations."
+how_to_get: "online"
+url: "https://explore.ehawaii.gov/"
+carry_required: true
+covers: ["hapuna-beach-state-recreation-area"]
+booking_window:
+  opens_days_before: 90
+  notes: "State park lodging opens 90 days ahead. Online reservations must be made at least 7 days before check in. All guests must be present for check in with staff at 3:00pm. The A-frames are presently closed. Check the park page before planning."
+cost:
+  resident: 40
+  nonresident: 70
+  unit: "per shelter per night"
+refund_policy: "Cancel at least 15 days before with a $5 fee per permit."
+age_minimum: 18
+sources: ["https://dlnr.hawaii.gov/dsp/parks/hawaii/hapuna-beach-state-recreation-area/", "https://dlnr.hawaii.gov/dsp/camping-lodging/hawaii/", "https://dlnr.hawaii.gov/dsp/camping-lodging/permits-fees/"]
+last_verified: "2026-09-25"

@@ -1,0 +1,40 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+  - camping
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp at the trail shelters in ʻEwa Forest Reserve. Reserve on camping.ehawaii.gov.
+status: open
+id: manana-trail
+name: Mānana Trail
+location:
+  lat: 21.4317
+  lng: -157.9329
+aliases:
+  - Manana Trail
+  - Manana Ridge
+summary: A long 6 mile ridge trail from the end of Komo Mai Drive in Pacific Palisades to the Koʻolau summit. The first stretch is a paved road to a water tank, then a forest ridge with shelters.
+rules:
+  - Park legally in the neighborhood. Walk through the pedestrian gate by the road gate.
+  - Narrow ridge with drop offs near the summit. Fire danger when dry.
+  - This is an active hunting area. Wear bright colors.
+  - No drinking water. Treat all stream water.
+hazards:
+  - steep_drop
+  - heat
+  - mud
+  - hunting_area
+  - no_water
+alerts:
+  nws_zone: HIZ036
+amenities:
+  - shelter
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://dlnr.hawaii.gov/recreation/camp/
+  - https://camping.ehawaii.gov/camping/all,details,31722.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

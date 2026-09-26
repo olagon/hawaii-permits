@@ -1,0 +1,30 @@
+id: royal-mausoleum-state-monument
+name: Royal Mausoleum State Monument
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.325
+  lng: -157.847
+activities:
+  - cultural_visit
+permits_required: []
+status: open
+aliases:
+  - Mauna ʻAla
+  - Mauna Ala
+  - Royal Mausoleum
+summary: Mauna ʻAla in Nuʻuanu is the burial place of the Kamehameha and Kalākaua royal families. A quiet place for respectful visits, not a recreation park.
+fees:
+  entry: 0
+rules:
+  - A working burial ground. Dress and act with respect. No picnics, sports or loud noise.
+  - Check the park page for hours before visiting.
+alerts:
+  nws_zone: HIZ033
+cultural_notes: The most sacred burial ground for Hawaiian royalty. It is one of the few places where the Hawaiian flag flies alone.
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/royal-mausoleum-state-monument/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

@@ -1,0 +1,39 @@
+id: "ke-ala-loa-o-maui-piilani-trail"
+name: "Ke Ala Loa O Maui / Piʻilani Trail"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.795
+  lng: -156.013
+activities:
+  - "hiking"
+permits_required: []
+status: "open"
+summary: "Coastal section of the ancient Piʻilani trail between Kainalimu Bay near Hāna and Waiʻānapanapa State Park, over lava sea cliffs and past old house sites and a heiau. Footing is rough. Camping and cabins are at the Waiʻānapanapa end under state park permits."
+aliases:
+  - "Piilani Trail"
+  - "Hana-Honokalani Trail"
+  - "Kings Trail Hana"
+  - "Ke Ala Loa"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Stay back from the cliff edge. Waves wash over low points."
+  - "Do not disturb the heiau or house platforms."
+  - "Nonresidents entering Waiʻānapanapa need a park reservation."
+  - "About 1.5 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "high_surf"
+  - "steep_drop"
+  - "heat"
+alerts:
+  nws_zone: "HIZ047"
+cultural_notes: "This is part of the island circling trail built under Piʻilani. Treat sites along it with respect."
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+  - "https://dlnr.hawaii.gov/dsp/parks/maui/waianapanapa-state-park/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

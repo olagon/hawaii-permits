@@ -1,0 +1,36 @@
+id: oahu-hunting-unit-e
+name: Oʻahu Public Hunting Area Unit E (Honolulu Watershed, archery only)
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 21.36
+  lng: -157.8112
+activities:
+  - hunting
+  - hiking
+permits_required:
+  - permit: hunting-license
+    when: To hunt game mammals (pigs and goats) in Unit E. Check the DOFAW Oʻahu hunting page for open days, weapons and check in stations.
+status: open
+summary: >-
+  Archery only game mammal hunting in two subunits of the Honolulu Watershed Forest Reserve above Nuʻuanu, Pauoa and Mānoa. These are the same forests used by the Makiki-Tantalus and Honolulu Mauka
+  trails.
+rules:
+  - Wear blaze orange. Hikers share these areas.
+  - Check in and out at the hunter check station where one exists.
+  - Unit boundaries change. Print the current map from the DOFAW page.
+  - Map pin is the unit centroid from the DOFAW GIS layer.
+  - Archery only. No firearms.
+hazards:
+  - hunting_area
+  - remote
+  - no_water
+  - steep_drop
+alerts:
+  nws_zone: HIZ033
+sources:
+  - https://dlnr.hawaii.gov/recreation/hunting/oahu/
+  - https://hunting.ehawaii.gov/hunting/license.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

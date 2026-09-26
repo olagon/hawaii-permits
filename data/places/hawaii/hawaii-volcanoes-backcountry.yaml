@@ -1,0 +1,33 @@
+id: "hawaii-volcanoes-backcountry"
+name: "Hawaiʻi Volcanoes backcountry campsites (coast and Nāpau)"
+island: "hawaii"
+land_type: "federal"
+manager: "nps"
+location:
+  lat: 19.29
+  lng: -155.235
+activities: ["camping", "hiking"]
+permits_required:
+  - permit: "havo-backcountry-permit"
+    when: "Required for every overnight at Kaʻaha, Halapē, Keauhou, ʻĀpua Point, Nāpau, and Pepeiao Cabin. $10 per trip, up to 12 people."
+status: "open"
+aliases: ["Halape", "Keauhou", "Kaaha", "Apua Point", "Napau", "Pepeiao Cabin"]
+summary: "Remote backcountry sites in Hawaiʻi Volcanoes National Park reached by long hot hikes with big elevation changes. Coastal sites Halapē, Keauhou, Kaʻaha, and ʻĀpua Point, the Nāpau site near Puʻuʻōʻō, and Pepeiao Cabin. Permit required."
+booking:
+  method: "online"
+  url: "https://www.recreation.gov/permits/4675341"
+  window_note: "Reserve up to 90 days ahead, then check in at the Backcountry Office within 7 days of your trip."
+fees:
+  camping_per_night: "see_source"
+  entry: 30
+  note: "$10 per trip permit. Park entrance fee is separate."
+rules: ["Carry at least 4 quarts of water per person per day. Catchment tanks are unreliable and must be treated.", "3 consecutive nights max at one site, 7 nights per permit.", "Earthquakes, tsunamis, rock falls, and earth cracks are real risks on the coast.", "Map pin is approximate. Sites are spread across the park.", "Most of the park closed on September 24, 2026 for Tropical Storm Nolo. Check the park alerts page before you go."]
+hazards: ["heat", "no_water", "remote", "steep_drop", "high_surf", "falling_rock"]
+alerts:
+  nws_zone: "HIZ052"
+  nps_park_code: "havo"
+max_stay_nights: 3
+group_size_limit: 12
+sources: ["https://www.nps.gov/havo/planyourvisit/hike_bc.htm", "https://www.recreation.gov/permits/4675341"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

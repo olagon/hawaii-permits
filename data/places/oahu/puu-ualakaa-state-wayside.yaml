@@ -1,0 +1,38 @@
+id: puu-ualakaa-state-wayside
+name: Puʻu ʻUalakaʻa State Wayside
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.314
+  lng: -157.822
+activities:
+  - day_use
+  - scenic_drive
+  - hiking
+permits_required: []
+status: open
+aliases:
+  - Puu Ualakaa
+  - Tantalus Lookout
+  - Round Top
+summary: A lookout park on Round Top Drive with a wide view of Honolulu from Diamond Head to Pearl Harbor. Lawns for picnics and the short ʻUalakaʻa Trail nearby.
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - Open 7 am to 7:45 pm April 1 through Labor Day, and 7 am to 6:45 pm the rest of the year. The gate locks at closing.
+  - No alcohol. No drones.
+  - Popular at sunset. Parking is limited.
+alerts:
+  nws_zone: HIZ033
+amenities:
+  - restrooms
+  - picnic tables
+  - parking
+accessibility: The main lookout is a short paved walk from the parking lot.
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/puu-ualakaa-state-wayside/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

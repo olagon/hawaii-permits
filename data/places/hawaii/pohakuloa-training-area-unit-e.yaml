@@ -1,0 +1,26 @@
+id: "pohakuloa-training-area-unit-e"
+name: "Pōhakuloa Training Area public hunting (Unit E)"
+island: "hawaii"
+land_type: "military"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.75
+  lng: -155.592
+activities: ["hunting"]
+permits_required:
+  - permit: "hunting-license"
+    when: "Required to hunt in Unit E. Unit E. Hunting only on days the Army opens the area. Check in with PTA and DOFAW."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season."
+status: "restricted"
+summary: "Parts of the Army Pōhakuloa Training Area open for public hunting under Unit E when the Army allows. Hunters must check in with the Army and follow military access rules. Not open for general hiking."
+fees:
+  entry: 0
+rules: ["Hunters must carry a license and follow Chapter 13-122 (birds) and 13-123 (mammals) rules.", "Hikers should wear bright colors. Hunting dogs may be present.", "Map pin is the unit centroid from DLNR GIS data."]
+hazards: ["hunting_area", "no_water", "remote", "cold"]
+alerts:
+  nws_zone: "HIZ027"
+aliases: ["PTA hunting", "Pohakuloa"]
+sources: ["https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/", "https://dlnr.hawaii.gov/recreation/hunting/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

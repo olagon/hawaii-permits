@@ -1,0 +1,22 @@
+id: "makaula-ooma-trail"
+name: "Mākaula-ʻOʻoma Trail"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.714
+  lng: -155.955
+activities: ["hiking", "biking"]
+permits_required: []
+status: "open"
+aliases: ["Makaula Ooma", "Makaula-Ooma Trail"]
+summary: "A 4.3 mile trail system in the Mākaula-ʻOʻoma section of Honuaula Forest Reserve above Kailua-Kona, in cloud forest off Kaloko Drive."
+fees:
+  entry: 0
+rules: ["Often wet and slippery.", "Hunters use the reserve.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["mud", "hunting_area"]
+alerts:
+  nws_zone: "HIZ023"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/recreation/nah/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

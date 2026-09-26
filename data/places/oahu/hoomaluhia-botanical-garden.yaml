@@ -1,0 +1,59 @@
+id: hoomaluhia-botanical-garden
+name: Hoʻomaluhia Botanical Garden
+land_type: county
+manager: honolulu-parks
+location:
+  lat: 21.387
+  lng: -157.807
+activities:
+  - camping
+  - day_use
+  - hiking
+  - fishing
+  - biking
+permits_required:
+  - permit: honolulu-camping-permit
+    when: To camp. 3 day site, Friday to Monday, in three campgrounds (Kahua Kuou, Kahua Lehua, Kahua Nui) with about 28 sites. Permits open at 5 pm HST two Fridays before.
+status: open
+aliases:
+  - Hoomaluhia
+  - Ho'omaluhia Botanical Garden
+summary: A large garden below the Koʻolau cliffs in Kāneʻohe with a lake, tropical plant collections and quiet weekend campgrounds. Free to visit. Free catch and release fishing.
+booking:
+  method: online
+  url: https://pros.hnl.info/
+  window_note: Camping permits open 5 pm HST two Fridays before. Garden visits need no reservation.
+fees:
+  entry: 0
+  parking: 0
+  camping_per_night: see_source
+  note: Camping is about $32 per site for Friday to Monday.
+rules:
+  - Garden open 9 am to 4 pm, last vehicle entry 3:30 pm. Closed Thursdays, Christmas and New Year's Day.
+  - 15 mph speed limit. No stopping on the road for photos.
+  - No camping in any city park Wednesday or Thursday nights.
+  - Up to 10 people, 2 tents and 3 vehicles per camping permit. No alcohol, pets or generators.
+  - Fishing is catch and release only.
+  - Map pin is approximate.
+hazards:
+  - flash_flood
+  - mud
+alerts:
+  nws_zone: HIZ035
+amenities:
+  - restrooms
+  - showers
+  - visitor center
+  - picnic tables
+  - drinking water
+accessibility: The visitor center and some paths are accessible.
+max_stay_nights: 3
+group_size_limit: 10
+sources:
+  - https://www.honolulu.gov/dpr/honolulu-botanical-gardens/hoomaluhia-botanical-garden/
+  - https://www.honolulu.gov/dpr/wp-content/uploads/sites/34/2024/04/campingbrochure2013-11.pdf
+  - https://www.honolulu.gov/dpr/wp-content/uploads/sites/34/2024/04/Honolulu_Parks_and_Recreation_Family_Camping_FAQs-1.pdf
+  - https://www.honolulu.gov/dpr/camping/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

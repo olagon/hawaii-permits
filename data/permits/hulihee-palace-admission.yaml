@@ -1,0 +1,18 @@
+id: "hulihee-palace-admission"
+name: "Huliheʻe Palace admission"
+issuer: "daughters-of-hawaii"
+category: "entry_reservation"
+who_needs: "Anyone touring Huliheʻe Palace in Kailua-Kona. Guided tours need a reservation. Self guided visits accept walk-ins when space allows."
+how_to_get: "owner_direct"
+url: "https://daughtersofhawaii.org/hulihee-palace/hulihee-palace-tours/"
+carry_required: false
+covers: ["hulihee-palace"]
+booking_window:
+  notes: "Open Wednesday to Saturday 10am to 3pm, last entry 2:30pm. Closed Sunday to Tuesday and major holidays. Guided tours are usually Wednesday to Saturday at 11:30am."
+cost:
+  resident: 12
+  nonresident: 16
+  unit: "per adult, self guided"
+  note: "Guided tour $20 all ages. Youth 6 to 17 $14. Under 6 free. Kamaʻāina, seniors 65 and up, and military $12 with ID."
+sources: ["https://www.daughtersofhawaii.org/hulihee-palace", "https://dlnr.hawaii.gov/dsp/parks/hawaii/hulihee-palace/"]
+last_verified: "2026-09-25"

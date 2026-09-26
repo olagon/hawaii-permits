@@ -1,0 +1,40 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+  - camping
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp at the trail shelters in Kuliʻouʻou Forest Reserve. Reserve on camping.ehawaii.gov.
+status: open
+id: kuliouou-ridge-trail
+name: Kuliʻouʻou Ridge Trail
+location:
+  lat: 21.3203
+  lng: -157.7231
+aliases:
+  - Kuliouou Ridge Trail
+summary: A popular 2.5 mile switchback trail from the end of Kalāʻau Place to a Koʻolau summit lookout over Waimānalo. Two picnic shelters on the way up.
+rules:
+  - Street parking only. Sign in at the hunter and hiker check in station.
+  - Steep stairs near the top. Loose rock and sun exposure.
+  - This is an active hunting area. Wear bright colors.
+  - No drinking water. Treat all stream water.
+hazards:
+  - steep_drop
+  - heat
+  - falling_rock
+  - hunting_area
+  - no_water
+alerts:
+  nws_zone: HIZ032
+amenities:
+  - shelter
+  - picnic table
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://dlnr.hawaii.gov/recreation/camp/
+  - https://camping.ehawaii.gov/camping/all,details,31714.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

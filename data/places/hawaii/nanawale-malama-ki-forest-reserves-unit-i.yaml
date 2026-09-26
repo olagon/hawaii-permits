@@ -1,0 +1,26 @@
+id: "nanawale-malama-ki-forest-reserves-unit-i"
+name: "Nānāwale and Mālama-Kī Forest Reserves (Unit I)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.5
+  lng: -154.9
+activities: ["hunting", "hiking"]
+permits_required:
+  - permit: "hunting-license"
+    when: "Required to hunt in Unit I. Check the DOFAW Hawaiʻi Island page and the rule exhibits for species, days, and any tag or lottery requirements."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season."
+status: "open"
+summary: "Lowland forest reserves in Puna near Pāhoa and Kapoho, including the Halepuaʻa section. Unit I for pigs and game birds. Parts were covered by the 2018 lava."
+fees:
+  entry: 0
+rules: ["Hunters must carry a license and follow Chapter 13-122 (birds) and 13-123 (mammals) rules.", "Hikers should wear bright colors. Hunting dogs may be present.", "Map pin is the unit centroid from DLNR GIS data."]
+hazards: ["hunting_area", "heat", "mud"]
+alerts:
+  nws_zone: "HIZ052"
+aliases: ["Nanawale Forest Reserve", "Malama Ki Forest Reserve"]
+sources: ["https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/", "https://dlnr.hawaii.gov/recreation/hunting/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

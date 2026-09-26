@@ -1,0 +1,27 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+  - biking
+permits_required: []
+status: open
+id: maunawili-ditch-trail
+name: Maunawili Ditch Trail
+location:
+  lat: 21.344
+  lng: -157.746
+aliases:
+  - Maunawili Ditch Trail
+summary: A gentle 2.75 mile trail along an old irrigation ditch on the Waimānalo side of Maunawili, starting from Mahiku Place. Shared with mountain bikers and horses.
+rules:
+  - Yield to horses. Bikes yield to hikers.
+  - Uneven footing and mud.
+hazards:
+  - mud
+alerts:
+  nws_zone: HIZ009
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

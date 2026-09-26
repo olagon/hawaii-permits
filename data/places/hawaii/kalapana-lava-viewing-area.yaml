@@ -1,0 +1,22 @@
+id: "kalapana-lava-viewing-area"
+name: "Kalapana lava viewing area"
+island: "hawaii"
+land_type: "county"
+manager: "Hawaiʻi County Civil Defense Agency"
+location:
+  lat: 19.336
+  lng: -154.98
+activities: ["day_use", "scenic_drive"]
+permits_required: []
+status: "closed"
+aliases: ["Kalapana", "Kalapana lava viewing", "Kaimu"]
+summary: "The county opens a lava viewing area at the end of Highway 130 in Kalapana only when lava is flowing nearby. It is closed when there is no accessible flow. Call the county lava hotline (808-961-8093) or check Civil Defense before going."
+fees:
+  entry: 0
+rules: ["Open only during an accessible eruption, and only during posted hours.", "Stay on the marked route and inside the viewing area. Land beyond is private or closed.", "Volcanic gas and steam plumes carry acid and glass. Stay well away.", "Map pin is approximate."]
+hazards: ["heat", "steep_drop", "remote"]
+alerts:
+  nws_zone: "HIZ052"
+sources: ["https://www.hawaiicounty.gov/Home/Components/News/News/1720/720", "https://recovery.hawaiicounty.gov/Home/Components/News/News/1720/2706"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

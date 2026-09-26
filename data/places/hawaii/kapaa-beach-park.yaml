@@ -1,0 +1,30 @@
+id: "kapaa-beach-park"
+name: "Kapaʻa Beach Park"
+island: "hawaii"
+land_type: "county"
+manager: "hawaii-county-parks"
+location:
+  lat: 20.203
+  lng: -155.898
+activities: ["camping", "day_use", "snorkeling", "fishing"]
+permits_required:
+  - permit: "hawaii-county-camping-permit"
+    when: "To camp overnight. Permits are checked between 8pm and 6am. Buy online or at a county office, not at the park."
+status: "open"
+summary: "Rocky cove in North Kohala off Highway 270 near mile 16, about 0.7 mile from the road. Camping areas, picnic tables, and a pavilion. Water only in the restroom sink and toilet, not for drinking."
+booking:
+  method: "online"
+  url: "https://hawaiicounty.ehawaii.gov/camping/welcome.html"
+fees:
+  camping_per_night: 21
+  resident_camping_per_night: 6
+  entry: 0
+  note: "Per person per night. Residents $6 adult, $3 junior, $1 child. Nonresidents $21 adult and junior, $20 child. Plus $1 per person per day processing."
+rules: ["No drinking water. Bring all you need.", "Alcohol 10am to 10pm only.", "No lifeguard or security.", "No pets, open fires, smoking, or commercial activity.", "No camping in pavilions. Pavilions are day use by separate permit.", "Map pin is approximate."]
+hazards: ["high_surf", "heat"]
+alerts:
+  nws_zone: "HIZ026"
+amenities: ["restrooms", "picnic tables", "pavilion"]
+sources: ["https://hawaiicounty.ehawaii.gov/camping/welcome.html", "https://hawaiicounty.ehawaii.gov/camping/all,details,57792.html"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

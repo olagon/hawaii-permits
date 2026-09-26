@@ -1,0 +1,43 @@
+id: napali-coast-state-wilderness-park
+name: Nāpali Coast State Wilderness Park
+island: kauai
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 22.1678
+  lng: -159.6726
+activities: [hiking, camping, swimming, boating, cultural_visit]
+permits_required:
+  - permit: napali-coast-camping-permit
+    when: "To camp anywhere in the park or to hike past Hanakāpīʻai (2 miles). $25 resident or $35 nonresident per person per night, 5 nights max, 90 day window."
+  - permit: haena-state-park-reservation
+    when: To enter by land at Hāʻena for a day hike. Camping permit holders are exempt.
+status: closed
+aliases: [Na Pali Coast, Napali Coast State Park, Kalalau]
+summary: "Sea cliffs and valleys along 17 miles of the north shore. The Kalalau Trail runs 11 miles to Kalalau Beach. Camping is at Kalalau, Hanakoa, and Miloliʻi by permit only. Closed after Hurricane Lowell."
+booking:
+  method: online
+  url: "https://explore.ehawaii.gov/"
+  window_note: Reservations open 90 days ahead. Camping is closed until further notice.
+fees:
+  camping_per_night: 35
+  resident_camping_per_night: 25
+  note: Per person per night.
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says its Kauaʻi lands stay closed until they are safe. Check the DLNR page before you go.
+  - "Camping is per person, not per site, and sells out fast."
+  - Ocean landing is only allowed at Miloliʻi in summer by permit. Do not land boats at Kalalau.
+  - Pack out all trash. Stream water must be treated.
+hazards: [steep_drop, flash_flood, stream_crossings, high_surf, falling_rock, remote, heat]
+alerts:
+  nws_zone: HIZ029
+max_stay_nights: 5
+cultural_notes: "Kalalau, Nuʻalolo Kai, and other valleys hold house sites, terraces, and burials. Stay on the trail and out of walled areas."
+sources:
+  - "https://dlnr.hawaii.gov/dsp/parks/kauai/napali-coast-state-wilderness-park/"
+  - "https://dlnr.hawaii.gov/dsp/parks/kauai/"
+  - "https://dlnr.hawaii.gov/dsp/camping-lodging/kauai/"
+  - "https://www.thegardenisland.com/2026/09/17/hawaii-news/dlnr-lands-on-remain-closed-for-public-safety/"
+  - "https://kauainownews.com/2026/09/17/all-state-parks-on-kaua%CA%BBi-will-remain-closed-for-foreseeable-future-due-to-hurricane-lowell-damage/"
+last_verified: "2026-09-25"
+verified_by: ai_research

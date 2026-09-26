@@ -1,0 +1,26 @@
+id: "puu-mali-mitigation-area-unit-a"
+name: "Puʻu Mali Mitigation Area (Unit A, birds only)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.923
+  lng: -155.447
+activities: ["hunting", "hiking"]
+permits_required:
+  - permit: "hunting-license"
+    when: "Required to hunt in Unit A. Unit A, game birds only. No mammal hunting."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season."
+status: "open"
+summary: "Palila habitat restoration area on the north slope of Mauna Kea. Open for game bird hunting only under Unit A rules. No mammal hunting."
+fees:
+  entry: 0
+rules: ["Hunters must carry a license and follow Chapter 13-122 (birds) and 13-123 (mammals) rules.", "Hikers should wear bright colors. Hunting dogs may be present.", "Map pin is the unit centroid from DLNR GIS data."]
+hazards: ["hunting_area", "cold", "altitude", "remote"]
+alerts:
+  nws_zone: "HIZ027"
+aliases: ["Puu Mali"]
+sources: ["https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/", "https://dlnr.hawaii.gov/recreation/hunting/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

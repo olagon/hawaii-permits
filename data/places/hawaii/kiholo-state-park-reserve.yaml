@@ -1,0 +1,31 @@
+id: "kiholo-state-park-reserve"
+name: "Kīholo State Park Reserve"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 19.849
+  lng: -155.937
+activities: ["camping", "day_use", "snorkeling", "fishing", "hiking"]
+permits_required:
+  - permit: "state-parks-camping-permit-30-day"
+    when: "To camp Friday, Saturday, or Sunday nights. Book up to 30 days ahead. Camping is suspended indefinitely as of September 2026 after storm damage."
+status: "restricted"
+aliases: ["Kiholo", "Kiholo Bay"]
+summary: "Lava coast and bay in North Kona with weekend only tent camping in a kiawe grove on a pebble beach. No water, only portable toilets. State Parks runs it with the curator group Hui Aloha Kīholo. Camping is suspended indefinitely as of September 2026."
+booking:
+  method: "online"
+  url: "https://explore.ehawaii.gov/"
+  window_note: "Weekend camping (Friday to Sunday nights) opens 30 days ahead."
+fees:
+  entry: 0
+  camping_per_night: 30
+  resident_camping_per_night: 20
+rules: ["Open 7:00am to 7:00pm. Gates are locked at night and cars cannot enter or leave.", "Camping only Friday through Sunday nights.", "No water. Bring everything you need.", "No dogs, alcohol, fireworks, or generators.", "Fires only in designated pits.", "Camping is suspended indefinitely as of September 2026."]
+hazards: ["heat", "no_water", "high_surf", "remote"]
+alerts:
+  nws_zone: "HIZ023"
+amenities: ["portable toilets"]
+sources: ["https://dlnr.hawaii.gov/dsp/parks/hawaii/kiholo-state-park-reserve/", "https://dlnr.hawaii.gov/dsp/camping-lodging/hawaii/", "https://www.huialohakiholo.org/camping"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

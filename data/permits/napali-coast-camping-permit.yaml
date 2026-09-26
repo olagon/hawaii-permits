@@ -1,0 +1,28 @@
+id: napali-coast-camping-permit
+name: Nāpali Coast (Kalalau) camping permit
+issuer: dlnr-state-parks
+category: camping
+who_needs: "Anyone camping at Kalalau, Hanakoa, or Miloliʻi in Nāpali Coast State Wilderness Park, and anyone hiking the Kalalau Trail past Hanakāpīʻai Valley (2 miles in). The permit also lets you enter Hāʻena State Park without a separate reservation."
+how_to_get: online
+url: "https://explore.ehawaii.gov/"
+carry_required: true
+covers:
+  - napali-coast-state-wilderness-park
+  - kalalau-trail
+  - kalalau-beach-campground
+  - hanakoa-campground
+  - milolii-campground
+booking_window:
+  opens_days_before: 90
+  notes: Reservations open 90 days ahead on explore.ehawaii.gov and sell out fast. Applicant must be 18 or older. All Kauaʻi state park camping is closed after Hurricane Lowell (September 2026) until further notice.
+cost:
+  resident: 25
+  nonresident: 35
+  unit: per person per night
+  note: "Priced per person, not per site. A processing fee is added."
+valid_for: Up to 5 consecutive nights in the park. Wait 30 days before camping again in the same park.
+age_minimum: 18
+sources:
+  - "https://dlnr.hawaii.gov/dsp/camping-lodging/kauai/"
+  - "https://dlnr.hawaii.gov/dsp/camping-lodging/permits-fees/"
+last_verified: "2026-09-25"

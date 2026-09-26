@@ -1,0 +1,28 @@
+id: pine-forest-drive
+name: Pine Forest Drive
+island: kauai
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 22.1265
+  lng: -159.7158
+activities: [hiking, four_wheel_drive, hunting]
+permits_required:
+  - permit: hunting-license
+    when: Only if you are hunting. Hikers do not need it. Hunting dogs may be off leash; keep your own dog leashed.
+status: closed
+summary: "This road in Puu ka Pele Forest Reserve does a loop through a pine tree plantation from the 1960's. The road will eventually bring you back the paved Makaha Ridge Road. This road provides access to Makaha Arboretum and Hunting Unit H. About 1.3 miles one way."
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says Nā Ala Hele trails on Kauaʻi stay closed until they are safe. Check hawaiitrails.hawaii.gov before you go.
+  - Hunting may be in progress. Wear bright colors and keep dogs leashed.
+  - Commercial use needs a Nā Ala Hele permit. Stay on the marked trail; side routes may cross private land.
+hazards: [hunting_area]
+alerts:
+  nws_zone: HIZ004
+amenities: [restroom, picnic table, shelter]
+sources:
+  - "https://hawaiitrails.hawaii.gov/trails/#/trail/pine-forest-drive/41"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+  - "https://mauinow.com/2026/09/20/dlnr-announces-limited-reopening-of-select-kaua%CA%BBi-lands-on-monday/"
+last_verified: "2026-09-25"
+verified_by: ai_research

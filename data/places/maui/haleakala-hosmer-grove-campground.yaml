@@ -1,0 +1,57 @@
+id: "haleakala-hosmer-grove-campground"
+name: "Hosmer Grove Campground"
+island: "maui"
+land_type: "federal"
+manager: "nps"
+location:
+  lat: 20.769
+  lng: -156.235
+activities:
+  - "camping"
+  - "hiking"
+  - "wildlife_viewing"
+  - "stargazing"
+permits_required:
+  - permit: "haleakala-hosmer-grove-reservation"
+    when: "To camp, every night. Recreation.gov shows a 30 day window."
+  - permit: "haleakala-entrance-pass"
+    when: "Every vehicle entering the park."
+status: "open"
+summary: "Six drive up tent sites at nearly 7,000 feet just inside the Summit District entrance. Reservation required on recreation.gov, $20 per night. Campers get a sunrise reservation for the next morning."
+aliases:
+  - "Hosmer Grove"
+booking:
+  method: "online"
+  url: "https://www.recreation.gov/camping/campgrounds/10068557"
+  window_note: "Recreation.gov lists a 30 day reservation window. Check in 2:00 pm, check out 11:00 am."
+fees:
+  camping_per_night: 20
+  entry: 30
+  note: "Entrance fee is per vehicle for 3 days."
+rules:
+  - "Tents only. Trailers and pop ups only in allowed parking spaces with a reservation."
+  - "Up to 6 people and 2 tents per site. One vehicle per site, a second in overflow."
+  - "No wood collecting. Bring charcoal or a contained stove."
+  - "No pets. Quiet hours 10:00 pm to 8:00 am."
+  - "Hammocks only on trees over 10 inches across, padded, 2 straps per tree."
+  - "Map pin is approximate."
+hazards:
+  - "cold"
+  - "altitude"
+alerts:
+  nws_zone: "HIZ022"
+  nps_park_code: "hale"
+amenities:
+  - "picnic_tables"
+  - "grills"
+  - "pit_toilets"
+  - "drinking_water"
+  - "nature_trail"
+max_stay_nights: 3
+group_size_limit: 6
+sources:
+  - "https://www.nps.gov/hale/planyourvisit/hosmer-grove-campground.htm"
+  - "https://www.recreation.gov/camping/campgrounds/10068557"
+  - "https://www.nps.gov/hale/planyourvisit/camping.htm"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

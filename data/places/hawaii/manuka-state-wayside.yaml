@@ -1,0 +1,23 @@
+id: "manuka-state-wayside"
+name: "Manukā State Wayside"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 19.11
+  lng: -155.825
+activities: ["hiking", "day_use"]
+permits_required: []
+status: "open"
+aliases: ["Manuka", "Manuka Nature Trail"]
+summary: "Roadside rest stop in Kaʻū with a tree collection and a 2 mile nature loop into Manukā Natural Area Reserve. The park page lists camping as none. No water."
+fees:
+  entry: 0
+rules: ["Open during daylight hours.", "The park page lists no camping.", "No drinking water. Bring your own.", "Footing is rough lava on the nature trail."]
+hazards: ["no_water", "heat"]
+alerts:
+  nws_zone: "HIZ051"
+amenities: ["restrooms", "picnic tables", "parking"]
+sources: ["https://dlnr.hawaii.gov/dsp/parks/hawaii/manuka-state-wayside/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

@@ -1,0 +1,33 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: kanealole-trail
+name: Kanealole Trail
+location:
+  lat: 21.326
+  lng: -157.822
+aliases:
+  - Kanealole Trail
+summary: A 0.7 mile trail up Makiki Valley from the Hawaiʻi Nature Center and DOFAW baseyard. The usual start for the Makiki Valley loop.
+rules:
+  - Rocky and muddy after rain.
+  - Parking at the baseyard is limited.
+  - This is an active hunting area. Wear bright colors.
+hazards:
+  - mud
+  - falling_rock
+  - hunting_area
+alerts:
+  nws_zone: HIZ033
+amenities:
+  - restrooms
+  - drinking water
+  - parking
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

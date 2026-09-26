@@ -1,0 +1,46 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+  - camping
+permits_required:
+  - permit: kuaokala-mokuleia-access-permit
+    when: To drive in through the Kaʻena Point Satellite Tracking Station gate and park at the trailhead. Day use only, 6 am to 6 pm.
+  - permit: dofaw-camping-permit
+    when: To camp along the trail. Reserve on camping.ehawaii.gov. A camping permit lets you leave the vehicle overnight.
+status: open
+id: kuaokala-trail
+name: Kuaokalā Trail
+location:
+  lat: 21.5506
+  lng: -158.2197
+aliases:
+  - Kuaokala Trail
+summary: >-
+  A 2 mile ridge loop above Keawaʻula (Yokohama Bay) with views of the Waiʻanae coast and Mākua Valley. Reached by driving up through the Space Force tracking station, which needs a permit and 4 wheel
+  drive.
+rules:
+  - Everyone in the vehicle must be on the permit. Non US citizens may be refused at the checkpoint.
+  - Access can close during military exercises.
+  - Cliffs and loose rock. Fire danger in dry months.
+  - This is an active hunting area. Wear bright colors.
+  - No drinking water. Treat all stream water.
+hazards:
+  - steep_drop
+  - heat
+  - no_water
+  - hunting_area
+  - remote
+alerts:
+  nws_zone: HIZ006
+amenities:
+  - picnic table
+  - shelter
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://trails.ehawaii.gov/camping/all,details,57933.html
+  - https://dlnr.hawaii.gov/recreation/camp/
+  - https://camping.ehawaii.gov/camping/all,details,31708.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

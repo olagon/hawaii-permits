@@ -1,0 +1,33 @@
+id: "kaumahina-state-wayside"
+name: "Kaumahina State Wayside"
+island: "maui"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 20.871
+  lng: -156.17
+activities:
+  - "day_use"
+  - "scenic_drive"
+permits_required: []
+status: "open"
+summary: "A forested rest stop on the Hāna Highway with restrooms, picnic tables, and a lookout over the Keʻanae coast. No fee, no camping."
+aliases:
+  - "Kaumahina Wayside"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Day use only. No camping."
+  - "Parking is limited. Do not block the highway."
+alerts:
+  nws_zone: "HIZ047"
+amenities:
+  - "restrooms"
+  - "picnic_tables"
+  - "parking"
+sources:
+  - "https://dlnr.hawaii.gov/dsp/parks/maui/kaumahina-state-wayside/"
+  - "https://dlnr.hawaii.gov/dsp/parks/maui/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

@@ -1,0 +1,30 @@
+id: "ainapo-cabin"
+name: "ʻĀinapō Cabin (Halewai)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.466
+  lng: -155.582
+activities: ["cabin", "hiking", "camping"]
+permits_required:
+  - permit: "dofaw-camping-permit"
+    when: "To stay at the cabin. Book within one month of your date. You must also register with Kapāpala Ranch for the gate code at least 3 working days ahead."
+status: "open"
+aliases: ["Ainapo Cabin", "Ainapo Trail", "Halewai"]
+summary: "Six bunk shelter at 7,670 feet on the historic ʻĀinapō Trail up Mauna Loa in Kapāpala Forest Reserve. Reached by an 8 mile 4WD road through Kapāpala Ranch from Highway 11 near mile 40, then the trail. Hikers going on to the summit cabin must also register with the national park Backcountry Office."
+booking:
+  method: "online"
+  url: "https://camping.ehawaii.gov/camping/all,details,31727.html"
+  window_note: "Reservations open one month ahead. Kapāpala Ranch texts the gate code at 4:30am on your day."
+fees:
+  camping_per_night: "see_source"
+  resident_camping_per_night: "see_source"
+rules: ["4WD required. The ranch road was badly damaged by Hurricane Lala in 2026 and may be impassable.", "Register with Kapāpala Ranch at least 3 working days ahead for the gate code.", "Treat all water.", "No fires, smoking, bikes, or animals.", "Summit hikers must pre-register with the Hawaiʻi Volcanoes Backcountry Office, 808-985-6178.", "Map pin is approximate."]
+hazards: ["altitude", "cold", "no_water", "remote", "hunting_area"]
+alerts:
+  nws_zone: "HIZ028"
+amenities: ["bunks", "catchment water"]
+sources: ["https://camping.ehawaii.gov/camping/all,details,31727.html", "https://dlnr.hawaii.gov/recreation/camp/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

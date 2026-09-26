@@ -1,0 +1,28 @@
+id: mohihi-waialae-trail
+name: Mōhihi-Waiʻalae Trail
+island: kauai
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 22.1114
+  lng: -159.5612
+activities: [hiking, camping]
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp at the campsites or cabin along this trail. Reserve online and carry a printed permit.
+status: closed
+aliases: [Mohihi-Waialae Trail]
+summary: "The trail starts at the end of the Camp 10 Road. It crosses Mohihi Stream and follows Kohua Ridge into the Alakai Wilderness Preserve, within Na Pali-Kona Forest Reserve. The trail is occasionally maintained up to the U.S.G.S. rain gauge at the 2.5 mile marker. The route continues to the Koaie Stream but this route is not maintained. The rivers get dangerously high during rainy weather. The trail serves mostly as a hunter access route. About 4.0 miles one way."
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says Nā Ala Hele trails on Kauaʻi stay closed until they are safe. Check hawaiitrails.hawaii.gov before you go.
+  - Commercial use needs a Nā Ala Hele permit. Stay on the marked trail; side routes may cross private land.
+hazards: [cold, flash_flood, hunting_area, remote]
+alerts:
+  nws_zone: HIZ004
+amenities: [restroom, picnic table, campsites, shelter]
+sources:
+  - "https://hawaiitrails.hawaii.gov/trails/#/trail/mohihi-waialae-trail/77"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+  - "https://mauinow.com/2026/09/20/dlnr-announces-limited-reopening-of-select-kaua%CA%BBi-lands-on-monday/"
+last_verified: "2026-09-25"
+verified_by: ai_research

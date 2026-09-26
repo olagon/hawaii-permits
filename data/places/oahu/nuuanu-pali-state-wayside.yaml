@@ -1,0 +1,42 @@
+id: nuuanu-pali-state-wayside
+name: Nuʻuanu Pali State Wayside
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.366
+  lng: -157.793
+activities:
+  - day_use
+  - scenic_drive
+permits_required: []
+status: open
+aliases:
+  - Pali Lookout
+  - Nuuanu Pali Lookout
+summary: The windy cliff top lookout over Kāneʻohe and the windward coast, site of the 1795 battle where Kamehameha took Oʻahu. A short stop with big views.
+fees:
+  entry: 0
+  parking: 7
+  resident_parking: 0
+  note: Parking is $7 per vehicle for out of state visitors. Pay at the machine.
+rules:
+  - Open 6 am to 6 pm daily.
+  - Very strong winds. Hold on to hats and children.
+  - The old Pali road below the lookout is closed to cars.
+hazards:
+  - steep_drop
+  - cold
+alerts:
+  nws_zone: HIZ033
+amenities:
+  - restrooms
+  - parking
+accessibility: The lookout is paved and a short walk from parking.
+cultural_notes: Hundreds of warriors were driven over the cliff here in the Battle of Nuʻuanu. Treat the site with respect.
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/nuuanu-pali-state-wayside/
+  - https://dlnr.hawaii.gov/dsp/announcements/popular-nuuanu-pali-state-wayside-reopens-wednesday/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

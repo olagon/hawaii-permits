@@ -1,0 +1,27 @@
+id: pulama-lanai-hunting-areas
+name: Pūlama Lānaʻi hunting program areas
+island: lanai
+land_type: private
+manager: pulama-lanai
+location: { lat: 20.828, lng: -156.920 }
+activities: [hunting]
+permits_required:
+  - permit: hunting-license
+    when: Always.
+  - permit: pulama-lanai-hunting-permit
+    when: To hunt on the landowner's private hunting zones outside the state lottery hunts.
+status: open
+aliases: [Lanai private hunting, Pulama Lanai hunt, Lanai axis deer hunting]
+summary: Landowner run axis deer and mouflon hunting on private Pūlama Lānaʻi land, separate from the state lottery hunts in the Cooperative Game Management Area. Hunters pay a base fee plus a daily unit fee for rifle or shotgun zones. Lānaʻi residents pay much less. Contact the hunting office for zones, dates, and check in. Map pin is Lānaʻi City.
+booking: { method: phone, url: https://www.lanai96763.com/community-resources/recreation/, phone: 808-565-3102, window_note: Email huntlanai@pulamalanai.com. }
+fees: { entry: see_source, note: Rifle is $280 per Hawaiʻi resident adult or $320 out of state plus an $80 daily unit fee. Shotgun and archery cost less. Fees updated August 2026. }
+rules:
+  - Hunt only in your assigned zone on your assigned day.
+  - Carry your state hunting license and the landowner permit.
+  - Map pin is approximate.
+hazards: [hunting_area, heat, no_water, remote]
+sources:
+  - https://www.lanai96763.com/community-resources/recreation/
+  - https://www.lanai96763.com/wp-content/uploads/2026/08/2026-Hunting-Fees-Signage.pdf
+last_verified: 2026-09-25
+verified_by: ai_research

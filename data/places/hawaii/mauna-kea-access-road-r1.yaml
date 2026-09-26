@@ -1,0 +1,24 @@
+id: "mauna-kea-access-road-r1"
+name: "Mauna Kea Access Road (R-1)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.89
+  lng: -155.411
+activities: ["four_wheel_drive", "biking", "hunting"]
+permits_required:
+  - permit: "hawaii-island-ohv-permit"
+    when: "For every rider of a non-licensed vehicle (ATV, side by side, dirt bike)."
+status: "open"
+aliases: ["Mauna Kea Access Road", "R-1 Road"]
+summary: "A 32 mile forest road in the Mauna Kea Forest Reserve that is part of the Mauna Kea ATV and dirt bike riding area. Non-licensed vehicles need the DOFAW OHV permit. Licensed 4WD vehicles may use it without a permit. Hunting is open daily."
+fees:
+  entry: 0
+rules: ["Sign in and out at the check-in station.", "Wear bright colors. Hunters and dogs share the road.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["hunting_area", "cold", "altitude", "remote"]
+alerts:
+  nws_zone: "HIZ027"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/recreation/nah/off-highway-vehicles-ohv/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

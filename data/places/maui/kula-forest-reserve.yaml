@@ -1,0 +1,48 @@
+id: "kula-forest-reserve"
+name: "Kula Forest Reserve"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.699
+  lng: -156.315
+activities:
+  - "hiking"
+  - "hunting"
+  - "camping"
+  - "four_wheel_drive"
+  - "biking"
+permits_required:
+  - permit: "state-parks-camping-permit"
+    when: "Only for the Polipoli Spring SRA campground inside the reserve, when it reopens."
+  - permit: "hunting-license"
+    when: "To hunt game mammals or birds. This is hunting unit C, with unit E archery only near Polipoli."
+status: "open"
+summary: "Cool planted forest of redwoods, cypress, and pine on the west slope of Haleakalā above Kula, with about a dozen linked Nā Ala Hele trails. Camping is at Polipoli Spring SRA inside the reserve, currently closed. Waipoli (Polipoli) Access Road crosses private land, and only street legal 4x4 vehicles may go past the reserve gate."
+aliases:
+  - "Kula FR"
+  - "Polipoli forest"
+  - "Waipoli"
+rules:
+  - "Only street legal 4WD vehicles past the forest reserve gate at Kanahau (yellow) gate."
+  - "Hunters use the reserve. Wear bright colors."
+  - "No camping outside Polipoli SRA."
+  - "Nights are cold and fog is common. Winter nights drop below freezing."
+  - "Roads and trails close after storms. Check the DLNR page."
+hazards:
+  - "hunting_area"
+  - "cold"
+  - "altitude"
+  - "mud"
+  - "remote"
+alerts:
+  nws_zone: "HIZ049"
+amenities:
+  - "trails"
+  - "hunter_check_station"
+sources:
+  - "https://dlnr.hawaii.gov/forestry/frs/reserves/maui-nui/kula-forest-reserve/"
+  - "https://dlnr.hawaii.gov/forestry/frs/reserves/maui-nui/"
+  - "https://dlnr.hawaii.gov/dsp/parks/maui/polipoli-spring-state-recreation-area/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

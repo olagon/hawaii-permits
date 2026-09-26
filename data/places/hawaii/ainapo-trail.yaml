@@ -1,0 +1,22 @@
+id: "ainapo-trail"
+name: "ʻĀinapō Trail"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.466
+  lng: -155.582
+activities: ["hiking"]
+permits_required: []
+status: "open"
+aliases: ["Ainapo Trail"]
+summary: "Historic 14 mile route from the forest reserve boundary up Mauna Loa past ʻĀinapō Cabin to the summit. Weather, footing, and hunters are the listed hazards. Summit hikers must register with the national park."
+fees:
+  entry: 0
+rules: ["Reach the trailhead by ʻĀinapō Road with ranch permission.", "Register with the Hawaiʻi Volcanoes Backcountry Office before going above the cabin.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["altitude", "cold", "no_water", "hunting_area", "remote"]
+alerts:
+  nws_zone: "HIZ028"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://camping.ehawaii.gov/camping/all,details,31727.html"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

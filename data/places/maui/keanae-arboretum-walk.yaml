@@ -1,0 +1,34 @@
+id: "keanae-arboretum-walk"
+name: "Keʻanae Arboretum Walk"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.85
+  lng: -156.15
+activities:
+  - "hiking"
+permits_required: []
+status: "open"
+summary: "Easy paved walk through a planted arboretum of Hawaiian and tropical trees and taro patches beside Piʻinaʻau Stream on the Hāna Highway. Day use. Flash floods and slippery rocks in the stream area."
+aliases:
+  - "Keanae Arboretum"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Day use only."
+  - "Stay out of the stream when water rises."
+  - "Do not pick plants or taro."
+  - "About 0.6 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "flash_flood"
+  - "mud"
+alerts:
+  nws_zone: "HIZ047"
+accessibility: "The main path is paved and gentle."
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

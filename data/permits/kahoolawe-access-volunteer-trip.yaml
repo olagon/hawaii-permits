@@ -1,0 +1,22 @@
+id: "kahoolawe-access-volunteer-trip"
+name: "Kahoʻolawe volunteer access (KIRC or Protect Kahoʻolawe ʻOhana)"
+issuer: "kirc"
+category: "special_use"
+who_needs: "Anyone going to Kahoʻolawe. There is no casual visiting. You go only on a KIRC volunteer work trip or a Protect Kahoʻolawe ʻOhana huakaʻi, after filling out the volunteer forms and attending an orientation."
+how_to_get: "owner_direct"
+url: "https://www.kahoolawe.hawaii.gov/volunteer.shtml"
+carry_required: true
+covers:
+  - "kahoolawe-island-reserve"
+booking_window:
+  notes: "KIRC: submit the volunteer form to join a waitlist. KIRC runs about two groups a month of 12 to 15 people, each a 4 day work trip, and now focuses on organized groups with a leader. PKO: email pko.huakai@gmail.com, submit the KIRC volunteer packet and the ʻOhana registration and liability form by the deadline, and attend a PKO orientation. Participants must be able to swim."
+cost:
+  resident: 200
+  nonresident: 200
+  unit: "per person KIRC access fee, includes the boat from Maui"
+  note: "PKO trips list a $20 T shirt cost plus huakaʻi costs set by the coordinator. You arrange your own travel to Maui."
+sources:
+  - "https://www.kahoolawe.hawaii.gov/volunteer.shtml"
+  - "https://www.kahoolawe.hawaii.gov/faq.shtml"
+  - "https://www.protectkahoolaweohana.org/huakai-requirements"
+last_verified: "2026-09-25"

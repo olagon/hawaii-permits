@@ -1,0 +1,25 @@
+id: hoopii-falls
+name: Hoʻopiʻi Falls
+island: kauai
+land_type: private
+manager: Private landowners with a state access permit
+location:
+  lat: 22.096
+  lng: -159.353
+activities: [hiking, swimming]
+permits_required: []
+status: restricted
+aliases: [Hoopii Falls, Kapaa Stream falls]
+summary: Two waterfalls on Kapaʻa Stream reached by a path through private land. The state holds a revocable permit for public access to the first falls. The route to the second falls crosses other private land that is often fenced and signed no trespassing. The trailhead is in a neighborhood with little parking.
+rules:
+  - Stay on the permitted path to the first falls. Do not cross fences or no trespassing signs to the second falls.
+  - Park legally and quietly. Residents live along the trailhead street.
+  - Streams flood fast. Do not jump from the falls.
+  - Map pin is approximate.
+hazards: [flash_flood, steep_drop, mud, stream_crossings]
+alerts:
+  nws_zone: HIZ030
+sources:
+  - "https://www.thegardenisland.com/2019/10/01/hawaii-news/state-approves-hoopii-permit/"
+last_verified: "2026-09-25"
+verified_by: ai_research

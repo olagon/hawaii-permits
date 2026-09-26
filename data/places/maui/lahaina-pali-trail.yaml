@@ -1,0 +1,35 @@
+id: "lahaina-pali-trail"
+name: "Lahaina Pali Trail"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.808
+  lng: -156.513
+activities:
+  - "hiking"
+permits_required: []
+status: "open"
+summary: "Historic 1800s trail over the Kealaloloa ridge between Māʻalaea and Ukumehame, climbing about 1,600 feet through dry, rocky, open country with wide ocean views and whale watching in winter. Hot with no shade or water."
+aliases:
+  - "Lahaina Pali"
+  - "Pali Trail"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Start at dawn. No shade or water on the trail."
+  - "Two trailheads, Māʻalaea side and Ukumehame side. Arrange a pickup or hike back."
+  - "Stay on the trail. Loose rock and steep drop offs."
+  - "About 5.5 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "heat"
+  - "no_water"
+  - "steep_drop"
+alerts:
+  nws_zone: "HIZ018"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

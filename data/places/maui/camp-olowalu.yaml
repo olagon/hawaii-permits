@@ -1,0 +1,57 @@
+id: "camp-olowalu"
+name: "Camp Olowalu"
+island: "maui"
+land_type: "private"
+manager: "camp-olowalu"
+location:
+  lat: 20.811
+  lng: -156.622
+activities:
+  - "camping"
+  - "cabin"
+  - "swimming"
+  - "snorkeling"
+  - "day_use"
+permits_required:
+  - permit: "camp-olowalu-reservation"
+    when: "Every stay. Book online through CampLife or call 808-661-4303."
+status: "open"
+summary: "Private beachfront campground at Olowalu between Māʻalaea and Lahaina with 35 tent sites, car camping, tentalows (tent cabins), and group cabins. Book online or by phone. Hawaiʻi residents get 10% off tent camping."
+aliases:
+  - "Olowalu campground"
+  - "Olowalu tentalows"
+booking:
+  method: "owner_direct"
+  url: "https://www.campolowalu.com/reservations/"
+  phone: "808-661-4303"
+  window_note: "Check in 2:00 pm, check out 10:00 am."
+fees:
+  camping_per_night: 35
+  note: "Per adult plus tax. Children 9 to 17 $12. Tentalows from $165 per night. Cabins are group rentals with a 2 night minimum."
+rules:
+  - "Up to 6 people per tent site."
+  - "Noise curfew 9:30 pm. Day guests leave by 9:30 pm."
+  - "Pets $4 per night."
+  - "The reef at Olowalu is fragile. Do not stand on coral."
+  - "Map pin is approximate."
+hazards:
+  - "heat"
+  - "high_surf"
+alerts:
+  nws_zone: "HIZ018"
+amenities:
+  - "restrooms"
+  - "showers"
+  - "wifi"
+  - "picnic_tables"
+  - "grills"
+  - "fire_pits"
+  - "parking"
+  - "kayak_rental"
+group_size_limit: 6
+sources:
+  - "https://www.campolowalu.com/"
+  - "https://www.campolowalu.com/tent-camping/"
+  - "https://www.campolowalu.com/policies/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

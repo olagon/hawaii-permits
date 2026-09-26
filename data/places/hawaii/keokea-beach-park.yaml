@@ -1,0 +1,28 @@
+id: "keokea-beach-park"
+name: "Kēōkea Beach Park"
+island: "hawaii"
+land_type: "county"
+manager: "hawaii-county-parks"
+location:
+  lat: 20.229
+  lng: -155.76
+activities: ["camping", "day_use", "fishing", "swimming"]
+permits_required: []
+status: "restricted"
+summary: "Grassy park in a rocky cove at the end of the road east of Kapaʻau, North Kohala, with a pavilion and restrooms. Not currently listed in the county online camping system. Rough water most of the year."
+booking:
+  method: "online"
+  url: "https://hawaiicounty.ehawaii.gov/camping/welcome.html"
+fees:
+  camping_per_night: 21
+  resident_camping_per_night: 6
+  entry: 0
+  note: "Per person per night. Residents $6 adult, $3 junior, $1 child. Nonresidents $21 adult and junior, $20 child. Plus $1 per person per day processing."
+rules: ["Not currently in the county online camping system. Do not camp without a permit.", "Rough surf. Swim only when very calm.", "No pets, open fires, smoking, or commercial activity.", "No camping in pavilions. Pavilions are day use by separate permit.", "Map pin is approximate."]
+hazards: ["high_surf"]
+alerts:
+  nws_zone: "HIZ026"
+amenities: ["restrooms", "pavilion", "picnic tables"]
+sources: ["https://hawaiicounty.ehawaii.gov/camping/welcome.html"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

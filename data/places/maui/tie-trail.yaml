@@ -1,0 +1,32 @@
+id: "tie-trail"
+name: "Tie Trail"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.681
+  lng: -156.338
+activities:
+  - "hiking"
+permits_required: []
+status: "open"
+summary: "Steep half mile connector in the Kula Forest Reserve from the 0.8 mile point of the Redwood Trail down to the Plum Trail. No bicycles. Day use."
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Hunters use this area. Wear bright colors and stay on the trail."
+  - "No bicycles."
+  - "Day use only."
+  - "About 0.5 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "hunting_area"
+  - "mud"
+  - "cold"
+alerts:
+  nws_zone: "HIZ049"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

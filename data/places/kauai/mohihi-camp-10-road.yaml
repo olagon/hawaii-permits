@@ -1,0 +1,32 @@
+id: mohihi-camp-10-road
+name: Mōhihi-Camp 10 Road
+island: kauai
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 22.1173
+  lng: -159.602
+activities: [hiking, four_wheel_drive, camping, fishing, hunting]
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp at the campsites or cabin along this trail. Reserve online and carry a printed permit.
+  - permit: hunting-license
+    when: Only if you are hunting. Hikers do not need it. Hunting dogs may be off leash; keep your own dog leashed.
+status: closed
+aliases: [Mohihi Camp 10 Road, Camp 10 Road]
+summary: The road starts 100 yards past Kokee State Park headquarters along Highway 550. This unpaved road provides access to many of the trails in Kokee State Park and Na Pali-Kona Forest Reserve. Vehicular travel (4 wheel drive only) is recommended only during dry conditions because of steep and exceedingly slippery soil conditions. About 6.1 miles one way.
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says Nā Ala Hele trails on Kauaʻi stay closed until they are safe. Check hawaiitrails.hawaii.gov before you go.
+  - Hunting may be in progress. Wear bright colors and keep dogs leashed.
+  - Commercial use needs a Nā Ala Hele permit. Stay on the marked trail; side routes may cross private land.
+  - "4WD only and only in dry weather. The road is slick with the slightest rain."
+hazards: [cold, falling_rock, flash_flood, hunting_area, steep_drop]
+alerts:
+  nws_zone: HIZ004
+amenities: [restroom, bridge, picnic table, campsites, shelter]
+sources:
+  - "https://hawaiitrails.hawaii.gov/trails/#/trail/mohihi-camp-10-road/65"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+  - "https://mauinow.com/2026/09/20/dlnr-announces-limited-reopening-of-select-kaua%CA%BBi-lands-on-monday/"
+last_verified: "2026-09-25"
+verified_by: ai_research

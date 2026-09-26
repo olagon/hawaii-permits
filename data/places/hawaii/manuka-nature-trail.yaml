@@ -1,0 +1,23 @@
+id: "manuka-nature-trail"
+name: "Manukā Nature Trail"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.115
+  lng: -155.826
+activities: ["hiking"]
+permits_required: []
+status: "open"
+aliases: ["Manuka Nature Trail"]
+summary: "A 2.1 mile loop from Manukā State Wayside into Manukā Natural Area Reserve through dry and mesic forest on rough lava. Toilets, tables, and parking at the wayside."
+fees:
+  entry: 0
+rules: ["Rough lava footing.", "No drinking water.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["no_water", "heat"]
+alerts:
+  nws_zone: "HIZ051"
+amenities: ["restrooms", "picnic tables", "parking"]
+sources: ["https://hawaiitrails.hawaii.gov/trails/#/trail/manuk-nature-trail/275", "https://dlnr.hawaii.gov/dsp/parks/hawaii/manuka-state-wayside/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

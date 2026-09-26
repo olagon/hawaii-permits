@@ -1,0 +1,27 @@
+id: "mauna-kea-summit"
+name: "Maunakea summit and Visitor Information Station"
+island: "hawaii"
+land_type: "state"
+manager: "Center for Maunakea Stewardship"
+location:
+  lat: 19.821
+  lng: -155.468
+activities: ["stargazing", "scenic_drive", "hiking", "cultural_visit"]
+permits_required: []
+status: "open"
+aliases: ["Mauna Kea", "Maunakea", "Mauna Kea Summit", "Mauna Kea Visitor Information Station", "Onizuka Center"]
+summary: "The 13,803 foot summit of Maunakea, reached by the Maunakea Access Road from Saddle Road. The Visitor Information Station at 9,200 feet is open 9am to 9pm. Above it the road is steep gravel and only 4WD or AWD vehicles may go up. The summit is closed 30 minutes after sunset to 30 minutes before sunrise. The University of Hawaiʻi manages the science reserve under state rules."
+booking:
+  method: "none"
+  window_note: "No reservation for personal visits. Commercial tours need a permit."
+fees:
+  entry: 0
+rules: ["Stop at least 30 minutes at the Visitor Information Station to acclimatize before going higher.", "Only dependable 4WD or AWD vehicles above the VIS. No 2WD.", "Do not go above the VIS if you are pregnant, under 13, have heart or breathing problems, or have scuba dived in the last 24 hours.", "Summit access is closed from 30 minutes after sunset to 30 minutes before sunrise.", "Vehicles must be clean of mud and invasive species.", "Expect freezing temperatures, snow, and winds over 100 mph any month.", "The VIS was closed through September 26, 2026 for Hurricane Nolo, and the Humuʻula summit trail is closed with no reopening date."]
+hazards: ["altitude", "cold", "no_water", "steep_drop", "remote"]
+alerts:
+  nws_zone: "HIZ028"
+amenities: ["visitor station", "restrooms", "parking"]
+cultural_notes: "Maunakea is sacred to Native Hawaiians. Stay on roads and paths, and do not climb the summit puʻu or touch shrines."
+sources: ["https://hilo.hawaii.edu/maunakea/visitor-information", "https://hilo.hawaii.edu/maunakea/visitor-information/public-safety"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

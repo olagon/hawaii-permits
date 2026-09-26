@@ -1,0 +1,16 @@
+id: "hawaii-land-trust"
+name: "Hawaiʻi Land Trust"
+level: "nonprofit"
+website: "https://www.hilt.org/"
+phone: "808-744-2462"
+email: "info@hilt.org"
+reservation_system_url: "https://www.hilt.org/camp"
+islands:
+  - "maui"
+  - "oahu"
+  - "kauai"
+  - "hawaii"
+sources:
+  - "https://www.hilt.org/camp"
+  - "https://www.hilt.org/waihee-reservations"
+  - "https://www.hilt.org/nuu-reservations"

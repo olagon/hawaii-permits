@@ -1,0 +1,24 @@
+id: "haleakala-sunrise-reservation"
+name: "Haleakalā sunrise vehicle reservation"
+issuer: "nps"
+category: "entry_reservation"
+who_needs: "Every vehicle entering the Summit District between 3:00 am and 7:00 am. Needed even on fee free days and in addition to the entrance fee. Hosmer Grove campers get a sunrise reservation with their campsite."
+how_to_get: "online"
+url: "https://www.recreation.gov/ticket/facility/253731"
+carry_required: true
+covers:
+  - "haleakala-summit-district"
+booking_window:
+  opens_days_before: 60
+  opens_time_local: "07:00"
+  notes: "Reservations open 60 days ahead at 7:00 am HST on recreation.gov. A second batch for each date is released 2 days (48 hours) ahead, also at 7:00 am HST. One reservation per person per 3 day period. Bring the reservation and a photo ID matching the name on it."
+cost:
+  resident: 1
+  nonresident: 1
+  unit: "per vehicle"
+  note: "Nonrefundable recreation.gov fee. The park entrance fee is separate."
+valid_for: "One vehicle on the reserved morning, 3:00 am to 7:00 am."
+sources:
+  - "https://www.nps.gov/hale/planyourvisit/fees.htm"
+  - "https://www.nps.gov/hale/planyourvisit/sunrise.htm"
+last_verified: "2026-09-25"

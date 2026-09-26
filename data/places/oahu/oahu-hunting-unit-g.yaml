@@ -1,0 +1,35 @@
+id: oahu-hunting-unit-g
+name: Oʻahu Public Hunting Area Unit G (Poamoho)
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 21.5198
+  lng: -157.9526
+activities:
+  - hunting
+  - hiking
+permits_required:
+  - permit: hunting-license
+    when: To hunt game mammals (pigs and goats) in Unit G. Check the DOFAW Oʻahu hunting page for open days, weapons and check in stations.
+status: open
+summary: Game mammal hunting in the Poamoho section of ʻEwa Forest Reserve, reached by the gated Poamoho Hele Loa access road with a DOFAW permit and 4 wheel drive.
+rules:
+  - Wear blaze orange. Hikers share these areas.
+  - Check in and out at the hunter check station where one exists.
+  - Unit boundaries change. Print the current map from the DOFAW page.
+  - Map pin is the unit centroid from the DOFAW GIS layer.
+  - Vehicle access needs the Poamoho access permit.
+  - Mammal hunting closes in Unit G on game bird hunting days.
+hazards:
+  - hunting_area
+  - remote
+  - no_water
+  - steep_drop
+alerts:
+  nws_zone: HIZ036
+sources:
+  - https://dlnr.hawaii.gov/recreation/hunting/oahu/
+  - https://hunting.ehawaii.gov/hunting/license.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

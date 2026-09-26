@@ -1,0 +1,42 @@
+id: "kahakapao-recreation-area"
+name: "Kahakapao Recreation Area (Makawao Forest Reserve)"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.827
+  lng: -156.276
+activities:
+  - "hiking"
+  - "biking"
+  - "wildlife_viewing"
+permits_required: []
+status: "open"
+summary: "Trail hub in the Makawao Forest Reserve above Makawao with the Kahakapao Loop for hikers, bikers, and horses, plus built mountain bike trails such as Pineapple Express and the Ravine trail. Gates are open about 7:00 am to 7:00 pm."
+aliases:
+  - "Kahakapao"
+  - "Makawao Forest Reserve trails"
+  - "Makawao Forest"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Gate hours are posted, about 7:00 am to 7:00 pm, and can change."
+  - "Ride only on marked trails. DLNR has closed illegal user built trails."
+  - "Hunters use the Makawao Forest Reserve (unit D). Wear bright colors."
+  - "Dogs on leash."
+hazards:
+  - "hunting_area"
+  - "mud"
+alerts:
+  nws_zone: "HIZ049"
+amenities:
+  - "parking"
+  - "restrooms"
+  - "trails"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://dlnr.hawaii.gov/forestry/frs/reserves/maui-nui/"
+  - "https://dlnr.hawaii.gov/blog/2020/12/02/nr20-188/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

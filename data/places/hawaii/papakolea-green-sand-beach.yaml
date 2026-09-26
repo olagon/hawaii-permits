@@ -1,0 +1,23 @@
+id: "papakolea-green-sand-beach"
+name: "Papakōlea (Green Sand Beach)"
+island: "hawaii"
+land_type: "state"
+manager: "Department of Hawaiian Home Lands"
+location:
+  lat: 18.936
+  lng: -155.646
+activities: ["hiking", "day_use"]
+permits_required: []
+status: "restricted"
+aliases: ["Green Sand Beach", "Papakolea", "Mahana Bay", "Green Sands"]
+summary: "Olivine beach in Kaʻū near South Point on Hawaiian Home Lands. Reach it on foot only, about 2.5 miles each way from the parking area over hot, windy, exposed ground. The landowner does not allow vehicles on the road to the beach and does not sell vehicle permits. People selling truck rides from the lot are operating illegally and have damaged the land."
+fees:
+  entry: 0
+rules: ["Walk in only. Do not drive the dirt roads and do not pay for a ride.", "No shade or water. Carry plenty and start early.", "Strong currents and no lifeguard. Swimming is risky.", "The cinder cone is fragile. Use the marked path down and do not cut new routes.", "Map pin is approximate."]
+hazards: ["heat", "no_water", "high_surf", "steep_drop", "remote"]
+alerts:
+  nws_zone: "HIZ051"
+cultural_notes: "The lands between the lot and the beach hold cultural sites. Stay on the walking route."
+sources: ["https://www.kitv.com/news/how-an-illegal-atv-tour-near-green-sand-beach-was-shut-down-vendors-react-to/article_8399dbfe-43dd-11ef-baff-67bd175e2254.html"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

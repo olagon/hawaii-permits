@@ -1,0 +1,34 @@
+id: "mauna-loa-red-hill-cabin"
+name: "Mauna Loa Red Hill (Puʻuʻulaʻula) Cabin"
+island: "hawaii"
+land_type: "federal"
+manager: "nps"
+location:
+  lat: 19.541
+  lng: -155.523
+activities: ["camping", "hiking", "cabin"]
+permits_required:
+  - permit: "havo-backcountry-permit"
+    when: "Required to stay at the cabin. $10 per trip, up to 12 people, 3 nights max at one site."
+status: "open"
+aliases: ["Red Hill Cabin", "Puu Ulaula", "Mauna Loa Trail"]
+summary: "Backcountry cabin at 10,035 feet, 7.5 miles and 3,373 feet up the Mauna Loa Trail from the Mauna Loa Road trailhead. Eight bunks, catchment water, composting toilet. Sleeps up to 24 with tents. Altitude sickness is common."
+booking:
+  method: "online"
+  url: "https://www.recreation.gov/permits/4675341"
+  window_note: "Reserve up to 90 days ahead. Check in at the Backcountry Office."
+fees:
+  camping_per_night: "see_source"
+  entry: 30
+  note: "$10 per trip permit."
+rules: ["Treat all water.", "Do not hike within 24 hours of scuba diving.", "Descend at once if you have signs of altitude sickness.", "Mauna Loa Road above Kīpukapuaulu was closed for storm damage in August 2026. Map pin is approximate.", "Most of the park closed on September 24, 2026 for Tropical Storm Nolo. Check the park alerts page before you go."]
+hazards: ["altitude", "cold", "no_water", "remote"]
+alerts:
+  nws_zone: "HIZ028"
+  nps_park_code: "havo"
+amenities: ["bunks", "composting toilet", "catchment water"]
+max_stay_nights: 3
+group_size_limit: 12
+sources: ["https://www.nps.gov/havo/planyourvisit/hike_maunaloa.htm", "https://www.nps.gov/havo/planyourvisit/hike_bc.htm"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

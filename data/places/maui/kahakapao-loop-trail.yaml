@@ -1,0 +1,36 @@
+id: "kahakapao-loop-trail"
+name: "Kahakapao Loop Trail"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.827
+  lng: -156.276
+activities:
+  - "hiking"
+  - "biking"
+permits_required: []
+status: "open"
+summary: "East and west loop through eucalyptus and planted forest in the Makawao Forest Reserve, shared by hikers, mountain bikers, and horses. Starts at the Kahakapao Recreation Area parking lot."
+aliases:
+  - "Kahakapao Loop"
+  - "Kahakapao East Loop"
+  - "Kahakapao West Loop"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Hunters use this area. Wear bright colors and stay on the trail."
+  - "Bikers yield to hikers and horses."
+  - "Gate hours are posted at the recreation area."
+  - "About 6 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "hunting_area"
+  - "mud"
+alerts:
+  nws_zone: "HIZ049"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

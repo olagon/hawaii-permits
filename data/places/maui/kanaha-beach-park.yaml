@@ -1,0 +1,48 @@
+id: "kanaha-beach-park"
+name: "Kanahā Beach Park"
+island: "maui"
+land_type: "county"
+manager: "maui-parks"
+location:
+  lat: 20.897
+  lng: -156.457
+activities:
+  - "swimming"
+  - "day_use"
+  - "surfing"
+  - "fishing"
+  - "boating"
+permits_required: []
+status: "open"
+summary: "Large beach park next to Kahului Airport used for windsurfing, kitesurfing, paddling, and picnics. Overnight camping is not allowed here. Day use only, 7:00 am to 8:00 pm."
+aliases:
+  - "Kanaha Beach Park"
+  - "Kanaha Beach"
+  - "NASKA"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "No overnight camping. County camping permits are not issued for this park."
+  - "Park hours 7:00 am to 8:00 pm."
+  - "Lifeguards 8:00 am to 5:00 pm."
+  - "Kite and windsurf launch areas are marked. Swim in the lifeguarded zone."
+  - "Map pin is approximate."
+hazards:
+  - "high_surf"
+alerts:
+  nws_zone: "HIZ045"
+amenities:
+  - "restrooms"
+  - "showers"
+  - "picnic_tables"
+  - "grills"
+  - "pavilions"
+  - "parking"
+  - "lifeguard"
+accessibility: "Lot 1 has ADA parking and access."
+sources:
+  - "https://www.mauicounty.gov/Facilities/Facility/Details/101"
+  - "https://www.mauicounty.gov/409/Camping-Sites"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

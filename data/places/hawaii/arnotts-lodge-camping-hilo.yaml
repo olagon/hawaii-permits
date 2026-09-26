@@ -1,0 +1,32 @@
+id: "arnotts-lodge-camping-hilo"
+name: "Arnott's Lodge camping (Hilo)"
+island: "hawaii"
+land_type: "private"
+manager: "arnotts-lodge"
+location:
+  lat: 19.727
+  lng: -155.041
+activities: ["camping"]
+permits_required:
+  - permit: "arnotts-lodge-camping"
+    when: "To camp on the lodge lawn. Walk in before 5pm with ID. Groups of 10 or more should call ahead."
+status: "open"
+aliases: ["Arnott's Lodge", "Arnotts Lodge"]
+summary: "Private hostel near Keaukaha in Hilo that lets travelers pitch a tent on its lawn for $25 a night per person ($20 each extra person), with hot showers, toilets, WiFi, laundry, and parking. Bring your own tent. Hilo is wet, so bring a rain fly."
+booking:
+  method: "owner_direct"
+  url: "https://arnottslodge.com/camping/"
+  phone: "808-339-0921"
+  window_note: "No reservation needed for small groups. Last check in 5pm."
+fees:
+  camping_per_night: 25
+  note: "$25 first person, $20 each additional, plus tax. Towels $5."
+rules: ["Tents up to 3 person size. Move your tent after 3 nights.", "Quiet hours 10pm to 7:30am. No smoking.", "Children must be at least 7 and supervised.", "Map pin is approximate."]
+hazards: ["flash_flood"]
+alerts:
+  nws_zone: "HIZ053"
+amenities: ["showers", "restrooms", "laundry", "wifi", "parking", "kitchen access"]
+max_stay_nights: 7
+sources: ["https://arnottslodge.com/camping/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

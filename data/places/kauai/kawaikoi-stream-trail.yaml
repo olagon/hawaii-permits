@@ -1,0 +1,28 @@
+id: kawaikoi-stream-trail
+name: Kawaikōī Stream Trail
+island: kauai
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 22.1309
+  lng: -159.6219
+activities: [hiking, camping, fishing]
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp at the campsites or cabin along this trail. Reserve online and carry a printed permit.
+status: closed
+aliases: [Kawaikoi Stream Trail]
+summary: "The trail starts 3/4 of a mile beyond the Na Pali-Kona Forest Reserve entrance sign on the Mohihi-Camp 10 Road, and upstream from \"Sugi Grove.\" This is likely the most scenic mountain stream side trail in Hawaii. Total length is about 1.75 miles. The first half follows the southern side of the stream. The upper portion makes a loop, first going inland, then returning on the north side of the stream to re-connect with the first section About 1.8 miles one way."
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says Nā Ala Hele trails on Kauaʻi stay closed until they are safe. Check hawaiitrails.hawaii.gov before you go.
+  - Commercial use needs a Nā Ala Hele permit. Stay on the marked trail; side routes may cross private land.
+hazards: [cold, flash_flood]
+alerts:
+  nws_zone: HIZ004
+amenities: [restroom, picnic table, bench, campsites, shelter]
+sources:
+  - "https://hawaiitrails.hawaii.gov/trails/#/trail/kawaikoi-stream-trail/71"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+  - "https://mauinow.com/2026/09/20/dlnr-announces-limited-reopening-of-select-kaua%CA%BBi-lands-on-monday/"
+last_verified: "2026-09-25"
+verified_by: ai_research

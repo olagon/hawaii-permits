@@ -1,0 +1,22 @@
+id: "kaumana-trail"
+name: "Kaumana Trail"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.673
+  lng: -155.346
+activities: ["hiking"]
+permits_required: []
+status: "open"
+aliases: []
+summary: "A 1.5 mile trail through forest and old lava on Saddle Road above Hilo. Weather is the main hazard."
+fees:
+  entry: 0
+rules: ["Often wet and foggy.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["mud", "cold"]
+alerts:
+  nws_zone: "HIZ027"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/recreation/nah/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

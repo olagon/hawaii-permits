@@ -1,0 +1,39 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+  - camping
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp along the trail corridor in Hauʻula Forest Reserve. Reserve on camping.ehawaii.gov.
+status: open
+id: maakua-ridge-trail
+name: Māʻakua Ridge (Papali) Trail
+location:
+  lat: 21.6058
+  lng: -157.917
+aliases:
+  - Maakua Ridge Trail
+  - Papali Trail
+summary: A 2.5 mile loop on the ridge south of Māʻakua Gulch above Hauʻula, sharing the trailhead with the Hauʻula Loop. Quieter than its neighbor.
+rules:
+  - This is an active hunting area. Wear bright colors.
+  - No drinking water. Treat all stream water.
+  - Park on the street near the end of Māʻakua Road.
+hazards:
+  - mud
+  - hunting_area
+  - no_water
+alerts:
+  nws_zone: HIZ035
+amenities:
+  - bench
+  - picnic table
+  - shelter
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://dlnr.hawaii.gov/recreation/camp/
+  - https://camping.ehawaii.gov/camping/all,details,31713.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

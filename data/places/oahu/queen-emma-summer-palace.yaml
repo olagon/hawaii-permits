@@ -1,0 +1,41 @@
+id: queen-emma-summer-palace
+name: Queen Emma Summer Palace
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.336
+  lng: -157.839
+activities:
+  - cultural_visit
+  - day_use
+permits_required: []
+status: open
+aliases:
+  - Hanaiakamalama
+  - Hānaiakamalama
+summary: The summer home of Queen Emma and Kamehameha IV in Nuʻuanu, kept as a museum by the Daughters of Hawaiʻi. Guided and self guided tours of the house and gardens.
+booking:
+  method: online
+  url: https://daughtersofhawaii.org/queen-emma-summer-palace/
+  window_note: Open Wednesday to Saturday 10 am to 3 pm, last entry 2:30 pm. Reservations encouraged for guided tours.
+fees:
+  entry: 16
+  resident_entry: 12
+  note: Adult self guided $16, youth 6 to 17 $14, under 5 free. Kamaʻāina, seniors and military $12. Guided moʻolelo tour $20.
+rules:
+  - Closed Sunday through Tuesday and major holidays.
+  - Groups over 10 must call a week ahead.
+  - Limited parking on site.
+alerts:
+  nws_zone: HIZ033
+amenities:
+  - restrooms
+  - gift shop
+  - parking
+accessibility: Stairs may be hard for some visitors. Call 48 hours ahead for accommodations.
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://daughtersofhawaii.org/queen-emma-summer-palace/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

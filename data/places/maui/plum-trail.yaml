@@ -1,0 +1,33 @@
+id: "plum-trail"
+name: "Plum Trail"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.671
+  lng: -156.339
+activities:
+  - "hiking"
+permits_required: []
+status: "open"
+summary: "Trail in the Kula Forest Reserve from the old ranger cabin area at Polipoli through plum and conifer forest to the Haleakalā Ridge Trail. No bicycles. Day use, hunters share the area. Polipoli SRA itself is closed."
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Hunters use this area. Wear bright colors and stay on the trail."
+  - "No bicycles."
+  - "Day use only."
+  - "Polipoli Spring SRA facilities are closed until further notice."
+  - "About 1.7 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "hunting_area"
+  - "cold"
+  - "mud"
+alerts:
+  nws_zone: "HIZ049"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

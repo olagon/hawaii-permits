@@ -1,0 +1,22 @@
+id: "ala-kahakai-kawaihae-waiulaula"
+name: "Ala Kahakai Trail (Kawaihae to Waiʻulaʻula sector)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.022
+  lng: -155.823
+activities: ["hiking", "swimming", "fishing"]
+permits_required: []
+status: "open"
+aliases: ["Ala Kahakai Kawaihae Waiulaula"]
+summary: "Coastal sector of the Ala Kahakai Trail managed by Nā Ala Hele. Sea cliffs, loose footing, flash floods at stream mouths, and strong sun. About 3.8 miles from Spencer Beach Park at Kawaihae south to Waiʻulaʻula near the Mauna Kea Beach Hotel."
+fees:
+  entry: 0
+rules: ["Start at Spencer Beach Park (county) which has water, toilets, and camping.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["steep_drop", "flash_flood", "heat", "high_surf"]
+alerts:
+  nws_zone: "HIZ026"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/dsp/hiking/hawaii/ala-kahakai-trail-kawaihae-anaehoomalu/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

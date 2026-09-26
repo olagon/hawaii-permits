@@ -1,0 +1,34 @@
+id: "mauna-loa-summit-cabin"
+name: "Mauna Loa Summit Cabin"
+island: "hawaii"
+land_type: "federal"
+manager: "nps"
+location:
+  lat: 19.47
+  lng: -155.59
+activities: ["camping", "hiking", "cabin"]
+permits_required:
+  - permit: "havo-backcountry-permit"
+    when: "Required to stay at the cabin. $10 per trip, up to 12 people, 3 nights max at one site."
+status: "open"
+aliases: ["Mauna Loa Cabin", "Mokuaweoweo"]
+summary: "Backcountry cabin at 13,250 feet on the rim of Mokuʻāweoweo caldera. Reached in 5.9 miles from the Mauna Loa Observatory road end, 7.5 miles from ʻĀinapō Cabin, or from Red Hill Cabin. Twelve bunks, catchment water, composting toilet. Severe cold and altitude."
+booking:
+  method: "online"
+  url: "https://www.recreation.gov/permits/4675341"
+  window_note: "Reserve up to 90 days ahead. Check in at the Backcountry Office. ʻĀinapō route hikers must also register with the Backcountry Office."
+fees:
+  camping_per_night: "see_source"
+  entry: 30
+  note: "$10 per trip permit."
+rules: ["Treat all water. Tanks can be empty or frozen.", "Snow, ice, and whiteouts happen any month.", "Altitude sickness is common. Acclimatize and descend if symptoms start.", "Map pin is approximate.", "Most of the park closed on September 24, 2026 for Tropical Storm Nolo. Check the park alerts page before you go."]
+hazards: ["altitude", "cold", "no_water", "remote"]
+alerts:
+  nws_zone: "HIZ028"
+  nps_park_code: "havo"
+amenities: ["bunks", "composting toilet", "catchment water"]
+max_stay_nights: 3
+group_size_limit: 12
+sources: ["https://www.nps.gov/havo/planyourvisit/hike_maunaloa.htm", "https://www.nps.gov/havo/planyourvisit/hike_bc.htm"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

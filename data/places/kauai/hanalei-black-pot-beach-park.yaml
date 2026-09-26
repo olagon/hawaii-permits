@@ -1,0 +1,28 @@
+id: hanalei-black-pot-beach-park
+name: Hanalei Black Pot Beach Park
+island: kauai
+land_type: county
+manager: kauai-parks
+location:
+  lat: 22.211
+  lng: -159.497
+activities: [swimming, surfing, day_use, boating]
+permits_required: []
+status: open
+aliases: [Black Pot, Hanalei Pier, Hanalei Beach Park]
+summary: "Beach park by the Hanalei Pier at the river mouth. Reopened after Hurricane Lowell. The county facilities list mentions camping, but no camping permits are issued here now."
+rules:
+  - "No camping. The county issues camping permits only for ʻAnini, Anahola, Salt Pond, and Lydgate."
+  - "Reopened per the county update of September 25, 2026."
+  - Map pin is approximate.
+hazards: [high_surf]
+alerts:
+  nws_zone: HIZ029
+amenities: [restrooms, showers, pier]
+sources:
+  - "https://www.kauai.gov/Government/Departments-Agencies/Parks/Permitting/Camping"
+  - "https://www.kauai.gov/Government/Departments-Agencies/Parks/Facilities"
+  - "https://www.thegardenisland.com/2026/09/25/hawaii-news/county-updates-hurricane-lowell-recovery-status/"
+  - "https://www.kauai.gov/County-Press-Releases/County-to-close-parks-and-campgrounds-open-refuge-areas-at-5-p.m"
+last_verified: "2026-09-25"
+verified_by: ai_research

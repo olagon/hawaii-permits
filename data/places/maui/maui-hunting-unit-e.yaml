@@ -1,0 +1,34 @@
+id: "maui-hunting-unit-e"
+name: "Maui Hunting Unit E (Kula Forest Reserve, archery only)"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.677
+  lng: -156.335
+activities:
+  - "hunting"
+  - "hiking"
+permits_required:
+  - permit: "hunting-license"
+    when: "Unit E, game mammals, archery only."
+status: "open"
+summary: "Archery only game mammal area in the part of the Kula Forest Reserve around Polipoli. DLNR allows feral goats year round, daily, with no limit. No firearms."
+aliases:
+  - "Unit E"
+  - "Polipoli archery unit"
+rules:
+  - "Archery only. No firearms."
+  - "Safety zone 100 feet around Polipoli SRA and 50 yards each side of Waipoli Road."
+  - "Check the DLNR Maui hunting page for current seasons, bag limits, and closures."
+  - "Hunters must carry a valid license and, where posted, check in and out at the hunter check station."
+hazards:
+  - "hunting_area"
+  - "remote"
+alerts:
+  nws_zone: "HIZ049"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/hunting/maui/"
+  - "https://dlnr.hawaii.gov/recreation/hunting/gma/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

@@ -1,0 +1,31 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: kalawahine-trail
+name: Kalāwahine Trail
+location:
+  lat: 21.3306
+  lng: -157.8214
+aliases:
+  - Kalawahine Trail
+summary: A 1.5 mile contour trail on Tantalus from Round Top Drive to the Pauoa Flats area. Part of the Makiki-Tantalus trail complex.
+rules:
+  - Narrow with drop offs. Slippery when wet.
+  - This is an active hunting area. Wear bright colors.
+hazards:
+  - steep_drop
+  - mud
+  - hunting_area
+alerts:
+  nws_zone: HIZ033
+amenities:
+  - bench
+  - bridge
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

@@ -1,0 +1,29 @@
+id: kauai-hunting-unit-e2
+name: Kauaʻi Hunting Unit E2
+island: kauai
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 22.0941
+  lng: -159.5779
+activities: [hunting]
+permits_required:
+  - permit: hunting-license
+    when: "Required to hunt in Unit E2. Check the current season, bag limits, and check station rules for this unit in the DOFAW Kauaʻi hunting rules before you go."
+  - permit: game-bird-stamp
+    when: Required during game bird season in addition to the hunting license.
+status: closed
+aliases: [Unit E2]
+summary: Part of Nā Pali-Kona Forest Reserve and the Alakaʻi Wilderness Preserve. Remote and wet. Mammal and bird hunting.
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR reopened only Unit F so far. Check the DOFAW Kauaʻi hunting page before you go.
+  - Public hunting area. Non hunters should wear bright colors and keep dogs leashed.
+hazards: [hunting_area, steep_drop, remote, flash_flood]
+alerts:
+  nws_zone: HIZ004
+sources:
+  - "https://dlnr.hawaii.gov/recreation/hunting/kauai/"
+  - "https://www.law.cornell.edu/regulations/hawaii/Haw-Code-R-SS-13-123-15"
+  - "https://mauinow.com/2026/09/20/dlnr-announces-limited-reopening-of-select-kaua%CA%BBi-lands-on-monday/"
+last_verified: "2026-09-25"
+verified_by: ai_research

@@ -1,0 +1,25 @@
+id: "iao-valley-reservation"
+name: "ʻĪao Valley State Monument entry and parking reservation"
+issuer: "dlnr-state-parks"
+category: "entry_reservation"
+who_needs: "Visitors who are not Hawaiʻi residents. Every nonresident needs an entry ticket, and each vehicle needs a parking reservation. Residents with a Hawaiʻi ID enter free without a reservation, but their out of state guests still need one."
+how_to_get: "online"
+url: "https://gostateparks.hawaii.gov/iao-valley"
+carry_required: true
+covers:
+  - "iao-valley-state-monument"
+booking_window:
+  opens_days_before: 30
+  notes: "Reservations open 30 days ahead. Time slots run from 7:00 am, last slot 4:30 pm, and you must enter by 5:00 pm. Arrive within the first 30 minutes of your slot or you may be turned away. Leave when your slot ends."
+resident_rules: "Hawaiʻi residents show a state ID at the entry and do not need a reservation or fee."
+cost:
+  resident: 0
+  nonresident: 5
+  unit: "per person, plus $10 per vehicle per time slot"
+  note: "Children 3 and under are free."
+refund_policy: "Refunds up to 3 days before the entry date with a $5 cancellation fee. Changes allowed until midnight the day before if space is open. No refunds for no shows, late arrival, or weather."
+sources:
+  - "https://gostateparks.hawaii.gov/iao-valley/about"
+  - "https://gostateparks.hawaii.gov/iao-valley/faq"
+  - "https://dlnr.hawaii.gov/dsp/parks/maui/iao-valley-state-monument/"
+last_verified: "2026-09-25"

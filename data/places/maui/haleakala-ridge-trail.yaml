@@ -1,0 +1,34 @@
+id: "haleakala-ridge-trail"
+name: "Haleakalā Ridge Trail"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.671
+  lng: -156.339
+activities:
+  - "hiking"
+permits_required: []
+status: "open"
+summary: "Short ridge trail in the Kula Forest Reserve from the Skyline switchback down to the Plum Trail, with a small shelter. No bicycles. Day use."
+aliases:
+  - "Haleakala Ridge Trail"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Hunters use this area. Wear bright colors and stay on the trail."
+  - "No bicycles."
+  - "Day use only."
+  - "About 1.6 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "hunting_area"
+  - "cold"
+  - "altitude"
+alerts:
+  nws_zone: "HIZ049"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

@@ -1,0 +1,26 @@
+id: "kaohe-game-management-area-unit-g"
+name: "Kaʻohe Game Management Area (Unit G)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.802
+  lng: -155.6
+activities: ["hunting", "hiking"]
+permits_required:
+  - permit: "hunting-license"
+    when: "Required to hunt in Unit G. Unit G. Mammal hunting is closed on legal game bird days during the bird season."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season."
+status: "open"
+summary: "Māmane and naio forest on the west slope of Mauna Kea below Puʻu Lāʻau. Unit G for sheep, mouflon, goats, pigs, and game birds. Mammal hunting closes in Unit G on game bird days during the season."
+fees:
+  entry: 0
+rules: ["Hunters must carry a license and follow Chapter 13-122 (birds) and 13-123 (mammals) rules.", "Hikers should wear bright colors. Hunting dogs may be present.", "Map pin is the unit centroid from DLNR GIS data."]
+hazards: ["hunting_area", "cold", "altitude", "no_water", "remote"]
+alerts:
+  nws_zone: "HIZ027"
+aliases: ["Kaohe GMA"]
+sources: ["https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/", "https://dlnr.hawaii.gov/recreation/hunting/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

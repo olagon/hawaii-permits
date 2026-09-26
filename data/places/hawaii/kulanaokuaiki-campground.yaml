@@ -1,0 +1,30 @@
+id: "kulanaokuaiki-campground"
+name: "Kulanaokuaiki Campground"
+island: "hawaii"
+land_type: "federal"
+manager: "nps"
+location:
+  lat: 19.343
+  lng: -155.274
+activities: ["camping"]
+permits_required: []
+status: "open"
+aliases: ["Kulanaokuaiki"]
+summary: "Nine first come, first served tent sites at 2,700 feet, about 5 miles down Hilina Pali Road in Hawaiʻi Volcanoes National Park. $10 a night at the self registration station. No water and no fires."
+booking:
+  method: "none"
+  window_note: "First come, first served. Self register and pay at the campground."
+fees:
+  camping_per_night: 10
+  entry: 30
+  note: "$10 per night, $5 with a Senior or Access pass. Park entrance fee is separate."
+rules: ["No water. Bring all you need.", "No fires.", "No pets at the campground or on Hilina Pali Road.", "Checkout 11:00am.", "7 night limit.", "Most of the park closed on September 24, 2026 for Tropical Storm Nolo. Check the park alerts page before you go."]
+hazards: ["no_water", "heat", "remote"]
+alerts:
+  nws_zone: "HIZ052"
+  nps_park_code: "havo"
+amenities: ["vault toilet", "picnic tables", "tent pads"]
+max_stay_nights: 7
+sources: ["https://www.nps.gov/havo/planyourvisit/camp.htm"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

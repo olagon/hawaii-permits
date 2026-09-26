@@ -1,0 +1,26 @@
+id: "mauna-kea-forest-reserve-unit-a"
+name: "Mauna Kea Forest Reserve and Game Management Area (Unit A)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.817
+  lng: -155.483
+activities: ["hunting", "hiking", "four_wheel_drive"]
+permits_required:
+  - permit: "hunting-license"
+    when: "Required to hunt in Unit A. Unit A. Game birds Wednesday, Thursday, Saturday, Sunday, and state holidays in season. Sheep and mouflon hunts may need lottery tags."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season."
+status: "open"
+summary: "The big forest reserve and game management area around the middle slopes of Mauna Kea. Unit A for feral sheep, mouflon, goats, pigs, and game birds. Game bird hunting on Wednesdays, Thursdays, Saturdays, Sundays, and state holidays in season, when mammal hunting in Unit A pauses. Mana Road, the Mauna Kea Access Road, and Skyline Road cross it."
+fees:
+  entry: 0
+rules: ["Hunters must carry a license and follow Chapter 13-122 (birds) and 13-123 (mammals) rules.", "Hikers should wear bright colors. Hunting dogs may be present.", "Map pin is the unit centroid from DLNR GIS data."]
+hazards: ["hunting_area", "cold", "altitude", "remote", "no_water"]
+alerts:
+  nws_zone: "HIZ027"
+aliases: ["Mauna Kea GMA", "Unit A"]
+sources: ["https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/", "https://dlnr.hawaii.gov/recreation/hunting/gma/maunakea/", "https://dlnr.hawaii.gov/recreation/files/2024/10/2024-2025-FINAL_Game-Bird-Season-Announcement-002.pdf"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

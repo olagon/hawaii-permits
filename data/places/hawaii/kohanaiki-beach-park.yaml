@@ -1,0 +1,30 @@
+id: "kohanaiki-beach-park"
+name: "Kohanaiki Beach Park (Pine Trees)"
+island: "hawaii"
+land_type: "county"
+manager: "hawaii-county-parks"
+location:
+  lat: 19.687
+  lng: -156.034
+activities: ["camping", "day_use", "surfing", "swimming", "snorkeling"]
+permits_required:
+  - permit: "hawaii-county-camping-permit"
+    when: "To camp overnight. Permits are checked between 8pm and 6am. Buy online or at a county office, not at the park."
+status: "open"
+summary: "County beach park north of Kailua-Kona with camping, sandy beach, rocky shore, anchialine ponds, and a popular surf break. Entrance is at Hulikoa Drive off Queen Kaʻahumanu Highway. Gate closes at 9pm, security 24 hours. Overnight parking pass from the guard shack with your camping permit."
+booking:
+  method: "online"
+  url: "https://hawaiicounty.ehawaii.gov/camping/welcome.html"
+fees:
+  camping_per_night: 21
+  resident_camping_per_night: 6
+  entry: 0
+  note: "Per person per night. Residents $6 adult, $3 junior, $1 child. Nonresidents $21 adult and junior, $20 child. Plus $1 per person per day processing."
+rules: ["Gate closes at 9pm and opens at 5:30am.", "Camping permits are checked 9pm to 5:30am.", "Anchialine ponds and cultural sites are protected. Stay out of the ponds.", "No pets, open fires, smoking, or commercial activity.", "No camping in pavilions. Pavilions are day use by separate permit.", "Map pin is approximate."]
+hazards: ["high_surf", "heat"]
+alerts:
+  nws_zone: "HIZ023"
+amenities: ["restrooms", "showers", "security"]
+sources: ["https://hawaiicounty.ehawaii.gov/camping/welcome.html", "https://hawaiicounty.ehawaii.gov/camping/all,details,57824.html"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

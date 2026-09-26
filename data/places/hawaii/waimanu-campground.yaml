@@ -1,0 +1,31 @@
+id: "waimanu-campground"
+name: "Waimanu Valley Campground"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.122
+  lng: -155.598
+activities: ["camping", "hiking"]
+permits_required:
+  - permit: "dofaw-camping-permit"
+    when: "To camp at one of the 9 sites in Waimanu Valley. Book on camping.ehawaii.gov within one month of your date. Camping is closed for a landslide on the Muliwai Trail as of 2026."
+status: "closed"
+aliases: ["Waimanu", "Waimanu Valley", "Muliwai Trail camping"]
+summary: "Remote valley campground in Kohala Forest Reserve reached by the 9 mile Muliwai Trail from Waipiʻo. Nine sites for up to 48 campers, composting toilets, stream water that must be treated. Camping is closed because a landslide past Helipad 1 has made the trail impassable. The Waipiʻo road is also closed to nonresident vehicles and all walkers."
+booking:
+  method: "online"
+  url: "https://camping.ehawaii.gov/camping/all,details,31720.html"
+  window_note: "Reservations open one month ahead when the site is open."
+fees:
+  camping_per_night: "see_source"
+  resident_camping_per_night: "see_source"
+rules: ["Camping is closed due to an impassable landslide on the Muliwai Trail. Check the listing before planning.", "Treat all water. Leptospirosis risk.", "Flash floods and high surf reach the campsites.", "No fires, bikes, or motor vehicles. Dogs on leash only.", "No refund within 15 days of your first night."]
+hazards: ["flash_flood", "stream_crossings", "high_surf", "falling_rock", "steep_drop", "remote"]
+alerts:
+  nws_zone: "HIZ054"
+amenities: ["composting toilets"]
+max_stay_nights: 5
+sources: ["https://camping.ehawaii.gov/camping/all,details,31720.html", "https://dlnr.hawaii.gov/recreation/camp/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

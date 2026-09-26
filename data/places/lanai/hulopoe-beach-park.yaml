@@ -1,0 +1,34 @@
+id: hulopoe-beach-park
+name: Hulopoʻe Beach Park
+island: lanai
+land_type: private
+manager: pulama-lanai
+location: { lat: 20.742, lng: -156.895 }
+activities: [camping, swimming, snorkeling, day_use, fishing, hiking]
+permits_required:
+  - permit: hulopoe-beach-camping-permit
+    when: To camp if you are not a Lānaʻi resident. As of 2026 camping is listed as open to Lānaʻi residents only.
+status: open
+aliases: [Hulopoe Beach Park, Hulopoe Bay, Hulopoʻe, Manele Bay beach]
+summary: Crescent white sand beach on the south shore next to Mānele Harbor, owned and run by Pūlama Lānaʻi under an agreement with Maui County. Open to the public every day with restrooms, showers, grills, and picnic tables. The bay is part of a marine life conservation district. Camping is for Lānaʻi residents, with nonresident permits only when the owner allows them. A short trail leads to the Puʻu Pehe overlook.
+booking: { method: owner_direct, url: https://www.lanai96763.com/community-resources/recreation/, window_note: Nonresident camping permits come from Pūlama Lānaʻi and are currently limited to residents. }
+fees: { entry: 0, parking: 0, camping_per_night: see_source, resident_camping_per_night: 0 }
+rules:
+  - Park is open every day. The access road and parking stay open at all times.
+  - No dogs, no drones, no commercial activity without a permit, no fires outside grills.
+  - No kite surfing or sail boarding. Quiet hours after 10 pm.
+  - Do not drive on grass or sand.
+  - Nonresident campers are limited to 3 nights and must be 18 or older to apply. Residents may camp 5 nights without a permit.
+  - Map pin is approximate.
+hazards: [high_surf, heat]
+alerts: { nws_zone: HIZ044 }
+amenities: [restrooms, showers, picnic_tables, bbq, parking]
+accessibility: Paved parking and a short path to the lawn. Beach is sand.
+max_stay_nights: 3
+cultural_notes: Puʻu Pehe islet and the shoreline hold cultural sites. Stay on trails and do not climb the islet.
+sources:
+  - https://www.lanai96763.com/community-resources/recreation/
+  - https://www.lanai96763.com/wp-content/uploads/2026/03/HBP-May-2025-Rules-FINAL.pdf
+  - https://www.gohawaii.com/islands/lanai/things-to-do/beaches/hulopoe-beach-park
+last_verified: 2026-09-25
+verified_by: ai_research

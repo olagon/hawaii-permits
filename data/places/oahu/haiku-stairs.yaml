@@ -1,0 +1,33 @@
+id: haiku-stairs
+name: Haʻikū Stairs (Stairway to Heaven)
+land_type: county
+manager: honolulu-parks
+location:
+  lat: 21.407
+  lng: -157.803
+activities:
+  - hiking
+permits_required: []
+status: removed
+aliases:
+  - Haiku Stairs
+  - Stairway to Heaven
+  - Haiku Ladder
+summary: >-
+  The old Navy stairway up the Koʻolau above Kāneʻohe has been closed to the public since 1987. The city began taking the stairs down in 2024 and all access is closed while removal and court cases
+  continue. Do not attempt it from any side. Trespassers are cited and arrested.
+rules:
+  - Closed. Entering the site from Haʻikū, Moanalua or any other route is trespassing.
+  - Police and DLNR officers patrol and issue citations.
+  - Map pin is approximate.
+hazards:
+  - steep_drop
+  - falling_rock
+alerts:
+  nws_zone: HIZ035
+sources:
+  - https://governor.hawaii.gov/newsroom/joint-dlnr-city-and-county-of-honolulu-news-release-all-access-to-ha%CA%BBiku-stairs-closed-during-deconstruction-june-12-2024/
+  - https://www.honolulu.gov/dpr/camping/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

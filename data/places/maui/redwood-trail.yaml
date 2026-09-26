@@ -1,0 +1,32 @@
+id: "redwood-trail"
+name: "Redwood Trail"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.688
+  lng: -156.335
+activities:
+  - "hiking"
+  - "biking"
+permits_required: []
+status: "open"
+summary: "Trail from the Polipoli Spring SRA entrance down through a tall redwood grove to the old ranger cabin, linking to the Tie, Plum, and Boundary trails. Bikes allowed. Uneven footing. Polipoli SRA facilities are closed."
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Hunters use this area. Wear bright colors and stay on the trail."
+  - "Polipoli Spring SRA is closed until further notice."
+  - "About 1.7 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "hunting_area"
+  - "cold"
+  - "mud"
+alerts:
+  nws_zone: "HIZ049"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

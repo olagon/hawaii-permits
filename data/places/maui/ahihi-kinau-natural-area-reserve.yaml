@@ -1,0 +1,49 @@
+id: "ahihi-kinau-natural-area-reserve"
+name: "ʻĀhihi-Kīnaʻu Natural Area Reserve"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.606
+  lng: -156.429
+activities:
+  - "snorkeling"
+  - "swimming"
+  - "day_use"
+  - "hiking"
+  - "wildlife_viewing"
+permits_required: []
+status: "restricted"
+summary: "Lava coast and reef south of Mākena, the state's first natural area reserve. The northern shoreline near the road is open during posted hours, about 5:30 am to 7:30 pm. The southern interior, the anchialine pools, and other marked areas are closed. Follow the DLNR activity map and signs."
+aliases:
+  - "Ahihi Kinau"
+  - "Ahihi Bay"
+  - "Ahihi Cove"
+  - "Dumps"
+  - "La Perouse Bay"
+fees:
+  parking: "see_source"
+  note: "DLNR lists a paid day use parking lot. Check the reserve page for the current fee."
+rules:
+  - "Open only during posted hours. Closed areas are marked, stay out of them."
+  - "All access to the anchialine pools is closed."
+  - "No fishing or taking of anything in the reserve."
+  - "Do not stand on or touch coral. Use reef safe sunscreen."
+  - "No dogs in most of the reserve. Check the activity map."
+  - "Stay on the paved road and marked trails. The lava is sharp and hot."
+hazards:
+  - "heat"
+  - "high_surf"
+  - "no_water"
+alerts:
+  nws_zone: "HIZ049"
+amenities:
+  - "portable_toilets"
+  - "parking"
+cultural_notes: "The reserve holds many archaeological sites from the old fishing villages. Leave them untouched."
+sources:
+  - "https://dlnr.hawaii.gov/ecosystems/nars/maui/ahihi-kinau-2/"
+  - "https://dlnr.hawaii.gov/dar/regulated-areas/ahihi-kinau-natural-area-reserve-maui/"
+  - "https://dlnr.hawaii.gov/dofaw/fw-announcements/nr17-010d/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

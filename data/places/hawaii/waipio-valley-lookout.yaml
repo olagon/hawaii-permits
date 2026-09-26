@@ -1,0 +1,24 @@
+id: "waipio-valley-lookout"
+name: "Waipiʻo Valley Lookout and Road"
+island: "hawaii"
+land_type: "county"
+manager: "hawaii-county-parks"
+location:
+  lat: 20.117
+  lng: -155.586
+activities: ["scenic_drive", "day_use", "cultural_visit"]
+permits_required: []
+status: "restricted"
+aliases: ["Waipio Valley", "Waipio Lookout", "Waipio Valley Road"]
+summary: "The lookout at the end of Highway 240 is open. Waipiʻo Valley Road below it has been closed to visitors since February 2022 by county emergency rule because of rockfall and slope failure. Only Hawaiʻi County residents, permitted tour operators, and Native Hawaiians exercising traditional rights may drive down, in low range 4WD. Walking, ATVs, and horses on the road are banned."
+fees:
+  entry: 0
+rules: ["The valley road is closed to nonresident vehicles, all pedestrians, ATVs, and horses under a county emergency rule renewed about every 60 days.", "Residents driving down need low range four wheel drive. All wheel drive does not count.", "The valley floor is private land. Do not enter without permission.", "Map pin is approximate."]
+hazards: ["falling_rock", "steep_drop", "flash_flood"]
+alerts:
+  nws_zone: "HIZ054"
+amenities: ["restrooms", "parking"]
+cultural_notes: "Waipiʻo is a wahi pana with many burials and taro farms. Visit the lookout and leave the valley to the people who live there."
+sources: ["https://www.hawaiicounty.gov/Home/Components/News/News/4669/720", "https://www.hawaiicounty.gov/Home/Components/News/News/3094/720"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

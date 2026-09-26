@@ -1,0 +1,31 @@
+id: koaie-canyon-trail
+name: Koaiʻe Canyon Trail
+island: kauai
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 22.0923
+  lng: -159.6223
+activities: [hiking, camping, fishing, hunting]
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp at the campsites or cabin along this trail. Reserve online and carry a printed permit.
+  - permit: hunting-license
+    when: Only if you are hunting. Hikers do not need it. Hunting dogs may be off leash; keep your own dog leashed.
+status: closed
+aliases: [Koaie Canyon Trail]
+summary: "This trail starts about a half mile up the Waimea River from the bottom of Kukui Trail. It takes you on a route along the south side of Koaie Canyon, with good scenery and swimming holes. It passes from Puu ka Pele Forest Reserve into Na Pali-Kona Forest Reserve. About 3.0 miles one way."
+rules:
+  - Closed since Hurricane Lowell hit Kauaʻi in September 2026. DLNR says Nā Ala Hele trails on Kauaʻi stay closed until they are safe. Check hawaiitrails.hawaii.gov before you go.
+  - Hunting may be in progress. Wear bright colors and keep dogs leashed.
+  - Commercial use needs a Nā Ala Hele permit. Stay on the marked trail; side routes may cross private land.
+hazards: [falling_rock, flash_flood, heat, hunting_area, remote, steep_drop]
+alerts:
+  nws_zone: HIZ004
+amenities: [restroom, picnic table, campsites, shelter]
+sources:
+  - "https://hawaiitrails.hawaii.gov/trails/#/trail/koaie-canyon-trail/79"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+  - "https://mauinow.com/2026/09/20/dlnr-announces-limited-reopening-of-select-kaua%CA%BBi-lands-on-monday/"
+last_verified: "2026-09-25"
+verified_by: ai_research

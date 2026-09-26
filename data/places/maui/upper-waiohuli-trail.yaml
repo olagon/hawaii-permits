@@ -1,0 +1,36 @@
+id: "upper-waiohuli-trail"
+name: "Upper Waiohuli Trail"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.691
+  lng: -156.311
+activities:
+  - "hiking"
+permits_required: []
+status: "open"
+summary: "Long, partly maintained trail from the Kula Forest Reserve access road climbing toward the Skyline Trail. Steep, exposed, and often foggy. Hunters share the area."
+aliases:
+  - "Waiohuli Trail"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Hunters use this area. Wear bright colors and stay on the trail."
+  - "Only partly maintained. Route finding needed. Do not go in fog."
+  - "Day use only."
+  - "About 7 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "hunting_area"
+  - "altitude"
+  - "cold"
+  - "no_water"
+  - "remote"
+alerts:
+  nws_zone: "HIZ049"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

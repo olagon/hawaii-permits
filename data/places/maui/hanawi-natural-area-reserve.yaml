@@ -1,0 +1,29 @@
+id: "hanawi-natural-area-reserve"
+name: "Hanawī Natural Area Reserve"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.769
+  lng: -156.115
+activities:
+  - "wildlife_viewing"
+permits_required: []
+status: "no_public_access"
+summary: "Remote rainforest reserve on the north slope of Haleakalā that protects the last habitat of endangered forest birds. There are no public trails. Access is by DLNR permit for management and research only."
+aliases:
+  - "Hanawi NAR"
+rules:
+  - "No public access. Entry needs a DLNR special use permit."
+  - "Fenced units protect endangered birds and plants."
+hazards:
+  - "remote"
+  - "mud"
+  - "flash_flood"
+alerts:
+  nws_zone: "HIZ047"
+sources:
+  - "https://dlnr.hawaii.gov/ecosystems/nars/maui/"
+  - "https://dlnr.hawaii.gov/ecosystems/nars/maui/hanawi-2/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

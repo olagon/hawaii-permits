@@ -1,0 +1,31 @@
+land_type: state
+manager: dlnr-state-parks
+activities:
+  - hiking
+permits_required: []
+status: open
+id: aiea-loop-trail
+name: ʻAiea Loop Trail
+location:
+  lat: 21.399
+  lng: -157.898
+aliases:
+  - Aiea Loop Trail
+summary: A 4.8 mile loop in Keaīwa Heiau State Recreation Area through eucalyptus and native forest along the ridge above Hālawa Valley.
+rules:
+  - Trail closes with the park gate, 7 am to 6:45 pm in winter and 7 am to 7:45 pm in summer.
+  - Muddy and slippery after rain. Some drop offs.
+hazards:
+  - mud
+  - steep_drop
+alerts:
+  nws_zone: HIZ036
+amenities:
+  - restrooms at trailhead
+  - drinking water at trailhead
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/keaiwa-heiau-state-recreation-area/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

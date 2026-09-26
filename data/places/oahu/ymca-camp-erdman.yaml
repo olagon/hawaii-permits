@@ -1,0 +1,46 @@
+id: ymca-camp-erdman
+name: YMCA Camp Erdman
+land_type: private_nonprofit
+manager: ymca-of-honolulu
+location:
+  lat: 21.577
+  lng: -158.196
+activities:
+  - cabin
+  - camping
+  - swimming
+  - day_use
+permits_required:
+  - permit: ymca-camp-erdman-reservation
+    when: Everyone staying overnight in a yurt, cabin or hale, or joining a Family Camp weekend.
+status: open
+aliases:
+  - Camp Erdman
+  - Camp H.R. Erdman
+summary: >-
+  A 20 acre YMCA camp at the far end of Mokulēʻia near Kaʻena Point, known for youth camps. The public can rent oceanfront yurts, cabins and hale, or join themed Family Camp weekends with meals and
+  activities.
+booking:
+  method: owner_direct
+  url: https://www.ymcahonolulu.org/locations/ymca-camp-erdman/camp-amenities/yurt-rentals
+fees:
+  camping_per_night: see_source
+  note: Kamaʻāina 20% off and YMCA members 30% off the visitor rate.
+rules:
+  - Youth camp sessions may limit public rentals. Check dates.
+  - Map pin is approximate.
+hazards:
+  - high_surf
+alerts:
+  nws_zone: HIZ007
+amenities:
+  - restrooms
+  - showers
+  - dining hall
+  - beach
+sources:
+  - https://www.ymcahonolulu.org/locations/ymca-camp-erdman/camp-amenities/yurt-rentals
+  - https://www.ymcahonolulu.org/programs/camps/family-camps
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

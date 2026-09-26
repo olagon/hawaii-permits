@@ -1,0 +1,24 @@
+id: hanalei-national-wildlife-refuge
+name: Hanalei National Wildlife Refuge
+island: kauai
+land_type: federal
+manager: usfws
+location:
+  lat: 22.2007
+  lng: -159.4721
+activities: [wildlife_viewing]
+permits_required: []
+status: restricted
+aliases: [Hanalei NWR, Hanalei Valley Lookout]
+summary: Taro fields and wetlands in Hanalei Valley that shelter endangered water birds. The refuge itself is closed to the public. You can look from the Hanalei Valley viewpoint on Kūhiō Highway and drive ʻŌhiki Road through the refuge to the Okolehao trailhead.
+fees:
+  entry: 0
+rules:
+  - The refuge is closed to public entry to protect endangered birds. Do not walk into the fields.
+  - "The viewpoint is open 8:30 am to 4:30 pm, Tuesday through Saturday."
+  - "On ʻŌhiki Road drive under 15 mph, do not stop or park along the road, and use only the Okolehao trailhead lot. The trail is closed after Hurricane Lowell."
+alerts:
+  nws_zone: HIZ029
+sources: ["https://www.fws.gov/refuge/hanalei"]
+last_verified: "2026-09-25"
+verified_by: ai_research

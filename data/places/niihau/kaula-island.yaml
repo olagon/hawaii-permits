@@ -1,10 +1,10 @@
 id: kaula-island
 name: Kaʻula Island Seabird Sanctuary
-island: kauai
+island: niihau
 land_type: state
 manager: dlnr-dofaw
 location: { lat: 21.654, lng: -160.540 }
-activities: [boating]
+activities: [wildlife_viewing, boating]
 permits_required: []
 status: no_public_access
 aliases: [Kaula, Kaula Rock]
@@ -14,8 +14,10 @@ rules:
   - Closed to the public under Hawaiʻi Administrative Rules Chapter 126 (Wildlife Sanctuaries). No landing.
   - Permits are issued only for research, conservation work, or Native Hawaiian traditional and customary practices. Contact the local DOFAW office.
   - No commercial activity on the islet.
+  - The islet has been used as a Navy target range, so unexploded ordnance may be present.
   - Enjoy the birds from the water or the shore.
 hazards: [high_surf, remote]
+alerts: { nws_zone: HIZ001 }
 sources:
   - https://dlnr.hawaii.gov/wildlife/sanctuaries/kaua%CA%BBi-offshore-islets-seabird-sanctuaries/
 last_verified: 2026-09-25

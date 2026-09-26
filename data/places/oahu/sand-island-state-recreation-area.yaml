@@ -1,0 +1,53 @@
+id: sand-island-state-recreation-area
+name: Sand Island State Recreation Area
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.305
+  lng: -157.879
+activities:
+  - camping
+  - day_use
+  - fishing
+  - surfing
+  - swimming
+permits_required:
+  - permit: state-parks-camping-permit-30-day
+    when: To camp Friday, Saturday or Sunday nights. Reserve up to 30 days ahead.
+status: open
+aliases:
+  - Sand Island
+  - Mauliola
+summary: >-
+  A large shoreline park on Sand Island near Honolulu Harbor with lawns, a beach and weekend only camping. Camping was closed for construction through the end of 2025 and reopened for 2026
+  reservations.
+booking:
+  method: online
+  url: https://explore.ehawaii.gov/
+  window_note: Camping reservations open 30 days ahead.
+fees:
+  entry: 0
+  camping_per_night: 30
+  resident_camping_per_night: 20
+rules:
+  - Open 7 am to 7:45 pm April 1 through Labor Day, and 7 am to 6:45 pm the rest of the year. The gate locks at closing.
+  - Camping Friday through Sunday nights only.
+  - Comfort stations were reported closed in early 2026 with portable toilets in place. Check the park page.
+  - No alcohol.
+hazards:
+  - high_surf
+alerts:
+  nws_zone: HIZ033
+amenities:
+  - restrooms
+  - showers
+  - picnic tables
+max_stay_nights: 3
+group_size_limit: 10
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/sand-island-state-recreation-area/
+  - https://dlnr.hawaii.gov/dsp/camping-lodging/oahu/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

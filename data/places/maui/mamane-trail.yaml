@@ -1,0 +1,32 @@
+id: "mamane-trail"
+name: "Māmane Trail"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.679
+  lng: -156.318
+activities:
+  - "hiking"
+permits_required: []
+status: "open"
+summary: "Open trail through māmane and native shrubland in the Kula Forest Reserve, reached 0.7 miles along the Waiakoa Trail. Views over Kīhei. Hunters share the area."
+aliases:
+  - "Mamane Trail"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Hunters use this area. Wear bright colors and stay on the trail."
+  - "About 1.8 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "hunting_area"
+  - "cold"
+  - "altitude"
+alerts:
+  nws_zone: "HIZ049"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

@@ -1,0 +1,26 @@
+id: "kau-forest-reserve-unit-b"
+name: "Kaʻū Forest Reserve (Unit B)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.218
+  lng: -155.564
+activities: ["hunting", "hiking"]
+permits_required:
+  - permit: "hunting-license"
+    when: "Required to hunt in Unit B. Check the DOFAW Hawaiʻi Island page and the rule exhibits for species, days, and any tag or lottery requirements."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season."
+status: "open"
+summary: "Large forest reserve on the southeast slope of Mauna Loa above Pāhala and Nāʻālehu, including the Kapāpala and Kamilo sections. Unit B for pigs and game birds. Access is mostly through cane and ranch roads."
+fees:
+  entry: 0
+rules: ["Hunters must carry a license and follow Chapter 13-122 (birds) and 13-123 (mammals) rules.", "Hikers should wear bright colors. Hunting dogs may be present.", "Map pin is the unit centroid from DLNR GIS data."]
+hazards: ["hunting_area", "mud", "remote", "no_water"]
+alerts:
+  nws_zone: "HIZ051"
+aliases: ["Kau Forest Reserve"]
+sources: ["https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/", "https://dlnr.hawaii.gov/recreation/hunting/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

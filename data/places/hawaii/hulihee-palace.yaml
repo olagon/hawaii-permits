@@ -1,0 +1,29 @@
+id: "hulihee-palace"
+name: "Huliheʻe Palace"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 19.639
+  lng: -155.994
+activities: ["cultural_visit"]
+permits_required:
+  - permit: "hulihee-palace-admission"
+    when: "To tour the palace. Guided tours need a reservation."
+status: "open"
+aliases: ["Hulihee Palace"]
+summary: "A former royal vacation home on Aliʻi Drive in Kailua-Kona, now a museum. State Parks owns it and the Daughters of Hawaiʻi run it under a long term lease."
+booking:
+  method: "owner_direct"
+  url: "https://daughtersofhawaii.org/hulihee-palace/hulihee-palace-tours/"
+  window_note: "Open Wednesday to Saturday 10am to 3pm."
+fees:
+  entry: 16
+  resident_entry: 12
+  note: "Self guided adult $16, kamaʻāina, senior, and military $12, youth $14, under 6 free. Guided tour $20."
+rules: ["Closed Sunday to Tuesday and major holidays.", "Last entry 2:30pm."]
+accessibility: "The 19th century building has stairs. Call 808-329-1877 to arrange help."
+cultural_notes: "A home of Hawaiian royalty. Visit with respect."
+sources: ["https://dlnr.hawaii.gov/dsp/parks/hawaii/hulihee-palace/", "https://www.daughtersofhawaii.org/hulihee-palace"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

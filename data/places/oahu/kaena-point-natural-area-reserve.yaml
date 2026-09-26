@@ -1,0 +1,42 @@
+id: kaena-point-natural-area-reserve
+name: Kaʻena Point Natural Area Reserve
+land_type: state
+manager: dlnr-dofaw
+location:
+  lat: 21.5744
+  lng: -158.2735
+activities:
+  - hiking
+  - wildlife_viewing
+  - fishing
+  - biking
+permits_required: []
+status: open
+aliases:
+  - Kaena Point NAR
+  - Kaena Point
+summary: >-
+  The point itself, a fenced coastal dune reserve at the western tip of Oʻahu where Laysan albatross nest and monk seals rest. Reached on foot or bike from either side of Kaʻena Point State Park,
+  about 2.5 miles each way. Open with no permit.
+fees:
+  entry: 0
+rules:
+  - No dogs, even on a leash. Dogs have killed nesting seabirds here.
+  - Stay on the marked trails inside the predator proof fence. Close the gates.
+  - Keep well back from monk seals and albatross. No drones.
+  - No vehicles inside the reserve. No camping or fires.
+  - No shade or water. Go early and bring plenty.
+hazards:
+  - heat
+  - no_water
+  - high_surf
+  - remote
+alerts:
+  nws_zone: HIZ006
+cultural_notes: Kaʻena is the leaping place of souls in Hawaiian tradition. Walk quietly and take nothing.
+sources:
+  - https://dlnr.hawaii.gov/ecosystems/nars/oahu/kaena/
+  - https://dlnr.hawaii.gov/dofaw/permits/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

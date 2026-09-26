@@ -1,0 +1,26 @@
+id: "puuhonua-o-honaunau-national-historical-park"
+name: "Puʻuhonua o Hōnaunau National Historical Park"
+island: "hawaii"
+land_type: "federal"
+manager: "nps"
+location:
+  lat: 19.415
+  lng: -155.899
+activities: ["cultural_visit", "day_use", "snorkeling", "hiking"]
+permits_required: []
+status: "open"
+aliases: ["Puuhonua o Honaunau", "Place of Refuge", "City of Refuge", "Honaunau"]
+summary: "Place of refuge on the South Kona coast with restored temple platform, royal grounds, fishponds, and a coastal trail. Gates open 8:15am to sunset. Entrance fee $20 per vehicle, no cash."
+fees:
+  entry: 20
+  note: "$20 per vehicle, $15 per motorcycle, $10 per person on foot or bike, good for 7 days. Under 16 free. No cash."
+rules: ["Gates open 8:15am to sunset.", "This is a sacred place. Stay on paths, keep voices low, and do not climb on structures."]
+hazards: ["heat", "high_surf"]
+alerts:
+  nws_zone: "HIZ023"
+  nps_park_code: "puho"
+amenities: ["visitor center", "restrooms", "water", "picnic area"]
+cultural_notes: "A puʻuhonua where kapu breakers were spared. Treat it as a church."
+sources: ["https://www.nps.gov/puho/planyourvisit/fees.htm", "https://www.nps.gov/puho/planyourvisit/hours.htm"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

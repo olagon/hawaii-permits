@@ -1,0 +1,26 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: pauoa-flats-trail
+name: Pauoa Flats Trail
+location:
+  lat: 21.3452
+  lng: -157.8065
+aliases:
+  - Pauoa Flats
+  - Nuuanu Lookout
+summary: A 0.75 mile trail across the flats at the head of Pauoa Valley to a lookout over Nuʻuanu Reservoir and the Pali. The hub where the Mānoa Cliff, ʻAihualama, Nuʻuanu and Kalāwahine trails meet.
+rules:
+  - Roots and mud. Slippery.
+hazards:
+  - mud
+alerts:
+  nws_zone: HIZ033
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

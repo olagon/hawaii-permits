@@ -1,0 +1,24 @@
+id: polihua-beach
+name: Polihua Beach
+island: lanai
+land_type: private
+manager: pulama-lanai
+location: { lat: 20.930, lng: -156.985 }
+activities: [four_wheel_drive, day_use, fishing]
+permits_required: []
+status: open
+aliases: [Polihua]
+summary: Two mile empty white sand beach at the far north end of Polihua Road, about an hour by 4 wheel drive from Lānaʻi City past Keahiakawelo. No facilities. Strong wind and currents make the ocean unsafe for swimming. Vehicles get stuck in the soft sand.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - 4 wheel drive only. Do not drive onto the sand. Tow outs are expensive and far away.
+  - No swimming. Currents are strong year round.
+  - No restrooms, shade, or water.
+  - Map pin is approximate.
+hazards: [high_surf, heat, no_water, remote]
+sources:
+  - https://www.gohawaii.com/islands/lanai/things-to-do/beaches/polihua-beach
+  - https://www.gohawaii.com/content/off-road-adventures-lanai
+last_verified: 2026-09-25
+verified_by: ai_research

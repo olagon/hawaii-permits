@@ -1,0 +1,14 @@
+id: "kealakekua-bay-vessel-permit"
+name: "Kealakekua Bay vessel transit permit (non-commercial)"
+issuer: "dlnr-state-parks"
+category: "special_use"
+who_needs: "Anyone bringing their own kayak, canoe, paddleboard, boat, or inflatable into the waters of Kealakekua Bay. If you rent a kayak, the rental company must hold the permit for that vessel instead."
+how_to_get: "mail"
+url: "https://dlnr.hawaii.gov/dsp/parks/hawaii/kealakekua-bay-state-historical-park/"
+carry_required: true
+covers: ["kealakekua-bay-state-historical-park"]
+booking_window:
+  notes: "Download the current non-commercial application from the park page, fill it out, and email it to State Parks. Allow up to 14 days for processing."
+valid_for: "Transit of the bay waters only. It does not allow landing at Kaʻawaloa Flat, launching from Nāpōʻopoʻo wharf, tying off, or mooring."
+sources: ["https://dlnr.hawaii.gov/dsp/parks/hawaii/kealakekua-bay-state-historical-park/", "https://outdoor.hawaii.gov/state-parks/permit/"]
+last_verified: "2026-09-25"

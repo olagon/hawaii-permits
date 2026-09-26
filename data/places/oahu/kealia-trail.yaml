@@ -1,0 +1,39 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required:
+  - permit: kuaokala-mokuleia-access-permit
+    when: Only if you continue on the forest reserve roads to the Kuaokalā Trail or Peacock Flats. The Keālia Trail itself needs no permit.
+status: open
+id: kealia-trail
+name: Keālia Trail and Access Road
+location:
+  lat: 21.5715
+  lng: -158.2101
+aliases:
+  - Kealia Trail
+  - Kealia Access Road
+summary: A 2.5 mile switchback trail up the cliff behind Dillingham Airfield, then a dirt road along the ridge toward Peacock Flats and Kuaokalā. Big views over Mokulēʻia. Windy and exposed.
+rules:
+  - Enter through the west gate of Dillingham Airfield and park near the tower. The airfield gate is open about 7 am to 6 pm.
+  - Loose rock on the switchbacks. Blind corners on the road.
+  - No shade and no water.
+  - This is an active hunting area. Wear bright colors.
+hazards:
+  - heat
+  - falling_rock
+  - no_water
+  - steep_drop
+  - hunting_area
+alerts:
+  nws_zone: HIZ007
+amenities:
+  - picnic table
+  - shelter
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+  - https://trails.ehawaii.gov/camping/all,details,57933.html
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

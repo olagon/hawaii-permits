@@ -1,0 +1,28 @@
+id: "punaluu-beach-park"
+name: "Punaluʻu Beach Park"
+island: "hawaii"
+land_type: "county"
+manager: "hawaii-county-parks"
+location:
+  lat: 19.136
+  lng: -155.504
+activities: ["camping", "day_use", "fishing", "swimming"]
+permits_required: []
+status: "restricted"
+summary: "Famous black sand beach in Kaʻū where sea turtles rest. The county lease on the park ended August 29, 2026 and county park services stopped. It is no longer in the county camping system. Check current status before you go."
+booking:
+  method: "online"
+  url: "https://hawaiicounty.ehawaii.gov/camping/welcome.html"
+fees:
+  camping_per_night: 21
+  resident_camping_per_night: 6
+  entry: 0
+  note: "Per person per night. Residents $6 adult, $3 junior, $1 child. Nonresidents $21 adult and junior, $20 child. Plus $1 per person per day processing."
+rules: ["The county lease ended August 29, 2026. County camping permits are not sold for this park now.", "Stay at least 10 feet from resting sea turtles.", "No pets, open fires, smoking, or commercial activity.", "No camping in pavilions. Pavilions are day use by separate permit.", "Map pin is approximate."]
+hazards: ["high_surf"]
+alerts:
+  nws_zone: "HIZ051"
+amenities: []
+sources: ["https://hawaiicounty.ehawaii.gov/camping/welcome.html"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

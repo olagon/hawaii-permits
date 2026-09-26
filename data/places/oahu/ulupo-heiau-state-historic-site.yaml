@@ -1,0 +1,33 @@
+id: ulupo-heiau-state-historic-site
+name: Ulupō Heiau State Historic Site
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.385
+  lng: -157.755
+activities:
+  - cultural_visit
+  - day_use
+permits_required: []
+status: open
+aliases:
+  - Ulupo Heiau
+  - Ulupō Heiau State Historical Park
+summary: A huge stone platform heiau at the edge of Kawainui Marsh in Kailua, cared for by community groups who have restored loʻi and native plants around it.
+fees:
+  entry: 0
+rules:
+  - Day use during daylight hours.
+  - Do not climb on the heiau or move stones.
+  - Volunteer workdays are the best way to visit the restored areas.
+alerts:
+  nws_zone: HIZ009
+amenities:
+  - interpretive signs
+cultural_notes: Said to have been built by the menehune. Still an active place of practice. Stay on the paths.
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/ulupo-heiau-state-historic-site/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

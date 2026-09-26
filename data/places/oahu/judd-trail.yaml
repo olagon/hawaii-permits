@@ -1,0 +1,31 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: judd-trail
+name: Judd Trail
+location:
+  lat: 21.3469
+  lng: -157.8208
+aliases:
+  - Judd Memorial Trail
+  - Jackass Ginger
+summary: A short 0.75 mile loop in Nuʻuanu through bamboo and pine, starting at Nuʻuanu Pali Drive. Crosses Nuʻuanu Stream, which floods fast in rain.
+rules:
+  - Do not cross the stream when it is high.
+  - Break ins are common at the trailhead. Leave nothing in the car.
+  - This is an active hunting area. Wear bright colors.
+hazards:
+  - flash_flood
+  - stream_crossings
+  - mud
+  - hunting_area
+alerts:
+  nws_zone: HIZ033
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

@@ -1,0 +1,25 @@
+id: kaiolohia-shipwreck-beach
+name: Kaiolohia (Shipwreck Beach)
+island: lanai
+land_type: private
+manager: pulama-lanai
+location: { lat: 20.918, lng: -156.897 }
+activities: [four_wheel_drive, hiking, day_use, fishing, cultural_visit]
+permits_required: []
+status: open
+aliases: [Shipwreck Beach, Kaiolohia, Keomuku Road beach, Poaiwa petroglyphs]
+summary: Long windward beach on the north shore about 30 minutes from Lānaʻi City down the paved Keōmoku Road and then a sandy track. A rusting 1940s tanker sits on the reef offshore. Beachcombing, fishing, and a short marked walk to the Pōʻaiwa petroglyphs. Shallow, rocky, and windy, not for swimming.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - 4 wheel drive only past the pavement. Park where the road widens and walk. Do not drive on the sand.
+  - Swimming is not advised. Reef and currents are dangerous.
+  - Do not touch or trace the petroglyphs.
+  - Map pin is approximate.
+hazards: [high_surf, heat, no_water, remote]
+alerts: { nws_zone: HIZ042 }
+sources:
+  - https://www.gohawaii.com/islands/lanai/regions/north-lanai/kaiolohia
+  - https://www.gohawaii.com/islands/lanai/things-to-do/land-activities/historic-places
+last_verified: 2026-09-25
+verified_by: ai_research

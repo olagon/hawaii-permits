@@ -1,0 +1,22 @@
+id: "ala-kahakai-national-historic-trail"
+name: "Ala Kahakai National Historic Trail"
+island: "hawaii"
+land_type: "mixed"
+manager: "nps"
+location:
+  lat: 19.404
+  lng: -155.895
+activities: ["hiking", "cultural_visit"]
+permits_required: []
+status: "open"
+aliases: ["Ala Kahakai", "Ala Loa"]
+summary: "A 175 mile corridor of ancient coastal trails from ʻUpolu Point around South Point to the national park. Only parts are open, mainly through the four national park units, state parks, and the state Nā Ala Hele sectors between Kawaihae and ʻAnaehoʻomalu. Much of the rest crosses private land."
+fees:
+  entry: 0
+rules: ["Open segments run through Puʻukoholā Heiau, Kaloko-Honokōhau, Puʻuhonua o Hōnaunau, and Hawaiʻi Volcanoes, and the state managed Kawaihae to ʻAnaehoʻomalu sectors.", "Respect private property and cultural sites along the way.", "Map pin is approximate. Call 808-217-0307 for segment questions."]
+hazards: ["heat", "no_water", "high_surf"]
+alerts:
+  nps_park_code: "alka"
+sources: ["https://www.nps.gov/alka/planyourvisit/basicinfo.htm", "https://www.nps.gov/alka/planyourvisit/placestogo.htm"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

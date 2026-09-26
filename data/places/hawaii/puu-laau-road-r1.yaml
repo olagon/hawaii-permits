@@ -1,0 +1,24 @@
+id: "puu-laau-road-r1"
+name: "Puʻu Lāʻau Road (R-1)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.834
+  lng: -155.593
+activities: ["four_wheel_drive", "biking", "hiking", "hunting"]
+permits_required:
+  - permit: "hawaii-island-ohv-permit"
+    when: "For every rider of a non-licensed vehicle."
+status: "open"
+aliases: ["Puu Laau Road"]
+summary: "A 4.2 mile forest road in the Mauna Kea Forest Reserve near Puʻu Lāʻau and the Palila Forest Discovery Trail. Part of the Mauna Kea OHV riding area. Non-licensed vehicles need the OHV permit."
+fees:
+  entry: 0
+rules: ["Sign in and out at the check-in station.", "Hunters and dogs share the road.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["hunting_area", "cold", "remote"]
+alerts:
+  nws_zone: "HIZ027"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/recreation/nah/off-highway-vehicles-ohv/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

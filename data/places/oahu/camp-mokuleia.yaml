@@ -1,0 +1,46 @@
+id: camp-mokuleia
+name: Camp Mokulēʻia
+land_type: private_nonprofit
+manager: camp-mokuleia
+location:
+  lat: 21.581
+  lng: -158.157
+activities:
+  - camping
+  - cabin
+  - swimming
+  - day_use
+permits_required:
+  - permit: camp-mokuleia-reservation
+    when: Everyone staying overnight. Tent sites and tentalos book online through Campspot. Lodge rooms and cabins are requested through the camp website.
+status: open
+aliases:
+  - Camp Mokuleia
+summary: A beachfront Episcopal camp and retreat center on the Mokulēʻia shore of the North Shore with tent sites, platform tents, cabins and a lodge, open to the public and groups.
+booking:
+  method: owner_direct
+  url: https://www.campmokuleia.org/reservations
+  phone: 808-637-6241
+fees:
+  camping_per_night: see_source
+  note: See the camp rate sheet.
+rules:
+  - Quiet hours and camp rules apply. Ask at check in.
+  - Map pin is approximate.
+hazards:
+  - high_surf
+alerts:
+  nws_zone: HIZ007
+amenities:
+  - restrooms
+  - hot showers
+  - fire pits
+  - picnic tables
+  - beach
+sources:
+  - https://www.campmokuleia.org/
+  - https://www.campmokuleia.org/reservations
+  - https://www.campmokuleia.org/campground
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

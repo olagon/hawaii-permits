@@ -1,0 +1,53 @@
+id: keaau-beach-park
+name: Keaʻau Beach Park
+land_type: county
+manager: honolulu-parks
+location:
+  lat: 21.508
+  lng: -158.23
+activities:
+  - camping
+  - day_use
+  - swimming
+  - fishing
+permits_required:
+  - permit: honolulu-camping-permit
+    when: >-
+      To camp. 5 day site: Friday to Wednesday 8 am, 25 campsites. Switches to a 3 day site outside public school breaks and 5 day during school breaks. Has ADA campsites. Permits open at 5 pm HST two
+      Fridays before.
+status: open
+aliases:
+  - Keaau Beach Park
+summary: A long rocky shoreline park past Mākaha on the Waiʻanae coast with many campsites and big winter surf. Dry and hot.
+booking:
+  method: online
+  url: https://pros.hnl.info/
+  window_note: Online permits open 5 pm HST two Fridays before the camping weekend and close the Thursday before.
+fees:
+  camping_per_night: see_source
+  note: About $53.22 per site for the whole 5 day period ($10 a day plus fees).
+rules:
+  - No camping in any city park Wednesday or Thursday nights. Camping starts Friday.
+  - Up to 10 people, 2 tents and 3 vehicles per permit. Applicant must be 18 and stay at the site.
+  - No alcohol, pets or generators. No camping in vehicles.
+  - Fires only in the fire rings provided. Charcoal grills are ok for cooking.
+  - Permits are not refundable or transferable. Fines up to $500 for breaking rules.
+  - Map pin is approximate.
+hazards:
+  - high_surf
+  - heat
+alerts:
+  nws_zone: HIZ006
+amenities:
+  - restrooms
+  - showers
+  - picnic tables
+max_stay_nights: 5
+group_size_limit: 10
+sources:
+  - https://www.honolulu.gov/dpr/wp-content/uploads/sites/34/2024/04/campingbrochure2013-11.pdf
+  - https://www.honolulu.gov/dpr/wp-content/uploads/sites/34/2024/04/Honolulu_Parks_and_Recreation_Family_Camping_FAQs-1.pdf
+  - https://www.honolulu.gov/dpr/camping/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

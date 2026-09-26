@@ -1,0 +1,18 @@
+id: niihau-tour-reservation
+name: Niʻihau helicopter tour booking
+issuer: niihau-helicopters
+category: entry_reservation
+who_needs: Anyone who wants to set foot on Niʻihau. The island is private and the only public way to visit is a tour or hunting safari run by the owners through Niʻihau Helicopters.
+how_to_get: owner_direct
+url: "https://niihau.us/heli.html"
+carry_required: false
+covers: [niihau-island]
+booking_window:
+  notes: Call 1-877-441-3500 or email the company. Tours need at least 5 people and land on a beach chosen by wind conditions. There is no independent access.
+cost:
+  resident: 630
+  nonresident: 630
+  unit: "per person, half day tour"
+  note: "Private charter listed at $3,150. Lunch and drinks included."
+sources: ["https://niihau.us/heli.html", "https://www.niihau.us/"]
+last_verified: "2026-09-25"

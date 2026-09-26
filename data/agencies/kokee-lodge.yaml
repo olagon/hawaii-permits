@@ -1,0 +1,9 @@
+id: kokee-lodge
+name: Kōkeʻe Lodge (The Cabins at Kōkeʻe)
+level: private
+website: "https://www.kokeelodge.com/"
+phone: "808-335-6061"
+email: "info@kokeelodge.com"
+reservation_system_url: "https://book-directonline.com/properties/cabinsatkokeeparkdirect"
+islands: [kauai]
+sources: ["https://www.kokeelodge.com/", "https://dlnr.hawaii.gov/dsp/camping-lodging/kauai/"]

@@ -1,0 +1,35 @@
+id: "ohai-loop-trail"
+name: "ʻŌhai Loop Trail and Overlook"
+island: "maui"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 21.016
+  lng: -156.576
+activities:
+  - "hiking"
+permits_required: []
+status: "open"
+summary: "Short loop on the coastal bluffs of northwest Maui between mile markers 40 and 41 on the Kahekili Highway, with interpretive signs and sea cliff views. Stay back from cliff edges."
+aliases:
+  - "Ohai Trail"
+  - "Ohai Loop"
+  - "Ohai Viewpoint"
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - "Stay on the trail and away from cliff edges."
+  - "Day use. No facilities."
+  - "About 1.2 miles. Check the Nā Ala Hele trail page for current conditions and closures."
+hazards:
+  - "steep_drop"
+  - "heat"
+  - "high_surf"
+alerts:
+  nws_zone: "HIZ017"
+sources:
+  - "https://dlnr.hawaii.gov/recreation/nah/maui/"
+  - "https://hawaiitrails.hawaii.gov/trails/"
+last_verified: "2026-09-25"
+verified_by: "ai_research"

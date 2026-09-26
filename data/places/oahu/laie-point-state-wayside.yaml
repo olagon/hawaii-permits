@@ -1,0 +1,33 @@
+id: laie-point-state-wayside
+name: Lāʻie Point State Wayside
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.648
+  lng: -157.915
+activities:
+  - day_use
+  - fishing
+  - wildlife_viewing
+permits_required: []
+status: open
+aliases:
+  - Laie Point
+summary: A small rocky point in Lāʻie with views of the sea arch on Kukuihoʻolua islet and the windward coast. A quick stop for photos and fishing.
+fees:
+  entry: 0
+  parking: 0
+rules:
+  - Day use only. Small parking area at the end of a residential street.
+  - Waves wash over the rocks in high surf. Stay back from the edge.
+hazards:
+  - high_surf
+  - steep_drop
+alerts:
+  nws_zone: HIZ035
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/laie-point-state-wayside/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

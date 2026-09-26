@@ -1,0 +1,23 @@
+id: pacific-missile-range-facility
+name: "Pacific Missile Range Facility, Barking Sands"
+island: kauai
+land_type: military
+manager: "U.S. Navy, Commander Navy Region Hawaii"
+location:
+  lat: 22.04
+  lng: -159.78
+activities: [swimming, fishing, cabin]
+permits_required: []
+status: no_public_access
+aliases: [PMRF, Barking Sands, Majors Bay]
+summary: "U.S. Navy base on the west side with long beaches. Access is limited to military ID holders, DoD civilians, and approved guest pass holders after a background check. Beach cottages are for military and DoD only."
+rules:
+  - No general public access. Do not try to enter without a base pass.
+  - "Beach cottages rent only to military, retirees, DoD civilians, and base contractors, 2 night minimum, up to 14 nights."
+  - Map pin is approximate.
+hazards: [high_surf, heat]
+alerts:
+  nws_zone: HIZ003
+sources: ["https://pmrf.greatlifehawaii.com/navy-getaways/beach-cottages-at-pmrf"]
+last_verified: "2026-09-25"
+verified_by: ai_research

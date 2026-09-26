@@ -1,0 +1,22 @@
+id: "kulanihakoi-mountain-bike-park"
+name: "Kūlanihākoʻi Mountain Bike Park (Kulani Trails)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.631
+  lng: -155.078
+activities: ["biking", "hiking"]
+permits_required: []
+status: "open"
+aliases: ["Kulani Trails", "Lower Waiakea Mountain Bicycle Park", "Kulanihakoi"]
+summary: "A network of forestry roads and singletrack in the Waiākea Forest Reserve off Stainback Highway, about 9 miles of routes, maintained with the Big Island Mountain Biking Association. Nā Ala Hele lists five sections: Kulani Roads, Roads II, III, V, and Kulani Trails."
+fees:
+  entry: 0
+rules: ["Roots, rocks, and wet conditions. Ride within your ability.", "Check with the DOFAW Hilo office for current access rules.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["mud", "hunting_area"]
+alerts:
+  nws_zone: "HIZ053"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/recreation/nah/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

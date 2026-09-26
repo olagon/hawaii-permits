@@ -1,0 +1,25 @@
+id: keahiakawelo
+name: Keahiakawelo (Garden of the Gods)
+island: lanai
+land_type: private
+manager: pulama-lanai
+location: { lat: 20.905, lng: -157.003 }
+activities: [four_wheel_drive, scenic_drive, cultural_visit, biking]
+permits_required: []
+status: open
+aliases: [Garden of the Gods, Keahikawelo, Polihua Road]
+summary: Windswept red rock landscape of boulders and spires on the northwest upland, about 45 minutes from Lānaʻi City on the unpaved Polihua Road past the Kānepuʻu Preserve. Reached only by 4 wheel drive or mountain bike. Best light is late afternoon. Moving or stacking rocks is kapu.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - Do not stack, move, or take rocks. It is forbidden here.
+  - Stay on the road. Driving off road damages native plants and sites.
+  - No facilities and no shade. Bring water.
+  - Map pin is approximate.
+hazards: [heat, no_water, remote]
+cultural_notes: The name means the fire of Kawelo, from a story of two kāhuna keeping fires burning across the channel. Treat it as a sacred landscape.
+sources:
+  - https://www.gohawaii.com/islands/lanai/regions/north-lanai/Keahiakawelo
+  - https://www.gohawaii.com/content/off-road-adventures-lanai
+last_verified: 2026-09-25
+verified_by: ai_research

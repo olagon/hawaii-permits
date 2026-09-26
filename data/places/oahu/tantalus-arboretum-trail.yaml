@@ -1,0 +1,21 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: tantalus-arboretum-trail
+name: Tantalus Arboretum Trail
+location:
+  lat: 21.3264
+  lng: -157.8265
+aliases:
+  - Tantalus Arboretum Trail
+summary: A 0.25 mile walk from Tantalus Drive through an old forestry arboretum planting. Easy and short.
+alerts:
+  nws_zone: HIZ033
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

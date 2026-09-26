@@ -1,0 +1,26 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: moleka-trail
+name: Moleka Trail
+location:
+  lat: 21.32
+  lng: -157.8189
+aliases:
+  - Moleka Trail
+summary: A short 0.75 mile trail from Round Top Drive contouring into upper Makiki Valley through bamboo. Links to the Makiki Valley Trail.
+rules:
+  - Narrow with drop offs.
+hazards:
+  - steep_drop
+  - mud
+alerts:
+  nws_zone: HIZ033
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

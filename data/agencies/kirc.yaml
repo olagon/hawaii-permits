@@ -1,0 +1,12 @@
+id: "kirc"
+name: "Kahoʻolawe Island Reserve Commission"
+level: "state"
+website: "https://www.kahoolawe.hawaii.gov/"
+phone: "808-243-5020"
+email: "KIRC.administrator@hawaii.gov"
+islands:
+  - "kahoolawe"
+sources:
+  - "https://www.kahoolawe.hawaii.gov/home.php"
+  - "https://www.kahoolawe.hawaii.gov/volunteer.shtml"
+  - "https://www.kahoolawe.hawaii.gov/faq.shtml"

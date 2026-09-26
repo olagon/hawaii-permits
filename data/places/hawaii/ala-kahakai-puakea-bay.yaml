@@ -1,0 +1,22 @@
+id: "ala-kahakai-puakea-bay"
+name: "Ala Kahakai Trail (Puakea Bay sector)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 20.242
+  lng: -155.89
+activities: ["hiking"]
+permits_required: []
+status: "open"
+aliases: ["Ala Kahakai Puakea"]
+summary: "A short 0.25 mile cliff-top sector near the old Coast Guard Loran station in North Kohala. Very windy with cliff edges."
+fees:
+  entry: 0
+rules: ["Very windy. Trail is on cliffs.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["steep_drop", "high_surf", "heat"]
+alerts:
+  nws_zone: "HIZ026"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/recreation/nah/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

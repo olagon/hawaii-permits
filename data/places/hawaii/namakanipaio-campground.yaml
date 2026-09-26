@@ -1,0 +1,34 @@
+id: "namakanipaio-campground"
+name: "Nāmakanipaio Campground"
+island: "hawaii"
+land_type: "federal"
+manager: "hawaii-volcanoes-lodge-company"
+location:
+  lat: 19.425
+  lng: -155.295
+activities: ["camping", "cabin"]
+permits_required:
+  - permit: "namakanipaio-cabin-reservation"
+    when: "To stay in a cabin. Tent sites are first come, first served at the pay station."
+status: "restricted"
+aliases: ["Namakanipaio", "Namakani Paio"]
+summary: "Drive-in campground at 4,000 feet on Highway 11 inside Hawaiʻi Volcanoes National Park, run by the Hawaiʻi Volcanoes Lodge Company (Volcano House). Tent sites are $15 a night, first come. Ten rustic cabins are by reservation. Closed after storm damage in August 2026 and again for Tropical Storm Nolo in September 2026."
+booking:
+  method: "owner_direct"
+  url: "https://hawaiivolcanohouse.com/campground/"
+  phone: "808-756-9625"
+  window_note: "Cabins by phone. Tent sites pay cash or check at the on-site station, or by card at Volcano House."
+fees:
+  camping_per_night: 15
+  entry: 30
+  note: "Tent site $15 per night. Tent rental $40 per night. Park entrance fee $30 per vehicle is separate."
+rules: ["Up to 2 people per site, or 4 with a second tent. Two tents max.", "Fires only in the barbecue pits.", "No pets or smoking.", "Nights drop into the 30s and 40s. Bring warm layers.", "Campground and cabins were closed for storm damage in late August 2026 and the park closed again on September 24, 2026. Check the park alerts page."]
+hazards: ["cold"]
+alerts:
+  nws_zone: "HIZ052"
+  nps_park_code: "havo"
+amenities: ["restrooms", "water", "picnic tables", "barbecue pits"]
+max_stay_nights: 7
+sources: ["https://www.nps.gov/havo/planyourvisit/camp.htm", "https://hawaiivolcanohouse.com/campground/", "https://www.nps.gov/havo/learn/news/20260828-nr-most-of-park-reopens.htm"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

@@ -1,0 +1,22 @@
+id: kilauea-point-entry-reservation
+name: Kīlauea Point NWR entry ticket
+issuer: usfws
+category: entry_reservation
+who_needs: "Every visitor 16 and older entering Kīlauea Point National Wildlife Refuge. Children 15 and under are free and need no reservation. Pass holders (America the Beautiful, Kamaʻāina annual pass) still reserve a timed ticket."
+how_to_get: online
+url: "https://www.recreation.gov/ticket/facility/300018"
+carry_required: true
+covers: [kilauea-point-national-wildlife-refuge]
+booking_window:
+  opens_days_before: 60
+  notes: "Tickets open 60 days ahead on Recreation.gov. Open Wednesday to Saturday, 10 am to 4 pm, arrive by 3:30 pm. The refuge is closed for post-hurricane repairs when checked and the reservation system was paused."
+cost:
+  resident: 11
+  nonresident: 11
+  unit: per adult per day
+  note: $10 entry plus a $1 nonrefundable reservation fee. Hawaiʻi residents can buy a $20 Kamaʻāina annual pass. Federal interagency passes are honored with photo ID.
+sources:
+  - "https://www.fws.gov/refuge/kilauea-point/visit-us"
+  - "https://www.recreation.gov/ticket/facility/300018"
+  - "https://www.fws.gov/refuge/kilauea-point"
+last_verified: "2026-09-25"

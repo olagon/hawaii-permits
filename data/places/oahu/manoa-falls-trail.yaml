@@ -1,0 +1,34 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: manoa-falls-trail
+name: Mānoa Falls Trail
+location:
+  lat: 21.343
+  lng: -157.7988
+aliases:
+  - Manoa Falls Trail
+  - Manoa Falls
+summary: The most visited trail on Oʻahu, an easy 0.8 mile walk up Mānoa Valley to a 150 foot waterfall. Open. Parking near the trailhead is on private land and charges a fee.
+rules:
+  - Stay out of the pool below the falls. Rockfall has hurt people there.
+  - Muddy all year. Wear shoes with grip.
+  - Parking at the end of Mānoa Road is private and charges a fee. Do not park in the neighborhood.
+  - The trail sometimes closes for repairs. Check the DOFAW site.
+hazards:
+  - falling_rock
+  - mud
+  - flash_flood
+alerts:
+  nws_zone: HIZ033
+amenities:
+  - restrooms
+  - trash cans
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

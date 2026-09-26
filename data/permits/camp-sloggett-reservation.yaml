@@ -1,0 +1,19 @@
+id: camp-sloggett-reservation
+name: YWCA Camp Sloggett reservation
+issuer: ywca-kauai
+category: cabin
+who_needs: "Anyone staying at YWCA Camp Sloggett in Kōkeʻe. Tent camping is no longer offered. Lodging is the Sloggett Lodge, the Mokihana bunkhouse half, the Mokihana studio, and a cottage, or the whole grounds."
+how_to_get: owner_direct
+url: "https://www.ywcakauai.org/camp-sloggett"
+carry_required: false
+covers: [ywca-camp-sloggett]
+booking_window:
+  notes: Reserve through the online form on the YWCA site or call 808-245-5959. Cabins are usually rented on weekends only. The YWCA says no weekends are available until 2027 while it assesses Hurricane Lowell damage.
+cost:
+  resident: see_source
+  nonresident: see_source
+  unit: per building per night
+  note: "Listed rates when checked: studio $80, cottage $165, bunkhouse half $215, lodge $265, whole grounds $900, plus a $100 refundable deposit per building. YWCA members, Hawaiʻi residents, and U.S. nonprofits get 10% off. Bring your own linens and food."
+refund_policy: See the YWCA site.
+sources: ["https://www.ywcakauai.org/camp-sloggett"]
+last_verified: "2026-09-25"

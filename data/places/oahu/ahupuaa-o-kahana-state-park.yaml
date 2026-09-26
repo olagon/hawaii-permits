@@ -1,0 +1,58 @@
+id: ahupuaa-o-kahana-state-park
+name: Ahupuaʻa ʻO Kahana State Park
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.554
+  lng: -157.877
+activities:
+  - camping
+  - hiking
+  - swimming
+  - fishing
+  - day_use
+  - cultural_visit
+permits_required:
+  - permit: state-parks-camping-permit-30-day
+    when: To camp at one of the 10 tent sites along Kahana Beach. Camping is allowed Friday, Saturday and Sunday nights only. Reserve up to 30 days ahead.
+status: open
+aliases:
+  - Kahana Valley State Park
+  - Ahupuaa O Kahana
+  - Kahana Bay
+summary: A whole valley from the ridge to Kahana Bay, kept as a living park where families still live and share Hawaiian practices. Beach camping, two valley trails and a calm bay for swimming.
+booking:
+  method: online
+  url: https://explore.ehawaii.gov/
+  window_note: Camping reservations open 30 days ahead.
+fees:
+  entry: 0
+  camping_per_night: 30
+  resident_camping_per_night: 20
+rules:
+  - Open 7 am to 7:45 pm April 1 through Labor Day, and 7 am to 6:45 pm the rest of the year.
+  - No camping Wednesday or Thursday nights.
+  - Part of the valley is a public hunting area (Unit F). Wear bright colors on the trails.
+  - Respect residents. Stay on marked trails and roads.
+hazards:
+  - flash_flood
+  - stream_crossings
+  - hunting_area
+  - mud
+alerts:
+  nws_zone: HIZ035
+amenities:
+  - restrooms
+  - showers
+  - picnic tables
+  - drinking water
+max_stay_nights: 5
+group_size_limit: 10
+cultural_notes: One of the few intact ahupuaʻa on Oʻahu. Families in the park help run cultural programs. Call 808-237-7767 for group programs.
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/ahupuaa-o-kahana-state-park/
+  - https://dlnr.hawaii.gov/dsp/camping-lodging/oahu/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

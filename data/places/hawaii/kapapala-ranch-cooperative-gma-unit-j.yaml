@@ -1,0 +1,26 @@
+id: "kapapala-ranch-cooperative-gma-unit-j"
+name: "Kapāpala Ranch Cooperative Game Management Area (Unit J, birds only)"
+island: "hawaii"
+land_type: "private"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.36
+  lng: -155.4
+activities: ["hunting"]
+permits_required:
+  - permit: "hunting-license"
+    when: "Required to hunt in Unit J. Unit J, game birds only, Saturday, Sunday, and state holidays in season. Private land, permit required."
+  - permit: "game-bird-stamp"
+    when: "To hunt game birds in season."
+status: "restricted"
+summary: "Private ranch land in Kaʻū managed with DOFAW for game bird hunting on Saturdays, Sundays, and state holidays in season. By permit. Not open for general hiking."
+fees:
+  entry: 0
+rules: ["Hunters must carry a license and follow Chapter 13-122 (birds) and 13-123 (mammals) rules.", "Hikers should wear bright colors. Hunting dogs may be present.", "Map pin is the unit centroid from DLNR GIS data."]
+hazards: ["hunting_area", "heat", "remote"]
+alerts:
+  nws_zone: "HIZ051"
+aliases: ["Kapapala Cooperative GMA"]
+sources: ["https://dlnr.hawaii.gov/recreation/hunting/hawaiiisland/", "https://dlnr.hawaii.gov/recreation/files/2024/10/2024-2025-FINAL_Game-Bird-Season-Announcement-002.pdf"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

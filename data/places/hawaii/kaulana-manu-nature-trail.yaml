@@ -1,0 +1,23 @@
+id: "kaulana-manu-nature-trail"
+name: "Kaulana Manu Nature Trail"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.671
+  lng: -155.368
+activities: ["hiking", "wildlife_viewing"]
+permits_required: []
+status: "open"
+aliases: ["Kaulana Manu"]
+summary: "An easy loop under a mile through a native forest kīpuka at 5,500 feet at mile 21 on Saddle Road, opened in 2020, with signs about native birds and plants, a restroom, and parking."
+fees:
+  entry: 0
+rules: ["Clean your boots at the brush station to slow Rapid ʻŌhiʻa Death.", "Cool and often wet. Bring a layer.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["cold", "mud"]
+alerts:
+  nws_zone: "HIZ027"
+amenities: ["restrooms", "parking"]
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/blog/2020/11/23/nr20-180/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

@@ -1,0 +1,35 @@
+id: "kalopa-state-recreation-area"
+name: "Kalōpā State Recreation Area"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 20.038
+  lng: -155.438
+activities: ["camping", "cabin", "hiking", "day_use"]
+permits_required:
+  - permit: "state-parks-camping-permit"
+    when: "To camp overnight. Camping is suspended indefinitely as of September 2026 after storm damage. Check the park page."
+  - permit: "state-parks-cabin-permit"
+    when: "To stay in a duplex cabin. Book at least 7 days ahead. Cabins are suspended indefinitely as of September 2026."
+status: "restricted"
+aliases: ["Kalopa", "Kalopa State Park"]
+summary: "A cool native ʻōhiʻa forest park at 2,000 feet above Honokaʻa with a 0.7 mile nature loop, tent camping, and 8 person duplex cabins. Camping and cabins are suspended indefinitely after the 2026 storms."
+booking:
+  method: "online"
+  url: "https://explore.ehawaii.gov/"
+  window_note: "Camping and cabins open 90 days ahead. Cabins must be booked at least 7 days before check in."
+fees:
+  entry: 0
+  camping_per_night: 30
+  resident_camping_per_night: 20
+  note: "Cabins $70 resident, $100 nonresident per night. No hot water at the campground."
+rules: ["Open 7:00am to 8:00pm.", "All campers must be present for check in with staff at 3:00pm.", "Only people named on the permit are covered.", "Cabins have bunks, gas range, fridge, and hot shower but no linens or towels.", "Clean boots and gear to slow Rapid ʻŌhiʻa Death.", "Camping and lodging remain suspended indefinitely as of September 2026."]
+hazards: ["mud", "cold"]
+alerts:
+  nws_zone: "HIZ054"
+amenities: ["restrooms", "cabins", "picnic tables", "parking"]
+max_stay_nights: 5
+sources: ["https://dlnr.hawaii.gov/dsp/parks/hawaii/kalopa-state-recreation-area/", "https://dlnr.hawaii.gov/dsp/camping-lodging/hawaii/", "https://dlnr.hawaii.gov/dsp/camping-lodging/permits-fees/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

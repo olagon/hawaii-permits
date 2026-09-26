@@ -1,0 +1,39 @@
+id: heeia-state-park
+name: Heʻeia State Park
+land_type: state
+manager: dlnr-state-parks
+location:
+  lat: 21.44
+  lng: -157.809
+activities:
+  - day_use
+  - cultural_visit
+  - boating
+permits_required: []
+status: open
+aliases:
+  - Heeia State Park
+  - Kealohi Point
+summary: A small park on Kealohi Point looking over Heʻeia Fishpond and Kāneʻohe Bay. Run day to day by the nonprofit Kamaʻāina Kids, which offers programs and rentals.
+booking:
+  method: phone
+  phone: 808-235-6509
+  window_note: For facility rentals and programs contact Kamaʻāina Kids at Heʻeia State Park.
+fees:
+  entry: 0
+rules:
+  - Open 8 am to 5 pm. Closed Mondays.
+  - Map pin is from the state reserves layer.
+alerts:
+  nws_zone: HIZ035
+amenities:
+  - restrooms
+  - pavilion
+  - picnic tables
+cultural_notes: Kealohi Point was a place where spirits were said to leap into the next world. Heʻeia Fishpond next door is still being restored.
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/heeia-state-park/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research

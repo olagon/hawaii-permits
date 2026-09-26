@@ -1,0 +1,24 @@
+id: "lapakahi-state-historical-park"
+name: "Lapakahi State Historical Park"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-state-parks"
+location:
+  lat: 20.169
+  lng: -155.898
+activities: ["cultural_visit", "hiking", "day_use", "snorkeling"]
+permits_required: []
+status: "open"
+aliases: ["Lapakahi"]
+summary: "Partially restored 600 year old fishing village on the dry North Kohala coast with a self guided interpretive trail. The waters offshore are a marine life conservation district. Open 8:00am to 3:30pm."
+fees:
+  entry: 0
+rules: ["Open 8:00am to 3:30pm, gates lock at 4:00pm.", "Ocean activities are regulated in the marine preserve.", "Bring water and sun protection."]
+hazards: ["heat"]
+alerts:
+  nws_zone: "HIZ026"
+amenities: ["restrooms", "parking"]
+cultural_notes: "The village site is a place of past homes and burials. Stay on the trail."
+sources: ["https://dlnr.hawaii.gov/dsp/parks/hawaii/lapakahi-state-historical-park/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

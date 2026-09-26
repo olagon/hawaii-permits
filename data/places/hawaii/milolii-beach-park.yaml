@@ -1,0 +1,30 @@
+id: "milolii-beach-park"
+name: "Miloliʻi Beach Park"
+island: "hawaii"
+land_type: "county"
+manager: "hawaii-county-parks"
+location:
+  lat: 19.185
+  lng: -155.909
+activities: ["camping", "day_use", "fishing", "snorkeling"]
+permits_required:
+  - permit: "hawaii-county-camping-permit"
+    when: "To camp overnight. Permits are checked between 8pm and 6am. Buy online or at a county office, not at the park."
+status: "open"
+summary: "Small park at the end of the road in the fishing village of Miloliʻi, South Kona. The camping area is tiny, next to the parking lot, with restrooms but no drinking water. Please respect the village."
+booking:
+  method: "online"
+  url: "https://hawaiicounty.ehawaii.gov/camping/welcome.html"
+fees:
+  camping_per_night: 21
+  resident_camping_per_night: 6
+  entry: 0
+  note: "Per person per night. Residents $6 adult, $3 junior, $1 child. Nonresidents $21 adult and junior, $20 child. Plus $1 per person per day processing."
+rules: ["No drinking water. Bring all you need.", "Very small camping area with little privacy.", "Alcohol 10am to 10pm only.", "This is a living fishing village. Drive slowly and keep noise down.", "No pets, open fires, smoking, or commercial activity.", "No camping in pavilions. Pavilions are day use by separate permit.", "Map pin is approximate."]
+hazards: ["heat", "high_surf"]
+alerts:
+  nws_zone: "HIZ023"
+amenities: ["restrooms", "non-potable water"]
+sources: ["https://hawaiicounty.ehawaii.gov/camping/welcome.html", "https://hawaiicounty.ehawaii.gov/camping/all,details,57789.html"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

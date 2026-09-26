@@ -1,0 +1,31 @@
+id: "kilauea-military-camp"
+name: "Kīlauea Military Camp"
+island: "hawaii"
+land_type: "federal"
+manager: "kilauea-military-camp"
+location:
+  lat: 19.426
+  lng: -155.298
+activities: ["cabin", "day_use"]
+permits_required:
+  - permit: "kilauea-military-camp-reservation"
+    when: "Lodging is only for authorized military and DoD patrons and their sponsored guests. ID is checked at check in."
+status: "restricted"
+aliases: ["KMC", "KMC Volcano"]
+summary: "Armed forces recreation center inside Hawaiʻi Volcanoes National Park with cabins and apartments for active duty, reserve, National Guard, retirees, veterans, DoD civilians, and their guests. The general public may use the food and recreation facilities on a space available basis but cannot stay overnight."
+booking:
+  method: "owner_direct"
+  url: "https://www.kilaueamilitarycamp.com/"
+  window_note: "Book online up to a year ahead. Eligibility is checked."
+fees:
+  entry: 30
+  note: "Park entrance fee applies. Lodging rates are on the KMC site."
+rules: ["Overnight lodging is for authorized patrons only.", "No pets, firearms, or fireworks.", "Map pin is approximate."]
+hazards: ["cold"]
+alerts:
+  nws_zone: "HIZ052"
+  nps_park_code: "havo"
+amenities: ["cabins", "restaurant", "store", "bowling"]
+sources: ["https://www.kilaueamilitarycamp.com/accommodations/eligibility", "https://www.kilaueamilitarycamp.com/accommodations/cabins-apartments"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

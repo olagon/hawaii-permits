@@ -1,0 +1,22 @@
+id: "ohia-trail-puu-waawaa"
+name: "ʻŌhiʻa Trail (Puʻu Waʻawaʻa)"
+island: "hawaii"
+land_type: "state"
+manager: "dlnr-dofaw"
+location:
+  lat: 19.797
+  lng: -155.837
+activities: ["hiking"]
+permits_required: []
+status: "open"
+aliases: ["Ohia Trail"]
+summary: "A 2 mile trail over old lava flows in Puʻu Waʻawaʻa Forest Reserve off Highway 190 in North Kona. Part of the state managed Puʻu Waʻawaʻa ahupuaʻa."
+fees:
+  entry: 0
+rules: ["Hot and exposed. Carry water.", "Hunters use the reserve on scheduled days.", "Stay on the official trail. Check hawaiitrails.hawaii.gov and the OuterSpatial app for current status."]
+hazards: ["heat", "no_water", "hunting_area"]
+alerts:
+  nws_zone: "HIZ023"
+sources: ["https://hawaiitrails.hawaii.gov/trails/", "https://dlnr.hawaii.gov/forestry/frs/reserves/hawaii-island/puuwaawaa/"]
+last_verified: "2026-09-25"
+verified_by: "ai_research"

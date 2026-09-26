@@ -1,0 +1,25 @@
+id: kaunolu-village
+name: Kaunolū Village Site
+island: lanai
+land_type: private
+manager: pulama-lanai
+location: { lat: 20.735, lng: -156.968 }
+activities: [cultural_visit, hiking, four_wheel_drive]
+permits_required: []
+status: open
+aliases: [Kaunolu, Kaunolu Village, Kahekili's Leap, Halulu Heiau]
+summary: National Historic Landmark on the dry southwest coast, the largest surviving ruins of an early Hawaiian fishing village and a favored spot of Kamehameha I. An easy mile long trail with signs passes house sites, petroglyphs, Halulu heiau, and the sea cliff known as Kahekili's Leap. Reached by about 5.5 miles of rough unmarked dirt road, 4 wheel drive only. No facilities.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - This is a sacred place. Do not enter the heiau or move any stones.
+  - Stay on visible paths and back from cliff edges.
+  - Roads are dangerous after rain. Bring water and sun protection.
+  - Map pin is approximate.
+hazards: [steep_drop, heat, no_water, remote]
+cultural_notes: Kaunolū is a place of chiefs and ceremony. Interpretive signs explain the sites. Leave everything as you found it.
+sources:
+  - https://www.gohawaii.com/islands/lanai/regions/south-lanai/kaunolu-village
+  - https://www.gohawaii.com/islands/lanai/things-to-do/land-activities/historic-places
+last_verified: 2026-09-25
+verified_by: ai_research

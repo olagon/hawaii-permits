@@ -1,0 +1,26 @@
+land_type: state
+manager: dlnr-dofaw
+activities:
+  - hiking
+permits_required: []
+status: open
+id: nahuina-trail
+name: Nahuina Trail
+location:
+  lat: 21.3261
+  lng: -157.8238
+aliases:
+  - Nahuina Trail
+summary: A 0.75 mile connector from Tantalus Drive down to the Makiki Valley Trail.
+rules:
+  - Steep with loose footing.
+hazards:
+  - steep_drop
+  - mud
+alerts:
+  nws_zone: HIZ033
+sources:
+  - https://hawaiitrails.hawaii.gov/trails/
+island: oahu
+last_verified: '2026-09-25'
+verified_by: ai_research
