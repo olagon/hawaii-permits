@@ -80,4 +80,4 @@ Coverage against section 9 of the build brief: every DLNR state park on all isla
 
 ## Known issues
 
-* `npm run links` reports DLNR and a few booking sites as "unverified" because they rate limit or block bots. That is expected, not broken.
+* `npm run links` on 2026-09-25: 412 URLs, 2 broken, 144 unverified. Camp Olowalu was fixed to its Camp Life booking link. The Protect Kahoʻolawe ʻOhana page loads but the site's HTTPS certificate is misconfigured on their end, so it stays flagged until they fix it. "Unverified" means DLNR and a few booking sites rate limit or block bots; they work in a browser.

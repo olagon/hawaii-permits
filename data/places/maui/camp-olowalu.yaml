@@ -22,7 +22,7 @@ aliases:
   - "Olowalu tentalows"
 booking:
   method: "owner_direct"
-  url: "https://www.campolowalu.com/reservations/"
+  url: "https://www.campolowalu.com/"
   phone: "808-661-4303"
   window_note: "Check in 2:00 pm, check out 10:00 am."
 fees:

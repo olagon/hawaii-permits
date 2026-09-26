@@ -3,7 +3,7 @@ name: "Camp Olowalu"
 level: "private"
 website: "https://www.campolowalu.com/"
 phone: "808-661-4303"
-reservation_system_url: "https://www.campolowalu.com/reservations/"
+reservation_system_url: https://www.camplife.com/518/reservation/step1
 islands:
   - "maui"
 sources:

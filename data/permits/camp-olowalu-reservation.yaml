@@ -4,7 +4,7 @@ issuer: "camp-olowalu"
 category: "camping"
 who_needs: "Anyone camping or staying in a tentalow or cabin at Camp Olowalu."
 how_to_get: "owner_direct"
-url: "https://www.campolowalu.com/reservations/"
+url: https://www.camplife.com/518/reservation/step1
 carry_required: true
 covers:
   - "camp-olowalu"
