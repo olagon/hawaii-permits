@@ -17,14 +17,21 @@ export const ICONS = {
   ext: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 5h5v5M19 5l-8 8M9 6H6a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
 };
 
-const closedStatus = (s) => ['closed', 'removed', 'no_public_access'].includes(s);
+export const closedStatus = (s) => ['closed', 'removed', 'no_public_access'].includes(s);
+/** One line about what a place needs, never "no permit" for a place you cannot enter. */
+export function permitWords(place) {
+  const n = place.permits_required.length;
+  if (closedStatus(place.status)) return 'Not open to the public';
+  if (!n) return place.status === 'restricted' ? 'Restricted access, see rules' : 'No permit needed';
+  return `${n} permit${n > 1 ? 's' : ''} or reservation${n > 1 ? 's' : ''}`;
+}
 
 /** Compact row for lists of places. */
 export function placeRow(place) {
   const n = place.permits_required.length;
   return html`<li><a class="place-row" href="#/place/${place.id}">
     <span class="mk ${closedStatus(place.status) ? 'warn' : place.land_type}" aria-hidden="true"></span>
-    <span><span class="name">${place.name}</span><span class="sub">${landWord(place.land_type)} · ${n ? `${n} permit${n > 1 ? 's' : ''} or reservation${n > 1 ? 's' : ''}` : 'No permit needed'}</span></span>
+    <span><span class="name">${place.name}</span><span class="sub">${landWord(place.land_type)} · ${permitWords(place)}</span></span>
     ${place.status !== 'open' ? statusBadge(place.status) : ''}
   </a></li>`;
 }

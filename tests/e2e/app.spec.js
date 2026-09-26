@@ -76,3 +76,14 @@ test('map loads tiles and draws markers', async ({ page }) => {
   await expect(page.locator('#sheet')).toBeVisible();
   await expect(page.locator('#sheet').getByRole('link', { name: 'Full details' })).toBeVisible();
 });
+
+test('closed places never read as permit free', async ({ page }) => {
+  await page.goto('./');
+  const p = await page.evaluate(async () => (await (await fetch('data/places.json')).json()).find((x) => x.status === 'no_public_access' && !x.permits_required.length));
+  await page.goto(`./#/place/${p.id}`);
+  await expect(page.locator('#view')).not.toContainText('No permit needed');
+  await expect(page.locator('#view')).toContainText('Not open to the public');
+  await page.goto(`./#/map?focus=${p.id}`);
+  await expect(page.locator('#sheet')).toContainText('Not open to the public', { timeout: 30000 });
+  await expect(page.locator('#sheet')).not.toContainText('No permit needed');
+});

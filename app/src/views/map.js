@@ -1,5 +1,6 @@
 import { html, statusBadge, landWord, toast } from '../ui.js';
-import { loadData, data, managerName } from '../data.js';
+import { loadData, managerName } from '../data.js';
+import { permitWords, closedStatus } from '../components.js';
 import { getSettings, setSetting } from '../store.js';
 import { getPosition } from '../native.js';
 
@@ -50,8 +51,7 @@ export default async function ({ query }) {
           <h2 style="margin-top:0;padding-right:2.5rem">${p.name}</h2>
           <div class="row">${statusBadge(p.status)}<span class="badge land">${landWord(p.land_type)}</span></div>
           <p class="muted small">${managerName(p)}</p>
-          <p class="small">${p.permits_required.length ? p.permits_required.map((x) => d.permitById[x.permit]?.name).filter(Boolean).join(', ') : 'No permit needed'}</p>
-          ${['closed', 'removed', 'no_public_access'].includes(p.status) ? html`<p class="notice">Not open to the public. Please do not go.</p>` : ''}
+          ${closedStatus(p.status) ? html`<p class="notice">Not open to the public. Please do not go.</p>` : html`<p class="small">${p.permits_required.length ? p.permits_required.map((x) => d.permitById[x.permit]?.name).filter(Boolean).join(', ') : permitWords(p)}</p>`}
           <a class="btn" href="#/place/${p.id}">Full details</a>`.s;
         sheet.querySelector('.close').addEventListener('click', () => { sheet.hidden = true; });
         sheet.querySelector('h2').focus?.();
@@ -62,7 +62,7 @@ export default async function ({ query }) {
         const act = root.querySelector('#act').value;
         const lands = [...filters].filter((f) => f.startsWith('land:')).map((f) => f.slice(5));
         const statuses = [...filters].filter((f) => f.startsWith('status:')).map((f) => f.slice(7));
-        markers = d.places.filter((p) => p.island === cur && (!act || p.activities.includes(act)) && (!filters.has('nopermit') || p.permits_required.length === 0)
+        markers = d.places.filter((p) => p.island === cur && (!act || p.activities.includes(act)) && (!filters.has('nopermit') || (p.permits_required.length === 0 && p.status === 'open'))
           && (!lands.length || lands.includes(p.land_type)) && (!statuses.length || statuses.includes(p.status)))
           .map((p) => M.placeMarker(map, p, openSheet));
       };
