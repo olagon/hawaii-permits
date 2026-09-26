@@ -1,0 +1,24 @@
+id: state-parks-camping-permit-30-day
+name: State park camping permit (30 day window, Oʻahu and Kīholo)
+issuer: dlnr-state-parks
+category: camping
+who_needs: Anyone camping overnight at an Oʻahu state park campground or at Kīholo State Park Reserve on Hawaiʻi Island.
+how_to_get: online
+url: https://explore.ehawaii.gov/
+carry_required: true
+booking_window:
+  opens_days_before: 30
+  notes: Oʻahu parks and Kīholo open reservations 30 days ahead. Oʻahu campgrounds are closed Wednesday and Thursday nights. Applicant must be 18 or older.
+cost:
+  resident: 20
+  nonresident: 30
+  unit: per campsite per night, up to 10 people
+  note: Children under 2 are free. A processing fee is added.
+valid_for: The nights on the permit, up to 5 consecutive nights at one park.
+refund_policy: Cancel at least 15 days before with a $5 fee per permit. Processing fees are not refunded.
+age_minimum: 18
+sources:
+  - https://dlnr.hawaii.gov/dsp/camping-lodging/oahu/
+  - https://dlnr.hawaii.gov/dsp/camping-lodging/hawaii/
+  - https://dlnr.hawaii.gov/dsp/camping-lodging/permits-fees/
+last_verified: 2026-09-25

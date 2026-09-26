@@ -1,0 +1,15 @@
+id: forest-reserve-collection-permit
+name: Forest reserve collection permit
+issuer: dlnr-dofaw
+category: gathering
+who_needs: Anyone gathering forest items such as ti leaf, bamboo, maile, or firewood in a state forest reserve for personal or cultural use. Commercial harvest needs a separate commercial permit.
+how_to_get: online
+url: https://dlnr.hawaii.gov/forestry/frs/permitting/forest-reserve-system-collection-permit/
+carry_required: true
+cost:
+  resident: see_source
+  nonresident: see_source
+sources:
+  - https://dlnr.hawaii.gov/forestry/frs/permitting/forest-reserve-system-collection-permit/
+  - https://dlnr.hawaii.gov/dofaw/permits/
+last_verified: 2026-09-25

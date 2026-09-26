@@ -1,0 +1,26 @@
+id: state-parks-camping-permit
+name: State park camping permit (90 day window)
+issuer: dlnr-state-parks
+category: camping
+who_needs: Anyone camping overnight at a state park campsite outside Oʻahu and Kīholo. Reservations moved to explore.ehawaii.gov in February 2026.
+how_to_get: online
+url: https://explore.ehawaii.gov/
+carry_required: true
+booking_window:
+  opens_days_before: 90
+  notes: Most state parks open reservations 90 days ahead. Oʻahu parks and Kīholo use a 30 day window (see the separate permit). Applicant must be 18 or older. One campsite per person per park at a time.
+cost:
+  resident: 20
+  nonresident: 30
+  unit: per campsite per night, up to 10 people
+  note: Children under 2 are free. A processing fee is added. Nāpali Coast is priced per person instead.
+valid_for: The nights on the permit, up to 5 consecutive nights at one park.
+refund_policy: Cancel at least 15 days before with a $5 fee per permit. Processing fees are not refunded.
+age_minimum: 18
+sources:
+  - https://dlnr.hawaii.gov/dsp/camping-lodging/permits-fees/
+  - https://dlnr.hawaii.gov/dsp/camping-lodging/kauai/
+  - https://dlnr.hawaii.gov/dsp/camping-lodging/maui/
+  - https://dlnr.hawaii.gov/dsp/camping-lodging/hawaii/
+  - https://outdoor.hawaii.gov/camping/
+last_verified: 2026-09-25

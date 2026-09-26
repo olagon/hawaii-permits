@@ -1,0 +1,19 @@
+id: state-parks-day-use-reservation
+name: State park nonresident entry and parking reservation
+issuer: dlnr-state-parks
+category: entry_reservation
+who_needs: Visitors who are not Hawaiʻi residents, at state parks that use the reservation system. Residents enter free with a Hawaiʻi ID but may still need a reservation at some parks.
+how_to_get: online
+url: https://gostateparks.hawaii.gov/
+carry_required: true
+booking_window:
+  notes: Windows differ by park. Check the park listing in Ala or the reservation site for the exact opening day.
+cost:
+  resident: 0
+  nonresident: 5
+  unit: per person, plus $10 per vehicle for parking
+  note: Children 3 and under are free. Some parks also require a parking reservation for residents.
+sources:
+  - https://gostateparks.hawaii.gov/
+  - https://dlnr.hawaii.gov/dsp/announcements/new-fees-go-into-effect-at-hawai%ca%bbi-state-parks-on-friday-october-9/
+last_verified: 2026-09-25

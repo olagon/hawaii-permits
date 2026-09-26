@@ -1,0 +1,10 @@
+id: dlnr-state-parks
+name: DLNR Division of State Parks
+level: state
+website: https://dlnr.hawaii.gov/dsp/
+phone: 808-587-0300
+reservation_system_url: https://explore.ehawaii.gov/
+islands: [oahu, kauai, maui, molokai, hawaii]
+sources:
+  - https://dlnr.hawaii.gov/dsp/
+  - https://dlnr.hawaii.gov/dsp/camping-lodging/permits-fees/

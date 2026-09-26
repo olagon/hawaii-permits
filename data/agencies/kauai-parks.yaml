@@ -1,0 +1,11 @@
+id: kauai-parks
+name: County of Kauaʻi Department of Parks and Recreation
+level: county
+website: https://www.kauai.gov/Government/Departments-Agencies/Parks/Permitting/Camping
+phone: 808-241-4463
+email: recpermits@kauai.gov
+reservation_system_url: https://hikauaiweb.myvscloud.com/webtrac/web/
+islands: [kauai]
+sources:
+  - https://www.kauai.gov/Government/Departments-Agencies/Parks/Permitting/Camping
+  - https://www.kauai.gov/files/assets/public/v/3/parks-and-rec/documents/cok-campground-guidelines-and-rules-2023.pdf

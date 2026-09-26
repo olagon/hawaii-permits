@@ -1,0 +1,10 @@
+id: honolulu-parks
+name: City and County of Honolulu Department of Parks and Recreation
+level: county
+website: https://www.honolulu.gov/parks
+phone: 808-768-3440
+email: camping@honolulu.gov
+reservation_system_url: https://pros.hnl.info/
+islands: [oahu]
+sources:
+  - https://www.honolulu.gov/dpr/wp-content/uploads/sites/34/2024/04/Honolulu_Parks_and_Recreation_Family_Camping_FAQs-1.pdf

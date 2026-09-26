@@ -5,7 +5,13 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 command -v pmtiles >/dev/null || { echo "pmtiles CLI not found. brew install pmtiles"; exit 1; }
 mkdir -p app/public/tiles
-BUILD=$(curl -s https://build.protomaps.com/builds.json | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const b=JSON.parse(s);console.log(b[b.length-1].key)})')
+# Daily builds are named by date. Probe the last 10 days for the newest one that exists.
+BUILD=""
+for i in $(seq 0 9); do
+  d=$(date -u -v-${i}d +%Y%m%d 2>/dev/null || date -u -d "-${i} days" +%Y%m%d)
+  if curl -sfI "https://build.protomaps.com/$d.pmtiles" >/dev/null; then BUILD="$d.pmtiles"; break; fi
+done
+[ -n "$BUILD" ] || { echo "No Protomaps daily build found in the last 10 days"; exit 1; }
 SRC="https://build.protomaps.com/$BUILD"
 echo "Source: $SRC"
 MAX_BYTES=$((90*1024*1024))

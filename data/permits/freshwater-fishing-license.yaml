@@ -1,0 +1,16 @@
+id: freshwater-fishing-license
+name: Freshwater game fishing license
+issuer: dlnr-dar
+category: fishing_license
+who_needs: Anyone taking introduced freshwater game fish, for example bass, tilapia, or trout in Kōkeʻe streams and state reservoirs. Not needed for ocean fishing.
+how_to_get: online
+url: https://freshwater.ehawaii.gov/freshwater/
+carry_required: true
+cost:
+  resident: 5
+  nonresident: 25
+  unit: per year
+  note: Residents and military 16 and over $5. Minors 9 to 15 $3. Seniors 65 and over free. Visitors can buy a 7 day license for $10 or a 30 day license for $20.
+sources:
+  - https://dlnr.hawaii.gov/dar/licenses-and-permits/freshwater-game-fishing-license/
+last_verified: 2026-09-25

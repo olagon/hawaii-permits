@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Ala</string>
+    <string name="title_activity_main">Ala</string>
+    <string name="package_name">com.kealohalabs.ala</string>
+    <string name="custom_url_scheme">com.kealohalabs.ala</string>
+</resources>

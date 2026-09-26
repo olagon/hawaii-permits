@@ -1,0 +1,18 @@
+id: hawaii-county-camping-permit
+name: Hawaiʻi County camping permit
+issuer: hawaii-county-parks
+category: camping
+who_needs: Anyone camping at a County of Hawaiʻi beach park. Permits cannot be bought at the park.
+how_to_get: online
+url: https://hawaiicounty.ehawaii.gov/camping/welcome.html
+carry_required: true
+booking_window:
+  notes: Book online or at a county parks office. Carry a paper or phone copy. Residents need a Hawaiʻi ID for resident rates.
+cost:
+  resident: 6
+  nonresident: 21
+  unit: per adult per night
+  note: Residents pay $3 per junior (13 to 17) and $1 per child. Nonresidents pay $21 per junior and $20 per child. A $1 per person per day processing fee is added and is not refundable.
+sources:
+  - https://hawaiicounty.ehawaii.gov/camping/welcome.html
+last_verified: 2026-09-25

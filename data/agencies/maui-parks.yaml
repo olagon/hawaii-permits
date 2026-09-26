@@ -1,0 +1,9 @@
+id: maui-parks
+name: County of Maui Department of Parks and Recreation
+level: county
+website: https://www.mauicounty.gov/409/Camping-Sites
+phone: 808-270-7230
+islands: [maui, molokai, lanai]
+sources:
+  - https://www.mauicounty.gov/409/Camping-Sites
+  - https://www.mauicounty.gov/DocumentCenter/View/106270/Camping-Permits-Guide-and-Rules

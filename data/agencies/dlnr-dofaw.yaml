@@ -1,0 +1,10 @@
+id: dlnr-dofaw
+name: DLNR Division of Forestry and Wildlife
+level: state
+website: https://dlnr.hawaii.gov/dofaw/
+phone: 808-587-0166
+reservation_system_url: https://camping.ehawaii.gov/camping/welcome.html
+islands: [oahu, kauai, maui, molokai, lanai, hawaii]
+sources:
+  - https://dlnr.hawaii.gov/dofaw/
+  - https://dlnr.hawaii.gov/dofaw/permits/

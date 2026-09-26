@@ -1,0 +1,22 @@
+id: honolulu-camping-permit
+name: Honolulu county camping permit
+issuer: honolulu-parks
+category: camping
+who_needs: Anyone camping at a City and County of Honolulu beach park or Hoʻomaluhia Botanical Garden. Camping runs Friday to Monday morning (3 day sites) or Friday to Wednesday morning (5 day sites). No camping Wednesday or Thursday nights.
+how_to_get: online
+url: https://pros.hnl.info/
+carry_required: true
+booking_window:
+  opens_days_before: 14
+  opens_time_local: "17:00"
+  notes: Permits open at 5 pm HST two Fridays before the camping weekend. Online sales end the Thursday before. One permit per account per weekend. Applicant must be 18 and present at the campground.
+cost:
+  resident: see_source
+  nonresident: see_source
+  unit: per site per camping period
+  note: Priced per 3 day or 5 day site, up to 10 people and 2 tents. Nonrefundable unless the county closes the campground.
+age_minimum: 18
+sources:
+  - https://www.honolulu.gov/dpr/wp-content/uploads/sites/34/2024/04/Honolulu_Parks_and_Recreation_Family_Camping_FAQs-1.pdf
+  - https://www.honolulu.gov/dpr/wp-content/uploads/sites/34/2024/04/campingbrochure2013-11.pdf
+last_verified: 2026-09-25

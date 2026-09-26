@@ -1,0 +1,18 @@
+id: nonresident-marine-fishing-license
+name: Nonresident recreational marine fishing license
+issuer: dlnr-dar
+category: fishing_license
+who_needs: Anyone 15 or older who is not a Hawaiʻi resident and fishes in the ocean for fun, from shore or a boat. Active duty military and their minor children are exempt. Residents do not need a saltwater license.
+how_to_get: online
+url: https://fishing.hawaii.gov/
+carry_required: true
+cost:
+  resident: 0
+  nonresident: 70
+  unit: per year
+  note: 1 day $20, 7 days $40, 1 year $70, plus an online processing fee. Required since May 2024 under HRS 188-72.
+age_minimum: 15
+sources:
+  - https://dlnr.hawaii.gov/dar/licenses-and-permits/nonresident-recreational-marine-fishing-license/
+  - https://law.justia.com/codes/hawaii/title-12/chapter-188/section-188-72/
+last_verified: 2026-09-25

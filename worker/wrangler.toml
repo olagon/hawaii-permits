@@ -1,0 +1,4 @@
+name = "ala-suggest"
+main = "worker.js"
+compatibility_date = "2026-09-01"
+# Set the token with: wrangler secret put GITHUB_TOKEN

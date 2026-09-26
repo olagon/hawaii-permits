@@ -1,0 +1,8 @@
+id: nps
+name: National Park Service
+level: federal
+website: https://www.nps.gov/state/hi/index.htm
+reservation_system_url: https://www.recreation.gov/
+islands: [oahu, maui, molokai, hawaii]
+sources:
+  - https://www.nps.gov/state/hi/index.htm

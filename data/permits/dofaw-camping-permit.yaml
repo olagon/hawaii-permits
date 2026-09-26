@@ -1,0 +1,20 @@
+id: dofaw-camping-permit
+name: Forest reserve camping permit
+issuer: dlnr-dofaw
+category: camping
+who_needs: Anyone camping at a Division of Forestry and Wildlife campsite or cabin in a forest reserve, or along a Nā Ala Hele trail that allows camping.
+how_to_get: online
+url: https://camping.ehawaii.gov/camping/welcome.html
+carry_required: true
+booking_window:
+  notes: Reservations are made on camping.ehawaii.gov. Print your permit and carry it. Fees differ by site and are shown when you book.
+cost:
+  resident: see_source
+  nonresident: see_source
+  note: All forest reserve camping needs a paid permit. There is no free camping. A processing fee is added.
+valid_for: Up to 5 consecutive nights at one site unless the site says less.
+sources:
+  - https://camping.ehawaii.gov/camping/welcome.html
+  - https://dlnr.hawaii.gov/recreation/camp/
+  - https://outdoor.hawaii.gov/camping/
+last_verified: 2026-09-25

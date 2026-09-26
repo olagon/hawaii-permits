@@ -1,0 +1,18 @@
+id: hunter-education
+name: Hunter education certificate
+issuer: dlnr-dofaw
+category: hunting_license
+who_needs: Everyone 10 and older before a first Hawaiʻi hunting license. Nonresidents with hunter education from another state can request a free letter of exemption instead.
+how_to_get: online
+url: https://outdoor.hawaii.gov/hunting/certification/
+carry_required: false
+cost:
+  resident: see_source
+  nonresident: see_source
+  note: The Hawaiʻi course has an online part and an in person field day. Check the certification page for current fees.
+valid_for: Life
+age_minimum: 10
+sources:
+  - https://outdoor.hawaii.gov/hunting/certification/
+  - https://outdoor.hawaii.gov/hunting/licensing/
+last_verified: 2026-09-25

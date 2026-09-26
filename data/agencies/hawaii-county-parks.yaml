@@ -1,0 +1,11 @@
+id: hawaii-county-parks
+name: County of Hawaiʻi Department of Parks and Recreation
+level: county
+website: https://www.parks.hawaiicounty.gov/
+phone: 808-961-8311
+email: camping@hawaiicounty.gov
+reservation_system_url: https://hawaiicounty.ehawaii.gov/camping/welcome.html
+islands: [hawaii]
+sources:
+  - https://hawaiicounty.ehawaii.gov/camping/welcome.html
+  - https://portal.ehawaii.gov/home/online-services/camping-permits-county-of-hawaii/

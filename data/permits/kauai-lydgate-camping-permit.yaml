@@ -1,0 +1,20 @@
+id: kauai-lydgate-camping-permit
+name: Lydgate campground permit
+issuer: kauai-parks
+category: camping
+who_needs: Anyone camping at the Lydgate Park campground.
+how_to_get: online
+url: https://hikauaiweb.myvscloud.com/webtrac/web/
+carry_required: true
+booking_window:
+  notes: Book online. Up to 5 consecutive nights. Closed for maintenance Tuesday 10 am to Thursday noon. Small sites hold 5 people, others 10. Group site for 20 to 200 people.
+cost:
+  resident: 5
+  nonresident: 25
+  unit: per site per night
+  note: Group site is $75 resident or $150 nonresident per night. Children under 18 are free. Fees are not refundable.
+age_minimum: 18
+sources:
+  - https://www.kauai.gov/Government/Departments-Agencies/Parks/Permitting/Camping
+  - https://www.kauai.gov/files/assets/public/v/3/parks-and-rec/documents/cok-campground-guidelines-and-rules-2023.pdf
+last_verified: 2026-09-25

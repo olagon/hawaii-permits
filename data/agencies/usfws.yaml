@@ -1,0 +1,7 @@
+id: usfws
+name: U.S. Fish and Wildlife Service, Pacific Islands
+level: federal
+website: https://www.fws.gov/
+islands: [oahu, kauai, maui, hawaii]
+sources:
+  - https://www.fws.gov/

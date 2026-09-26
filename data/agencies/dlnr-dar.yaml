@@ -1,0 +1,9 @@
+id: dlnr-dar
+name: DLNR Division of Aquatic Resources
+level: state
+website: https://dlnr.hawaii.gov/dar/
+phone: 808-587-0100
+reservation_system_url: https://fishing.hawaii.gov/
+islands: [oahu, kauai, maui, molokai, lanai, hawaii]
+sources:
+  - https://dlnr.hawaii.gov/dar/

@@ -1,0 +1,23 @@
+id: state-parks-cabin-permit
+name: State park cabin reservation
+issuer: dlnr-state-parks
+category: cabin
+who_needs: Anyone staying in a state park cabin (Waiʻānapanapa, Polipoli, Kalōpā). Hāpuna A-frame shelters have their own listing.
+how_to_get: online
+url: https://explore.ehawaii.gov/
+carry_required: true
+booking_window:
+  opens_days_before: 90
+  notes: Cabins open reservations 90 days ahead. Bring your own linens and towels. Applicant must be 18 or older.
+cost:
+  resident: 70
+  nonresident: 100
+  unit: per cabin per night
+valid_for: Up to 5 consecutive nights at one park.
+refund_policy: Cancel at least 15 days before with a $5 fee per permit.
+age_minimum: 18
+sources:
+  - https://dlnr.hawaii.gov/dsp/camping-lodging/permits-fees/
+  - https://dlnr.hawaii.gov/dsp/camping-lodging/maui/
+  - https://dlnr.hawaii.gov/dsp/camping-lodging/hawaii/
+last_verified: 2026-09-25

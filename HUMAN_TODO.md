@@ -4,6 +4,16 @@ Things only the owner can do. Ala works around each one until it is done. Items 
 
 ## Now
 
+* **Create the GitHub repo and push.** This session was not allowed to create a public repo or push. Run:
+
+  ```sh
+  cd /Library/WebServer/Documents/permits
+  gh repo create olagon/ala --public --source=. --push --description "Which permits, licenses, and reservations you need for the outdoors in Hawaiʻi. Not an official government app."
+  gh api -X POST repos/olagon/ala/pages -f build_type=workflow
+  ```
+
+  The second command turns on GitHub Pages with the Actions source. The first push runs the Validate and Deploy Pages workflows. The site will be at https://olagon.github.io/ala/ a few minutes later. After that, every `git push` to `main` redeploys.
+
 * **Install Xcode and CocoaPods** to build the iOS app locally. The `ios/` project is generated, but it was never compiled here because only Command Line Tools were found. Run `xcode-select -s /Applications/Xcode.app`, then `sudo gem install cocoapods` (or `brew install cocoapods`), then `npx cap sync ios` and `npx cap open ios`.
 
 ## Before store release

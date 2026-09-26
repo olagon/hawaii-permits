@@ -1,0 +1,16 @@
+id: game-bird-stamp
+name: Game bird stamp
+issuer: dlnr-dofaw
+category: hunting_tag
+who_needs: Anyone hunting game birds during the season, in addition to the hunting license.
+how_to_get: online
+url: https://hunting.ehawaii.gov/hunting/license.html
+carry_required: true
+cost:
+  resident: 10
+  nonresident: 10
+  unit: per license year
+prerequisites: [hunting-license]
+sources:
+  - https://outdoor.hawaii.gov/hunting/licensing/
+last_verified: 2026-09-25

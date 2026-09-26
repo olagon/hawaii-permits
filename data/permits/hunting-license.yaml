@@ -1,0 +1,19 @@
+id: hunting-license
+name: Hawaiʻi hunting license
+issuer: dlnr-dofaw
+category: hunting_license
+who_needs: Anyone hunting game mammals or game birds anywhere in Hawaiʻi. Some areas also need a hunt permit, tag, or stamp.
+how_to_get: online
+url: https://hunting.ehawaii.gov/hunting/license.html
+carry_required: true
+cost:
+  resident: 10
+  nonresident: 95
+  unit: per license year
+  note: Includes the $10 wildlife conservation stamp. Game bird hunting needs a $10 game bird stamp. All sales are final.
+valid_for: Date of purchase through June 30.
+prerequisites: [hunter-education]
+sources:
+  - https://outdoor.hawaii.gov/hunting/licensing/
+  - https://hunting.ehawaii.gov/hunting/license.html
+last_verified: 2026-09-25

@@ -1,0 +1,20 @@
+id: maui-camping-permit
+name: Maui County camping permit
+issuer: maui-parks
+category: camping
+who_needs: Anyone camping at a County of Maui park on Maui or Molokaʻi (Pāpalaua, One Aliʻi, Pāpōhaku). First come, first served.
+how_to_get: in_person
+url: https://www.mauicounty.gov/409/Camping-Sites
+carry_required: true
+booking_window:
+  notes: Apply at a county district permit office. Pay in cash or money order when you reserve. Fees are not refundable. Up to 4 consecutive nights and 8 nights per month. Each permit covers up to 6 campers, 2 vehicles, and 1 licensed dog.
+cost:
+  resident: 5
+  nonresident: 50
+  unit: per adult per night, Monday to Thursday
+  note: Residents pay $10 per adult Friday to Sunday and holidays, minors $3 or $6. Nonresidents pay $100 per adult Friday to Sunday and holidays, minors $6 or $12. Licensed dogs are $3 to $12 per night.
+age_minimum: 18
+sources:
+  - https://mauicounty.gov/DocumentCenter/View/98207/Camping-Information-and-Fees
+  - https://www.mauicounty.gov/DocumentCenter/View/106270/Camping-Permits-Guide-and-Rules
+last_verified: 2026-09-25
