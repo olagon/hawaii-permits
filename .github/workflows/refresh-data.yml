@@ -20,7 +20,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check for API key
         id: key
-        env: { ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }} }
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           if [ -z "$ANTHROPIC_API_KEY" ]; then echo "ANTHROPIC_API_KEY not set. See HUMAN_TODO.md. Skipping."; echo "ok=false" >> "$GITHUB_OUTPUT"; else echo "ok=true" >> "$GITHUB_OUTPUT"; fi
       - uses: actions/setup-node@v4
@@ -45,5 +46,7 @@ jobs:
           title: 'Data refresh ${{ github.run_started_at }}'
           commit-message: 'Data refresh: re-verify stale and closed entries'
           body-path: reports/refresh-summary.md
-          labels: data, refresh
+          labels: |
+            data
+            refresh
           delete-branch: true
