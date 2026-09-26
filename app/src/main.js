@@ -33,7 +33,10 @@ route('/settings', () => import('./views/settings.js'));
   const s = await getSettings();
   applyTheme(s.theme);
   await initNative().catch(console.warn);
-  registerSW({ immediate: true });
+  // Check for a new version on launch and every hour while open, so fixes land without a manual reload.
+  let swReg = null;
+  registerSW({ immediate: true, onRegisteredSW(url, reg) { swReg = reg; if (reg) setInterval(() => reg.update().catch(() => {}), 60 * 60 * 1000); } });
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') swReg?.update().catch(() => {}); });
   const banner = document.getElementById('banner');
   onNetworkChange((online) => {
     banner.hidden = online;
