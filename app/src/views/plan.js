@@ -1,7 +1,7 @@
-import { html, raw, uid, fmtDate, fmtDateTime, toast, money } from '../ui.js';
+import { html, uid, fmtDate, fmtDateTime, toast, money } from '../ui.js';
 import { loadData, data } from '../data.js';
 import { getTrips, saveTrip, deleteTrip, getChecks, setChecks } from '../store.js';
-import { buildChecklist, remindersForTrip, encodeTrip, nightsBetween } from '../planner.js';
+import { buildChecklist, remindersForTrip, encodeTrip } from '../planner.js';
 import { addReminder, removeReminder, listReminders } from '../reminders.js';
 import { share, copy, SITE } from '../native.js';
 import { search } from '../search.js';

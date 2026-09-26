@@ -1,5 +1,5 @@
 // Shared bits of UI used by more than one view.
-import { html, raw, statusBadge, landWord, money, fmtDate, fmtDateTime, daysSince } from './ui.js';
+import { html, statusBadge, landWord, money, fmtDate, fmtDateTime, daysSince } from './ui.js';
 import { data, managerName } from './data.js';
 
 export const ISSUE_URL = 'https://github.com/olagon/ala/issues/new';

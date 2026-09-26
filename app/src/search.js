@@ -1,14 +1,15 @@
 // Instant search over places, permits, and agencies with a prebuilt MiniSearch index.
 import MiniSearch from 'minisearch';
 import { searchOptions, normalize } from './search-options.js';
-import { loadData } from './data.js';
+import { loadData, loadSearchIndex } from './data.js';
 
 let ms = null;
 
 async function ready() {
   if (ms) return ms;
   const d = await loadData();
-  try { ms = MiniSearch.loadJS(d['search-index'], searchOptions); }
+  const idx = await loadSearchIndex();
+  try { if (!idx) throw new Error('no index'); ms = MiniSearch.loadJS(idx, searchOptions); }
   catch {
     ms = new MiniSearch(searchOptions);
     ms.addAll([

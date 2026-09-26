@@ -1,4 +1,4 @@
-import { html, money, fmtDate } from '../ui.js';
+import { html, money } from '../ui.js';
 import { loadData } from '../data.js';
 import { placeCard, staleNote, sourcesList, howWord } from '../components.js';
 

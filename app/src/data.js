@@ -5,7 +5,7 @@ import { isNative, SITE } from './native.js';
 
 const LOCAL = import.meta.env.BASE_URL + 'data/';
 const REMOTE = isNative() ? SITE + 'data/' : LOCAL;
-const FILES = ['places', 'permits', 'agencies', 'islands', 'activities', 'search-index'];
+const FILES = ['places', 'permits', 'agencies', 'islands', 'activities'];
 let bundle = null;
 let loading = null;
 
@@ -47,6 +47,7 @@ export function loadData() {
     if (stored) return (bundle = index(stored));
     const local = await fetchJson(LOCAL, 'manifest');
     bundle = await download(LOCAL, local);
+    bundle.fromLocal = true;
     set('data:bundle', strip(bundle)).catch(() => {});
     return bundle;
   })();
@@ -59,6 +60,12 @@ export const data = () => bundle;
 
 /** Manager display name for a place: agency name if the manager is an agency id. */
 export const managerName = (place) => bundle?.agencyById[place.manager]?.name || place.manager;
+
+/** The prebuilt search index, fetched on first search. Falls back to null so search.js can build one. */
+export async function loadSearchIndex() {
+  const base = bundle?.manifest && !bundle.fromLocal ? REMOTE : LOCAL;
+  try { return await fetchJson(base, 'search-index', { timeout: 10000 }); } catch { try { return await fetchJson(LOCAL, 'search-index'); } catch { return null; } }
+}
 
 /** Force a fresh download, used by the Settings "refresh data" button. */
 export async function refreshData() {

@@ -1,5 +1,5 @@
 import { html, raw } from '../ui.js';
-import { loadData, data } from '../data.js';
+import { loadData } from '../data.js';
 import { getSettings, setSetting, getSaved, getTrips } from '../store.js';
 import { loadAlerts, alertsForIsland } from '../alerts.js';
 import { placeCard, alertCard, islandPicker } from '../components.js';
@@ -23,7 +23,7 @@ export default async function () {
   const page = html`
     <h1>Which permits do I need?</h1>
     <p class="muted">Pick an island. Then search a place or open the map.</p>
-    <div id="islands"></div>
+    <div id="islands" class="island-picker"></div>
     <form class="search-box" role="search" id="qs">
       <label for="q" class="sr-only">Search places and permits</label>
       <input id="q" type="search" placeholder="Search a place, trail, park, or permit" autocomplete="off">

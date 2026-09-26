@@ -20,6 +20,7 @@ Things only the owner can do. Ala works around each one until it is done. Items 
 
 * **Apple Developer account and App Store Connect record.** Create the app with bundle id `com.kealohalabs.ala`, name "Ala". Then add these repo secrets: `APP_STORE_CONNECT_API_KEY_ID`, `APP_STORE_CONNECT_API_ISSUER_ID`, `APP_STORE_CONNECT_API_KEY_CONTENT` (base64 of the .p8), `MATCH_GIT_URL`, `MATCH_PASSWORD`, `IOS_TEAM_ID`.
 * **Google Play Console account and app.** Create the app with package `com.kealohalabs.ala`. Create an upload keystore and add these repo secrets: `ANDROID_KEYSTORE_BASE64`, `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS`, `ANDROID_KEY_PASSWORD`, `PLAY_SERVICE_ACCOUNT_JSON`. Google requires a closed testing period with at least 12 testers for 14 days before production for new personal developer accounts.
+* **Turn on monthly automatic data refresh.** Add a repo secret `ANTHROPIC_API_KEY` (from https://platform.claude.com). The `refresh-data.yml` workflow then runs Claude Code on the first of each month to re-verify closures and stale entries and opens a pull request for you to review. You can also run it any time from the Actions tab. Until the key exists the workflow skips with a message.
 * **Free API keys for richer alerts.** Get an NPS key at https://www.nps.gov/subjects/developer/get-started.htm and a Recreation.gov RIDB key at https://ridb.recreation.gov/. Add them as repo secrets `NPS_API_KEY` and `RIDB_API_KEY`. Until then the alerts job uses only the National Weather Service, which needs no key.
 
 ## Optional

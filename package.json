@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Ala: which permits, licenses, and reservations you need to hike, camp, hunt, fish, or visit outdoor places in Hawaiʻi.",
+  "description": "Ala: which permits, licenses, and reservations you need to hike, camp, hunt, fish, or visit outdoor places in Hawai\u02bbi.",
   "license": "MIT",
   "scripts": {
     "validate": "node scripts/validate.js",
@@ -17,7 +17,8 @@
     "preview": "vite preview",
     "test": "vitest run",
     "e2e": "playwright test",
-    "screenshots": "playwright test tests/e2e/screenshots.spec.js"
+    "screenshots": "playwright test tests/e2e/screenshots.spec.js",
+    "refresh": "claude -p \"$(cat scripts/REFRESH_PROMPT.md)\" --allowedTools \"Bash(npm run *),Bash(npm test),Bash(node *),Bash(curl *),Read,Edit,Write,Glob,Grep,WebFetch,WebSearch\""
   },
   "devDependencies": {
     "@capacitor/assets": "^3.0.5",

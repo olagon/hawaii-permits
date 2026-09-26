@@ -1,10 +1,9 @@
-import { html, statusBadge, statusWord, landWord, hazardWord, money, fmtDate, toast } from '../ui.js';
-import { loadData, data, managerName } from '../data.js';
+import { html, statusBadge, landWord, hazardWord, money, toast, uid } from '../ui.js';
+import { loadData, managerName } from '../data.js';
 import { getSaved, toggleSaved, getTrips, saveTrip } from '../store.js';
 import { loadAlerts, alertsForPlace } from '../alerts.js';
 import { permitSummary, staleNote, sourcesList, alertCard, suggestEditUrl } from '../components.js';
 import { share, copy, SITE } from '../native.js';
-import { uid } from '../ui.js';
 
 export default async function ({ params }) {
   const d = await loadData();

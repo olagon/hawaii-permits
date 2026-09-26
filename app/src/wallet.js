@@ -12,9 +12,6 @@ export async function addToWallet({ file, name, placeId, tripId, expires, notes 
   await set('wallet', [...(await listWallet()), item]);
   return item;
 }
-export async function updateWalletItem(item) {
-  await set('wallet', (await listWallet()).map((i) => (i.id === item.id ? item : i)));
-}
 export async function walletFile(item) {
   return isNative() ? files.read(item.id, item.mime) : get(`wallet:file:${item.id}`);
 }

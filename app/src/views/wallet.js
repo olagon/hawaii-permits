@@ -1,8 +1,8 @@
 import { html, fmtDate, toast } from '../ui.js';
 import { loadData } from '../data.js';
 import { getTrips } from '../store.js';
-import { listWallet, addToWallet, walletFile, removeFromWallet, updateWalletItem } from '../wallet.js';
-import { addReminder, removeReminder, hasReminder } from '../reminders.js';
+import { listWallet, addToWallet, walletFile, removeFromWallet } from '../wallet.js';
+import { addReminder, removeReminder } from '../reminders.js';
 import { hstInstant, addDays } from '../planner.js';
 
 export default async function () {

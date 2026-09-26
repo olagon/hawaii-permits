@@ -48,6 +48,15 @@ npm run tiles      # build offline map packs (needs the pmtiles CLI)
 4. Alerts refresh every 3 hours from the National Weather Service and, when keys are set, the National Park Service.
 5. Every Monday a workflow checks every link and lists stale entries in a "Weekly data health report" issue.
 
+## Keeping the data fresh
+
+There are four layers, from fully automatic to fully manual:
+
+1. **Alerts, every 3 hours, automatic.** `alerts.yml` pulls National Weather Service alerts (and National Park Service alerts once a key is set) and redeploys `alerts.json`. Nothing to do.
+2. **Health report, weekly, automatic.** `weekly-maintenance.yml` checks every link and lists stale entries in a GitHub issue titled "Weekly data health report".
+3. **Re-verification, monthly, automatic once a key is set.** `refresh-data.yml` runs Claude Code against `scripts/REFRESH_PROMPT.md`: it re-reads the official source for broken links, closures, and the oldest entries, updates the YAML, and opens a pull request for review. Add the `ANTHROPIC_API_KEY` repo secret to turn it on, or trigger it by hand from the Actions tab with an optional focus like "recheck hurricane closures". Locally the same thing is `npm run refresh` (needs Claude Code installed).
+4. **Manual edits.** Edit a YAML file, run `npm run validate`, push. The site rebuilds and every app picks up the new data on next launch.
+
 ## Contribute
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Report a change straight from any place page with the "Suggest an edit" button.

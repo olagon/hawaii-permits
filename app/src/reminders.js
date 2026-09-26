@@ -19,7 +19,6 @@ export async function removeReminder(id) {
   if (isNative()) await cancelNotification(numericId(id));
   await set(KEY, (await listReminders()).filter((x) => x.id !== id));
 }
-export const hasReminder = async (id) => (await listReminders()).some((x) => x.id === id);
 
 /** Reminders whose time has come and were not shown yet. Marks them shown. Fires a web Notification if allowed. */
 export async function dueReminders() {

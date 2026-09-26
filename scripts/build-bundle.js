@@ -35,7 +35,7 @@ if (!existsSync(alertsFile)) write('alerts.json', { updated: null, alerts: [] })
 write('manifest.json', {
   version,
   date: new Date().toISOString(),
-  files: ['places.json', 'permits.json', 'agencies.json', 'islands.json', 'activities.json', 'search-index.json'],
+  files: ['places.json', 'permits.json', 'agencies.json', 'islands.json', 'activities.json'],
   counts: { places: places.length, permits: permits.length, agencies: agencies.length },
 });
 console.log(`bundle ${version}: ${places.length} places, ${permits.length} permits, ${agencies.length} agencies`);
