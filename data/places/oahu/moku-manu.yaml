@@ -1,0 +1,22 @@
+id: moku-manu
+name: Moku Manu Islets Seabird Sanctuary
+island: oahu
+land_type: state
+manager: dlnr-dofaw
+location: { lat: 21.471, lng: -157.720 }
+activities: [wildlife_viewing, boating]
+permits_required: []
+status: no_public_access
+aliases: [Moku Manu, Mokumanu, Bird Island]
+summary: Two rocky islets off Mōkapu on the windward side, home to large seabird colonies. Fully closed. No landing.
+booking: { method: none }
+rules:
+  - Closed to the public under Hawaiʻi Administrative Rules Chapter 126 (Wildlife Sanctuaries). No landing.
+  - Permits are issued only for research, conservation work, or Native Hawaiian traditional and customary practices. Contact the local DOFAW office.
+  - No commercial activity on the islet.
+  - Enjoy the birds from the water or the shore.
+hazards: [high_surf, remote]
+sources:
+  - https://dlnr.hawaii.gov/wildlife/sanctuaries/oahuoffshoreislets/
+last_verified: 2026-09-25
+verified_by: ai_research

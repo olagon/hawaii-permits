@@ -1,0 +1,24 @@
+id: kapapa-island
+name: Kapapa Island Seabird Sanctuary
+island: oahu
+land_type: state
+manager: dlnr-dofaw
+location: { lat: 21.477, lng: -157.798 }
+activities: [wildlife_viewing, boating, swimming]
+permits_required: []
+status: restricted
+aliases: [Kapapa]
+summary: A small islet on the reef in Kāneʻohe Bay. The beach below the high water mark is open in daylight. The interior is a seabird sanctuary and closed.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - This is a state seabird sanctuary. You may only use the area below the high water mark, so stay on the beach and rocks at the water's edge.
+  - Do not go up into the dunes, grass, or burrow areas. Seabirds nest in burrows that collapse when stepped on.
+  - Closed from sunset to sunrise.
+  - No fires, dogs, camping, tents, or structures.
+  - Do not feed, touch, or chase birds, seals, or turtles.
+hazards: [high_surf, remote]
+sources:
+  - https://dlnr.hawaii.gov/wildlife/sanctuaries/oahuoffshoreislets/
+last_verified: 2026-09-25
+verified_by: ai_research

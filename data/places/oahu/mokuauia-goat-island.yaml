@@ -1,0 +1,25 @@
+id: mokuauia-goat-island
+name: Mokuʻauia Islet Seabird Sanctuary (Goat Island)
+island: oahu
+land_type: state
+manager: dlnr-dofaw
+location: { lat: 21.663, lng: -157.923 }
+activities: [wildlife_viewing, swimming, snorkeling]
+permits_required: []
+status: restricted
+aliases: [Mokuauia, Goat Island]
+summary: A small islet just off Mālaekahana on Oʻahu's north shore. People wade or swim over at low tide. The beaches are open in daylight, but the inside of the island is a seabird sanctuary and closed.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - This is a state seabird sanctuary. You may only use the area below the high water mark, so stay on the beach and rocks at the water's edge.
+  - Do not go up into the dunes, grass, or burrow areas. Seabirds nest in burrows that collapse when stepped on.
+  - Closed from sunset to sunrise.
+  - No fires, dogs, camping, tents, or structures.
+  - Do not feed, touch, or chase birds, seals, or turtles.
+  - Wading over can be risky. Watch for currents and high surf, and wear reef shoes.
+hazards: [high_surf, remote]
+sources:
+  - https://dlnr.hawaii.gov/wildlife/sanctuaries/oahuoffshoreislets/
+last_verified: 2026-09-25
+verified_by: ai_research

@@ -1,0 +1,27 @@
+id: molokini
+name: Molokini Shoal Marine Life Conservation District and Islet Seabird Sanctuary
+island: maui
+land_type: state
+manager: dlnr-dar
+location: { lat: 20.632, lng: -156.496 }
+activities: [snorkeling, boating, wildlife_viewing]
+permits_required: []
+status: restricted
+aliases: [Molokini, Molokini Crater, Molokini Shoal MLCD]
+summary: A crescent shaped volcanic islet between Maui and Kahoʻolawe with a clear water reef inside the crater. Most people go on a commercial snorkel or dive boat from Māʻalaea or Kīhei. The islet itself is a seabird sanctuary and closed to landing.
+booking: { method: none, window_note: Book through a permitted tour operator, or bring your own boat and use a day use mooring. }
+fees: { entry: 0, note: Tour prices are set by each operator. }
+rules:
+  - No landing on the islet. It is a closed state seabird sanctuary.
+  - No fishing, taking, or feeding of marine life. Do not take sand, coral, or rocks.
+  - No anchoring. Use the day use moorings. Moorings have a time limit, and commercial use needs a DLNR permit.
+  - Commercial snorkel, dive, kayak, and paddle activity needs a state permit, so go with a permitted operator.
+  - No fishing gear or spears in the water except a knife for safety.
+hazards: [high_surf, remote]
+sources:
+  - https://dlnr.hawaii.gov/dar/marine-managed-areas/hawaii-marine-life-conservation-districts/
+  - https://dlnr.hawaii.gov/wildlife/sanctuaries/mauioffshoreislets/
+  - https://dlnr.hawaii.gov/dar/files/2024/05/DLNR-13-31-Molokini-Shoal-MLCD.pdf
+  - https://dlnr.hawaii.gov/dobor/files/2026/01/13-257_240315r1.pdf
+last_verified: 2026-09-25
+verified_by: ai_research

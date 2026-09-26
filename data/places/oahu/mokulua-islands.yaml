@@ -1,0 +1,26 @@
+id: mokulua-islands
+name: Mokulua Islets Seabird Sanctuary (Nā Mokulua)
+island: oahu
+land_type: state
+manager: dlnr-dofaw
+location: { lat: 21.390, lng: -157.698 }
+activities: [wildlife_viewing, boating, swimming]
+permits_required: []
+status: restricted
+aliases: [Mokulua, Na Mokulua, Moku Nui, Moku Iki, the Mokes, Twin Islands]
+summary: Two islets off Lanikai on Oʻahu's windward side, popular for kayaking. Moku Nui's beach is open in daylight below the high water mark. Moku Iki is closed to landing.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - This is a state seabird sanctuary. You may only use the area below the high water mark, so stay on the beach and rocks at the water's edge.
+  - Do not go up into the dunes, grass, or burrow areas. Seabirds nest in burrows that collapse when stepped on.
+  - Closed from sunset to sunrise.
+  - No fires, dogs, camping, tents, or structures.
+  - Do not feed, touch, or chase birds, seals, or turtles.
+  - Moku Iki (the smaller islet) is closed. Do not land there.
+  - Commercial tour vessels need a DOFAW permit to land.
+hazards: [high_surf, remote]
+sources:
+  - https://dlnr.hawaii.gov/wildlife/sanctuaries/oahuoffshoreislets/
+last_verified: 2026-09-25
+verified_by: ai_research

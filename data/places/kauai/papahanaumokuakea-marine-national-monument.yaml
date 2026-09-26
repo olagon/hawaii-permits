@@ -1,0 +1,29 @@
+id: papahanaumokuakea-marine-national-monument
+name: Papahānaumokuākea Marine National Monument
+island: kauai
+land_type: mixed
+manager: papahanaumokuakea-mmb
+location: { lat: 25.0, lng: -171.0 }
+activities: [cultural_visit, wildlife_viewing, boating]
+permits_required:
+  - permit: papahanaumokuakea-entry-permit
+    when: For any entry into the monument, on land or at sea. There is no general public visitation.
+status: restricted
+aliases: [Papahanaumokuakea, Northwestern Hawaiian Islands, NWHI, Nihoa, Mokumanamana, Laysan, Kure Atoll]
+summary: A huge protected area of islands, atolls, reefs, and deep ocean northwest of Kauaʻi. It is co-managed by NOAA, the U.S. Fish and Wildlife Service, the State of Hawaiʻi, and the Office of Hawaiian Affairs. Entry requires a permit, and permits are only issued for research, education, conservation, Native Hawaiian practices, special ocean use, and limited recreation at Midway.
+booking: { method: mail, url: https://www.papahanaumokuakea.gov/permit/applicationpro.html, window_note: Quarterly deadlines (February 1, May 1, September 1) for the activity period that follows. }
+fees: { entry: see_source }
+rules:
+  - No entry without a monument permit.
+  - Recreation permits are only for the Midway Atoll Special Management Area, and Midway is currently closed to visitors.
+  - Map pin is approximate. The monument spans about 1,350 miles of ocean.
+  - Learn about the place without going there at the Mokupāpapa Discovery Center in Hilo, or through the virtual tours on the monument website.
+hazards: [remote, high_surf, no_water]
+cultural_notes: Papahānaumokuākea is a sacred place in Hawaiian tradition, tied to the origins of life and the path of spirits after death. Nihoa and Mokumanamana hold many cultural sites. Native Hawaiian practices permits support cultural access.
+sources:
+  - https://www.papahanaumokuakea.gov
+  - https://www.papahanaumokuakea.gov/permit/
+  - https://www.papahanaumokuakea.gov/permit/applicationpro.html
+  - https://www.fws.gov/refuge/midway-atoll
+last_verified: 2026-09-25
+verified_by: ai_research

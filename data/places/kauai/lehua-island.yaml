@@ -1,0 +1,23 @@
+id: lehua-island
+name: Lehua Island Seabird Sanctuary
+island: kauai
+land_type: state
+manager: dlnr-dofaw
+location: { lat: 22.022, lng: -160.095 }
+activities: [wildlife_viewing, snorkeling, boating]
+permits_required: []
+status: restricted
+aliases: [Lehua, Lehua Islet, Lehua Rock]
+summary: A crescent shaped islet north of Niʻihau, reached by boat tours from Kauaʻi. Snorkeling in the water is allowed but landing on the island is not. Lehua has been rat free since 2021 and native seabirds and plants are recovering.
+booking: { method: none }
+rules:
+  - Restricted under Hawaiʻi Administrative Rules Chapter 126. Public use is only allowed below the high water mark. Do not land.
+  - Permits are issued only for research, conservation work, or Native Hawaiian traditional and customary practices. Contact the Kauaʻi DOFAW office.
+  - No commercial activity on the island itself.
+  - Help keep rats off the island. Check your boat and gear.
+hazards: [high_surf, remote]
+sources:
+  - https://dlnr.hawaii.gov/wildlife/lehua/
+  - https://dlnr.hawaii.gov/wildlife/sanctuaries/kaua%CA%BBi-offshore-islets-seabird-sanctuaries/
+last_verified: 2026-09-25
+verified_by: ai_research

@@ -1,0 +1,22 @@
+id: kaohikaipu-islet
+name: Kāohikaipu Islet Seabird Sanctuary
+island: oahu
+land_type: state
+manager: dlnr-dofaw
+location: { lat: 21.320, lng: -157.656 }
+activities: [wildlife_viewing, boating]
+permits_required: []
+status: no_public_access
+aliases: [Kaohikaipu, Black Rock, Turtle Island]
+summary: The small dark islet next to Mānana off Makapuʻu. It is a seabird sanctuary and fully closed. No landing.
+booking: { method: none }
+rules:
+  - Closed to the public under Hawaiʻi Administrative Rules Chapter 126 (Wildlife Sanctuaries). No landing.
+  - Permits are issued only for research, conservation work, or Native Hawaiian traditional and customary practices. Contact the local DOFAW office.
+  - No commercial activity on the islet.
+  - Enjoy the birds from the water or the shore.
+hazards: [high_surf, remote]
+sources:
+  - https://dlnr.hawaii.gov/wildlife/sanctuaries/oahuoffshoreislets/
+last_verified: 2026-09-25
+verified_by: ai_research

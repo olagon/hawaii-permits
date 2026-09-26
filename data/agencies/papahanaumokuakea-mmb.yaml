@@ -1,0 +1,10 @@
+id: papahanaumokuakea-mmb
+name: Papahānaumokuākea Marine National Monument (co-managed by NOAA, USFWS, State of Hawaiʻi DLNR, and OHA)
+level: federal
+website: https://www.papahanaumokuakea.gov
+phone: 808-725-5800
+email: nwhipermit@noaa.gov
+islands: [kauai]
+sources:
+  - https://www.papahanaumokuakea.gov
+  - https://www.papahanaumokuakea.gov/permit/applicationpro.html

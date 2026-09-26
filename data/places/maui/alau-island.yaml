@@ -1,0 +1,22 @@
+id: alau-island
+name: ʻĀlau Island Seabird Sanctuary
+island: maui
+land_type: state
+manager: dlnr-dofaw
+location: { lat: 20.729, lng: -155.977 }
+activities: [wildlife_viewing, boating]
+permits_required: []
+status: no_public_access
+aliases: [Alau, Alau Island, Alau Islet]
+summary: The islet off Hāmoa near Hāna. It is a seabird sanctuary and fully closed. No landing. View it from the beach.
+booking: { method: none }
+rules:
+  - Closed to the public under Hawaiʻi Administrative Rules Chapter 126 (Wildlife Sanctuaries). No landing.
+  - Permits are issued only for research, conservation work, or Native Hawaiian traditional and customary practices. Contact the local DOFAW office.
+  - No commercial activity on the islet.
+  - Enjoy the birds from the water or the shore.
+hazards: [high_surf, remote]
+sources:
+  - https://dlnr.hawaii.gov/wildlife/sanctuaries/mauioffshoreislets/
+last_verified: 2026-09-25
+verified_by: ai_research

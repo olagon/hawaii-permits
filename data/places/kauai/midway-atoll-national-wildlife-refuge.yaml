@@ -1,0 +1,24 @@
+id: midway-atoll-national-wildlife-refuge
+name: Midway Atoll National Wildlife Refuge and Battle of Midway National Memorial
+island: kauai
+land_type: federal
+manager: usfws
+location: { lat: 28.208, lng: -177.376 }
+activities: [wildlife_viewing, cultural_visit]
+permits_required:
+  - permit: papahanaumokuakea-entry-permit
+    when: For any entry. Recreation permits for Midway exist in the rules but the refuge is closed to public visitation right now.
+status: closed
+aliases: [Midway, Midway Atoll NWR, Pihemanu, Kuaihelani]
+summary: Midway Atoll, inside Papahānaumokuākea, is a U.S. Fish and Wildlife Service refuge and the site of the Battle of Midway memorial. It is closed to public visitation. Only work that supports the airfield and conservation is allowed. Virtual tours are online.
+booking: { method: none }
+rules:
+  - Closed to public visitation. The former visitor program is not running.
+  - Any entry needs a Papahānaumokuākea monument permit.
+  - Map pin is approximate.
+hazards: [remote]
+sources:
+  - https://www.fws.gov/refuge/midway-atoll
+  - https://www.papahanaumokuakea.gov/permit/
+last_verified: 2026-09-25
+verified_by: ai_research

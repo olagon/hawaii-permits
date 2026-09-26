@@ -1,0 +1,20 @@
+id: papahanaumokuakea-entry-permit
+name: Papahānaumokuākea Marine National Monument permit
+issuer: papahanaumokuakea-mmb
+category: special_use
+who_needs: Anyone who wants to enter the monument. There is no general tourism. Permits are issued only for six kinds of activity - research, education, conservation and management, Native Hawaiian practices, special ocean use, and recreation (recreation only inside the Midway Atoll Special Management Area).
+how_to_get: mail
+url: https://www.papahanaumokuakea.gov/permit/applicationpro.html
+carry_required: true
+covers: [papahanaumokuakea-marine-national-monument]
+booking_window:
+  notes: Applications go to the Monument Permit Coordinator by email (nwhipermit@noaa.gov) or by mail, with a signed application. Deadlines are February 1 for activities June 1 to August 31, May 1 for September 1 to December 31, and September 1 for January 1 to May 31. Late applications may not be processed in time.
+cost:
+  resident: see_source
+  nonresident: see_source
+  unit: per permit
+  note: Contact the permit coordinator at 808-725-5800.
+sources:
+  - https://www.papahanaumokuakea.gov/permit/applicationpro.html
+  - https://www.papahanaumokuakea.gov/permit/
+last_verified: 2026-09-25
