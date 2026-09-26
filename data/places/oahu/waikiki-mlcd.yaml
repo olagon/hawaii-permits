@@ -1,0 +1,26 @@
+id: waikiki-mlcd
+name: Waikīkī Marine Life Conservation District
+island: oahu
+land_type: state
+manager: dlnr-dar
+location: { lat: 21.266, lng: -157.822 }
+activities: [snorkeling, swimming, surfing]
+permits_required: []
+status: open
+aliases: [Waikiki MLCD, Queen's Beach, Kapiʻolani Park beach]
+summary: A no take zone in the water off Kapiʻolani Park at the Diamond Head end of Waikīkī, between the Kapahulu groin and the Natatorium. It reaches about 500 yards out or to the reef edge. Fish here are used to people and easy to see.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - No fishing, taking, or harming of any marine life at any time.
+  - Do not take sand, coral, or rocks.
+  - No spears, nets, traps, or other take gear in the water.
+  - Fishing outside the district, along the rest of the Waikīkī to Diamond Head shore, follows separate fisheries management area rules with open and closed years.
+  - Map pin is approximate.
+hazards: [high_surf]
+sources:
+  - https://dlnr.hawaii.gov/dar/marine-managed-areas/hawaii-marine-life-conservation-districts/
+  - https://www.law.cornell.edu/regulations/hawaii/Haw-Code-R-SS-13-36-2
+  - https://www.law.cornell.edu/regulations/hawaii/Haw-Code-R-SS-13-48-3
+last_verified: 2026-09-25
+verified_by: ai_research

@@ -1,0 +1,36 @@
+id: kalaupapa-national-historical-park
+name: Kalaupapa National Historical Park
+island: molokai
+land_type: federal
+manager: nps
+location: { lat: 21.171, lng: -156.966 }
+activities: [cultural_visit]
+permits_required:
+  - permit: kalaupapa-visitor-permit
+    when: Every visitor, every visit. Get it by booking a park permitted guided tour. Visitors must be 16 or older.
+status: restricted
+aliases: [Kalaupapa, Kalawao, Kalaupapa Settlement, Kalaupapa NHP]
+summary: Remote peninsula below the highest sea cliffs in the world where people with Hansen's disease were isolated from 1866 to 1969. A few patient residents still live here. Visits are by guided tour only, with a state permit, and general visitors arrive by air. The park paused public tours in July 2026 while it reviews access, so check the park site before planning.
+booking: { method: phone, url: https://www.nps.gov/kala/planyourvisit/index.htm, phone: 808-567-6802, window_note: Tours are booked through the park's authorized tour operator. Call the park for current status. }
+fees: { entry: 0, note: No entrance fee. Tour and flight costs are set by the tour operator. }
+rules:
+  - No one under 16 may enter.
+  - You must be on a guided tour and carry a Department of Health permit.
+  - General visitor access is through Kalaupapa Airport only. The Pali Trail crosses private land between the highway and the trailhead and is not open for general visitor entry.
+  - Boats may not come within a quarter mile of shore without a special use permit.
+  - No food service, stores, or lodging for visitors. Bring what you need.
+  - Respect residents' privacy. No photos of residents without permission.
+hazards: [remote, falling_rock, heat]
+alerts: { nws_zone: HIZ039, nps_park_code: kala }
+amenities: [restrooms]
+accessibility: Tours use vehicles inside the settlement. Air travel is on small commuter planes. Medical help is hours away by helicopter.
+cultural_notes: This is a living community and a place of deep grief and resilience for Hawaiʻi. Many graves are unmarked. Move gently and follow your guide.
+sources:
+  - https://www.nps.gov/kala/planyourvisit/index.htm
+  - https://www.nps.gov/kala/planyourvisit/basicinfo.htm
+  - https://www.nps.gov/kala/planyourvisit/fees.htm
+  - https://www.nps.gov/kala/planyourvisit/guidedtours.htm
+  - https://www.nps.gov/kala/planyourvisit/conditions.htm
+  - https://www.nps.gov/kala/planyourvisit/directions.htm
+last_verified: 2026-09-25
+verified_by: ai_research

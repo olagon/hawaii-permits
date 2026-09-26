@@ -1,0 +1,18 @@
+id: honouliuli-tour-reservation
+name: Honouliuli National Historic Site guided tour reservation
+issuer: nps
+category: entry_reservation
+who_needs: Anyone who wants to visit Honouliuli. There is no public road into the site, so the only way in is a guided tour with park staff or volunteers, offered about monthly and reserved first come first served.
+how_to_get: online
+url: https://www.nps.gov/hono/planyourvisit/index.htm
+carry_required: false
+covers: [honouliuli-national-historic-site]
+booking_window:
+  notes: Tour dates depend on staff and volunteer capacity. Reserve through the park's tour reservations page linked from Plan Your Visit.
+cost:
+  resident: 0
+  nonresident: 0
+sources:
+  - https://www.nps.gov/hono/planyourvisit/index.htm
+  - https://www.nps.gov/hono/planyourvisit/basicinfo.htm
+last_verified: 2026-09-25

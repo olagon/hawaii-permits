@@ -1,0 +1,17 @@
+id: james-campbell-nwr-tour
+name: James Campbell National Wildlife Refuge guided bird tour
+issuer: usfws
+category: entry_reservation
+who_needs: Anyone who wants to enter the refuge. It is closed to general public access. The only way in is a guided bird tour during the non breeding season, October through February, arranged through the Friends of Oʻahu National Wildlife Refuges.
+how_to_get: mail
+url: https://www.fws.gov/refuge/james-campbell
+carry_required: false
+covers: [james-campbell-national-wildlife-refuge]
+booking_window:
+  notes: Email the Friends group at info@friendsofoahunwr.org for tour dates and booking. Tours run only October through February.
+cost:
+  resident: see_source
+  nonresident: see_source
+sources:
+  - https://www.fws.gov/refuge/james-campbell
+last_verified: 2026-09-25

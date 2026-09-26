@@ -1,0 +1,10 @@
+id: camp-mokuleia
+name: Camp Mokulēʻia (Episcopal Diocese of Hawaiʻi)
+level: nonprofit
+website: https://www.campmokuleia.org/
+phone: 808-637-6241
+reservation_system_url: https://www.campmokuleia.org/reservations
+islands: [oahu]
+sources:
+  - https://www.campmokuleia.org/
+  - https://www.campmokuleia.org/reservations

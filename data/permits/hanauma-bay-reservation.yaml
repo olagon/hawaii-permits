@@ -1,0 +1,23 @@
+id: hanauma-bay-reservation
+name: Hanauma Bay Nature Preserve entry reservation
+issuer: honolulu-parks
+category: entry_reservation
+who_needs: Visitors who are not Hawaiʻi residents, age 13 and up. Hawaiʻi residents with photo ID enter free without a reservation. Children 12 and under and active duty US military with dependents enter free, but military need a reservation. A small share of daily capacity is kept for walk ins, first come first served.
+how_to_get: online
+url: https://pros.hnl.info/hbay
+carry_required: true
+covers: [hanauma-bay-nature-preserve]
+booking_window:
+  opens_days_before: 2
+  opens_time_local: "07:00"
+  notes: Entry reservations open 2 days before the visit at 7 am HST and sell out fast. Up to 5 adults and 5 children per reservation. Bring photo ID matching the reservation. Everyone watches a short education video before going down to the beach.
+cost:
+  resident: 0
+  nonresident: 25
+  unit: per person age 13 and up, plus an online service fee
+  note: Parking is cash only, $3 for nonresidents and $1 for residents. Reservations are not refundable unless the preserve closes.
+refund_policy: Nonrefundable unless the city closes the preserve.
+sources:
+  - https://www.honolulu.gov/dpr/hanauma-bay-nature-preserve/
+  - https://www.honolulu.gov/dpr/dpr-news/no-reservation-required-for-kamaaina-entry-into-hanauma-bay-beginning-july/
+last_verified: 2026-09-25

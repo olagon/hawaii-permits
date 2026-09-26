@@ -1,0 +1,23 @@
+id: puu-alii-natural-area-reserve
+name: Puʻu Aliʻi Natural Area Reserve
+island: molokai
+land_type: state
+manager: dlnr-dofaw
+location: { lat: 21.145, lng: -156.907 }
+activities: [hiking, wildlife_viewing]
+permits_required: []
+status: restricted
+aliases: [Puu Alii NAR, Puu Alii]
+summary: Natural area reserve of wet native forest and bog on the north rim of east Molokaʻi, next to The Nature Conservancy's Kamakou Preserve. A rough foot trail links it to Kamakou, but there are no facilities and interior access is by helicopter. Go only with TNC or DOFAW guidance.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - No roads. Access is through Kamakou Preserve on foot. Contact TNC or DOFAW first.
+  - Clean boots and gear to stop Rapid ʻŌhiʻa Death.
+hazards: [remote, steep_drop, cold, mud]
+sources:
+  - https://dlnr.hawaii.gov/ecosystems/nars/molokai/puu-alii/
+  - https://dlnr.hawaii.gov/ecosystems/nars/molokai/
+  - https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/kamakou/
+last_verified: 2026-09-25
+verified_by: ai_research

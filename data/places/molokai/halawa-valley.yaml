@@ -1,0 +1,28 @@
+id: halawa-valley
+name: Hālawa Valley
+island: molokai
+land_type: private
+manager: solatorio-ohana
+location: { lat: 21.157, lng: -156.740 }
+activities: [hiking, cultural_visit, swimming, day_use]
+permits_required:
+  - permit: halawa-valley-guided-hike
+    when: To hike to Moʻoula Falls. The trail crosses private family land and is open only with a family guide.
+status: restricted
+aliases: [Halawa Valley, Halawa, Mooula Falls, Moaula Falls, Hipuapua Falls]
+summary: Deep green valley at the far east end of Molokaʻi where the road ends at a small beach. The waterfall trail is on private land and is open only through the Solatorio family's guided cultural hike, which starts with a talk at the family hale and then walks to the falls. The county beach park at the valley mouth is open to the public.
+booking: { method: online, url: https://molokaihikingtours.com/, window_note: Book the guided hike ahead online. Meet your guide at the beach park. }
+fees: { entry: see_source, note: Guided hike price is set by the family and shown at booking. }
+rules:
+  - Do not hike to the falls without a guide. The land is private and residents live here.
+  - The hike is about 4 miles round trip with stream crossings. Wear shoes that can get wet.
+  - Flash floods can rise fast. Do not cross a rising stream.
+  - Map pin is approximate.
+hazards: [stream_crossings, flash_flood, mud, heat]
+alerts: { nws_zone: HIZ037 }
+amenities: [restrooms, parking]
+cultural_notes: Hālawa is one of the oldest settled valleys in Hawaiʻi with many heiau and house sites. Your guide will ask you to follow protocol before entering. Do not enter or move stones at cultural sites.
+sources:
+  - https://molokaihikingtours.com/
+last_verified: 2026-09-25
+verified_by: ai_research

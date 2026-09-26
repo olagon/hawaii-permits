@@ -1,0 +1,29 @@
+id: molokai-forest-reserve
+name: Molokaʻi Forest Reserve
+island: molokai
+land_type: state
+manager: dlnr-dofaw
+location: { lat: 21.122, lng: -156.834 }
+activities: [hiking, hunting, camping, gathering, wildlife_viewing]
+permits_required:
+  - permit: hunting-license
+    when: To hunt game mammals or birds in units A to E.
+  - permit: dofaw-camping-permit
+    when: To camp at the Waikolu campsite.
+  - permit: forest-reserve-collection-permit
+    when: To gather forest products.
+status: open
+aliases: [Molokai Forest Reserve]
+summary: State forest reserve across the mountainous east and central island, from the sea cliffs down to the south slopes. Holds hunting units A to E, the Waikolu campsite, and the Maunahui Road. Much of it has no trails and is very rugged.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - Stay on roads and trails. Cliffs and drainages are steep and unstable.
+  - Hunting is open in most of the reserve. Wear bright colors.
+  - Clean boots and gear before you come to slow the spread of Rapid ʻŌhiʻa Death.
+hazards: [hunting_area, steep_drop, flash_flood, mud, remote]
+sources:
+  - https://dlnr.hawaii.gov/forestry/frs/reserves/maui-nui/molokai/
+  - https://dlnr.hawaii.gov/recreation/camp/
+last_verified: 2026-09-25
+verified_by: ai_research

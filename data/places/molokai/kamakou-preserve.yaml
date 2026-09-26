@@ -1,0 +1,25 @@
+id: kamakou-preserve
+name: Kamakou Preserve
+island: molokai
+land_type: private_nonprofit
+manager: The Nature Conservancy of Hawaiʻi
+location: { lat: 21.116, lng: -156.917 }
+activities: [hiking, wildlife_viewing]
+permits_required: []
+status: restricted
+aliases: [Kamakou, Pēpēʻōpae Bog, Pepeopae Boardwalk, Puʻu Kolekole]
+summary: Nature Conservancy rain forest preserve on the high slopes of east Molokaʻi, reached by the same rough road as the Waikolu lookout. The Pēpēʻōpae boardwalk crosses a native bog. The preserve is generally open, but it is very remote with no facilities, and TNC asks you to contact them before going on your own. TNC hosts a few guided hikes from March to October.
+booking: { method: phone, url: https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/kamakou/, phone: 808-954-6581, window_note: Email hike_molokai@tnc.org or call before visiting on your own. Guided hike spots are limited and weather dependent. No private tours. }
+fees: { entry: 0 }
+rules:
+  - Contact TNC before you go. Access is by a 9 mile dirt road with steep, slippery sections that needs skilled 4 wheel driving.
+  - Stay on the boardwalk in the bog. One footprint in the bog can last decades.
+  - Do not bring boots or gear used on another island unless cleaned. Spray soles with 70% rubbing alcohol to stop Rapid ʻŌhiʻa Death.
+  - Pack out everything, including toilet paper.
+  - No cell service and no facilities.
+hazards: [mud, cold, remote, steep_drop, hunting_area]
+accessibility: Not accessible. Rough road, wet uneven boardwalk, and steep trail sections.
+sources:
+  - https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/kamakou/
+last_verified: 2026-09-25
+verified_by: ai_research

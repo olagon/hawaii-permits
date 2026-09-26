@@ -1,0 +1,16 @@
+id: camp-palehua-reservation
+name: Camp Pālehua booking
+issuer: camp-palehua
+category: camping
+who_needs: Anyone staying overnight at Camp Pālehua above Makakilo, in a rustic cabin, the bunk house, or a tent site. Book online through the camp website or by email or phone.
+how_to_get: owner_direct
+url: https://www.camppalehua.org/
+carry_required: false
+covers: [camp-palehua]
+cost:
+  resident: see_source
+  nonresident: see_source
+  note: Rates are not listed publicly. Contact the camp.
+sources:
+  - https://www.camppalehua.org/
+last_verified: 2026-09-25

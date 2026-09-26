@@ -4,14 +4,14 @@ island: kauai
 land_type: mixed
 manager: papahanaumokuakea-mmb
 location: { lat: 25.0, lng: -171.0 }
-activities: [cultural_visit, wildlife_viewing, boating]
+activities: [boating]
 permits_required:
   - permit: papahanaumokuakea-entry-permit
     when: For any entry into the monument, on land or at sea. There is no general public visitation.
 status: restricted
 aliases: [Papahanaumokuakea, Northwestern Hawaiian Islands, NWHI, Nihoa, Mokumanamana, Laysan, Kure Atoll]
 summary: A huge protected area of islands, atolls, reefs, and deep ocean northwest of Kauaʻi. It is co-managed by NOAA, the U.S. Fish and Wildlife Service, the State of Hawaiʻi, and the Office of Hawaiian Affairs. Entry requires a permit, and permits are only issued for research, education, conservation, Native Hawaiian practices, special ocean use, and limited recreation at Midway.
-booking: { method: mail, url: https://www.papahanaumokuakea.gov/permit/applicationpro.html, window_note: Quarterly deadlines (February 1, May 1, September 1) for the activity period that follows. }
+booking: { method: mail, url: https://www.papahanaumokuakea.gov/permit/applicationpro.html, window_note: "Quarterly deadlines (February 1, May 1, September 1) for the activity period that follows." }
 fees: { entry: see_source }
 rules:
   - No entry without a monument permit.

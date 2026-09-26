@@ -1,0 +1,17 @@
+id: ymca-camp-erdman-reservation
+name: YMCA Camp Erdman cabin, yurt and family camp booking
+issuer: ymca-of-honolulu
+category: cabin
+who_needs: Anyone booking an oceanfront yurt, cabin or hale at YMCA Camp Erdman in Mokulēʻia, or joining a themed Family Camp weekend. Open to the public, not only YMCA members. Hale sleep up to 5 and yurts up to 6.
+how_to_get: owner_direct
+url: https://www.ymcahonolulu.org/locations/ymca-camp-erdman/camp-amenities/yurt-rentals
+carry_required: false
+covers: [ymca-camp-erdman]
+cost:
+  resident: see_source
+  nonresident: see_source
+  note: Kamaʻāina get 20% off the visitor rate and YMCA members 30% off. Pets are welcome in yurts and hale.
+sources:
+  - https://www.ymcahonolulu.org/locations/ymca-camp-erdman/camp-amenities/yurt-rentals
+  - https://www.ymcahonolulu.org/programs/camps/family-camps
+last_verified: 2026-09-25

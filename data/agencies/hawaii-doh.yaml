@@ -1,0 +1,9 @@
+id: hawaii-doh
+name: Hawaiʻi Department of Health
+level: state
+website: https://health.hawaii.gov/
+phone: 808-567-6802
+islands: [molokai]
+sources:
+  - https://health.hawaii.gov/kalaupapaupdates/
+  - https://www.nps.gov/kala/planyourvisit/basicinfo.htm

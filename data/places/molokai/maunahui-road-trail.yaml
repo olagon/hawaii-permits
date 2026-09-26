@@ -1,0 +1,28 @@
+id: maunahui-road-trail
+name: Maunahui Road (Molokaʻi Forest Reserve Road)
+island: molokai
+land_type: state
+manager: dlnr-dofaw
+location: { lat: 21.124, lng: -157.054 }
+activities: [hiking, four_wheel_drive, hunting, wildlife_viewing]
+permits_required:
+  - permit: dofaw-camping-permit
+    when: Only if you camp at the Waikolu campsite at the end of the road.
+status: open
+aliases: [Maunahui Road, Molokai Forest Reserve Road, Forest Reserve Road, Sandalwood Pit road]
+summary: Nā Ala Hele road that climbs 9.8 miles from Highway 460 near Kaunakakai into the Molokaʻi Forest Reserve, passing the Sandalwood Pit and ending at the Waikolu lookout. Walk it, bike it, or drive it in 4 wheel drive. Beyond the lookout the road continues to The Nature Conservancy's Kamakou Preserve.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - No permit for day use. Camping at the end needs a DOFAW permit.
+  - The road is unpaved and can be closed by mud. 4 wheel drive recommended.
+  - Hunters use this area. Wear bright colors and keep dogs leashed.
+  - Flash floods can cross the road in heavy rain.
+hazards: [hunting_area, steep_drop, flash_flood, mud, cold]
+amenities: [toilets, picnic_tables, parking]
+sources:
+  - https://dlnr.hawaii.gov/recreation/camp/
+  - https://camping.ehawaii.gov/camping/all,details,31723.html
+  - https://hawaiitrails.ehawaii.gov/trails/
+last_verified: 2026-09-25
+verified_by: ai_research

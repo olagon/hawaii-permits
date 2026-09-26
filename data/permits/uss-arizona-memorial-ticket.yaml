@@ -1,0 +1,23 @@
+id: uss-arizona-memorial-ticket
+name: USS Arizona Memorial program ticket
+issuer: nps
+category: entry_reservation
+who_needs: Everyone who wants to ride the Navy boat to the USS Arizona Memorial, including children over age 1. The visitor center, museums and grounds at Pearl Harbor National Memorial are free and need no ticket.
+how_to_get: online
+url: https://www.recreation.gov/ticket/facility/233338
+carry_required: true
+covers: [pearl-harbor-national-memorial]
+booking_window:
+  opens_days_before: 56
+  opens_time_local: "15:00"
+  notes: Tickets release 56 days ahead at 3 pm HST on a rolling basis. A second batch releases 1 day ahead at 3 pm HST. Arrive an hour before your program time. Limited standby seats may exist but are not guaranteed. Bags that can hide items are not allowed; a bag storage service is at the entrance.
+cost:
+  resident: 1
+  nonresident: 1
+  unit: per ticket, recreation.gov service charge
+  note: The park charges no entry fee. The $1 fee is not refundable.
+refund_policy: No refunds on the reservation fee.
+sources:
+  - https://www.recreation.gov/ticket/facility/233338
+  - https://www.nps.gov/perl/planyourvisit/hours.htm
+last_verified: 2026-09-25

@@ -1,0 +1,24 @@
+id: mokio-preserve
+name: Mokio Preserve
+island: molokai
+land_type: private_nonprofit
+manager: Molokaʻi Land Trust
+location: { lat: 21.207, lng: -157.216 }
+activities: [gathering, fishing, hunting, wildlife_viewing]
+permits_required:
+  - permit: hunting-license
+    when: To hunt axis deer under the trust's resident pass system.
+status: restricted
+aliases: [Mokio, Puʻu Kaʻeo, Molokai Land Trust preserve]
+summary: About 1,700 acres of remote northwest coast, dunes, and seasonal wetland held by the Molokaʻi Land Trust. Access is through a pass system for Molokaʻi residents for subsistence fishing, gathering, and deer hunting, plus scheduled volunteer work days that anyone can sign up for. Not open for casual visits.
+booking: { method: phone, url: https://molokailandtrust.org/the-mokio-preserve/, phone: 808-553-5626, window_note: Residents book passes by phone. Volunteers register on the trust's website. }
+fees: { entry: 0 }
+rules:
+  - Entry only with a resident pass or on a scheduled volunteer day.
+  - Stay off dunes and restoration plantings.
+hazards: [heat, high_surf, remote, no_water, hunting_area]
+cultural_notes: The preserve holds an adze quarry at Puʻu Kaʻeo and other sites. Do not disturb stones.
+sources:
+  - https://molokailandtrust.org/the-mokio-preserve/
+last_verified: 2026-09-25
+verified_by: ai_research

@@ -1,0 +1,17 @@
+id: puu-o-hoku-ranch-reservation
+name: Puʻu O Hoku Ranch lodging reservation
+issuer: puu-o-hoku-ranch
+category: cabin
+who_needs: Anyone staying at the ranch retreat center or cabins on east Molokaʻi.
+how_to_get: online
+url: https://www.puuohoku.com/
+carry_required: false
+covers: [puu-o-hoku-ranch]
+booking_window:
+  notes: Book through the ranch website or call 808-558-8109. Office hours are 7 am to 3:30 pm Monday to Friday.
+cost:
+  resident: see_source
+  nonresident: see_source
+sources:
+  - https://www.puuohoku.com/about
+last_verified: 2026-09-25

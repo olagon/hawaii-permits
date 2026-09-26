@@ -4,12 +4,12 @@ island: maui
 land_type: state
 manager: dlnr-dar
 location: { lat: 20.632, lng: -156.496 }
-activities: [snorkeling, boating, wildlife_viewing]
+activities: [snorkeling, boating]
 permits_required: []
 status: restricted
 aliases: [Molokini, Molokini Crater, Molokini Shoal MLCD]
 summary: A crescent shaped volcanic islet between Maui and Kahoʻolawe with a clear water reef inside the crater. Most people go on a commercial snorkel or dive boat from Māʻalaea or Kīhei. The islet itself is a seabird sanctuary and closed to landing.
-booking: { method: none, window_note: Book through a permitted tour operator, or bring your own boat and use a day use mooring. }
+booking: { method: none, window_note: "Book through a permitted tour operator, or bring your own boat and use a day use mooring." }
 fees: { entry: 0, note: Tour prices are set by each operator. }
 rules:
   - No landing on the islet. It is a closed state seabird sanctuary.

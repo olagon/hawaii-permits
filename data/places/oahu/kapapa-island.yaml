@@ -4,7 +4,7 @@ island: oahu
 land_type: state
 manager: dlnr-dofaw
 location: { lat: 21.477, lng: -157.798 }
-activities: [wildlife_viewing, boating, swimming]
+activities: [boating, swimming]
 permits_required: []
 status: restricted
 aliases: [Kapapa]

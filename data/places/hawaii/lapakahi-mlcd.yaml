@@ -1,0 +1,25 @@
+id: lapakahi-mlcd
+name: Lapakahi Marine Life Conservation District
+island: hawaii
+land_type: state
+manager: dlnr-dar
+location: { lat: 20.170, lng: -155.902 }
+activities: [snorkeling, swimming, fishing]
+permits_required: []
+status: open
+aliases: [Lapakahi MLCD, Koaiʻe Cove]
+summary: Protected waters off Lapakahi State Historical Park in North Kohala. Subzone A to the north is a full no take area. Subzone B to the south allows some traditional fishing. Access is through the state park.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - Subzone A (north) - no fishing or taking of any marine life, and no take gear in the water.
+  - Subzone B (south) - ʻōpelu may be taken by lift net or ʻōpelu net, and finfish and crustaceans by hook and line or throw net.
+  - Do not take sand, coral, or rocks anywhere in the district.
+  - A knife or shark deterrent for personal safety is allowed in the water.
+  - Map pin is approximate.
+hazards: [high_surf, heat, no_water]
+sources:
+  - https://dlnr.hawaii.gov/dar/marine-managed-areas/hawaii-marine-life-conservation-districts/
+  - https://www.law.cornell.edu/regulations/hawaii/Haw-Code-R-SS-13-33-3
+last_verified: 2026-09-25
+verified_by: ai_research

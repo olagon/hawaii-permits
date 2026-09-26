@@ -1,0 +1,29 @@
+id: kalaupapa-pali-trail
+name: Kalaupapa Pali Trail
+island: molokai
+land_type: mixed
+manager: nps
+location: { lat: 21.174, lng: -156.986 }
+activities: [hiking]
+permits_required:
+  - permit: kalaupapa-visitor-permit
+    when: Only visitors on a park permitted guided tour with a Department of Health permit may use the trail, and only when the park allows trail entry.
+status: restricted
+aliases: [Kalaupapa Trail, Pali Trail, Kalaupapa Mule Trail]
+summary: Steep 3.5 mile switchback trail down the sea cliffs to the Kalaupapa settlement, dropping nearly 2,000 feet. The top of the trail crosses private land and general visitor access is currently through the airport only. Do not hike in without a tour and permit.
+booking: { method: phone, url: https://www.nps.gov/kala/planyourvisit/basicinfo.htm, phone: 808-567-6802 }
+fees: { entry: 0 }
+rules:
+  - Not open for casual hiking. Entry without a permit and tour is a violation of state law.
+  - The trailhead approach crosses private property. NPS is working with the landowner on access.
+  - Rockslides and mudslides are common. Expect the climb out to take more than twice as long as the way down.
+  - Map pin is approximate.
+hazards: [steep_drop, falling_rock, mud, heat, remote]
+alerts: { nws_zone: HIZ039, nps_park_code: kala }
+sources:
+  - https://www.nps.gov/kala/planyourvisit/basicinfo.htm
+  - https://www.nps.gov/kala/planyourvisit/safety.htm
+  - https://www.nps.gov/kala/planyourvisit/directions.htm
+  - https://www.nps.gov/kala/planyourvisit/conditions.htm
+last_verified: 2026-09-25
+verified_by: ai_research

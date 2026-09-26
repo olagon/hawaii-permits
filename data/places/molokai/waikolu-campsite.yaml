@@ -1,0 +1,29 @@
+id: waikolu-campsite
+name: Waikolu Lookout and Campsite
+island: molokai
+land_type: state
+manager: dlnr-dofaw
+location: { lat: 21.130, lng: -156.921 }
+activities: [camping, day_use, hiking, wildlife_viewing]
+permits_required:
+  - permit: dofaw-camping-permit
+    when: To camp overnight. Buy the permit online at least 7 days before arrival.
+status: open
+aliases: [Waikolu Valley Lookout, Waikolu Camp, Molokai Forest Reserve campsite]
+summary: The only forest reserve campsite on Molokaʻi, at the Waikolu Valley lookout about 9.8 miles up the unpaved Maunahui Road. One sheltered pavilion, picnic tables, a toilet, and a big view down the valley to the north shore. Often in cloud.
+booking: { method: online, url: https://camping.ehawaii.gov/camping/welcome.html, window_note: Permit must be bought at least 7 days before arrival. Cancel 15 or more days ahead for a refund minus a $5 fee. }
+fees: { camping_per_night: see_source, resident_camping_per_night: see_source }
+rules:
+  - 4 wheel drive strongly recommended. The road is dirt and gets slick when wet.
+  - Groups are limited to 10 people.
+  - No drinking water. Bring your own.
+  - Helicopter operations may happen nearby for an hour or two at a time.
+  - Hunters use the surrounding forest reserve. Wear bright colors.
+hazards: [mud, cold, hunting_area, no_water, remote, steep_drop]
+amenities: [pavilion, picnic_tables, toilets]
+accessibility: The toilet and one picnic table are ADA accessible, but the road in is rough and unpaved.
+sources:
+  - https://dlnr.hawaii.gov/recreation/camp/
+  - https://camping.ehawaii.gov/camping/all,details,31723.html
+last_verified: 2026-09-25
+verified_by: ai_research

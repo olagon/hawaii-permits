@@ -1,0 +1,29 @@
+id: old-kona-airport-mlcd
+name: Old Kona Airport Marine Life Conservation District
+island: hawaii
+land_type: state
+manager: dlnr-dar
+location: { lat: 19.647, lng: -156.005 }
+activities: [snorkeling, swimming, fishing, boating]
+permits_required: []
+status: open
+aliases: [Old Kona Airport MLCD, Old Airport Beach, Pawai Bay]
+summary: The reef and waters off the Old Kona Airport park in Kailua-Kona. Most take is banned, with some exceptions for shore fishing and seasonal urchin gathering. There is a no boating zone and one state mooring.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - No taking of marine life except the exceptions below. Do not take sand, shells, coral, or rocks.
+  - Allowed - finfish by throw net or pole and line from shore, akule by handline at night, and ʻōpelu by lift or ʻōpelu net.
+  - Allowed - some sea urchins (blue-black, long spined, and helmet) by hand tool without scuba, June 1 to October 1.
+  - No fishing reels, spears, traps, nets, or crowbars in the water except as allowed above. A knife for safety is fine.
+  - Do not feed fish.
+  - No anchoring in the district. No motorboats in the no boating zone. The state mooring is first come, first served, up to 3 hours per boat per day for non commercial use.
+  - Commercial dive and tour activity needs a state permit.
+  - Map pin is approximate.
+hazards: [high_surf, heat]
+sources:
+  - https://dlnr.hawaii.gov/dar/marine-managed-areas/hawaii-marine-life-conservation-districts/
+  - https://www.law.cornell.edu/regulations/hawaii/Haw-Code-R-SS-13-37-2
+  - https://www.law.cornell.edu/regulations/hawaii/Haw-Code-R-SS-13-37-3
+last_verified: 2026-09-25
+verified_by: ai_research

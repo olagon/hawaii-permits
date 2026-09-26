@@ -1,0 +1,27 @@
+id: molokai-hunting-unit-e
+name: Molokaʻi Hunting Unit E
+island: molokai
+land_type: state
+manager: dlnr-dofaw
+location: { lat: 21.123, lng: -156.943 }
+activities: [hunting]
+permits_required:
+  - permit: hunting-license
+    when: To hunt in Unit E (mammal and bird).
+  - permit: game-bird-stamp
+    when: To hunt game birds. Bird season in units C, D, and E runs Saturdays, Sundays, and state holidays during the season.
+status: open
+aliases: [Molokai Unit E, Unit E Molokai Forest Reserve]
+summary: Public hunting unit in the Molokaʻi Forest Reserve. State lands of Kawela, Makakupaʻia, and Kaunakakai makai of the Maunahui road. Game mammals and game birds. Check the DLNR Molokaʻi hunting page for the current season, bag limits, and check station rules before you go. Map pin is the unit centroid.
+booking: { method: online, url: https://dlnr.hawaii.gov/recreation/hunting/molokai/ }
+fees: { entry: 0 }
+rules:
+  - Carry your hunting license. Follow posted safety zones, including the 500 foot zones around Waikolu Park and the Sandalwood Pit.
+  - Report harvests as the DLNR hunting page directs.
+  - Map pin is approximate.
+hazards: [hunting_area, steep_drop, flash_flood, mud, remote]
+sources:
+  - https://dlnr.hawaii.gov/recreation/hunting/molokai/
+  - https://outdoor.hawaii.gov/hunting/
+last_verified: 2026-09-25
+verified_by: ai_research

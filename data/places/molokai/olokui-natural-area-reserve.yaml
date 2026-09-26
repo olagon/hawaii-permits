@@ -1,0 +1,21 @@
+id: olokui-natural-area-reserve
+name: Olokuʻi Natural Area Reserve
+island: molokai
+land_type: state
+manager: dlnr-dofaw
+location: { lat: 21.148, lng: -156.856 }
+activities: [wildlife_viewing]
+permits_required: []
+status: restricted
+aliases: [Olokui NAR, Olokui]
+summary: Natural area reserve on a high plateau between Pelekunu and Wailau valleys on the north shore, one of the most intact native forests in Hawaiʻi. No roads or public trails reach it. Staff access is mostly by helicopter. Not a place to plan a hike.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - No public trails or road access. Entry for research or management needs a DOFAW permit.
+hazards: [remote, steep_drop, cold, mud]
+sources:
+  - https://dlnr.hawaii.gov/ecosystems/nars/molokai/olokui/
+  - https://dlnr.hawaii.gov/ecosystems/nars/molokai/
+last_verified: 2026-09-25
+verified_by: ai_research

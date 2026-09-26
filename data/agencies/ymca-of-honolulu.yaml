@@ -1,0 +1,8 @@
+id: ymca-of-honolulu
+name: YMCA of Honolulu (Camp Erdman)
+level: nonprofit
+website: https://www.ymcahonolulu.org/locations/ymca-camp-erdman
+islands: [oahu]
+sources:
+  - https://www.ymcahonolulu.org/locations/ymca-camp-erdman/camp-amenities/yurt-rentals
+  - https://www.ymcahonolulu.org/programs/camps/family-camps

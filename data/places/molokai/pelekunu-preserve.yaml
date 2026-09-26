@@ -1,0 +1,20 @@
+id: pelekunu-preserve
+name: Pelekunu Preserve
+island: molokai
+land_type: private_nonprofit
+manager: The Nature Conservancy of Hawaiʻi
+location: { lat: 21.139, lng: -156.884 }
+activities: [wildlife_viewing]
+permits_required: []
+status: closed
+aliases: [Pelekunu, Pelekunu Valley]
+summary: Nature Conservancy valley preserve on the north shore, walled by 3,000 foot sea cliffs and guarded by heavy seasonal surf. Closed to the public because of its remote and rugged location. Managed with DLNR.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - Closed to the public. No trails and no safe access by land or sea.
+hazards: [high_surf, steep_drop, flash_flood, remote]
+sources:
+  - https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/pelekunu/
+last_verified: 2026-09-25
+verified_by: ai_research

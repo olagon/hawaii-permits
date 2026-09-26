@@ -1,0 +1,22 @@
+id: hulopoe-beach-camping-permit
+name: Hulopoʻe Beach Park camping permit
+issuer: pulama-lanai
+category: camping
+who_needs: Anyone who is not a Lānaʻi resident and wants to camp at Hulopoʻe Beach Park. Lānaʻi residents may camp without a permit for up to 5 nights. As of 2026 the park's recreation page says camping is open to Lānaʻi residents only, so nonresident permits may not be issued.
+how_to_get: owner_direct
+url: https://www.lanai96763.com/community-resources/recreation/
+carry_required: true
+covers: [hulopoe-beach-park]
+booking_window:
+  notes: Apply to Pūlama Lānaʻi in person, in writing, by email, or online. Applicant must be 18 or older. Nonresidents and groups are limited to 3 consecutive nights per site. A nonresident may also camp as the guest of a Lānaʻi resident who stays on site from 6 pm to 7 am.
+cost:
+  resident: 0
+  nonresident: see_source
+  unit: per person per night
+  note: Nonresident fee is set by Pūlama Lānaʻi and is not published in the park rules.
+valid_for: Up to 3 consecutive nights for nonresidents and groups.
+age_minimum: 18
+sources:
+  - https://www.lanai96763.com/wp-content/uploads/2026/03/HBP-May-2025-Rules-FINAL.pdf
+  - https://www.lanai96763.com/community-resources/recreation/
+last_verified: 2026-09-25

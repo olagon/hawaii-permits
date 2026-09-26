@@ -1,0 +1,23 @@
+id: kalaupapa-visitor-permit
+name: Kalaupapa visitor permit (Department of Health)
+issuer: hawaii-doh
+category: special_use
+who_needs: Every visitor entering Kalaupapa National Historical Park or the Kalaupapa settlement. State law requires a permit before you enter. Visitors must be 16 or older.
+how_to_get: owner_direct
+url: https://www.nps.gov/kala/planyourvisit/index.htm
+carry_required: true
+covers: [kalaupapa-national-historical-park, kalaupapa-pali-trail]
+booking_window:
+  notes: General visitors get the permit by booking a park permitted guided tour. The tour operator handles the permit. Guests of residents apply through the settlement's Board of Health office. The permit approves air travel to Kalaupapa. It does not give permission to cross the private land between the highway and the Pali Trail. NPS paused public tours in July 2026 while it reviews visitor access, so check the park page first.
+cost:
+  resident: see_source
+  nonresident: see_source
+  note: No park entrance fee. Tour and flight prices are set by the tour operator.
+age_minimum: 16
+sources:
+  - https://www.nps.gov/kala/planyourvisit/index.htm
+  - https://www.nps.gov/kala/planyourvisit/basicinfo.htm
+  - https://www.nps.gov/kala/planyourvisit/fees.htm
+  - https://www.nps.gov/kala/planyourvisit/guidedtours.htm
+  - https://www.nps.gov/kala/planyourvisit/conditions.htm
+last_verified: 2026-09-25

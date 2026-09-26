@@ -1,0 +1,21 @@
+id: pulama-lanai-hunting-permit
+name: Pūlama Lānaʻi hunting program permit
+issuer: pulama-lanai
+category: hunting_tag
+who_needs: Hunters using the landowner run hunting program on private Pūlama Lānaʻi land. This is separate from the state lottery hunts in the Cooperative Game Management Area. A Hawaiʻi hunting license is still required.
+how_to_get: owner_direct
+url: https://www.lanai96763.com/community-resources/recreation/
+carry_required: true
+covers: [pulama-lanai-hunting-areas]
+booking_window:
+  notes: Contact Pūlama Lānaʻi hunting at 808-565-3102 or huntlanai@pulamalanai.com. Fees are a base hunter fee plus a daily unit fee for rifle and shotgun zones. The unit fee can be split among hunters on one reservation.
+cost:
+  resident: 280
+  nonresident: 320
+  unit: per adult hunter for rifle hunts, plus an $80 daily unit fee
+  note: Lānaʻi residents pay $30 for rifle. Shotgun is $60 resident, $120 out of state, plus a $50 unit fee. Archery is $100 resident, $150 out of state, no unit fee. Keiki, military, veteran and kūpuna rates are lower. Fees updated August 2026.
+prerequisites: [hunting-license]
+sources:
+  - https://www.lanai96763.com/wp-content/uploads/2026/08/2026-Hunting-Fees-Signage.pdf
+  - https://www.lanai96763.com/community-resources/recreation/
+last_verified: 2026-09-25

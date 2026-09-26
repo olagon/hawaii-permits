@@ -1,0 +1,21 @@
+id: molokai-offshore-islet-sanctuaries
+name: Molokaʻi Offshore Islet Seabird Sanctuaries
+island: molokai
+land_type: state
+manager: dlnr-dofaw
+location: { lat: 21.133, lng: -156.703 }
+activities: [wildlife_viewing, boating]
+permits_required: []
+status: closed
+aliases: [Mokuhoʻoniki, Mokuhooniki, Elephant Rock, Kanahā Rock, ʻŌkala, Mokapu, Huelo, Mokumanu]
+summary: Six state seabird sanctuary islets off Molokaʻi, Mokuhoʻoniki and Kanahā Rock off the east end and ʻŌkala, Mokapu, Huelo, and Mokumanu along the north shore. All are closed to landing under the wildlife sanctuary rules. Look from a boat, do not go ashore. Map pin is Mokuhoʻoniki.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - Landing is illegal without a DOFAW permit. Report violations to 808-643-DLNR.
+  - No dogs, fires, camping, or drones near nesting seabirds.
+hazards: [high_surf, remote]
+sources:
+  - https://dlnr.hawaii.gov/wildlife/sanctuaries/molokaioffshoreislets/
+last_verified: 2026-09-25
+verified_by: ai_research

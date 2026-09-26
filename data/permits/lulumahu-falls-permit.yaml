@@ -1,0 +1,19 @@
+id: lulumahu-falls-permit
+name: Lulumahu Falls day use permit (Honolulu Forest Reserve restricted watershed)
+issuer: dlnr-dofaw
+category: trail_access
+who_needs: Anyone hiking to Lulumahu Falls in Nuʻuanu Valley. The trail is in a restricted watershed, so a reservation and permit are required for day use hiking. No camping, bikes or vehicles.
+how_to_get: online
+url: https://trails.ehawaii.gov/camping/all,details,57925.html
+carry_required: true
+covers: [lulumahu-falls-trail]
+booking_window:
+  notes: Reserve online through the DOFAW trails reservation system and print the permit. There is no parking at the trailhead, so plan to be dropped off. Clean boots and clothing before entry to stop weed spread. Hunting may happen nearby, so wear bright colors. Forest reserves close during tropical storm and hurricane warnings.
+cost:
+  resident: see_source
+  nonresident: see_source
+  note: Fee is shown when you reserve.
+sources:
+  - https://trails.ehawaii.gov/camping/all,details,57925.html
+  - https://dlnr.hawaii.gov/dofaw/permits/
+last_verified: 2026-09-25

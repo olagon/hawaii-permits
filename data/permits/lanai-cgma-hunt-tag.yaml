@@ -1,0 +1,22 @@
+id: lanai-cgma-hunt-tag
+name: Lānaʻi Cooperative Game Management Area hunt application and tag
+issuer: dlnr-dofaw
+category: hunting_tag
+who_needs: Hunters who want to hunt axis deer or mouflon sheep in the state managed Lānaʻi Cooperative Game Management Area (units 1 to 3). Hunts are by lottery. You also need a Hawaiʻi hunting license.
+how_to_get: online
+url: https://gohunthawaii.ehawaii.gov/
+carry_required: true
+covers: [lanai-hunting-unit-1, lanai-hunting-unit-2, lanai-hunting-unit-3]
+booking_window:
+  notes: Apply on Go Hunt Hawaiʻi during the application window, about two months before the season. Separate drawings are held for Lānaʻi residents and the general public. Winners validate their permit at the Lānaʻi check station before the hunt. Groups are limited to 8 applicants.
+cost:
+  resident: 20
+  nonresident: 125
+  unit: per axis deer or mouflon tag
+  note: A $10 application fee per person is charged and is not refunded. Bag limit is one deer per drawn hunt. Extra doe tags may be offered.
+valid_for: The drawn hunt dates only.
+prerequisites: [hunting-license]
+sources:
+  - https://gohunthawaii.ehawaii.gov/public/hunts/67-330a3ec34a0bf404
+  - https://dlnr.hawaii.gov/recreation/hunting/lanai/
+last_verified: 2026-09-25

@@ -1,0 +1,33 @@
+id: palaau-state-park
+name: Pālāʻau State Park
+island: molokai
+land_type: state
+manager: dlnr-state-parks
+location: { lat: 21.173, lng: -157.004 }
+activities: [camping, day_use, hiking, wildlife_viewing]
+permits_required:
+  - permit: state-parks-camping-permit
+    when: To camp overnight. Reserve up to 90 days ahead on explore.ehawaii.gov.
+status: open
+aliases: [Palaau State Park, Kalaupapa Lookout, Kalaupapa Overlook, Phallic Rock, Kauleonānāhoa]
+summary: Cool upland park in an ironwood grove above the north sea cliffs. A short walk leads to the Kalaupapa Lookout, the only public view of the Kalaupapa peninsula, and another short trail leads to the phallic stone Kauleonānāhoa. The only state campground on Molokaʻi.
+booking: { method: online, url: https://explore.ehawaii.gov/, window_note: Camping reservations open 90 days ahead. }
+fees: { entry: 0, parking: 0, camping_per_night: 30, resident_camping_per_night: 20 }
+rules:
+  - Park hours are 7 am to 7 pm.
+  - Camp only in a tent. No campers, vans, or trailers. Vehicles stay out of the campground.
+  - Up to 5 nights, then a 30 day wait before camping at the same park again.
+  - One campsite per person per park at a time.
+  - Camping was closed through September 28, 2026 for hurricane precautions. Check the park notices page before you go.
+hazards: [steep_drop, cold]
+alerts: { nws_zone: HIZ039 }
+amenities: [restrooms, picnic_tables, campground, lookout]
+accessibility: Paved parking and a short, mostly level path to the lookout. Trails are unpaved.
+max_stay_nights: 5
+group_size_limit: 10
+cultural_notes: The lookout faces the Kalaupapa settlement, where people with Hansen's disease were once isolated. Kauleonānāhoa is a sacred stone. Look, do not climb or leave offerings that damage it.
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/molokai/palaau-state-park/
+  - https://dlnr.hawaii.gov/dsp/camping-lodging/molokai/
+last_verified: 2026-09-25
+verified_by: ai_research

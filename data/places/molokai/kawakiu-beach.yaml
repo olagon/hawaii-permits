@@ -1,0 +1,25 @@
+id: kawakiu-beach
+name: Kawākiu Beach
+island: molokai
+land_type: mixed
+manager: Molokaʻi Properties Limited (Molokaʻi Ranch)
+location: { lat: 21.213, lng: -157.253 }
+activities: [day_use, swimming, fishing]
+permits_required: []
+status: restricted
+aliases: [Kawakiu, Kawakiu Bay, Kawakiu Nui]
+summary: Remote white sand cove on the northwest coast. The beach itself is public, but the only road in crosses Molokaʻi Ranch land leased to a hunting outfitter, and a locked gate now blocks vehicles. Access has been a long running dispute since 1975. Walking in along the coast or arriving by boat are the stated alternatives.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - The road gate is locked to vehicles. Do not cut or remove it.
+  - Deer hunts run on the surrounding land. Stay on the road or the shoreline.
+  - No facilities, no shade, no water. Winter surf is dangerous.
+  - Map pin is approximate.
+hazards: [hunting_area, high_surf, heat, no_water, remote]
+alerts: { nws_zone: HIZ040 }
+sources:
+  - https://kawaiola.news/aina/the-battle-for-kawakiu/
+  - http://molokairanch.com/
+last_verified: 2026-09-25
+verified_by: ai_research

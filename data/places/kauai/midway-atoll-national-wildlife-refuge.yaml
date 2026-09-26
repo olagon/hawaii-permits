@@ -4,7 +4,7 @@ island: kauai
 land_type: federal
 manager: usfws
 location: { lat: 28.208, lng: -177.376 }
-activities: [wildlife_viewing, cultural_visit]
+activities: []
 permits_required:
   - permit: papahanaumokuakea-entry-permit
     when: For any entry. Recreation permits for Midway exist in the rules but the refuge is closed to public visitation right now.

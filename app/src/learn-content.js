@@ -2,6 +2,111 @@
 // Body HTML is trusted app content, not user input.
 export const PAGES = [
   {
+    slug: 'be-pono-outdoors',
+    title: 'Being pono outdoors',
+    blurb: 'Mālama the land, the water, and the people who live there.',
+    body: `
+<p>Pono means right, proper, and in balance. Being pono outdoors means you leave a place as good as you found it, or better, and you respect the people and the culture that belong to it. DLNR calls this Mālama Hawaiʻi: to preserve, protect, and honor the islands, not just use them.</p>
+<h2>Hike pono</h2>
+<ul>
+<li>Stay on signed, managed trails. Shortcuts cause erosion and land you on private or closed land.</li>
+<li>Clean your boots, poles, and gear before and after every hike. Mud carries Rapid ʻŌhiʻa Death spores and weed seeds between forests.</li>
+<li>Respect closed trails and signs. Closures are for safety or for the land to heal.</li>
+</ul>
+<h2>Play pono</h2>
+<ul>
+<li>Camp only where your permit says. Pack out everything you bring in, including food scraps.</li>
+<li>Keep fires where they are allowed, and only in the pits provided.</li>
+<li>Keep noise down. Many campgrounds are next to homes.</li>
+</ul>
+<h2>Mālama pono</h2>
+<ul>
+<li>Leave wildlife alone. Stay far back from monk seals, turtles, and nesting seabirds. On offshore islets stay below the high water mark, and never bring dogs.</li>
+<li>Do not stack or throw rocks, especially at sacred places like Lake Waiau. Rock piles are not a tradition, they are litter.</li>
+<li>Take only pictures, unless you have a gathering permit or gathering rights.</li>
+</ul>
+<h2>Respect the people</h2>
+<p>Many trailheads are in neighborhoods. Park legally, do not block driveways, and keep voices down early and late. If a resident asks you to leave a private road, leave.</p>`,
+    sources: ['https://dlnr.hawaii.gov/malamahawaii/', 'https://dlnr.hawaii.gov/dofaw/pono/', 'https://dlnr.hawaii.gov/blog/2024/06/17/nr24-73/', 'https://dlnr.hawaii.gov/blog/2021/12/28/nr21-240/', 'https://dlnr.hawaii.gov/wildlife/sanctuaries/oahuoffshoreislets/'],
+  },
+  {
+    slug: 'cultural-sites-and-gathering',
+    title: 'Cultural sites and gathering rights',
+    blurb: 'Wahi pana are living places. Know what is protected and who holds gathering rights.',
+    body: `
+<h2>Wahi pana</h2>
+<p>Heiau, fishponds, burial places, and other wahi pana (storied places) are not ruins. They are still used and still cared for by families. State Parks asks visitors to treat them like a church or a cemetery.</p>
+<ul>
+<li>Stay on paths and outside walls. Stacked stone is fragile. Never climb on or walk over a structure.</li>
+<li>A quiet moment, a respectful prayer, or a chant is a fitting hoʻokupu (offering). You do not need to leave anything physical. Do not leave wrapped rocks, coins, or food.</li>
+<li>Do not move, take, or add stones.</li>
+<li>Ala does not list burial sites or heiau that are not already public destinations. Please do not share their locations either.</li>
+</ul>
+<h2>Gathering rights</h2>
+<p>The Hawaiʻi Constitution (Article XII, Section 7) protects the rights of Native Hawaiians to gather for subsistence, cultural, and religious purposes, as customarily and traditionally practiced, subject to state regulation. Hawaiʻi law (HRS 7-1) also lets people who live in an ahupuaʻa take firewood, house timber, aho cord, thatch, and kī leaf from undeveloped land there for their own use, and keeps springs, running water, and rights of way open to all.</p>
+<p>These rights belong to the people of that place. They are not a general permission for visitors to pick or collect. If you are not exercising a traditional right, gathering on state forest land needs a forest reserve collection permit, and gathering on private land needs the owner's permission. In Papahānaumokuākea, Native Hawaiian practices have their own permit.</p>
+<h2>If you are not sure</h2>
+<p>Ask. Trailhead signs, park staff, and the families who care for a place will tell you what is pono. When in doubt, leave it.</p>`,
+    sources: ['https://www.oha.org/about/abouthistory/aboutabouthistoryconstitution/', 'https://www.capitol.hawaii.gov/hrscurrent/vol01_ch0001-0042f/hrs0007/hrs_0007-0001.htm', 'https://dlnr.hawaii.gov/dsp/files/2014/10/Wahi-Pana-brochure.pdf', 'https://dlnr.hawaii.gov/forestry/frs/permitting/forest-reserve-system-collection-permit/', 'https://www.papahanaumokuakea.gov/permit/'],
+  },
+  {
+    slug: 'flash-flood-safety',
+    title: 'Flash floods and streams',
+    blurb: 'It does not have to be raining on you. Rising water means turn around.',
+    body: `
+<p>Flash floods kill hikers and campers in Hawaiʻi. Rain far up the mountain can send a wall of water down a valley that is sunny where you stand. Hanakāpīʻai Stream on Kauaʻi has swept people out to sea.</p>
+<h2>Before you go</h2>
+<ul>
+<li>Check the forecast and any flood watch or warning at the National Weather Service Honolulu office, and the Alerts tab in Ala.</li>
+<li>If a flash flood watch is in effect, pick a ridge hike instead of a valley or stream hike. State Parks closes the Kalalau Trail during flash flood warnings.</li>
+</ul>
+<h2>On the trail</h2>
+<ul>
+<li>Do not cross a flowing stream if the water is above your ankles. Six inches of fast water can knock an adult down.</li>
+<li>Watch for signs: the water turns brown, rises even a little, carries leaves and sticks, or you hear a roar upstream. Get to high ground right away.</li>
+<li>If a stream is up, wait. Streams here usually drop within an hour or two after the rain stops. Waiting is safer than crossing, even if it means getting back after dark.</li>
+<li>Never camp in a streambed or on a low bank.</li>
+</ul>
+<h2>Driving</h2>
+<p>Never drive into water on the road. Twelve inches of moving water can carry away most cars. Turn around, do not drown.</p>`,
+    sources: ['https://www.weather.gov/safety/flood-turn-around-dont-drown', 'https://www.weather.gov/hfo/', 'https://dlnr.hawaii.gov/blog/2016/02/17/nr16-034/', 'https://www.honolulu.gov/mayor/hfd-ems-issue-warning-to-oahu-hikers-following-storm/'],
+  },
+  {
+    slug: 'what-to-carry',
+    title: 'What to carry and hiking safety',
+    blurb: 'Water, light, a charged phone, and someone who knows your plan.',
+    body: `
+<h2>Pack this every time</h2>
+<ul>
+<li>More water than you think. Two liters per person for a half day in the sun.</li>
+<li>Snacks and a little extra food.</li>
+<li>Phone, fully charged, plus a backup battery. Many trails have no signal, so download Ala's island data and the offline map before you go.</li>
+<li>Flashlight or headlamp, even for a short hike. Sunset comes fast in the valleys.</li>
+<li>Whistle. It carries farther than your voice.</li>
+<li>Sun hat, sunglasses, sunscreen, and light rain gear.</li>
+<li>Small first aid kit.</li>
+<li>Sturdy shoes with grip. Trails are muddy and slick.</li>
+<li>Your permit, printed or in your Ala wallet.</li>
+</ul>
+<h2>Before you leave</h2>
+<ul>
+<li>Tell someone the trail name, who is with you, and when you will be back.</li>
+<li>Check the weather. Read the signs at the trailhead and respect closures.</li>
+<li>Pick a hike that fits the least experienced person in your group. Do not hike alone.</li>
+<li>Plan to be off the trail before dark.</li>
+</ul>
+<h2>If you get lost or hurt</h2>
+<ul>
+<li>Call or text 911 and ask for Fire and Rescue. Give the trail name and where you started.</li>
+<li>Stay in one place. Rescuers search from your last known point.</li>
+<li>Make yourself easy to see: bright clothing, flashlight, camera flash, whistle.</li>
+<li>Stay warm and dry. Nights in the mountains are cold and wet.</li>
+</ul>
+<h2>Hunting areas</h2>
+<p>If a trail passes through a hunting area, wear bright colors, stay on the trail, and keep dogs leashed.</p>`,
+    sources: ['https://fire.honolulu.gov/outdoor-safety/', 'https://hawaiitrails.ehawaii.gov/trails/', 'https://dlnr.hawaii.gov/huntered/files/2013/09/Quick-Guide-to-Hunting-in-Hawaii-Brochure.pdf'],
+  },
+  {
     slug: 'who-issues-permits',
     title: 'Who gives the permit? Land type decides',
     blurb: 'State, county, federal, or private. The owner of the land sets the rules.',
@@ -55,9 +160,9 @@ export const PAGES = [
 <h2>Safety for everyone</h2>
 <ul>
 <li>Hikers in hunting areas: wear bright colors, stay on the trail, and keep dogs leashed.</li>
-<li>Hunters: know the safety zones, never shoot across a trail or road, and carry your license.</li>
+<li>Hunters: wear a solid blaze orange outer garment in public hunting areas (not camouflage orange), know the safety zones, never shoot across a trail or road, and carry your license. Legal hours are one half hour before sunrise to one half hour after sunset.</li>
 <li>Check in at hunter check stations where they exist.</li>
 </ul>`,
-    sources: ['https://outdoor.hawaii.gov/hunting/licensing/', 'https://outdoor.hawaii.gov/hunting/certification/', 'https://dlnr.hawaii.gov/recreation/hunting/'],
+    sources: ['https://outdoor.hawaii.gov/hunting/licensing/', 'https://outdoor.hawaii.gov/hunting/certification/', 'https://dlnr.hawaii.gov/recreation/hunting/', 'https://dlnr.hawaii.gov/huntered/files/2013/09/Quick-Guide-to-Hunting-in-Hawaii-Brochure.pdf'],
   },
 ];

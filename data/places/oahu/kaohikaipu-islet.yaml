@@ -4,7 +4,7 @@ island: oahu
 land_type: state
 manager: dlnr-dofaw
 location: { lat: 21.320, lng: -157.656 }
-activities: [wildlife_viewing, boating]
+activities: [boating]
 permits_required: []
 status: no_public_access
 aliases: [Kaohikaipu, Black Rock, Turtle Island]

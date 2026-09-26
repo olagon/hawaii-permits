@@ -1,0 +1,22 @@
+id: waiopae-tidepools-mlcd
+name: Waiʻōpae Tidepools Marine Life Conservation District (covered by lava)
+island: hawaii
+land_type: state
+manager: dlnr-dar
+location: { lat: 19.494, lng: -154.821 }
+activities: [snorkeling]
+permits_required: []
+status: removed
+aliases: [Waiopae Tidepools, Kapoho Tide Pools, Wai Opae]
+summary: The Kapoho tidepools in lower Puna were a popular snorkel spot and a marine conservation district from 2003. The 2018 Kīlauea eruption buried the tidepools and the nearby homes under lava. The place no longer exists.
+booking: { method: none }
+rules:
+  - The tidepools were covered by lava in June 2018. There is nothing to visit.
+  - The new coastline is unstable and much of the area is private land. Do not try to reach the old site.
+  - Map pin is approximate.
+hazards: [falling_rock, heat]
+sources:
+  - https://dlnr.hawaii.gov/dar/marine-managed-areas/hawaii-marine-life-conservation-districts/
+  - https://dlnr.hawaii.gov/blog/2018/07/20/nr18-148/
+last_verified: 2026-09-25
+verified_by: ai_research

@@ -1,0 +1,19 @@
+id: kaena-point-vehicle-permit
+name: Kaʻena Point State Park vehicle access special use permit (Mokulēʻia section)
+issuer: dlnr-state-parks
+category: vehicle_access
+who_needs: Anyone driving past the locked gate at the end of the paved road in the Mokulēʻia section of Kaʻena Point State Park. Walking and biking past the gate need no permit. Vehicles may only use the designated roads on the State Parks map, and never the Natural Area Reserve at the point.
+how_to_get: online
+url: https://dlnr.hawaii.gov/dsp/parks/oahu/kaena-point-state-park/
+carry_required: true
+covers: [kaena-point-state-park]
+booking_window:
+  notes: Apply through the link on the State Parks Kaʻena page. Permits are issued for a permit year. You must show a decal on the rear of the vehicle and keep the paper permit in the car. Call State Parks at 808-587-0300 for the gate combination.
+cost:
+  resident: 0
+  nonresident: 0
+  note: The permit is free. A 4 wheel drive vehicle with valid registration, safety check and insurance is needed. Check the park page for the current permit year.
+sources:
+  - https://dlnr.hawaii.gov/dsp/parks/oahu/kaena-point-state-park/
+  - https://dlnr.hawaii.gov/dofaw/permits/
+last_verified: 2026-09-25

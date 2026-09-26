@@ -1,0 +1,17 @@
+id: schofield-waikane-army-permission
+name: Schofield-Waikāne Trail Army access letter
+issuer: us-army-garrison-hawaii
+category: trail_access
+who_needs: Anyone hiking the Schofield-Waikāne Trail through Schofield Barracks. The first part of the route crosses Army land, so you need written permission from U.S. Army Garrison Hawaiʻi. Hiking is allowed on weekends from sunrise to sunset once approved.
+how_to_get: mail
+url: https://home.army.mil/hawaii/my-fort/recreation/hiking
+carry_required: true
+covers: [schofield-waikane-trail]
+booking_window:
+  notes: Send a signed request letter to the Directorate of Public Works Real Property Office at least 10 business days before the hike. Include the date, party size, full names, email and phone. Approval comes by email; carry a printed copy on the hike.
+cost:
+  resident: 0
+  nonresident: 0
+sources:
+  - https://home.army.mil/hawaii/my-fort/recreation/hiking
+last_verified: 2026-09-25

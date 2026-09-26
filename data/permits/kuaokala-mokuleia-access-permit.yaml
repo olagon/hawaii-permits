@@ -1,0 +1,20 @@
+id: kuaokala-mokuleia-access-permit
+name: Kuaokalā and Mokulēʻia Forest Reserve day use access permit
+issuer: dlnr-dofaw
+category: trail_access
+who_needs: Anyone entering the Kuaokalā and Mokulēʻia forest reserve roads through the Kaʻena Point Satellite Tracking Station gate, to park and hike the Kuaokalā Trail or to drive the forest reserve roads to Peacock Flats, the hunting areas and the Keālia access road. One permit per vehicle, up to 7 people. Day use only, not a camping permit.
+how_to_get: online
+url: https://trails.ehawaii.gov/camping/all,details,57933.html
+carry_required: true
+covers: [kuaokala-trail, mokuleia-kuaokala-firebreak-road, mokuleia-forest-reserve-access-road, mokuleia-trail, kealia-trail, peacock-flats-campground]
+booking_window:
+  notes: Reserve online and print the permit. The gate is open 6 am to 6 pm. A permit is good for 7 days but the vehicle cannot stay overnight. 4 wheel drive required. Everyone in the vehicle must be on the permit. Non US citizens may be refused entry at the military checkpoint. Access can close during military exercises, for example RIMPAC in July and September 11. Call 808-697-4311 to check.
+cost:
+  resident: see_source
+  nonresident: see_source
+  note: Fee is shown when you reserve.
+valid_for: 7 days from the start date, day use only.
+sources:
+  - https://trails.ehawaii.gov/camping/all,details,57933.html
+  - https://dlnr.hawaii.gov/dofaw/permits/
+last_verified: 2026-09-25

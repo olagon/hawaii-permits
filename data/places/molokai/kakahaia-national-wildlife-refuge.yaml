@@ -1,0 +1,23 @@
+id: kakahaia-national-wildlife-refuge
+name: Kakahaiʻa National Wildlife Refuge
+island: molokai
+land_type: federal
+manager: usfws
+location: { lat: 21.064, lng: -156.942 }
+activities: [wildlife_viewing, fishing]
+permits_required: []
+status: restricted
+aliases: [Kakahaia NWR, Kakahaia Beach Park, Kakahaia Pond]
+summary: Small wetland refuge on the south shore east of Kaunakakai, set up in 1976 for endangered aeʻo (Hawaiian stilt) and ʻalae keʻokeʻo (Hawaiian coot). The pond and marsh are not open for walk in visits. Volunteer work days are arranged on request. The county beach park across the road gives a view of the refuge.
+booking: { method: phone, url: https://www.fws.gov/refuge/kakahaia, phone: 808-875-1582, window_note: Managed from the Maui refuge complex in Kīhei. Call to ask about volunteer days. }
+fees: { entry: 0 }
+rules:
+  - Do not enter the fenced wetland. View birds from the roadside or the beach park.
+  - Keep dogs leashed and away from waterbirds.
+hazards: [heat]
+sources:
+  - https://www.fws.gov/refuge/kakahaia
+  - https://www.fws.gov/refuge/kakahaia/visit-us
+  - https://www.fws.gov/refuge/kakahaia/about-us
+last_verified: 2026-09-25
+verified_by: ai_research

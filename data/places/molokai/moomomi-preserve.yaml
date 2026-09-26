@@ -1,0 +1,22 @@
+id: moomomi-preserve
+name: Moʻomomi Preserve
+island: molokai
+land_type: private_nonprofit
+manager: The Nature Conservancy of Hawaiʻi
+location: { lat: 21.196, lng: -157.175 }
+activities: [hiking, wildlife_viewing, cultural_visit]
+permits_required: []
+status: restricted
+aliases: [Moomomi, Mo'omomi Beach Preserve, Moomomi Dunes]
+summary: Coastal dune preserve on the windy northwest shore, one of the last intact dune ecosystems in the main islands, with rare plants, nesting green sea turtles, and a growing shearwater colony. Access is limited. Contact The Nature Conservancy before visiting. TNC staff and volunteers lead a monthly hike.
+booking: { method: phone, url: https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/moomomi/, phone: 808-954-6581, window_note: Email hike_molokai@tnc.org to ask about the monthly hike or a visit. }
+fees: { entry: 0 }
+rules:
+  - Contact TNC before you go. Access is limited.
+  - Stay off the dunes and away from nesting turtles and shearwater burrows.
+  - Managed with DLNR under the Natural Area Partnership Program.
+hazards: [high_surf, heat, remote]
+sources:
+  - https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/moomomi/
+last_verified: 2026-09-25
+verified_by: ai_research

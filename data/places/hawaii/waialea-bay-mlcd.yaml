@@ -1,0 +1,26 @@
+id: waialea-bay-mlcd
+name: Waialea Bay Marine Life Conservation District
+island: hawaii
+land_type: state
+manager: dlnr-dar
+location: { lat: 19.983, lng: -155.828 }
+activities: [snorkeling, swimming, fishing]
+permits_required: []
+status: open
+aliases: [Waialea Bay MLCD, Beach 69, Waialea Beach, Puako]
+summary: A sandy bay in South Kohala known as Beach 69, with good snorkeling on calm days. It is a conservation district from the high water mark out to a line between ʻŌhai Point and Kānekanaka Point.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - Fishing with a pole and hook and line for finfish is allowed. Nets, traps, snagging, and throw nets are not, except with a permit.
+  - Do not feed fish.
+  - Do not anchor in the district. No motor boats in the no boating zone except for emergencies or enforcement.
+  - A knife or shark deterrent for personal safety is allowed in the water.
+  - Commercial dive and tour activity needs a state permit.
+  - Map pin is approximate.
+hazards: [high_surf, heat]
+sources:
+  - https://dlnr.hawaii.gov/dar/marine-managed-areas/hawaii-marine-life-conservation-districts/
+  - https://dlnr.hawaii.gov/dar/fishing/fishing-regulations/regulated-areas/regulated-fishing-areas-on-hawaii/
+last_verified: 2026-09-25
+verified_by: ai_research

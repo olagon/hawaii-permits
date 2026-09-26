@@ -1,0 +1,28 @@
+id: pupukea-mlcd
+name: Pūpūkea Marine Life Conservation District
+island: oahu
+land_type: state
+manager: dlnr-dar
+location: { lat: 21.645, lng: -158.063 }
+activities: [snorkeling, swimming, fishing]
+permits_required: []
+status: open
+aliases: [Pupukea MLCD, Sharks Cove, Three Tables, Waimea Bay, Kapoʻo tidepools]
+summary: Protected reef waters on Oʻahu's north shore from Waimea Bay to Sharks Cove and Three Tables. Snorkeling is popular in summer when the ocean is calm. Winter surf is huge and dangerous.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - No taking of any marine life, sand, coral, or rocks in the district, except the Waimea Bay exceptions below.
+  - No spears, nets, traps, or other take gear in the water. A knife for safety is fine.
+  - Do not feed fish or put anything in the water to attract them.
+  - In Waimea Bay only, you may fish from shore with hook and line, up to two poles per person, one line per pole, two hooks per line.
+  - In Waimea Bay only, ʻōpelu may be netted in August and September, and akule in November and December.
+  - Limu kohu and limu līpeʻepeʻe may be picked by hand without the holdfast, up to 2 pounds combined per day.
+  - Map pin is approximate. The district runs along the shore from Waimea Bay to Kulalua Point.
+hazards: [high_surf, falling_rock]
+sources:
+  - https://dlnr.hawaii.gov/dar/marine-managed-areas/hawaii-marine-life-conservation-districts/
+  - https://www.law.cornell.edu/regulations/hawaii/Haw-Code-R-SS-13-34-2
+  - https://www.law.cornell.edu/regulations/hawaii/Haw-Code-R-SS-13-34-3
+last_verified: 2026-09-25
+verified_by: ai_research

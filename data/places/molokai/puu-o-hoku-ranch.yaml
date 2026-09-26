@@ -1,0 +1,25 @@
+id: puu-o-hoku-ranch
+name: Puʻu O Hoku Ranch
+island: molokai
+land_type: private
+manager: puu-o-hoku-ranch
+location: { lat: 21.150, lng: -156.760 }
+activities: [cabin, cultural_visit, hiking]
+permits_required:
+  - permit: puu-o-hoku-ranch-reservation
+    when: To stay overnight in the retreat center or a cabin.
+status: open
+aliases: [Puu O Hoku Ranch, Puu O Hoku]
+summary: Family owned organic ranch and retreat center at mile marker 25 on the east end road, above Hālawa. Rents cabins and a lodge to the public. About 2,800 acres are under a Hawaiʻi Land Trust conservation easement. Trails are for guests only.
+booking: { method: online, url: https://www.puuohoku.com/, phone: 808-558-8109 }
+fees: { entry: see_source }
+rules:
+  - Private land. Enter only as a registered guest.
+  - Map pin is approximate.
+hazards: [remote]
+cultural_notes: The ranch protects Ulukukui o Lanikāula, a sacred kukui grove. It is not a visitor stop.
+sources:
+  - https://www.puuohoku.com/about
+  - https://www.hilt.org/protected-lands/molokai/puu-o-hoku
+last_verified: 2026-09-25
+verified_by: ai_research

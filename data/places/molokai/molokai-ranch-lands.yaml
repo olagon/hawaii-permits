@@ -1,0 +1,23 @@
+id: molokai-ranch-lands
+name: Molokaʻi Ranch lands
+island: molokai
+land_type: private
+manager: Molokaʻi Properties Limited (Molokaʻi Ranch)
+location: { lat: 21.135, lng: -157.212 }
+activities: [hunting, cultural_visit]
+permits_required: []
+status: no_public_access
+aliases: [Molokai Ranch, Molokai Properties Limited, Maunaloa, Kaluakoʻi, Hale o Lono]
+summary: Private ranch lands covering about a third of Molokaʻi on the west end and central plateau, fenced and posted no trespassing since the ranch closed its visitor operations. Not open to the public. The owner says visits to cultural sites and community hunting can be requested in advance through its Maunaloa office. Part of the land is leased to a commercial hunting outfitter.
+booking: { method: phone, url: http://molokairanch.com/, phone: 808-552-2444, window_note: Hunting inquiries go to the ranch's hunting contact listed on its site. }
+fees: { entry: see_source }
+rules:
+  - Do not enter without written permission. Gates and fences are enforced.
+  - Guided deer hunts on leased ranch land are sold by a private outfitter and still need a Hawaiʻi hunting license.
+  - Map pin is approximate, near the ranch office in Maunaloa.
+hazards: [hunting_area, heat, no_water]
+sources:
+  - http://molokairanch.com/
+  - https://kawaiola.news/aina/the-battle-for-kawakiu/
+last_verified: 2026-09-25
+verified_by: ai_research

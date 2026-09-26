@@ -1,0 +1,25 @@
+id: molokai-hunting-unit-b
+name: Molokaʻi Hunting Unit B
+island: molokai
+land_type: state
+manager: dlnr-dofaw
+location: { lat: 21.122, lng: -156.834 }
+activities: [hunting]
+permits_required:
+  - permit: hunting-license
+    when: To hunt in Unit B (mammal only).
+status: open
+aliases: [Molokai Unit B, Unit B Molokai Forest Reserve]
+summary: Public hunting unit in the Molokaʻi Forest Reserve. Central portions of the Molokaʻi Forest Reserve. Game mammals only, no bird hunting. Check the DLNR Molokaʻi hunting page for the current season, bag limits, and check station rules before you go. Map pin is the unit centroid.
+booking: { method: online, url: https://dlnr.hawaii.gov/recreation/hunting/molokai/ }
+fees: { entry: 0 }
+rules:
+  - Carry your hunting license. Follow posted safety zones, including the 500 foot zones around Waikolu Park and the Sandalwood Pit.
+  - Report harvests as the DLNR hunting page directs.
+  - Map pin is approximate.
+hazards: [hunting_area, steep_drop, flash_flood, mud, remote]
+sources:
+  - https://dlnr.hawaii.gov/recreation/hunting/molokai/
+  - https://outdoor.hawaii.gov/hunting/
+last_verified: 2026-09-25
+verified_by: ai_research

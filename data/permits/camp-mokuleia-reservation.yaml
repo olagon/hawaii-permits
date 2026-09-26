@@ -1,0 +1,19 @@
+id: camp-mokuleia-reservation
+name: Camp Mokulēʻia reservation
+issuer: camp-mokuleia
+category: camping
+who_needs: Anyone staying at Camp Mokulēʻia. Tent sites and tentalos (platform tents for up to 4) are booked online through Campspot. Lodge rooms, cabins and group facilities are requested through the reservation form on the camp website and confirmed by staff.
+how_to_get: owner_direct
+url: https://www.campmokuleia.org/reservations
+carry_required: false
+covers: [camp-mokuleia]
+booking_window:
+  notes: Campground bookings are through campspot.com. Lodge and cabin requests get a reply in 2 to 3 business days. Current rates are in a PDF on the reservations page.
+cost:
+  resident: see_source
+  nonresident: see_source
+  note: Rates differ by site and season. See the camp rate sheet.
+sources:
+  - https://www.campmokuleia.org/reservations
+  - https://www.campmokuleia.org/campground
+last_verified: 2026-09-25

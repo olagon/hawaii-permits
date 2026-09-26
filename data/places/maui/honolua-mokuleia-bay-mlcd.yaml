@@ -1,0 +1,27 @@
+id: honolua-mokuleia-bay-mlcd
+name: Honolua-Mokulēʻia Bay Marine Life Conservation District
+island: maui
+land_type: state
+manager: dlnr-dar
+location: { lat: 21.013, lng: -156.638 }
+activities: [snorkeling, swimming, surfing]
+permits_required: []
+status: open
+aliases: [Honolua Bay, Mokuleia Bay, Slaughterhouse Beach, Honolua-Mokuleia MLCD]
+summary: Two bays in West Maui north of Kapalua. Honolua Bay is a top snorkel spot in summer and a famous surf break in winter. Mokulēʻia Bay (Slaughterhouse) has a sandy beach. Both are no take zones.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - No fishing, taking, or harming of any marine life, including shells, ʻopihi, coral, and limu.
+  - Do not take sand, coral, or rocks.
+  - No spears, nets, traps, crowbars, or other take gear in the water. A knife for safety is fine.
+  - Fish or gear caught outside the district may be carried through on a boat.
+  - The land next to Honolua Bay is private or state park land. Respect signs and the shoreline access path.
+  - Map pin is approximate.
+hazards: [high_surf, mud, falling_rock]
+sources:
+  - https://dlnr.hawaii.gov/dar/marine-managed-areas/hawaii-marine-life-conservation-districts/
+  - https://www.law.cornell.edu/regulations/hawaii/Haw-Code-R-SS-13-32-2
+  - https://www.law.cornell.edu/regulations/hawaii/Haw-Code-R-SS-13-32-3
+last_verified: 2026-09-25
+verified_by: ai_research

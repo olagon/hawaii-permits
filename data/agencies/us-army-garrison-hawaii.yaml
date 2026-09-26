@@ -1,0 +1,8 @@
+id: us-army-garrison-hawaii
+name: U.S. Army Garrison Hawaiʻi
+level: federal
+website: https://home.army.mil/hawaii/
+phone: 808-787-5124
+islands: [oahu]
+sources:
+  - https://home.army.mil/hawaii/my-fort/recreation/hiking

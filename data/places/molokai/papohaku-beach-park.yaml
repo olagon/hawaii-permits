@@ -1,0 +1,33 @@
+id: papohaku-beach-park
+name: Pāpōhaku Beach Park
+island: molokai
+land_type: county
+manager: maui-parks
+location: { lat: 21.174, lng: -157.253 }
+activities: [camping, day_use, fishing, swimming]
+permits_required:
+  - permit: maui-camping-permit
+    when: To camp overnight. Apply at the Molokaʻi parks office, 808-553-3204. First come, first served.
+status: open
+aliases: [Papohaku Beach Park, Papohaku Beach, Kepuhi]
+summary: County park on Molokaʻi's west end with one of the longest white sand beaches in Hawaiʻi. Two campsites in a kiawe grove behind the dunes. Big surf and strong currents most of the year, so swim with care or not at all.
+booking: { method: in_person, url: https://www.mauicounty.gov/409/Camping-Sites, phone: 808-553-3204, window_note: Pay in cash or money order when you reserve. Fees are not refundable. }
+fees: { entry: 0, parking: 0, camping_per_night: see_source, resident_camping_per_night: see_source, note: Residents pay $5 per adult Monday to Thursday and $10 Friday to Sunday and holidays. Nonresidents pay $50 and $100. Minors and licensed dogs are less. }
+rules:
+  - Park hours are 7 am to 8 pm.
+  - Camping is limited to 4 consecutive nights. Each site holds up to 6 campers.
+  - Bring a tent. Weather comes in fast on the west end.
+  - No lifeguard. Offshore currents are strong.
+hazards: [high_surf, heat]
+alerts: { nws_zone: HIZ040 }
+amenities: [restrooms, showers, picnic_tables, bbq, drinking_water, parking]
+accessibility: One ADA accessible comfort station with showers. Paved parking lot.
+max_stay_nights: 4
+group_size_limit: 6
+sources:
+  - https://www.mauicounty.gov/409/Camping-Sites
+  - https://mauicounty.gov/DocumentCenter/View/98207/Camping-Information-and-Fees
+  - https://www.mauicounty.gov/facilities/facility/details/Papohaku-Beach-Park-193
+  - https://www.mauicounty.gov/410/Park-Permits
+last_verified: 2026-09-25
+verified_by: ai_research

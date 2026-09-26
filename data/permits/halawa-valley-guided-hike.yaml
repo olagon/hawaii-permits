@@ -1,0 +1,17 @@
+id: halawa-valley-guided-hike
+name: Hālawa Valley Falls Cultural Hike reservation
+issuer: solatorio-ohana
+category: trail_access
+who_needs: Anyone who wants to hike to Moʻoula Falls in Hālawa Valley. The trail crosses private family land and is only open with a guide from the Solatorio ʻohana.
+how_to_get: online
+url: https://molokaihikingtours.com/
+carry_required: false
+covers: [halawa-valley]
+booking_window:
+  notes: Book online through the family's site. Two options are offered, a culture and waterfall hike and a culture only tour. Prices are shown at booking.
+cost:
+  resident: see_source
+  nonresident: see_source
+sources:
+  - https://molokaihikingtours.com/
+last_verified: 2026-09-25

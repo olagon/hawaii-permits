@@ -1,0 +1,18 @@
+id: poamoho-access-permit
+name: Poamoho Hele Loa Access Road permit
+issuer: dlnr-dofaw
+category: vehicle_access
+who_needs: Anyone driving the gated Poamoho Hele Loa Access Road to the Poamoho Trail trailhead. The road crosses private farm land and Army land. A 4 wheel drive vehicle is required. Gate combinations come with the permit.
+how_to_get: online
+url: https://dlnr.hawaii.gov/dofaw/permits/
+carry_required: true
+covers: [poamoho-hele-loa-access-road, poamoho-trail]
+booking_window:
+  notes: Apply online with the Adobe Sign form linked from the DOFAW permits page. List your vehicle plate and everyone in the party. Apply well ahead of your hike date.
+cost:
+  resident: see_source
+  nonresident: see_source
+  note: See the DOFAW permits page for current terms.
+sources:
+  - https://dlnr.hawaii.gov/dofaw/permits/
+last_verified: 2026-09-25

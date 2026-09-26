@@ -1,0 +1,28 @@
+id: manele-hulopoe-mlcd
+name: Mānele-Hulopoʻe Marine Life Conservation District
+island: lanai
+land_type: state
+manager: dlnr-dar
+location: { lat: 20.740, lng: -156.893 }
+activities: [snorkeling, swimming, fishing, boating]
+permits_required: []
+status: open
+aliases: [Manele-Hulopoe MLCD, Hulopoe Bay, Manele Bay, Puʻu Pehe, Sweetheart Rock]
+summary: About 309 acres of protected water on the south coast of Lānaʻi. Puʻu Pehe (Sweetheart Rock) splits the district. Subzone A is Hulopoʻe Bay, a calm snorkel beach with no motor boats. Subzone B includes Mānele small boat harbor.
+booking: { method: none }
+fees: { entry: 0 }
+rules:
+  - No taking of marine life except finfish and ʻaʻama crab by pole and line from the shoreline.
+  - Do not take sand, coral, or rocks.
+  - Allowed gear is a pole and line, one knife, and a hand net up to 3 feet across. Other fishing gear is banned.
+  - Subzone A (Hulopoʻe Bay) - no vessels may operate, anchor, or moor except for enforcement, rescue, or permitted research.
+  - Subzone B - boats going to and from Mānele Harbor may carry legal fishing gear if it stays out of the water.
+  - Spinner dolphins rest in Hulopoʻe Bay. Federal rules ban approaching within 50 yards.
+  - Map pin is approximate.
+hazards: [high_surf, heat]
+sources:
+  - https://dlnr.hawaii.gov/dar/marine-managed-areas/hawaii-marine-life-conservation-districts/
+  - https://www.law.cornell.edu/regulations/hawaii/Haw-Code-R-SS-13-30-2
+  - https://www.law.cornell.edu/regulations/hawaii/Haw-Code-R-SS-13-30-3
+last_verified: 2026-09-25
+verified_by: ai_research
