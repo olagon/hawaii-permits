@@ -4,7 +4,7 @@ Read this first in every session. Then read `CLAUDE.md`.
 
 ## Current phase
 
-All 8 phases done on 2026-09-25 (one build session). See the final summary below. The only open items are things only the owner can do (`HUMAN_TODO.md`), starting with creating the GitHub repo and pushing.
+All 8 phases done on 2026-09-25 (one build session). See the final summary below. The repo is at https://github.com/olagon/ala and the site is live. The only open items are things only the owner can do (`HUMAN_TODO.md`).
 
 ## Environment (checked 2026-09-25)
 
@@ -12,7 +12,7 @@ All 8 phases done on 2026-09-25 (one build session). See the final summary below
 |---|---|
 | Node | v25.6.1, npm 11.9.0 |
 | git | 2.42.1 |
-| gh | 2.38.0, logged in as `olagon` (but this session was not allowed to create the repo or push) |
+| gh | 2.38.0, logged in as `olagon` |
 | Xcode | Missing, only Command Line Tools. iOS simulator build not run. |
 | CocoaPods | Missing |
 | Android SDK | Present, platforms 35 and 36 |
@@ -32,7 +32,7 @@ All 8 phases done on 2026-09-25 (one build session). See the final summary below
 
 ### Live URL
 
-https://olagon.github.io/ala/ once the owner creates the repo and pushes (first item in `HUMAN_TODO.md`).
+https://olagon.github.io/ala/ (live, deployed by GitHub Actions on every push to `main`). Offline tile packs are built in CI and served from `/tiles/`.
 
 ### Data counts
 
@@ -67,15 +67,13 @@ Coverage against section 9 of the build brief: every DLNR state park on all isla
 * End to end (Playwright, Pixel 7 profile): 6 passing (home, search with and without ʻokina, place page, trip planner, wallet, offline mode).
 * Lighthouse mobile on the home screen: performance 95, accessibility 100, best practices 100. Lighthouse 12 no longer has a PWA category; the app has a manifest, service worker, and installs.
 * Initial JavaScript before the map loads: about 22 KB (8 KB gzipped). The map chunk (1.1 MB) loads only on the Map screen.
-* Android debug build: passes. iOS: not compiled here (no Xcode); the release workflow runs a simulator build on macOS runners.
+* Android debug build: passes locally and in CI (`ala-debug.apk` artifact on each Release mobile run). iOS: compiles for the simulator in CI on a macOS runner. Store uploads skip with a message until secrets exist.
 
 ### Known gaps
 
-* Repo not created and nothing pushed (permission denied in this session). Pages, workflows, and the live URL start working after the owner's first push.
 * Many DLNR pages were rate limited during research (HTTP 429). Facts from those pages came from search excerpts, archive captures, and index pages. See each `reports/research-*.md`. The monthly refresh workflow is designed to close this gap.
 * Hurricane closures from September 2026 will go stale quickly.
 * Honolulu camping fee, most DOFAW campsite fees, Hāʻena reservation window, and several private rates are `see_source`.
-* Offline map packs are built in CI, not committed. The first deploy builds them.
 * Web reminders only fire when the app is open. Native apps get real local notifications.
 
 ## Known issues
