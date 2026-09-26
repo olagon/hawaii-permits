@@ -5,7 +5,7 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { ROOT, loadAll } from './lib.js';
 
-const UA = 'Mozilla/5.0 (compatible; Ala link checker; +https://github.com/olagon/ala)';
+const UA = 'Mozilla/5.0 (compatible; Hawaiʻi Permits link checker; +https://github.com/olagon/hawaii-permits)';
 const HOST_DELAY_MS = 1500;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const lastHit = new Map();

@@ -1,9 +1,9 @@
 {
-  "name": "ala",
+  "name": "hawaii-permits",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Ala: which permits, licenses, and reservations you need to hike, camp, hunt, fish, or visit outdoor places in Hawai\u02bbi.",
+  "description": "Hawaiʻi Permits: which permits, licenses, and reservations you need to hike, camp, hunt, fish, or visit outdoor places in Hawai\u02bbi.",
   "license": "MIT",
   "scripts": {
     "validate": "node scripts/validate.js",

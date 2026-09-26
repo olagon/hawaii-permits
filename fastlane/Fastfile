@@ -1,4 +1,4 @@
-# Fastlane lanes for Ala. Every lane checks for its secrets and exits early with a message if missing.
+# Fastlane lanes for Hawaiʻi Permits. Every lane checks for its secrets and exits early with a message if missing.
 default_platform(:ios)
 
 platform :ios do
@@ -10,7 +10,7 @@ platform :ios do
       next
     end
     app_store_connect_api_key(key_id: ENV["APP_STORE_CONNECT_API_KEY_ID"], issuer_id: ENV["APP_STORE_CONNECT_API_ISSUER_ID"], key_content: ENV["APP_STORE_CONNECT_API_KEY_CONTENT"], is_key_content_base64: true)
-    match(type: "appstore", readonly: true, git_url: ENV["MATCH_GIT_URL"], app_identifier: "com.kealohalabs.ala", team_id: ENV["IOS_TEAM_ID"])
+    match(type: "appstore", readonly: true, git_url: ENV["MATCH_GIT_URL"], app_identifier: "com.kealohalabs.hawaiipermits", team_id: ENV["IOS_TEAM_ID"])
     build_app(workspace: "../ios/App/App.xcworkspace", scheme: "App", export_method: "app-store")
     upload_to_testflight(skip_waiting_for_build_processing: true)
   end
@@ -24,6 +24,6 @@ platform :android do
     end
     gradle(task: "bundle", build_type: "Release", project_dir: "../android",
       properties: { "android.injected.signing.store.file" => File.expand_path("../android/upload.keystore"), "android.injected.signing.store.password" => ENV["ANDROID_KEYSTORE_PASSWORD"], "android.injected.signing.key.alias" => ENV["ANDROID_KEY_ALIAS"], "android.injected.signing.key.password" => ENV["ANDROID_KEY_PASSWORD"] })
-    upload_to_play_store(track: "internal", json_key: "play-service-account.json", package_name: "com.kealohalabs.ala", aab: "../android/app/build/outputs/bundle/release/app-release.aab", skip_upload_metadata: true, skip_upload_images: true, skip_upload_screenshots: true)
+    upload_to_play_store(track: "internal", json_key: "play-service-account.json", package_name: "com.kealohalabs.hawaiipermits", aab: "../android/app/build/outputs/bundle/release/app-release.aab", skip_upload_metadata: true, skip_upload_images: true, skip_upload_screenshots: true)
   end
 end

@@ -6,8 +6,8 @@ import { join } from 'node:path';
 import { load as yamlLoad } from 'js-yaml';
 import { DATA, OUT, loadAll } from './lib.js';
 
-const UA = 'Ala alerts (+https://github.com/olagon/ala)';
-const LIVE = 'https://olagon.github.io/ala/data/alerts.json';
+const UA = 'Hawaiʻi Permits alerts (+https://github.com/olagon/hawaii-permits)';
+const LIVE = 'https://olagon.github.io/hawaii-permits/data/alerts.json';
 const outFile = join(OUT, 'alerts.json');
 const sources = yamlLoad(readFileSync(join(DATA, 'alert-sources.yaml'), 'utf8'));
 const places = loadAll().places.map((p) => p.data);

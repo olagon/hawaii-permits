@@ -1,6 +1,6 @@
-import { html, money } from '../ui.js';
+import { html, raw, money } from '../ui.js';
 import { loadData } from '../data.js';
-import { placeCard, staleNote, sourcesList, howWord } from '../components.js';
+import { placeList, staleNote, sourcesList, howWord, ICONS } from '../components.js';
 
 export default async function ({ params }) {
   const d = await loadData();
@@ -24,10 +24,10 @@ export default async function ({ params }) {
         ${p.age_minimum ? html`<p><strong>Minimum age:</strong> ${p.age_minimum}</p>` : ''}
         ${p.refund_policy ? html`<p><strong>Refunds:</strong> ${p.refund_policy}</p>` : ''}
         <p>${p.carry_required ? 'Carry this permit with you. Add a copy to your Permit Wallet.' : 'You do not need to carry a paper copy, but it is a good idea to save one in your wallet.'}</p>
-        <a class="btn" href="${p.url}" target="_blank" rel="noopener">Official page ↗</a>
+        <a class="btn" href="${p.url}" target="_blank" rel="noopener">${raw(ICONS.ext)} Official page</a>
       </div>
-      ${p.prerequisites?.length ? html`<h2>You need these first</h2>${p.prerequisites.map((q) => d.permitById[q] ? html`<a class="card" href="#/permit/${q}"><strong>${d.permitById[q].name}</strong></a>` : '')}` : ''}
-      ${covers.size ? html`<h2>Places that use this</h2>${[...covers].map((id) => d.placeById[id]).filter(Boolean).map(placeCard)}` : ''}
+      ${p.prerequisites?.length ? html`<div class="section-head"><h2>You need these first</h2></div>${p.prerequisites.map((q) => d.permitById[q] ? html`<a class="card" href="#/permit/${q}"><strong>${d.permitById[q].name}</strong></a>` : '')}` : ''}
+      ${covers.size ? html`<div class="section-head"><h2>Places that use this</h2></div>${placeList([...covers].map((id) => d.placeById[id]).filter(Boolean))}` : ''}
       ${sourcesList(p.sources, p.last_verified)}`,
   };
 }

@@ -3,7 +3,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
   root: 'app',
-  base: process.env.ALA_BASE || '/ala/',
+  base: process.env.BASE_PATH || '/hawaii-permits/',
   publicDir: 'public',
   build: { outDir: '../dist', emptyOutDir: true, sourcemap: false },
   worker: { format: 'es' },
@@ -13,10 +13,10 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Ala: Hawaiʻi outdoor permits',
-        short_name: 'Ala',
+        name: 'Hawaiʻi Permits',
+        short_name: 'HI Permits',
         description: 'Which permits, licenses, and reservations you need to hike, camp, hunt, fish, or visit outdoor places in Hawaiʻi.',
-        theme_color: '#0f5132',
+        theme_color: '#f7f6f2',
         background_color: '#f6f8f6',
         display: 'standalone',
         start_url: './',

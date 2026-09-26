@@ -1,8 +1,8 @@
 # CLAUDE.md
 
-Rules for every Claude Code session working on Ala. These are copied from `ALA_BUILD.md` sections 1, 8, 16, and 17. Read `PROGRESS.md` first to see where things stand.
+Rules for every Claude Code session working on Hawaiʻi Permits. These are copied from `ALA_BUILD.md` sections 1, 8, 16, and 17. Read `PROGRESS.md` first to see where things stand.
 
-Repo root is this folder. Public repo: `olagon/ala`. Live site: https://olagon.github.io/ala/
+Repo root is this folder. Public repo: `olagon/hawaii-permits`. Live site: https://olagon.github.io/hawaii-permits/
 
 Before every push: `npm run validate && npm run build`.
 
@@ -51,7 +51,7 @@ Use web search and web fetch to research every entry. Follow these rules exactly
 * Say "continent," not "mainland."
 * Proper ʻokina and kahakō everywhere.
 * Do not sound like a corporate brochure or a chatbot. No hype words.
-* Always make clear that Ala is not an official government app and that official sources win when they disagree.
+* Always make clear that Hawaiʻi Permits is not an official government app and that official sources win when they disagree.
 
 ---
 

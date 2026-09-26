@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Ala</string>
-    <string name="title_activity_main">Ala</string>
-    <string name="package_name">com.kealohalabs.ala</string>
-    <string name="custom_url_scheme">com.kealohalabs.ala</string>
+    <string name="app_name">Hawaiʻi Permits</string>
+    <string name="title_activity_main">Hawaiʻi Permits</string>
+    <string name="package_name">com.kealohalabs.hawaiipermits</string>
+    <string name="custom_url_scheme">com.kealohalabs.hawaiipermits</string>
 </resources>

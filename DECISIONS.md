@@ -4,7 +4,7 @@ Choices made without asking the owner, with short reasons. Newest at the bottom.
 
 ## Foundation
 
-* **Repo root is `/Library/WebServer/Documents/permits`.** The build instructions were placed here, so this folder is the project folder. The GitHub repo is still named `olagon/ala`.
+* **Repo root is `/Library/WebServer/Documents/permits`.** The build instructions were placed here, so this folder is the project folder. The GitHub repo is still named `olagon/hawaii-permits`.
 * **Node 25 is installed, not Node 20.** It is newer than the minimum, so it is fine. CI uses Node 22 because the Capacitor 8 CLI requires Node 22 or newer.
 * **Xcode is not installed, only Command Line Tools. CocoaPods is not installed.** The iOS project is generated and committed, but the simulator build is logged in `HUMAN_TODO.md`.
 * **pmtiles CLI installed with Homebrew.** It was missing, and Homebrew was available.
@@ -19,7 +19,7 @@ Choices made without asking the owner, with short reasons. Newest at the bottom.
 * **Protomaps build URL.** The documented `builds.json` index returns 404 now. The tile script probes `https://build.protomaps.com/YYYYMMDD.pmtiles` for the last 10 days instead.
 * **Search index is prebuilt with MiniSearch at bundle time** and loaded with `loadJS`. A fallback builds it on the device if the file is missing.
 * **Trip sharing encodes the trip in the URL hash** as base64url JSON. No server, nothing uploaded.
-* **Web reminders are best effort.** Browsers cannot schedule a future notification without a push server, which would need accounts. On the web Ala shows due reminders when opened and uses the Notification API if allowed. Native apps get real local notifications.
+* **Web reminders are best effort.** Browsers cannot schedule a future notification without a push server, which would need accounts. On the web Hawaiʻi Permits shows due reminders when opened and uses the Notification API if allowed. Native apps get real local notifications.
 * **Permit categories decide which activities trigger them in the planner.** Camping permits apply only when the user picks camping, hunting licenses only for hunting, and so on. Entry, parking, and trail permits always apply. If no activities are picked, every listed permit is included.
 * **Honolulu camping fee is `see_source`.** The only official fee figures found are in a 2013 brochure. The 2023 FAQ confirms the booking window but not the fee.
 * **Tile packs are small.** At max zoom 14 the Protomaps daily build gives 0.5 to 5 MB per island, far under the 90 MB limit, so every island ships at zoom 14. The size loop in `make-tiles.sh` stays as a safety net.
@@ -38,3 +38,8 @@ Choices made without asking the owner, with short reasons. Newest at the bottom.
 * **No burial sites were added, and only heiau that DLNR already lists as public parks** (Puʻu O Mahuka, Ulupō, Keaīwa, Halekiʻi-Pihana, Puʻukoholā, and similar) are included.
 * **Approximate pins** are marked with the rule "Map pin is approximate." on 120 places, mostly county beach parks, cabins, and hunting unit centroids.
 * **Automatic data refresh uses Claude Code in GitHub Actions.** There is no API for most agency pages, so re-verification needs a reader. The workflow is off until the owner adds an API key, and it only opens a pull request, never merges.
+
+## Rename and redesign (2026-09-26)
+
+* **The app is now "Hawaiʻi Permits".** The owner already has an app called Ala and asked for a boring English name. Repo is `olagon/hawaii-permits`, site is https://olagon.github.io/hawaii-permits/, bundle id is `com.kealohalabs.hawaiipermits`. GitHub redirects the old repo URL. The native projects were regenerated rather than edited so every generated file carries the new id.
+* **Redesign.** Light header with a small wordmark instead of a green band, a real search bar on the home screen, compact action cards, place rows with land type markers, alert cards that show the event name and end time instead of the raw NWS sentence, place pages that put "What you need" right after the summary with numbered permit cards, an icon action bar, and an "At a glance" facts grid. Nav icons were redrawn as consistent outlines. Layout shift on the home screen is now 0.

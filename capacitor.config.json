@@ -1,12 +1,12 @@
 {
-  "appId": "com.kealohalabs.ala",
-  "appName": "Ala",
+  "appId": "com.kealohalabs.hawaiipermits",
+  "appName": "Hawaiʻi Permits",
   "webDir": "dist",
   "server": { "androidScheme": "https" },
   "plugins": {
     "SplashScreen": { "launchShowDuration": 1200, "backgroundColor": "#0f5132", "showSpinner": false },
     "StatusBar": { "style": "DARK", "backgroundColor": "#0f5132" },
     "LocalNotifications": { "smallIcon": "ic_stat_ala", "iconColor": "#0f5132" },
-    "CapacitorUpdater": { "autoUpdate": false, "appId": "com.kealohalabs.ala" }
+    "CapacitorUpdater": { "autoUpdate": false, "appId": "com.kealohalabs.hawaiipermits" }
   }
 }

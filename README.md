@@ -1,10 +1,10 @@
-# Ala
+# Hawaiʻi Permits
 
-Ala tells you which permits, licenses, and reservations you need to hike, camp, hunt, fish, or visit outdoor places in Hawaiʻi. State, county, federal, private, nonprofit, and trust land, all in one place.
+Hawaiʻi Permits tells you which permits, licenses, and reservations you need to hike, camp, hunt, fish, or visit outdoor places in Hawaiʻi. State, county, federal, private, nonprofit, and trust land, all in one place.
 
-**Live site:** https://olagon.github.io/ala/
+**Live site:** https://olagon.github.io/hawaii-permits/
 
-Ala is a free, open source community project by Kealoha Labs. **It is not an official government app.** When Ala and an official source disagree, the official source wins. Always confirm on the official page before you go.
+Hawaiʻi Permits is a free, open source community project by Kealoha Labs. **It is not an official government app.** When Hawaiʻi Permits and an official source disagree, the official source wins. Always confirm on the official page before you go.
 
 ## What it does
 

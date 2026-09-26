@@ -1,6 +1,6 @@
-// Cloudflare Worker: accepts a simple form and opens a GitHub issue on olagon/ala,
+// Cloudflare Worker: accepts a simple form and opens a GitHub issue on olagon/hawaii-permits,
 // for people without GitHub accounts. Not deployed yet. See HUMAN_TODO.md.
-const REPO = 'olagon/ala';
+const REPO = 'olagon/hawaii-permits';
 const ALLOWED_ORIGINS = ['https://olagon.github.io', 'capacitor://localhost', 'http://localhost'];
 const LABELS = { add: ['data', 'add-place'], change: ['data', 'report-change'], claim: ['data', 'owner-claim'] };
 
@@ -24,11 +24,11 @@ export default {
     if (String(body.website || '')) return new Response('ok', { headers }); // honeypot field filled by bots
     const md = [
       `**Place:** ${name}`, body.place_id ? `**Place id:** ${String(body.place_id).slice(0, 80)}` : '',
-      body.source ? `**Source:** ${String(body.source).slice(0, 500)}` : '', '', details, '', '_Sent through the Ala no-account form._',
+      body.source ? `**Source:** ${String(body.source).slice(0, 500)}` : '', '', details, '', '_Sent through the Hawaiʻi Permits no-account form._',
     ].filter((l) => l !== null).join('\n');
     const res = await fetch(`https://api.github.com/repos/${REPO}/issues`, {
       method: 'POST',
-      headers: { Authorization: `Bearer ${env.GITHUB_TOKEN}`, Accept: 'application/vnd.github+json', 'User-Agent': 'ala-worker', 'Content-Type': 'application/json' },
+      headers: { Authorization: `Bearer ${env.GITHUB_TOKEN}`, Accept: 'application/vnd.github+json', 'User-Agent': 'hawaii-permits-worker', 'Content-Type': 'application/json' },
       body: JSON.stringify({ title: `[${kind}] ${name}`, body: md, labels: LABELS[kind] }),
     });
     if (!res.ok) return new Response('GitHub error', { status: 502, headers });

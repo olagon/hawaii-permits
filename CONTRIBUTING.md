@@ -1,4 +1,4 @@
-# Contributing to Ala
+# Contributing to Hawaiʻi Permits
 
 Thank you for helping. The easiest way to help is to report a wrong fee, a closure, or a missing place with a GitHub issue. If you are comfortable with GitHub, you can also edit the data files directly.
 
@@ -6,9 +6,9 @@ Thank you for helping. The easiest way to help is to report a wrong fee, a closu
 
 Open an issue with one of these forms:
 
-* [Add a place](https://github.com/olagon/ala/issues/new?template=add-place.yml)
-* [Report a change](https://github.com/olagon/ala/issues/new?template=report-change.yml)
-* [Claim a place you own or manage](https://github.com/olagon/ala/issues/new?template=owner-claim.yml)
+* [Add a place](https://github.com/olagon/hawaii-permits/issues/new?template=add-place.yml)
+* [Report a change](https://github.com/olagon/hawaii-permits/issues/new?template=report-change.yml)
+* [Claim a place you own or manage](https://github.com/olagon/hawaii-permits/issues/new?template=owner-claim.yml)
 
 A maintainer will check the official source and update the data.
 

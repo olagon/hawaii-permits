@@ -4,7 +4,7 @@ Read this first in every session. Then read `CLAUDE.md`.
 
 ## Current phase
 
-All 8 phases done on 2026-09-25 (one build session). See the final summary below. The repo is at https://github.com/olagon/ala and the site is live. The only open items are things only the owner can do (`HUMAN_TODO.md`).
+All 8 phases done on 2026-09-25 (one build session). See the final summary below. The repo is at https://github.com/olagon/hawaii-permits and the site is live. The only open items are things only the owner can do (`HUMAN_TODO.md`).
 
 ## Environment (checked 2026-09-25)
 
@@ -32,7 +32,7 @@ All 8 phases done on 2026-09-25 (one build session). See the final summary below
 
 ### Live URL
 
-https://olagon.github.io/ala/ (live, deployed by GitHub Actions on every push to `main`). Offline tile packs are built in CI and served from `/tiles/`.
+https://olagon.github.io/hawaii-permits/ (live, deployed by GitHub Actions on every push to `main`). Offline tile packs are built in CI and served from `/tiles/`.
 
 ### Data counts
 
@@ -64,10 +64,10 @@ Coverage against section 9 of the build brief: every DLNR state park on all isla
 ### Test results
 
 * Unit: 20 passing (planner with 11 trip cases, booking window time zone math, search normalization, bundle integrity).
-* End to end (Playwright, Pixel 7 profile): 6 passing (home, search with and without ʻokina, place page, trip planner, wallet, offline mode).
-* Lighthouse mobile on the home screen: performance 95, accessibility 100, best practices 100. Lighthouse 12 no longer has a PWA category; the app has a manifest, service worker, and installs.
+* End to end (Playwright, Pixel 7 profile): 7 passing (home, search with and without ʻokina, place page, trip planner, wallet, offline mode, map tiles and markers).
+* Lighthouse mobile on the home screen: performance 98, accessibility 100, best practices 100. Lighthouse 12 no longer has a PWA category; the app has a manifest, service worker, and installs.
 * Initial JavaScript before the map loads: about 22 KB (8 KB gzipped). The map chunk (1.1 MB) loads only on the Map screen.
-* Android debug build: passes locally and in CI (`ala-debug.apk` artifact on each Release mobile run). iOS: compiles for the simulator in CI on a macOS runner. Store uploads skip with a message until secrets exist.
+* Android debug build: passes locally and in CI (`hawaii-permits-debug.apk` artifact on each Release mobile run). iOS: compiles for the simulator in CI on a macOS runner. Store uploads skip with a message until secrets exist.
 
 ### Known gaps
 

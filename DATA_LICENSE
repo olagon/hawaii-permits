@@ -1,15 +1,15 @@
-Ala data license
+Hawaiʻi Permits data license
 
 Everything under /data is licensed under the Creative Commons Attribution 4.0
 International License (CC BY 4.0). Full text: https://creativecommons.org/licenses/by/4.0/
 
 You may copy, share, and adapt the data for any purpose, including commercial
-use, as long as you give credit to "Ala by Kealoha Labs" and link to
-https://github.com/olagon/ala.
+use, as long as you give credit to "Hawaiʻi Permits by Kealoha Labs" and link to
+https://github.com/olagon/hawaii-permits.
 
 Each data file lists the agency, owner, or other official sources it was
 built from in its `sources` field. Those sources keep their own rights and are
-credited in each file. Ala is not an official government app. When Ala and an
+credited in each file. Hawaiʻi Permits is not an official government app. When Hawaiʻi Permits and an
 official source disagree, the official source wins.
 
 If any OpenStreetMap data is ever stored in /data, it will live in its own

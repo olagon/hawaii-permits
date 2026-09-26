@@ -7,13 +7,13 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Ala uses your location only to center the map near you. It is never stored or sent anywhere.</string>
+	<string>Hawaiʻi Permits uses your location only to center the map near you. It is never stored or sent anywhere.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Ala lets you add a photo of a permit to your wallet. Photos stay on this device.</string>
+	<string>Hawaiʻi Permits lets you add a photo of a permit to your wallet. Photos stay on this device.</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Ala lets you take a photo of a permit for your wallet. Photos stay on this device.</string>
+	<string>Hawaiʻi Permits lets you take a photo of a permit for your wallet. Photos stay on this device.</string>
 	<key>CFBundleDisplayName</key>
-        <string>Ala</string>
+        <string>Hawaiʻi Permits</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

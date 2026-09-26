@@ -4,7 +4,7 @@ import { test } from '@playwright/test';
 test('screenshots', async ({ page }) => {
   const shot = (name) => page.screenshot({ path: `docs/screenshots/${name}.png` });
   await page.goto('./');
-  await page.waitForSelector('#places .card');
+  await page.waitForSelector('#places .place-row');
   await shot('home');
   const p = await page.evaluate(async () => (await (await fetch('data/places.json')).json()).find((x) => x.permits_required.length > 1 && x.status === 'open'));
   await page.goto(`./#/place/${p.id}`);

@@ -1,4 +1,4 @@
-You are refreshing the Ala data set in this repo. Read CLAUDE.md, CONTRIBUTING.md, and reports/stale.md first.
+You are refreshing the Hawaiʻi Permits data set in this repo. Read CLAUDE.md, CONTRIBUTING.md, and reports/stale.md first.
 
 Goal: bring the oldest or most time sensitive entries back in line with their official sources, without inventing anything.
 

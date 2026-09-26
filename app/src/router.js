@@ -30,7 +30,7 @@ async function render() {
       const mod = await r.load();
       const page = await mod.default({ params, query, path });
       current = page;
-      document.title = page.title ? `${page.title} · Ala` : 'Ala';
+      document.title = page.title ? `${page.title} · Hawaiʻi Permits` : 'Hawaiʻi Permits';
       view.innerHTML = typeof page.html === 'string' ? page.html : page.html.s;
       view.className = page.className || '';
       if (page.mount) await page.mount(view);

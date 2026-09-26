@@ -1,6 +1,6 @@
 # Code of Conduct
 
-Ala is a community project. Be kind. Be patient. Be pono.
+Hawaiʻi Permits is a community project. Be kind. Be patient. Be pono.
 
 ## We expect
 

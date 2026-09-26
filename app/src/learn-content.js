@@ -40,7 +40,7 @@ export const PAGES = [
 <li>Stay on paths and outside walls. Stacked stone is fragile. Never climb on or walk over a structure.</li>
 <li>A quiet moment, a respectful prayer, or a chant is a fitting hoʻokupu (offering). You do not need to leave anything physical. Do not leave wrapped rocks, coins, or food.</li>
 <li>Do not move, take, or add stones.</li>
-<li>Ala does not list burial sites or heiau that are not already public destinations. Please do not share their locations either.</li>
+<li>Hawaiʻi Permits does not list burial sites or heiau that are not already public destinations. Please do not share their locations either.</li>
 </ul>
 <h2>Gathering rights</h2>
 <p>The Hawaiʻi Constitution (Article XII, Section 7) protects the rights of Native Hawaiians to gather for subsistence, cultural, and religious purposes, as customarily and traditionally practiced, subject to state regulation. Hawaiʻi law (HRS 7-1) also lets people who live in an ahupuaʻa take firewood, house timber, aho cord, thatch, and kī leaf from undeveloped land there for their own use, and keeps springs, running water, and rights of way open to all.</p>
@@ -57,7 +57,7 @@ export const PAGES = [
 <p>Flash floods kill hikers and campers in Hawaiʻi. Rain far up the mountain can send a wall of water down a valley that is sunny where you stand. Hanakāpīʻai Stream on Kauaʻi has swept people out to sea.</p>
 <h2>Before you go</h2>
 <ul>
-<li>Check the forecast and any flood watch or warning at the National Weather Service Honolulu office, and the Alerts tab in Ala.</li>
+<li>Check the forecast and any flood watch or warning at the National Weather Service Honolulu office, and the Alerts tab in Hawaiʻi Permits.</li>
 <li>If a flash flood watch is in effect, pick a ridge hike instead of a valley or stream hike. State Parks closes the Kalalau Trail during flash flood warnings.</li>
 </ul>
 <h2>On the trail</h2>
@@ -80,13 +80,13 @@ export const PAGES = [
 <ul>
 <li>More water than you think. Two liters per person for a half day in the sun.</li>
 <li>Snacks and a little extra food.</li>
-<li>Phone, fully charged, plus a backup battery. Many trails have no signal, so download Ala's island data and the offline map before you go.</li>
+<li>Phone, fully charged, plus a backup battery. Many trails have no signal, so download Hawaiʻi Permits's island data and the offline map before you go.</li>
 <li>Flashlight or headlamp, even for a short hike. Sunset comes fast in the valleys.</li>
 <li>Whistle. It carries farther than your voice.</li>
 <li>Sun hat, sunglasses, sunscreen, and light rain gear.</li>
 <li>Small first aid kit.</li>
 <li>Sturdy shoes with grip. Trails are muddy and slick.</li>
-<li>Your permit, printed or in your Ala wallet.</li>
+<li>Your permit, printed or in your Hawaiʻi Permits wallet.</li>
 </ul>
 <h2>Before you leave</h2>
 <ul>
@@ -124,10 +124,10 @@ export const PAGES = [
 <h2>Federal land</h2>
 <p>The National Park Service runs Haleakalā, Hawaiʻi Volcanoes, Kalaupapa, and the historical parks on Hawaiʻi Island. Campgrounds, cabins, and the Haleakalā sunrise reservation are on recreation.gov. Backcountry permits come from each park. The U.S. Fish and Wildlife Service runs national wildlife refuges, most of which have limited or no public access.</p>
 <h2>Private, nonprofit, and trust land</h2>
-<p>Ranches, churches, camps, and trusts such as Kamehameha Schools own large areas. Some run campgrounds or cabins that anyone can book straight from the owner. Others allow no access at all, and entering is trespassing. When a trail crosses private land, the state may have an access agreement with rules like day use only or a permit. Ala lists what we could confirm from the owner.</p>
+<p>Ranches, churches, camps, and trusts such as Kamehameha Schools own large areas. Some run campgrounds or cabins that anyone can book straight from the owner. Others allow no access at all, and entering is trespassing. When a trail crosses private land, the state may have an access agreement with rules like day use only or a permit. Hawaiʻi Permits lists what we could confirm from the owner.</p>
 <h2>Military land</h2>
 <p>Military bases and training areas are closed to the public unless you have base access. Some, like Bellows, have campgrounds only for military families.</p>
-<p>Ala is not an official government app. Always confirm with the agency or owner before you go.</p>`,
+<p>Hawaiʻi Permits is not an official government app. Always confirm with the agency or owner before you go.</p>`,
     sources: ['https://dlnr.hawaii.gov/dsp/', 'https://dlnr.hawaii.gov/dofaw/permits/', 'https://outdoor.hawaii.gov/camping/', 'https://www.nps.gov/state/hi/index.htm', 'https://www.honolulu.gov/dpr/wp-content/uploads/sites/34/2024/04/Honolulu_Parks_and_Recreation_Family_Camping_FAQs-1.pdf'],
   },
   {
@@ -141,7 +141,7 @@ export const PAGES = [
 <p>Hawaiʻi residents do not need a license for recreational ocean fishing from shore or a boat.</p>
 <p>Since 2024, anyone 15 or older who is not a Hawaiʻi resident needs a nonresident recreational marine fishing license to fish, spear, or gather in the ocean. It costs $20 for one day, $40 for seven days, or $70 for a year, plus a processing fee, at fishing.hawaii.gov. Active duty military and their minor children are exempt. This is state law (HRS 188-72).</p>
 <h2>Rules are by species and place</h2>
-<p>There is no single set of ocean rules. Size limits, bag limits, closed seasons, and gear rules are set for each species. Some areas are marine life conservation districts or fisheries management areas with their own rules, and some are closed to all fishing. Before you fish, check the Division of Aquatic Resources fishing regulations for the species and the exact spot. Ala lists a few protected areas but not every rule.</p>
+<p>There is no single set of ocean rules. Size limits, bag limits, closed seasons, and gear rules are set for each species. Some areas are marine life conservation districts or fisheries management areas with their own rules, and some are closed to all fishing. Before you fish, check the Division of Aquatic Resources fishing regulations for the species and the exact spot. Hawaiʻi Permits lists a few protected areas but not every rule.</p>
 <h2>Gathering</h2>
 <p>Taking ʻopihi, limu, crab, or other sea life counts as fishing and follows the same rules. Some species are protected all year.</p>`,
     sources: ['https://dlnr.hawaii.gov/dar/licenses-and-permits/freshwater-game-fishing-license/', 'https://dlnr.hawaii.gov/dar/licenses-and-permits/nonresident-recreational-marine-fishing-license/', 'https://law.justia.com/codes/hawaii/title-12/chapter-188/section-188-72/', 'https://dlnr.hawaii.gov/dar/fishing/'],

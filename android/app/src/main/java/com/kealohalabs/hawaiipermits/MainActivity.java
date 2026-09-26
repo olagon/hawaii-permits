@@ -1,4 +1,4 @@
-package com.kealohalabs.ala;
+package com.kealohalabs.hawaiipermits;
 
 import com.getcapacitor.BridgeActivity;
 

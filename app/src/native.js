@@ -6,7 +6,7 @@ export const isNative = () => Capacitor.isNativePlatform();
 export const platform = () => Capacitor.getPlatform();
 
 /** Where the live data lives. Native apps always pull from the site; the web app uses its own origin. */
-export const SITE = 'https://olagon.github.io/ala/';
+export const SITE = 'https://olagon.github.io/hawaii-permits/';
 
 export async function initNative() {
   if (!isNative()) return;

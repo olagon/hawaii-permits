@@ -1,5 +1,5 @@
 {
-  "$id": "https://olagon.github.io/ala/schema/permit.schema.json",
+  "$id": "https://olagon.github.io/hawaii-permits/schema/permit.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Permit",
   "type": "object",

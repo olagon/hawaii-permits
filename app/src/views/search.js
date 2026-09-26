@@ -1,4 +1,5 @@
-import { html, statusBadge, landWord } from '../ui.js';
+import { html, raw, statusBadge, landWord } from '../ui.js';
+import { ICONS } from '../components.js';
 import { loadData, data } from '../data.js';
 import { search } from '../search.js';
 
@@ -8,8 +9,7 @@ export default async function ({ query }) {
   return {
     title: 'Search',
     html: html`<h1>Search</h1>
-      <form role="search" id="f"><label for="q" class="sr-only">Search places and permits</label>
-      <input id="q" type="search" value="${q}" placeholder="Try kaena, Kōkeʻe, camping, hunting license" autocomplete="off" autofocus></form>
+      <form class="searchbar" role="search" id="f">${raw(ICONS.search)}<label for="q" class="sr-only">Search places and permits</label><input id="q" type="search" value="${q}" placeholder="Try kaena, Kōkeʻe, camping, hunting license" autocomplete="off" autofocus></form>
       <p class="muted small">Works with or without ʻokina and kahakō.</p>
       <div class="results" id="r" aria-live="polite"></div>`,
     mount(root) {
