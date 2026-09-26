@@ -97,6 +97,7 @@ label { display: block; font-weight: 600; margin: .75rem 0 .25rem; }
 .legend { position: absolute; left: .5rem; bottom: .5rem; background: var(--card); padding: .5rem .75rem; border-radius: 10px; font-size: .8rem; z-index: 5; box-shadow: 0 1px 6px rgba(0,0,0,.2); }
 .legend div { display: flex; align-items: center; gap: .4rem; }
 .near-me { position: absolute; right: .5rem; bottom: .5rem; z-index: 5; }
+.marker span { display: inline-block; }
 .marker { width: 26px; height: 26px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 12px; font-weight: 700; cursor: pointer; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.4); }
 .marker.state { background: #1a7f4b; border-radius: 50%; }
 .marker.county { background: #2c67b3; border-radius: 4px; }

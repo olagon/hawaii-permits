@@ -6,6 +6,7 @@ export default defineConfig({
   base: process.env.ALA_BASE || '/ala/',
   publicDir: 'public',
   build: { outDir: '../dist', emptyOutDir: true, sourcemap: false },
+  worker: { format: 'es' },
   server: { port: 5173 },
   preview: { port: 4173 },
   plugins: [

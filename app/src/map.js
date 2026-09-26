@@ -1,6 +1,7 @@
 // Map with MapLibre. Online: OpenFreeMap. Offline: a saved PMTiles island pack.
 import * as maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
+import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 import { PMTiles, Protocol, FileSource } from 'pmtiles';
 import { layers, namedFlavor } from '@protomaps/basemaps';
 import { get, set, del } from './store.js';
@@ -9,6 +10,9 @@ import { isNative, SITE } from './native.js';
 export const ONLINE_STYLE = 'https://tiles.openfreemap.org/styles/liberty';
 const TILES_BASE = (isNative() ? SITE : import.meta.env.BASE_URL) + 'tiles/';
 const ATTRIBUTION = '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · <a href="https://openfreemap.org">OpenFreeMap</a> · <a href="https://protomaps.com">Protomaps</a>';
+
+// MapLibre resolves its worker next to its own module, which does not survive bundling. Point it at the Vite built worker.
+maplibregl.setWorkerUrl(workerUrl);
 
 let protocol;
 function ensureProtocol() {

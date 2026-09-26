@@ -64,3 +64,15 @@ test('works offline after first load', async ({ page, context }) => {
   await expect(page.locator('#banner')).toContainText('offline');
   await context.setOffline(false);
 });
+
+test('map loads tiles and draws markers', async ({ page }) => {
+  const failed = [];
+  page.on('response', (r) => { if (r.status() >= 400 && /assets\//.test(r.url())) failed.push(r.url()); });
+  await page.goto('./#/map');
+  await expect(page.locator('.marker').first()).toBeVisible({ timeout: 30000 });
+  expect(await page.locator('.marker').count()).toBeGreaterThan(20);
+  expect(failed).toEqual([]);
+  await page.locator('.marker').first().click();
+  await expect(page.locator('#sheet')).toBeVisible();
+  await expect(page.locator('#sheet').getByRole('link', { name: 'Full details' })).toBeVisible();
+});
