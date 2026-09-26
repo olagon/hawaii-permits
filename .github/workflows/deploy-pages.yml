@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: 20, cache: npm }
+        with: { node-version: 22, cache: npm }
       - run: npm ci
       - run: npm run validate
       - name: Fetch alerts (keeps the last good file on failure)
@@ -33,7 +33,7 @@ jobs:
           restore-keys: tiles-${{ hashFiles('scripts/make-tiles.sh', 'data/islands.yaml') }}-
       - name: Build tile packs if missing or older than 30 days
         run: |
-          if [ ! -f app/public/tiles/BUILD.txt ] || [ -n "$(find app/public/tiles/BUILD.txt -mtime +30)" ]; then
+          if ! ls app/public/tiles/*.pmtiles >/dev/null 2>&1 || [ -n "$(find app/public/tiles/BUILD.txt -mtime +30 2>/dev/null)" ]; then
             curl -sL https://github.com/protomaps/go-pmtiles/releases/download/v1.31.2/go-pmtiles_1.31.2_Linux_x86_64.tar.gz | tar xz pmtiles
             sudo mv pmtiles /usr/local/bin/
             npm run tiles || echo "tiles failed, shipping online tiles only"

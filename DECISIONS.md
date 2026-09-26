@@ -5,7 +5,7 @@ Choices made without asking the owner, with short reasons. Newest at the bottom.
 ## Foundation
 
 * **Repo root is `/Library/WebServer/Documents/permits`.** The build instructions were placed here, so this folder is the project folder. The GitHub repo is still named `olagon/ala`.
-* **Node 25 is installed, not Node 20.** It is newer than the minimum, so it is fine. CI uses Node 20 to match the spec.
+* **Node 25 is installed, not Node 20.** It is newer than the minimum, so it is fine. CI uses Node 22 because the Capacitor 8 CLI requires Node 22 or newer.
 * **Xcode is not installed, only Command Line Tools. CocoaPods is not installed.** The iOS project is generated and committed, but the simulator build is logged in `HUMAN_TODO.md`.
 * **pmtiles CLI installed with Homebrew.** It was missing, and Homebrew was available.
 * **Tests run with Vitest and Playwright Chromium only.** The spec asks for Chromium with a mobile viewport. Other browsers are not needed.

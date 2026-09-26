@@ -26,7 +26,7 @@ jobs:
           if [ -z "$ANTHROPIC_API_KEY" ]; then echo "ANTHROPIC_API_KEY not set. See HUMAN_TODO.md. Skipping."; echo "ok=false" >> "$GITHUB_OUTPUT"; else echo "ok=true" >> "$GITHUB_OUTPUT"; fi
       - uses: actions/setup-node@v4
         if: steps.key.outputs.ok == 'true'
-        with: { node-version: 20, cache: npm }
+        with: { node-version: 22, cache: npm }
       - run: npm ci
         if: steps.key.outputs.ok == 'true'
       - name: Re-verify data with Claude Code
